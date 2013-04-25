@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lso-commons-library
+LIBS := -lcommons
 
