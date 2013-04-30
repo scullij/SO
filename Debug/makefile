@@ -23,26 +23,26 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: TP
+all: tp-20131c-osgroup
 
 dependents:
-	-cd /home/utnso/workspace/commons/Debug && $(MAKE) all
+	-cd /home/utnso/workspace/so-commons-library/Debug && $(MAKE) all
 
 # Tool invocations
-TP: $(OBJS) $(USER_OBJS) /home/utnso/workspace/commons/Debug/libcommons.so
+tp-20131c-osgroup: $(OBJS) $(USER_OBJS) /home/utnso/workspace/so-commons-library/Debug/libso-commons-library.so
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L"/home/utnso/workspace/commons/Debug" -o "TP" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"/home/utnso/workspace/so-commons-library/Debug" -o "tp-20131c-osgroup" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) TP
+	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) tp-20131c-osgroup
 	-@echo ' '
 
 .PHONY: all clean dependents
 .SECONDARY:
-/home/utnso/workspace/commons/Debug/libcommons.so:
+/home/utnso/workspace/so-commons-library/Debug/libso-commons-library.so:
 
 -include ../makefile.targets
