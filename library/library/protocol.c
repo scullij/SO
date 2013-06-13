@@ -11,14 +11,14 @@
 #include <stdint.h>
 
 typedef struct {
-	int8_t type;
+	int16_t type;
 	int16_t length;
 } header_t;
 
-int8_t recv_variable(int8_t socketReceptor, void* buffer) {
+int16_t recv_variable(int16_t socketReceptor, void* buffer) {
 
 	header_t header;
-	int8_t bytesRecibidos;
+	int16_t bytesRecibidos;
 
 	// Primero: Recibir el header para saber cuando ocupa el payload.
 	if (recv(socketReceptor, &header, sizeof(header), MSG_WAITALL) <= 0)

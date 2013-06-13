@@ -20,8 +20,8 @@
 
 #define CONNECTIONS 10
 
-int8_t create_socket(){
-	int8_t sockete;
+uint16_t create_socket(){
+	uint16_t sockete;
 
 	// Crear un socket:
 	// AF_INET: Socket de internet IPv4
@@ -35,12 +35,12 @@ int8_t create_socket(){
 	return sockete;
 }
 
-int8_t create_and_listen(int8_t puerto){
+uint16_t create_and_listen(uint16_t puerto){
 
-	int8_t socket = create_socket();
+	uint16_t socket = create_socket();
 
 	struct sockaddr_in socketInfo;
-	int8_t optval = 1;
+	uint16_t optval = 1;
 
 
 	// Hacer que el SO libere el puerto inmediatamente luego de cerrar el socket.
@@ -55,18 +55,22 @@ int8_t create_and_listen(int8_t puerto){
 	if (bind(socket, (struct sockaddr*) &socketInfo, sizeof(socketInfo))
 			!= 0) {
 		perror("Error al bindear socket escucha");
-		return EXIT_FAILURE;
+		return -1;
+	}else {
+		printf("Socket Plataforma bindeado al puerto: %d", &puerto);
 	}
 
 	if (listen(socket, CONNECTIONS) != 0) {
 		perror("Error al poner a escuchar socket");
-		return EXIT_FAILURE;
+		return -1;
+	}else {
+		printf("Socket Plataforma escuchando en el puerto: %d", &puerto);
 	}
 
 	return socket;
 }
 
-int8_t connect_socket(int8_t socket, char* direccion, int8_t puerto){
+uint16_t connect_socket(uint16_t socket, __const char* direccion, uint16_t puerto){
 	struct sockaddr_in socketInfo;
 
 	socketInfo.sin_family = AF_INET;
@@ -77,26 +81,26 @@ int8_t connect_socket(int8_t socket, char* direccion, int8_t puerto){
 	if (connect(socket, (struct sockaddr*) &socketInfo, sizeof(socketInfo))
 			!= 0) {
 		perror("Error al conectar socket");
-		return EXIT_FAILURE;
+		return -1;
 	}
 
 	return EXIT_SUCCESS;
 }
 
-int8_t create_and_connect(int8_t socket, char* direccion, int8_t puerto){
-	int8_t sockete = create_socket();
+uint16_t create_and_connect(uint16_t socket, char* direccion, uint16_t puerto){
+	uint16_t sockete = create_socket();
 	return connect_socket(sockete, direccion, puerto);
 }
 
-int8_t accept_connection(int8_t socket){
+uint16_t accept_connection(uint16_t socket){
 
-	int8_t socketNuevaConexion;
+	uint16_t socketNuevaConexion;
 
 	// Aceptar una nueva conexion entrante. Se genera un nuevo socket con la nueva conexion.
 	if ((socketNuevaConexion = accept(socket, NULL, 0)) < 0) {
 
 		perror("Error al aceptar conexion entrante");
-		return EXIT_FAILURE;
+		return -1;
 
 	}
 

@@ -8,7 +8,7 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include src/subdir.mk
+-include library/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -23,26 +23,22 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: tp-20131c-osgroup
-
-dependents:
-	-cd /home/utnso/workspace/so-commons-library/Debug && $(MAKE) all
+all: liblibrary.so
 
 # Tool invocations
-tp-20131c-osgroup: $(OBJS) $(USER_OBJS) /home/utnso/workspace/so-commons-library/Debug/libso-commons-library.so
+liblibrary.so: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L"/home/utnso/workspace/so-commons-library/Debug" -o "tp-20131c-osgroup" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -shared -o "liblibrary.so" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) tp-20131c-osgroup
+	-$(RM) $(OBJS)$(C_DEPS)$(LIBRARIES) liblibrary.so
 	-@echo ' '
 
 .PHONY: all clean dependents
 .SECONDARY:
-/home/utnso/workspace/so-commons-library/Debug/libso-commons-library.so:
 
 -include ../makefile.targets

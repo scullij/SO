@@ -14,17 +14,19 @@
 #include <unistd.h>
 #include <string.h>
 
-#include "socket.h"
+#include <library/socket.h>
 
 #define DIRECCION "127.0.0.1"
-#define PUERTO 10000
+#define PUERTO 30000
 #define BUFF_SIZE 1024
 
-int personaje() {
+int main() {
 
-	int socket = create_socket();
+	puts("Personaje...");
 
-	if (connect_socket(socket, DIRECCION, 10000) < 0){
+	uint16_t socket = create_socket();
+
+	if (connect_socket(socket, DIRECCION, PUERTO) < 0){
 		perror("Error al conectarse.");
 		return EXIT_FAILURE;
 	}

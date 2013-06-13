@@ -8,6 +8,6 @@
 #ifndef PROTOCOL_H_
 #define PROTOCOL_H_
 
-int8_t recv_variable(int8_t socket, void* buffer);
+int16_t recv_variable(int16_t socket, void* buffer);
 
 #endif /* PROTOCOL_H_ */

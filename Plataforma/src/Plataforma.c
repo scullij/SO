@@ -14,21 +14,26 @@
 #include <unistd.h>
 #include <string.h>
 
-#include "socket.h"
-#include "protocol.h"
+#include <library/socket.h>
+#include <library/protocol.h>
 
 #define DIRECCION INADDR_ANY   //INADDR_ANY representa la direccion de cualquier
 							   //interfaz conectada con la computadora
-#define PUERTO 5000
+#define PUERTO 30000
 #define BUFF_SIZE 1024
 
-int plataforma() {
+int main() {
 
-	int8_t socket = create_and_listen(PUERTO);
+	puts("Plataforma...");
 
-	int8_t accepted_connection = accept_connection(socket);
+	uint16_t socket = create_and_listen(PUERTO);
+	if(socket == -1){
+		return EXIT_FAILURE;
+	}
 
-	int8_t lenght;
+	uint16_t accepted_connection = accept_connection(socket);
+
+	uint16_t lenght;
 
 	while (1) {
 
