@@ -13,6 +13,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <string.h>
+#include <inttypes.h>
 
 #define DIRECCION INADDR_ANY   //INADDR_ANY representa la direccion de cualquier
 							   //interfaz conectada con la computadora
@@ -56,15 +57,13 @@ uint16_t create_and_listen(uint16_t puerto){
 			!= 0) {
 		perror("Error al bindear socket escucha");
 		return -1;
-	}else {
-		printf("Socket Plataforma bindeado al puerto: %d", &puerto);
 	}
 
 	if (listen(socket, CONNECTIONS) != 0) {
 		perror("Error al poner a escuchar socket");
 		return -1;
 	}else {
-		printf("Socket Plataforma escuchando en el puerto: %d", &puerto);
+		printf("Socket Plataforma escuchando en el puerto: %u \n", &puerto);
 	}
 
 	return socket;

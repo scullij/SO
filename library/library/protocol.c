@@ -5,34 +5,60 @@
  *      Author: utnso
  */
 
+#include "protocol.h"
 #include <stdlib.h>
 #include <sys/socket.h>
 #include <stdio.h>
 #include <stdint.h>
+#include <string.h>
 
-typedef struct {
-	int16_t type;
-	int16_t length;
-} header_t;
+int16_t recibir(int16_t socket, char** p_cadena){
+	int16_t recv1;
+	header_t *header = malloc(sizeof(header_t));
 
-int16_t recv_variable(int16_t socketReceptor, void* buffer) {
+	if((recv1 = recv(socket, &(header->type), sizeof(header->type), MSG_WAITALL))<=0)
+	{
+		if (recv1==0){
+			return -1;//CAYO_SERVIDOR
+		}else{
+			return -1;//MALA_RECEPCION
+		}
+	}else{
+		int16_t recv2;
+		if((recv2 = recv(socket,&header->length,sizeof(header->length),MSG_WAITALL))<=0){
+			return -1;//MALA_RECEPCION
+		}else{
+			*p_cadena=malloc(header->length);
 
-	header_t header;
-	int16_t bytesRecibidos;
+			int16_t bytesRecibidos;
+			if((bytesRecibidos=recv(socket,*p_cadena,header->length,MSG_WAITALL))==-1){
+				free(*p_cadena);
+				return -1;//MALA_RECEPCION
+			}
+		}
 
-	// Primero: Recibir el header para saber cuando ocupa el payload.
-	if (recv(socketReceptor, &header, sizeof(header), MSG_WAITALL) <= 0)
-		return -1;
-
-	// Segundo: Alocar memoria suficiente para el payload.
-	buffer = malloc(header.length);
-
-	// Tercero: Recibir el payload.
-	if((bytesRecibidos = recv(socketReceptor, buffer, header.length, MSG_WAITALL)) < 0){
-		free(buffer);
-		return -1;
 	}
 
-	return bytesRecibidos;
+	return header->type;
+}
 
+int16_t enviar(int16_t socket, char* cadena, int16_t tipoEnvio){
+	header_t *header = malloc(sizeof(header_t));
+	header->type = tipoEnvio;
+	header->length = strlen(cadena)+1;
+	int16_t send1;
+	char* cadenaAEnviar = malloc(sizeof(header_t) + header->length);
+	memcpy(cadenaAEnviar, header, sizeof(header_t));
+	memcpy(cadenaAEnviar + sizeof(header_t), cadena, header->length);
+
+	if ((send1 = send(socket, cadenaAEnviar, header->length + sizeof(header_t),0)) == -1)
+	{
+		puts("Error al enviar cadena");
+		return send1;
+	}
+
+	free(cadenaAEnviar);
+	free(header);
+
+	return 0;
 }

@@ -17,8 +17,6 @@
 #include <library/socket.h>
 #include <library/protocol.h>
 
-#define DIRECCION INADDR_ANY   //INADDR_ANY representa la direccion de cualquier
-							   //interfaz conectada con la computadora
 #define PUERTO 30000
 #define BUFF_SIZE 1024
 
@@ -33,30 +31,23 @@ int main() {
 
 	uint16_t accepted_connection = accept_connection(socket);
 
-	uint16_t lenght;
-
 	while (1) {
 
-		void* buffer = malloc(0);
+		char* buffer = malloc(0);
 
-		lenght = recv_variable(accept_connection, buffer);
+		int16_t type = recibir(accepted_connection, &buffer);
 
-		if (lenght > 0) {
-			printf("Mensaje recibido: ");
-			fwrite(buffer, 1, lenght, stdout);
-			printf("\n");
-			printf("Tamanio del buffer %d bytes!\n", lenght);
-			fflush(stdout);
+		printf("Mensaje recibido: %d - %s \n", type, buffer);
+		fflush(stdout);
 
-			if (memcmp(buffer, "fin", lenght) == 0) {
-
-				printf("Server cerrado correctamente.\n");
-				break;
-
-			}
-
+		if (memcmp(buffer, "fin", 3) == 0) {
+			puts("Server cerrado correctamente");
+			break;
 		}
+
+		free(buffer);
 	}
+
 
 	close(socket);
 	close(accepted_connection);
