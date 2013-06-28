@@ -1,0 +1,12 @@
+Segmento de memoria:
+--------------------
+VACIO[30:99:70]
+A[0:9:10]:aaaaaaaaaa
+VACIO[15:14:0]
+C[15:19:5]:ccccc
+D[10:12:3]:ddd
+E[20:29:10]:eeeeeeeeee
+1[13:13:1]:1
+X[14:14:1]:x
+--------------------
+Total: 100 bytes, libres: 70 bytes

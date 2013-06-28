@@ -1,0 +1,345 @@
+[TRACE] 16:00:23:283 memoria/(30417:30417): Crear Memoria
+[TRACE] 16:08:17:967 memoria/(30544:30544): crear_memoria()
+[TRACE] 16:08:28:730 memoria/(30544:30544): almacenar_particion()
+[TRACE] 16:08:28:730 memoria/(30544:30544): particiones()
+[TRACE] 16:08:38:808 memoria/(30544:30544): almacenar_particion()
+[TRACE] 16:08:38:809 memoria/(30544:30544): particiones()
+[TRACE] 16:12:21:564 memoria/(30710:30710): crear_memoria()
+[TRACE] 16:12:27:566 memoria/(30710:30710): almacenar_particion()
+[TRACE] 16:12:27:567 memoria/(30710:30710): particiones()
+[TRACE] 16:12:36:420 memoria/(30710:30710): almacenar_particion()
+[TRACE] 16:12:36:421 memoria/(30710:30710): particiones()
+[TRACE] 16:12:46:300 memoria/(30710:30710): almacenar_particion()
+[TRACE] 16:12:46:300 memoria/(30710:30710): particiones()
+[TRACE] 16:13:30:119 memoria/(30811:30811): crear_memoria()
+[TRACE] 16:13:35:271 memoria/(30811:30811): almacenar_particion()
+[TRACE] 16:13:35:272 memoria/(30811:30811): particiones()
+[TRACE] 16:13:47:996 memoria/(30811:30811): almacenar_particion()
+[TRACE] 16:13:47:996 memoria/(30811:30811): particiones()
+[TRACE] 16:14:53:438 memoria/(30811:30811): almacenar_particion()
+[TRACE] 16:14:53:438 memoria/(30811:30811): particiones()
+[TRACE] 16:15:31:233 memoria/(30882:30882): crear_memoria()
+[TRACE] 16:15:36:787 memoria/(30882:30882): almacenar_particion({0})
+[TRACE] 16:15:36:787 memoria/(30882:30882): particiones()
+[TRACE] 16:16:26:436 memoria/(30941:30941): crear_memoria()
+[TRACE] 16:16:36:639 memoria/(30941:30941): almacenar_particion()
+[TRACE] 16:16:36:639 memoria/(30941:30941): aaa
+[TRACE] 16:16:36:639 memoria/(30941:30941): particiones()
+[TRACE] 16:21:09:386 memoria/(31228:31228): crear_memoria()
+[TRACE] 16:21:14:264 memoria/(31228:31228): almacenar_particion()
+[TRACE] 16:21:14:264 memoria/(31228:31228): aaa
+[TRACE] 16:22:01:995 memoria/(31279:31279): crear_memoria()
+[TRACE] 16:22:07:107 memoria/(31279:31279): almacenar_particion()
+[TRACE] 16:22:07:107 memoria/(31279:31279): aaa
+[TRACE] 16:22:07:107 memoria/(31279:31279): particiones()
+[TRACE] 16:22:20:593 memoria/(31279:31279): almacenar_particion()
+[TRACE] 16:22:20:593 memoria/(31279:31279): bbbb
+[TRACE] 16:22:20:593 memoria/(31279:31279): particiones()
+[TRACE] 16:25:58:128 memoria/(31424:31424): crear_memoria()
+[TRACE] 16:26:04:764 memoria/(31424:31424): almacenar_particion()
+[TRACE] 16:26:04:764 memoria/(31424:31424): aaa
+[TRACE] 16:26:04:764 memoria/(31424:31424): particiones()
+[TRACE] 16:53:09:331 memoria/(32346:32346): crear_memoria()
+[TRACE] 16:53:17:662 memoria/(32346:32346): almacenar_particion()
+[TRACE] 16:53:17:663 memoria/(32346:32346): abc
+[TRACE] 16:53:17:663 memoria/(32346:32346): BEST FIT FOUND
+[TRACE] 16:54:39:996 memoria/(32404:32404): crear_memoria()
+[TRACE] 16:54:45:708 memoria/(32404:32404): almacenar_particion()
+[TRACE] 16:54:45:708 memoria/(32404:32404): abc
+[TRACE] 16:54:45:708 memoria/(32404:32404): BEST FIT FOUND
+[TRACE] 16:54:45:708 memoria/(32404:32404): abc
+[TRACE] 16:57:21:403 memoria/(32517:32517): crear_memoria()
+[TRACE] 16:57:31:329 memoria/(32517:32517): almacenar_particion()
+[TRACE] 16:57:31:329 memoria/(32517:32517): abc
+[TRACE] 16:57:31:329 memoria/(32517:32517): BEST FIT FOUND
+[TRACE] 16:57:31:329 memoria/(32517:32517): -1960573815
+[TRACE] 16:57:31:329 memoria/(32517:32517): abc
+[TRACE] 16:59:55:489 memoria/(32583:32583): crear_memoria()
+[TRACE] 17:00:01:54 memoria/(32583:32583): particiones()
+[TRACE] 17:00:22:101 memoria/(32583:32583): almacenar_particion()
+[TRACE] 17:00:22:101 memoria/(32583:32583): bb
+[TRACE] 17:00:22:101 memoria/(32583:32583): BEST FIT Algoritmo:
+[TRACE] 17:00:22:101 memoria/(32583:32583): 0
+[TRACE] 17:00:22:102 memoria/(32583:32583): BEST FIT FOUND
+[TRACE] 17:00:22:102 memoria/(32583:32583): -1960573815
+[TRACE] 17:00:22:102 memoria/(32583:32583): bb
+[TRACE] 17:00:44:343 memoria/(32601:32601): crear_memoria()
+[TRACE] 17:00:49:816 memoria/(32601:32601): almacenar_particion()
+[TRACE] 17:00:49:816 memoria/(32601:32601): a
+[TRACE] 17:00:49:816 memoria/(32601:32601): BEST FIT Algoritmo:
+[TRACE] 17:00:49:817 memoria/(32601:32601): 0
+[TRACE] 17:00:49:817 memoria/(32601:32601): BEST FIT FOUND
+[TRACE] 17:00:49:817 memoria/(32601:32601): -1960573815
+[TRACE] 17:00:49:817 memoria/(32601:32601): a
+[TRACE] 17:02:07:882 memoria/(32668:32668): crear_memoria()
+[TRACE] 17:02:12:833 memoria/(32668:32668): almacenar_particion()
+[TRACE] 17:02:12:833 memoria/(32668:32668): aa
+[TRACE] 17:02:12:833 memoria/(32668:32668): BEST FIT FOUND
+[TRACE] 17:02:12:833 memoria/(32668:32668): FIN almacenar_particion()
+[TRACE] 17:02:12:833 memoria/(32668:32668): particiones()
+[TRACE] 17:02:25:863 memoria/(32668:32668): almacenar_particion()
+[TRACE] 17:02:25:863 memoria/(32668:32668): bbb
+[TRACE] 17:02:25:863 memoria/(32668:32668): BEST FIT FOUND
+[TRACE] 17:02:25:863 memoria/(32668:32668): FIN almacenar_particion()
+[TRACE] 17:02:25:863 memoria/(32668:32668): particiones()
+[TRACE] 17:03:14:990 memoria/(32736:32736): crear_memoria()
+[TRACE] 17:03:19:725 memoria/(32736:32736): almacenar_particion()
+[TRACE] 17:03:19:725 memoria/(32736:32736): a
+[TRACE] 17:03:19:726 memoria/(32736:32736): BEST FIT Algoritmo:
+[TRACE] 17:03:19:726 memoria/(32736:32736): 0
+[TRACE] 17:03:19:726 memoria/(32736:32736): BEST FIT FOUND
+[TRACE] 17:03:19:726 memoria/(32736:32736): FIN almacenar_particion()
+[TRACE] 17:03:19:726 memoria/(32736:32736): particiones()
+[TRACE] 17:03:39:794 memoria/(32736:32736): almacenar_particion()
+[TRACE] 17:03:39:794 memoria/(32736:32736): bb
+[TRACE] 17:03:39:794 memoria/(32736:32736): BEST FIT Algoritmo:
+[TRACE] 17:03:39:795 memoria/(32736:32736): 0
+[TRACE] 17:03:39:795 memoria/(32736:32736): 1
+[TRACE] 17:03:39:795 memoria/(32736:32736): BEST FIT FOUND
+[TRACE] 17:03:39:795 memoria/(32736:32736): FIN almacenar_particion()
+[TRACE] 17:03:39:795 memoria/(32736:32736): particiones()
+[TRACE] 17:04:19:643 memoria/(324:324): crear_memoria()
+[TRACE] 17:04:23:221 memoria/(324:324): almacenar_particion()
+[TRACE] 17:04:23:222 memoria/(324:324): a
+[TRACE] 17:04:23:222 memoria/(324:324): BEST FIT Algoritmo:
+[TRACE] 17:04:23:222 memoria/(324:324): 0
+[TRACE] 17:04:23:222 memoria/(324:324): BEST FIT FOUND
+[TRACE] 17:04:23:222 memoria/(324:324): FIN almacenar_particion()
+[TRACE] 17:04:23:222 memoria/(324:324): particiones()
+[TRACE] 17:06:45:420 memoria/(381:381): crear_memoria()
+[TRACE] 17:06:49:381 memoria/(381:381): almacenar_particion()
+[TRACE] 17:06:49:382 memoria/(381:381): a
+[TRACE] 17:06:49:382 memoria/(381:381): BEST FIT Algoritmo:
+[TRACE] 17:06:49:382 memoria/(381:381): 0
+[TRACE] 17:06:49:382 memoria/(381:381): BEST FIT FOUND
+[TRACE] 17:06:49:382 memoria/(381:381): FIN almacenar_particion()
+[TRACE] 17:06:49:382 memoria/(381:381): particiones()
+[TRACE] 17:07:06:293 memoria/(381:381): almacenar_particion()
+[TRACE] 17:07:06:296 memoria/(381:381): bb
+[TRACE] 17:07:06:296 memoria/(381:381): BEST FIT Algoritmo:
+[TRACE] 17:07:06:296 memoria/(381:381): 0
+[TRACE] 17:07:06:296 memoria/(381:381): 1
+[TRACE] 17:07:06:296 memoria/(381:381): BEST FIT FOUND
+[TRACE] 17:07:06:297 memoria/(381:381): FIN almacenar_particion()
+[TRACE] 17:07:06:297 memoria/(381:381): particiones()
+[TRACE] 17:07:36:905 memoria/(402:402): crear_memoria()
+[TRACE] 17:07:41:192 memoria/(402:402): almacenar_particion()
+[TRACE] 17:07:41:192 memoria/(402:402): 1
+[TRACE] 17:07:41:192 memoria/(402:402): BEST FIT Algoritmo:
+[TRACE] 17:07:41:192 memoria/(402:402): 0
+[TRACE] 17:07:41:193 memoria/(402:402): BEST FIT FOUND
+[TRACE] 17:07:41:193 memoria/(402:402): FIN almacenar_particion()
+[TRACE] 17:07:41:193 memoria/(402:402): particiones()
+[TRACE] 17:08:27:790 memoria/(454:454): crear_memoria()
+[TRACE] 17:08:31:790 memoria/(454:454): almacenar_particion()
+[TRACE] 17:08:31:790 memoria/(454:454): 1
+[TRACE] 17:08:31:790 memoria/(454:454): BEST FIT Algoritmo:
+[TRACE] 17:08:31:791 memoria/(454:454): 0
+[TRACE] 17:08:31:791 memoria/(454:454): BEST FIT FOUND
+[TRACE] 17:08:31:791 memoria/(454:454): -1960573815
+[TRACE] 17:08:31:791 memoria/(454:454): FIN almacenar_particion()
+[TRACE] 17:08:31:791 memoria/(454:454): particiones()
+[TRACE] 17:08:52:635 memoria/(505:505): crear_memoria()
+[TRACE] 17:08:56:403 memoria/(505:505): almacenar_particion()
+[TRACE] 17:08:56:472 memoria/(505:505): 1
+[TRACE] 17:08:56:472 memoria/(505:505): BEST FIT Algoritmo:
+[TRACE] 17:08:56:472 memoria/(505:505): 0
+[TRACE] 17:08:56:472 memoria/(505:505): BEST FIT FOUND
+[TRACE] 17:08:56:472 memoria/(505:505): -1960573815
+[TRACE] 17:08:56:472 memoria/(505:505): FIN almacenar_particion()
+[TRACE] 17:08:56:473 memoria/(505:505): particiones()
+[TRACE] 17:11:04:629 memoria/(505:505): particiones()
+[TRACE] 17:11:08:276 memoria/(571:571): crear_memoria()
+[TRACE] 17:11:12:988 memoria/(571:571): almacenar_particion()
+[TRACE] 17:11:12:989 memoria/(571:571): 1
+[TRACE] 17:11:12:989 memoria/(571:571): BEST FIT Algoritmo:
+[TRACE] 17:11:12:989 memoria/(571:571): 0
+[TRACE] 17:11:12:990 memoria/(571:571): -1960573815
+[TRACE] 17:11:12:990 memoria/(571:571): BEST FIT FOUND
+[TRACE] 17:11:12:990 memoria/(571:571): -1960573815
+[TRACE] 17:11:12:990 memoria/(571:571): FIN almacenar_particion()
+[TRACE] 17:11:12:990 memoria/(571:571): particiones()
+[TRACE] 17:12:35:212 memoria/(629:629): crear_memoria()
+[TRACE] 17:12:40:283 memoria/(629:629): almacenar_particion()
+[TRACE] 17:12:40:284 memoria/(629:629): 1
+[TRACE] 17:12:40:284 memoria/(629:629): BEST FIT Algoritmo:
+[TRACE] 17:12:40:284 memoria/(629:629): 0
+[TRACE] 17:12:40:284 memoria/(629:629): 0
+[TRACE] 17:12:40:284 memoria/(629:629): BEST FIT FOUND
+[TRACE] 17:12:40:284 memoria/(629:629): -1960573815
+[TRACE] 17:12:40:284 memoria/(629:629): FIN almacenar_particion()
+[TRACE] 17:12:40:284 memoria/(629:629): particiones()
+[TRACE] 17:14:24:296 memoria/(702:702): crear_memoria()
+[TRACE] 17:14:28:975 memoria/(702:702): almacenar_particion()
+[TRACE] 17:14:28:976 memoria/(702:702): 1
+[TRACE] 17:14:28:976 memoria/(702:702): BEST FIT Algoritmo:
+[TRACE] 17:14:28:976 memoria/(702:702): Particion = 0 - 0
+[TRACE] 17:14:28:976 memoria/(702:702): BEST FIT FOUND
+[TRACE] 17:14:28:976 memoria/(702:702): -1960573815
+[TRACE] 17:14:28:976 memoria/(702:702): FIN almacenar_particion()
+[TRACE] 17:14:28:976 memoria/(702:702): particiones()
+[TRACE] 17:14:41:874 memoria/(702:702): almacenar_particion()
+[TRACE] 17:14:41:874 memoria/(702:702): 22
+[TRACE] 17:14:41:874 memoria/(702:702): BEST FIT Algoritmo:
+[TRACE] 17:14:41:874 memoria/(702:702): Particion = 0 - 0
+[TRACE] 17:14:41:874 memoria/(702:702): Particion = 1 - 5
+[TRACE] 17:14:41:874 memoria/(702:702): BEST FIT FOUND
+[TRACE] 17:14:41:874 memoria/(702:702): 0
+[TRACE] 17:14:41:874 memoria/(702:702): FIN almacenar_particion()
+[TRACE] 17:14:41:875 memoria/(702:702): particiones()
+[TRACE] 17:15:09:512 memoria/(702:702): almacenar_particion()
+[TRACE] 17:15:09:512 memoria/(702:702): ccc
+[TRACE] 17:15:09:513 memoria/(702:702): BEST FIT Algoritmo:
+[TRACE] 17:15:09:513 memoria/(702:702): Particion = 0 - 0
+[TRACE] 17:15:09:513 memoria/(702:702): Particion = 1 - 5
+[TRACE] 17:15:09:513 memoria/(702:702): Particion = 2 - 5
+[TRACE] 17:15:09:513 memoria/(702:702): BEST FIT FOUND
+[TRACE] 17:15:09:513 memoria/(702:702): 0
+[TRACE] 17:15:09:513 memoria/(702:702): FIN almacenar_particion()
+[TRACE] 17:15:09:513 memoria/(702:702): particiones()
+[TRACE] 17:16:01:279 memoria/(786:786): crear_memoria()
+[TRACE] 17:16:05:2 memoria/(786:786): almacenar_particion()
+[TRACE] 17:16:05:2 memoria/(786:786): 22
+[TRACE] 17:16:05:2 memoria/(786:786): BEST FIT Algoritmo:
+[TRACE] 17:16:05:2 memoria/(786:786): Particion = 0 - 0
+[TRACE] 17:16:05:2 memoria/(786:786): Particion Best Fit = -1960573815
+[TRACE] 17:16:05:2 memoria/(786:786): BEST FIT FOUND
+[TRACE] 17:16:05:2 memoria/(786:786): -1960573815
+[TRACE] 17:16:05:2 memoria/(786:786): FIN almacenar_particion()
+[TRACE] 17:16:05:3 memoria/(786:786): particiones()
+[TRACE] 17:16:23:345 memoria/(786:786): almacenar_particion()
+[TRACE] 17:16:23:347 memoria/(786:786): 1
+[TRACE] 17:16:23:347 memoria/(786:786): BEST FIT Algoritmo:
+[TRACE] 17:16:23:347 memoria/(786:786): Particion = 0 - 0
+[TRACE] 17:16:23:347 memoria/(786:786): Particion = 1 - 5
+[TRACE] 17:16:23:347 memoria/(786:786): Particion Best Fit = 0
+[TRACE] 17:16:23:347 memoria/(786:786): BEST FIT FOUND
+[TRACE] 17:16:23:348 memoria/(786:786): 0
+[TRACE] 17:16:23:348 memoria/(786:786): FIN almacenar_particion()
+[TRACE] 17:16:23:348 memoria/(786:786): particiones()
+[TRACE] 17:17:03:617 memoria/(858:858): crear_memoria()
+[TRACE] 17:17:09:882 memoria/(858:858): almacenar_particion()
+[TRACE] 17:17:09:883 memoria/(858:858): 1
+[TRACE] 17:17:09:883 memoria/(858:858): BEST FIT Algoritmo:
+[TRACE] 17:17:09:883 memoria/(858:858): Particion = 0 - 0
+[TRACE] 17:17:09:883 memoria/(858:858): Particion Best Fit = 0
+[TRACE] 17:17:09:883 memoria/(858:858): BEST FIT FOUND
+[TRACE] 17:17:09:883 memoria/(858:858): 0
+[TRACE] 17:17:09:884 memoria/(858:858): FIN almacenar_particion()
+[TRACE] 17:17:09:884 memoria/(858:858): particiones()
+[TRACE] 17:17:18:557 memoria/(858:858): almacenar_particion()
+[TRACE] 17:17:18:557 memoria/(858:858): 22
+[TRACE] 17:17:18:557 memoria/(858:858): BEST FIT Algoritmo:
+[TRACE] 17:17:18:557 memoria/(858:858): Particion = 0 - 0
+[TRACE] 17:17:18:557 memoria/(858:858): Particion = 1 - 5
+[TRACE] 17:17:18:557 memoria/(858:858): Particion Best Fit = 0
+[TRACE] 17:17:18:557 memoria/(858:858): BEST FIT FOUND
+[TRACE] 17:17:18:557 memoria/(858:858): 0
+[TRACE] 17:17:18:557 memoria/(858:858): FIN almacenar_particion()
+[TRACE] 17:17:18:558 memoria/(858:858): particiones()
+[TRACE] 17:18:45:35 memoria/(932:932): crear_memoria()
+[TRACE] 17:18:48:519 memoria/(932:932): almacenar_particion()
+[TRACE] 17:18:48:519 memoria/(932:932): 1
+[TRACE] 17:18:48:519 memoria/(932:932): BEST FIT Algoritmo:
+[TRACE] 17:18:48:519 memoria/(932:932): Particion = 0 - 0
+[TRACE] 17:18:48:519 memoria/(932:932): Particion Best Fit = 0
+[TRACE] 17:18:48:519 memoria/(932:932): BEST FIT FOUND
+[TRACE] 17:18:48:519 memoria/(932:932): 0
+[TRACE] 17:18:48:519 memoria/(932:932): FIN almacenar_particion()
+[TRACE] 17:18:48:519 memoria/(932:932): particiones()
+[TRACE] 17:18:58:150 memoria/(932:932): almacenar_particion()
+[TRACE] 17:18:58:150 memoria/(932:932): 22
+[TRACE] 17:18:58:150 memoria/(932:932): BEST FIT Algoritmo:
+[TRACE] 17:18:58:150 memoria/(932:932): Particion = 0 - 1
+[TRACE] 17:18:58:150 memoria/(932:932): Particion = 1 - 0
+[TRACE] 17:18:58:150 memoria/(932:932): Particion Best Fit = 1
+[TRACE] 17:18:58:150 memoria/(932:932): BEST FIT FOUND
+[TRACE] 17:18:58:150 memoria/(932:932): 1
+[TRACE] 17:18:58:150 memoria/(932:932): FIN almacenar_particion()
+[TRACE] 17:18:58:150 memoria/(932:932): particiones()
+[TRACE] 17:19:14:69 memoria/(932:932): almacenar_particion()
+[TRACE] 17:19:14:69 memoria/(932:932): abcd
+[TRACE] 17:19:14:69 memoria/(932:932): BEST FIT Algoritmo:
+[TRACE] 17:19:14:69 memoria/(932:932): Particion = 0 - 3
+[TRACE] 17:19:14:69 memoria/(932:932): Particion = 1 - 0
+[TRACE] 17:19:14:69 memoria/(932:932): Particion = 2 - 1
+[TRACE] 17:19:14:70 memoria/(932:932): Particion Best Fit = 3
+[TRACE] 17:19:14:70 memoria/(932:932): BEST FIT FOUND
+[TRACE] 17:19:14:70 memoria/(932:932): 3
+[TRACE] 17:19:14:70 memoria/(932:932): FIN almacenar_particion()
+[TRACE] 17:19:14:70 memoria/(932:932): particiones()
+[TRACE] 17:26:31:112 memoria/(1326:1326): crear_memoria()
+[TRACE] 17:26:39:894 memoria/(1326:1326): almacenar_particion()
+[TRACE] 17:26:39:895 memoria/(1326:1326): aaaaaaaaaa
+[TRACE] 17:26:39:895 memoria/(1326:1326): BEST FIT Algoritmo:
+[TRACE] 17:26:39:895 memoria/(1326:1326): Particion = 0 - 0
+[TRACE] 17:26:39:895 memoria/(1326:1326): BEST FIT FOUND: 0
+[TRACE] 17:26:39:895 memoria/(1326:1326): FIN almacenar_particion()
+[TRACE] 17:26:39:895 memoria/(1326:1326): particiones()
+[TRACE] 17:27:07:530 memoria/(1326:1326): almacenar_particion()
+[TRACE] 17:27:07:530 memoria/(1326:1326): bbbbb
+[TRACE] 17:27:07:530 memoria/(1326:1326): BEST FIT Algoritmo:
+[TRACE] 17:27:07:530 memoria/(1326:1326): Particion = 0 - 10
+[TRACE] 17:27:07:530 memoria/(1326:1326): Particion = 1 - 0
+[TRACE] 17:27:07:530 memoria/(1326:1326): BEST FIT FOUND: 10
+[TRACE] 17:27:07:530 memoria/(1326:1326): FIN almacenar_particion()
+[TRACE] 17:27:07:530 memoria/(1326:1326): particiones()
+[TRACE] 17:27:25:96 memoria/(1326:1326): almacenar_particion()
+[TRACE] 17:27:25:96 memoria/(1326:1326): ccccc
+[TRACE] 17:27:25:97 memoria/(1326:1326): BEST FIT Algoritmo:
+[TRACE] 17:27:25:97 memoria/(1326:1326): Particion = 0 - 15
+[TRACE] 17:27:25:97 memoria/(1326:1326): Particion = 1 - 0
+[TRACE] 17:27:25:97 memoria/(1326:1326): Particion = 2 - 10
+[TRACE] 17:27:25:97 memoria/(1326:1326): BEST FIT FOUND: 15
+[TRACE] 17:27:25:97 memoria/(1326:1326): FIN almacenar_particion()
+[TRACE] 17:27:25:97 memoria/(1326:1326): particiones()
+[TRACE] 17:27:32:271 memoria/(1326:1326): eliminar_particion()
+[TRACE] 17:27:32:271 memoria/(1326:1326): particiones()
+[TRACE] 17:27:51:422 memoria/(1326:1326): eliminar_particion()
+[TRACE] 17:27:51:423 memoria/(1326:1326): particiones()
+[TRACE] 17:28:03:411 memoria/(1326:1326): almacenar_particion()
+[TRACE] 17:28:03:412 memoria/(1326:1326): ddd
+[TRACE] 17:28:03:412 memoria/(1326:1326): BEST FIT Algoritmo:
+[TRACE] 17:28:03:412 memoria/(1326:1326): Particion = 0 - 20
+[TRACE] 17:28:03:412 memoria/(1326:1326): Particion = 1 - 0
+[TRACE] 17:28:03:412 memoria/(1326:1326): Particion = 2 - 10
+[TRACE] 17:28:03:412 memoria/(1326:1326): Particion = 3 - 15
+[TRACE] 17:28:03:412 memoria/(1326:1326): BEST FIT FOUND: 10
+[TRACE] 17:28:03:412 memoria/(1326:1326): FIN almacenar_particion()
+[TRACE] 17:28:03:412 memoria/(1326:1326): particiones()
+[TRACE] 17:29:42:782 memoria/(1326:1326): almacenar_particion()
+[TRACE] 17:29:42:782 memoria/(1326:1326): eeeeeeeeee
+[TRACE] 17:29:42:783 memoria/(1326:1326): BEST FIT Algoritmo:
+[TRACE] 17:29:42:783 memoria/(1326:1326): Particion = 0 - 20
+[TRACE] 17:29:42:783 memoria/(1326:1326): Particion = 1 - 0
+[TRACE] 17:29:42:783 memoria/(1326:1326): Particion = 2 - 13
+[TRACE] 17:29:42:783 memoria/(1326:1326): Particion = 3 - 15
+[TRACE] 17:29:42:783 memoria/(1326:1326): Particion = 4 - 10
+[TRACE] 17:29:42:783 memoria/(1326:1326): BEST FIT FOUND: 20
+[TRACE] 17:29:42:783 memoria/(1326:1326): FIN almacenar_particion()
+[TRACE] 17:29:42:783 memoria/(1326:1326): particiones()
+[TRACE] 17:29:53:950 memoria/(1326:1326): almacenar_particion()
+[TRACE] 17:29:53:950 memoria/(1326:1326): 1
+[TRACE] 17:29:53:950 memoria/(1326:1326): BEST FIT Algoritmo:
+[TRACE] 17:29:53:950 memoria/(1326:1326): Particion = 0 - 30
+[TRACE] 17:29:53:950 memoria/(1326:1326): Particion = 1 - 0
+[TRACE] 17:29:53:950 memoria/(1326:1326): Particion = 2 - 13
+[TRACE] 17:29:53:950 memoria/(1326:1326): Particion = 3 - 15
+[TRACE] 17:29:53:951 memoria/(1326:1326): Particion = 4 - 10
+[TRACE] 17:29:53:951 memoria/(1326:1326): Particion = 5 - 20
+[TRACE] 17:29:53:951 memoria/(1326:1326): BEST FIT FOUND: 13
+[TRACE] 17:29:53:951 memoria/(1326:1326): FIN almacenar_particion()
+[TRACE] 17:29:53:951 memoria/(1326:1326): particiones()
+[TRACE] 17:30:04:136 memoria/(1326:1326): almacenar_particion()
+[TRACE] 17:30:04:136 memoria/(1326:1326): x
+[TRACE] 17:30:04:136 memoria/(1326:1326): BEST FIT Algoritmo:
+[TRACE] 17:30:04:136 memoria/(1326:1326): Particion = 0 - 30
+[TRACE] 17:30:04:136 memoria/(1326:1326): Particion = 1 - 0
+[TRACE] 17:30:04:136 memoria/(1326:1326): Particion = 2 - 14
+[TRACE] 17:30:04:136 memoria/(1326:1326): Particion = 3 - 15
+[TRACE] 17:30:04:136 memoria/(1326:1326): Particion = 4 - 10
+[TRACE] 17:30:04:136 memoria/(1326:1326): Particion = 5 - 20
+[TRACE] 17:30:04:136 memoria/(1326:1326): Particion = 6 - 13
+[TRACE] 17:30:04:136 memoria/(1326:1326): BEST FIT FOUND: 14
+[TRACE] 17:30:04:136 memoria/(1326:1326): FIN almacenar_particion()
+[TRACE] 17:30:04:136 memoria/(1326:1326): particiones()
