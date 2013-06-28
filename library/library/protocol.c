@@ -21,19 +21,22 @@ int16_t recibir(int16_t socket, char** p_cadena){
 		if (recv1==0){
 			return -1;//CAYO_SERVIDOR
 		}else{
-			return -1;//MALA_RECEPCION
+			perror("recv-badheader");
+			return -2;//MALA_RECEPCION
 		}
 	}else{
 		int16_t recv2;
 		if((recv2 = recv(socket,&header->length,sizeof(header->length),MSG_WAITALL))<=0){
-			return -1;//MALA_RECEPCION
+			perror("recv-badlenght");
+			return -3;//MALA_RECEPCION
 		}else{
 			*p_cadena=malloc(header->length);
 
 			int16_t bytesRecibidos;
 			if((bytesRecibidos=recv(socket,*p_cadena,header->length,MSG_WAITALL))==-1){
 				free(*p_cadena);
-				return -1;//MALA_RECEPCION
+				perror("recv-badbuffer");
+				return -4;//MALA_RECEPCION
 			}
 		}
 
@@ -53,7 +56,7 @@ int16_t enviar(int16_t socket, char* cadena, int16_t tipoEnvio){
 
 	if ((send1 = send(socket, cadenaAEnviar, header->length + sizeof(header_t),0)) == -1)
 	{
-		puts("Error al enviar cadena");
+		perror("Error al enviar datos.");
 		return send1;
 	}
 

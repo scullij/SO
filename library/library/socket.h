@@ -10,7 +10,7 @@
 
 int16_t create_socket();
 
-int16_t create_and_listen(int16_t puerto);
+uint16_t create_and_listen(int16_t puerto);
 
 int16_t create_and_connect(int16_t puerto);
 

@@ -21,8 +21,8 @@
 
 #define CONNECTIONS 10
 
-uint16_t create_socket(){
-	uint16_t sockete;
+int16_t create_socket(){
+	int16_t sockete;
 
 	// Crear un socket:
 	// AF_INET: Socket de internet IPv4
@@ -38,10 +38,10 @@ uint16_t create_socket(){
 
 uint16_t create_and_listen(uint16_t puerto){
 
-	uint16_t socket = create_socket();
+	int16_t socket = create_socket();
 
 	struct sockaddr_in socketInfo;
-	uint16_t optval = 1;
+	int16_t optval = 1;
 
 
 	// Hacer que el SO libere el puerto inmediatamente luego de cerrar el socket.
@@ -69,7 +69,7 @@ uint16_t create_and_listen(uint16_t puerto){
 	return socket;
 }
 
-uint16_t connect_socket(uint16_t socket, __const char* direccion, uint16_t puerto){
+int16_t connect_socket(uint16_t socket, __const char* direccion, uint16_t puerto){
 	struct sockaddr_in socketInfo;
 
 	socketInfo.sin_family = AF_INET;
@@ -86,12 +86,12 @@ uint16_t connect_socket(uint16_t socket, __const char* direccion, uint16_t puert
 	return EXIT_SUCCESS;
 }
 
-uint16_t create_and_connect(uint16_t socket, char* direccion, uint16_t puerto){
+int16_t create_and_connect(uint16_t socket, char* direccion, uint16_t puerto){
 	uint16_t sockete = create_socket();
 	return connect_socket(sockete, direccion, puerto);
 }
 
-uint16_t accept_connection(uint16_t socket){
+int16_t accept_connection(uint16_t socket){
 
 	uint16_t socketNuevaConexion;
 
