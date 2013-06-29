@@ -4,14 +4,20 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../library/Items.c \
+../library/gui.c \
 ../library/protocol.c \
 ../library/socket.c 
 
 OBJS += \
+./library/Items.o \
+./library/gui.o \
 ./library/protocol.o \
 ./library/socket.o 
 
 C_DEPS += \
+./library/Items.d \
+./library/gui.d \
 ./library/protocol.d \
 ./library/socket.d 
 

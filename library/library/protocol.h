@@ -10,9 +10,9 @@
 
 #include <stdint.h>
 
-int16_t recibir(int16_t socket, char** buffer);
+int16_t recibir(int16_t socket, void** payload);
 
-int16_t enviar(int16_t socket, char* cadena, int16_t tipo);
+int16_t enviar(int16_t socket, int16_t tipoEnvio, void* payload, uint16_t payloadLenght);
 
 typedef struct {
 	uint16_t type;

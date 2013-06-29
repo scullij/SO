@@ -1,13 +1,13 @@
 Segmento de memoria:
 --------------------
-VACIO[99:999:901]
 H[0:9:10]:carabanada
 VACIO[10:19:10]
 D[20:29:10]:parabasada
 VACIO[30:34:5]
+A[35:37:3]:WIN
 VACIO[38:38:1]
 X[39:48:10]:estenoseva
 VACIO[49:98:50]
-A[35:37:3]:WIN
+VACIO[99:999:901]
 --------------------
 Total: 1000 bytes, libres: 967 bytes

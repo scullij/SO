@@ -63,7 +63,7 @@ uint16_t create_and_listen(uint16_t puerto){
 		perror("Error al poner a escuchar socket");
 		return -1;
 	}else {
-		printf("Socket Plataforma escuchando en el puerto: %u \n", &puerto);
+//		printf("Socket Plataforma escuchando en el puerto: %u \n", &puerto);
 	}
 
 	return socket;

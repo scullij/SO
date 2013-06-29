@@ -14,6 +14,7 @@
 #include <unistd.h>
 #include <string.h>
 #include <netdb.h>
+#include <inttypes.h>
 
 #include <library/socket.h>
 #include <library/protocol.h>
@@ -23,7 +24,7 @@
 #define PUERTO 30000
 #define BUFF_SIZE 1024
 
-void rutines(int sockete, int routine, char* message);
+void rutines(int sockete, int routine, void* payload);
 
 void configurar_niveles();
 
@@ -38,12 +39,12 @@ int main(void)
     uint16_t fdmax;        // maximum file descriptor number
 
     uint16_t listener;     // listening socket descriptor
-    uint16_t newfd;        // newly accept()ed socket descriptor
+    unsigned int newfd;        // newly accept()ed socket descriptor
 
-    char *buffer;    // buffer for client data
+    void *buffer;    // buffer for client data
     int type;
 
-	puts("Plataforma...");
+	puts("Planificador...");
 
 	listener = create_and_listen(PUERTO);
 	if(listener == -1){
@@ -82,7 +83,7 @@ int main(void)
                         if (newfd > fdmax) {    // keep track of the max
                             fdmax = newfd;
                         }
-                        printf("Plataforma: New connection on socket %d\n", newfd);
+                        printf("Planificador: New connection on socket %u.\n", newfd);
                     }
                 } else {
                     // handle data from a client
@@ -97,7 +98,7 @@ int main(void)
                     } else {
                         // we got some data from a client
                     	//TODO: RUTINA CON EL TYPE
-                    	printf("PLataforma: Socket %d, recibido: %s", i, buffer);
+                    	printf("PLanificador: Socket %d, recibido: %u\n", i, type);
                     	rutines(i, type, buffer);
                     }
                 } // END handle data from client
@@ -111,18 +112,27 @@ int main(void)
     return EXIT_SUCCESS;
 }
 
-void rutines(int sockete, int routine, char* message){
-	//TODO Separar por Personaje o Nivel los switch, para manejar sus respectivas rutinas
+void rutines(int sockete, int routine, void* payload){
+	//SOLO ESCUCHA PERSONAJES
+	int* quantum = malloc(sizeof(int));
+	*quantum = 5;
 	switch (routine) {
-		case 1:
-			printf("Message: %s, Socket: %d", message, &sockete);
-			char* puertoNivel = list_get(niveles, (int)message);
-			enviar(sockete, puertoNivel, 2);
+		case 150:
+			printf("ACEPTO PERSONAJE: en Socket: %u\n", sockete);
+			//char* puertoNivel = list_get(niveles, (int)payload);
+			enviar(sockete, 50, NULL, 0);
+			enviar(sockete, 51, quantum, sizeof(int));
+			break;
+		case 155:
+			puts("TURNO TERMINADO");
+			sleep(2);
+			enviar(sockete, 51, quantum, sizeof(int));
 			break;
 		default:
-			printf("Routine number %d dont exist.", &routine);
+			printf("Routine number %d dont exist.", routine);
 			break;
 	}
+	fflush(stdout);
 
 }
 

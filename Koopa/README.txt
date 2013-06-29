@@ -9,6 +9,8 @@ Para ejecutarlo, setear antes la variable de entorno LD_LIBRARY_PATH desde bash.
 -> Ejemplo:
 export LD_LIBRARY_PATH=/home/utnso/workspace/memoria/Debug/:/home/utnso/workspace/so-commons-library/Debug
 
+export LD_LIBRARY_PATH=/home/utnso/dev/tp-20131c-osgroup/Koopa/memoria/Debug/:/home/utnso/workspace/so-commons-library/Debug
+
 Parámetros
 ----------
 ./koopa [archivo.txt]

@@ -1,4 +1,6 @@
 #include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 #include "memoria.h"
 
 t_log* logger;
@@ -9,6 +11,9 @@ t_particion* buscar_particion (char id);
 t_particion* buscar_particion_best_fit (int tamanio);
 
 t_memoria crear_memoria(int tamanio) {
+	// Creo espacio de memoria
+	t_memoria segmento = malloc (tamanio);
+
 	// Initializo Logger
 	logger = log_create("memoria.log", "memoria", "true", LOG_LEVEL_TRACE);
 	log_trace(logger, "crear_memoria()");
@@ -19,9 +24,8 @@ t_memoria crear_memoria(int tamanio) {
 	// Creo particion vacia (tamanio total)
 	t_particion* particionLibre = crear_particion ('\0', 0, tamanio);
 	particionLibre->libre = true;
+	particionLibre->dato = segmento;
 
-	// Creo espacio de memoria
-	t_memoria segmento = malloc (tamanio);
 	return segmento;
 }
 
@@ -42,7 +46,8 @@ int almacenar_particion(t_memoria segmento, char id, int tamanio, char* contenid
 
 	// Creo una nueva particion para almacenar la posicion
 	t_particion* particionNueva = crear_particion(id, particionBestFit->inicio, tamanio);
-	string_append(&(particionNueva->dato), contenido);
+	memcpy(segmento+particionBestFit->inicio, contenido, tamanio);
+	particionNueva->dato = segmento+particionBestFit->inicio;
 
 	// Muevo el inicio de lo que sobra de espacio al tamanio de la nueva particion
 	particionBestFit->inicio = particionBestFit->inicio + tamanio;
@@ -64,7 +69,6 @@ int eliminar_particion(t_memoria segmento, char id) {
 	}
 
 	particion->libre = true;
-	particion->dato = string_new();
 
 	return 0;
 }
@@ -100,7 +104,7 @@ t_particion* crear_particion (char id, int inicio, int tamanio) {
 	particion->inicio = inicio;
 	particion->tamanio = tamanio;
 
-	particion->dato = string_new();
+	particion->dato = NULL;
 	particion->libre = false;
 
 	list_add(_particiones, particion);

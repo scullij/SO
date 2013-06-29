@@ -38,6 +38,9 @@
 							</tool>
 							<tool id="cdt.managedbuild.tool.gnu.c.linker.so.debug.278711453" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.so.debug">
 								<option defaultValue="true" id="gnu.c.link.so.debug.option.shared.1360547316" name="Shared (-shared)" superClass="gnu.c.link.so.debug.option.shared" valueType="boolean"/>
+								<option id="gnu.c.link.option.libs.1880905400" name="Libraries (-l)" superClass="gnu.c.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" value="ncurses"/>
+								</option>
 								<inputType id="cdt.managedbuild.tool.gnu.c.linker.input.1759817855" superClass="cdt.managedbuild.tool.gnu.c.linker.input">
 									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
 									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
@@ -122,5 +125,12 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
-	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Release">
+			<resource resourceType="PROJECT" workspacePath="/library"/>
+		</configuration>
+		<configuration configurationName="Debug">
+			<resource resourceType="PROJECT" workspacePath="/library"/>
+		</configuration>
+	</storageModule>
 </cproject>
