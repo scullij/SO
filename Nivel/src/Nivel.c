@@ -15,22 +15,29 @@
 #include <curses.h>
 
 #include <commons/collections/list.h>
+#include <commons/string.h>
+#include <commons/log.h>
+#include <commons/config.h>
+
 #include <library/socket.h>
 #include <library/messages.h>
 #include <library/protocol.h>
-#include <commons/string.h>
+#include <library/messages.h>
 
 #include <library/Items.h>
 
-void rutines(int sockete, int routine, void* payload);
-
-#define DIRECCION "127.0.0.1"
-#define PUERTO 30005
+t_log* logger;
 
 typedef struct {
 	int16_t x;
 	int16_t y;
 } __attribute__ ((__packed__)) t_posicion;
+
+typedef struct {
+	int16_t nivel;
+	int16_t puerto;
+	char direccion[16];
+} __attribute__ ((__packed__)) t_nivelDireccionPuerto;
 
 typedef struct {
 	char* nombre;
@@ -42,19 +49,47 @@ typedef struct {
 
 typedef struct {
 	//TODO Nombre es string
-	int nombre;
-	t_recurso recursos[3];
-	char* orquestador;
-	int deadlock;
-	char recovery;
+	char *nombre;
+	t_list *recursos;
+	char* direccionOrq;
+	uint16_t puertoOrq;
+	uint16_t puerto;
+	int tiempoChequeoDeadlock;
+	int recovery;
 } t_nivel;
 
-t_nivel* niv = NULL;
-ITEM_NIVEL* ListaItems = NULL;
+t_nivel* nivel;
+ITEM_NIVEL* ListaItems;
 
-int main(void) {
+void rutines(int sockete, int routine, void* payload);
+t_nivel *configurar_nivel(char* path);
+void iterar_recurso(t_list* self, void(*closure)(t_recurso*));
 
-    fd_set master;    // master file descriptor list
+int main(int argc, char *argv[]) {
+	logger = log_create("nivel.log", "nivel", false, LOG_LEVEL_TRACE);
+	char* path = malloc(0);
+	if(argc < 2){
+		puts("Ingrese el path de configuracion:");
+		scanf("%s", path);
+	}else {
+		path = string_duplicate(argv[1]);
+	}
+
+	nivel = configurar_nivel(path);
+
+	//Nos conectamos al orquestador para pasarle info del nivel
+	uint16_t orquestador = create_and_connect(nivel->direccionOrq, nivel->puertoOrq);
+	if(orquestador == -1){
+		perror("orquestador");
+	}
+
+	t_nivelDireccionPuerto* nivelPuerto = malloc(sizeof(t_nivelDireccionPuerto));
+	nivelPuerto->nivel = 5;
+	nivelPuerto->puerto = nivel->puerto;
+	log_trace(logger, "Puerto: %d", nivel->puerto);
+	enviar(orquestador, P_NIV_CONNECT_ORQ, nivelPuerto, sizeof(nivelPuerto));
+
+	fd_set master;    // master file descriptor list
     fd_set read_fds;  // temp file descriptor list for select()
     uint16_t fdmax;        // maximum file descriptor number
 
@@ -64,36 +99,20 @@ int main(void) {
     void *buffer;    // buffer for client data
     int type;
 
-	puts("Nivel");
-
-	niv = malloc(sizeof(t_nivel));
-	niv->recursos[0].simbolo = 'H';
-	niv->recursos[0].x = 10;
-	niv->recursos[0].y = 20;
-	niv->recursos[0].instancias = 3;
-
-	niv->recursos[1].simbolo = 'F';
-	niv->recursos[1].x = 5;
-	niv->recursos[1].y = 14;
-	niv->recursos[1].instancias = 2;
-
-	niv->recursos[2].simbolo = 'M';
-	niv->recursos[2].x = 5;
-	niv->recursos[2].y = 3;
-	niv->recursos[2].instancias = 5;
-
 	//DRAWING PAPA
 	int rows, cols;
 	nivel_gui_inicializar();
     nivel_gui_get_area_nivel(&rows, &cols);
 
-	CrearCaja(&ListaItems, niv->recursos[0].simbolo, niv->recursos[0].x, niv->recursos[0].y, niv->recursos[0].instancias);
-	CrearCaja(&ListaItems, niv->recursos[1].simbolo, niv->recursos[1].x, niv->recursos[1].y, niv->recursos[1].instancias);
-	CrearCaja(&ListaItems, niv->recursos[2].simbolo, niv->recursos[2].x, niv->recursos[2].y, niv->recursos[2].instancias);
-	nivel_gui_dibujar(ListaItems);
+    void _crear_recurso(t_recurso* element){
+    	log_trace(logger, "Recurso: %c, %d, %d, %d", element->simbolo, element->instancias, element->x, element->y);
+    	CrearCaja(&ListaItems, element->simbolo, element->x, element->y, element->instancias);
+    }
+    iterar_recurso(nivel->recursos, _crear_recurso);
+    nivel_gui_dibujar(ListaItems);
 
 	//LISTENER
-	listener = create_and_listen(PUERTO);
+	listener = create_and_listen(nivel->puerto);
 	if(listener == -1){
 		perror("listener");
 	}
@@ -121,7 +140,8 @@ int main(void) {
             if (FD_ISSET(i, &read_fds)) { // we got one!!
                 if (i == listener) {
                     // handle new connections
-                    newfd = accept_connection(listener);
+                	char direccion[16];
+                    newfd = accept_connection(listener, direccion);
                     if (newfd == -1) {
                         perror("accept");
                     } else {
@@ -160,42 +180,44 @@ int main(void) {
 
 void rutines(int sockete, int routine, void* payload){
 	t_posicion* posicion = malloc(sizeof(t_posicion));
-	int i = 0;
 	//SOLO ESCUCHA PERSONAJES
 	switch (routine) {
-		case 151:
+		case P_PER_CONECT_NIV:
 			printf("ACEPTO PERSONAJE: en Socket: %u\n", sockete);
 			CrearPersonaje(&ListaItems, '@', 1, 1);
 			//char* puertoNivel = list_get(niveles, (int)payload);
-			enviar(sockete, 100, NULL, 0);
+			enviar(sockete, P_NIV_ACEPT_PER, NULL, 0);
 			break;
-		case 152:
-//			printf("PEDIDO LUGAR RECURSO PERSONAJE: en Socket: %u\n", sockete);
-			for(i=0; i < 3; i++){
-				if(niv->recursos[i].simbolo == (*(char*)payload)){
-					posicion->x = niv->recursos[i].x;
-					posicion->y = niv->recursos[i].y;
-					break;
+		case P_PER_LUGAR_RECURSO:
+			log_trace("Pedido posicion recurso: %c", (*(char*)payload));
+			void _encontrar_recurso(t_recurso* element){
+				if(element->simbolo == (*(char*)payload)){
+					posicion->x = element->x;
+					posicion->y = element->y;
 				}
 			}
-			enviar(sockete, 101, posicion, sizeof(posicion));
+			iterar_recurso(nivel->recursos, _encontrar_recurso);
+
+			enviar(sockete, P_NIV_UBIC_RECURSO, posicion, sizeof(posicion));
 			break;
-		case 153:
+		case P_PER_MOV:
 			posicion = (t_posicion*)payload;
 //			printf("MOVIMIENTO PERSONAJE EN: x: %d, y: %d\n", posicion->x, posicion->y);
 			MoverPersonaje(ListaItems, '@', posicion->x, posicion->y);
-			enviar(sockete, 102, NULL, 0);
+			enviar(sockete, P_NIV_OK_MOV, NULL, 0);
 			break;
-		case 154:
+		case P_PER_PEDIR_RECURSO:
 			posicion = (t_posicion*)payload;
 //			puts("PEDIDO RECURSO");
 			//TODO VALIDAR POSICION CORRECTA PERSONAJE PARA PEDIR RECURSO
-			for(i=0; i < 3; i++){
-				if(niv->recursos[i].x == posicion->x && niv->recursos[i].y == posicion->y){
-					restarRecurso(ListaItems, niv->recursos[i].simbolo);
+		    void _restar_recurso(t_recurso* element){
+		    	if(element->x == posicion->x && element->y == posicion->y){
+					restarRecurso(ListaItems, element->simbolo);
 				}
-			}
-			enviar(sockete, 103, NULL, 0);
+		    }
+			iterar_recurso(nivel->recursos, _restar_recurso);
+
+			enviar(sockete, P_NIV_RECURSO_OK, NULL, 0);
 			break;
 		default:
 			printf("Routine number %d dont exist.", routine);
@@ -203,6 +225,55 @@ void rutines(int sockete, int routine, void* payload){
 	}
 	nivel_gui_dibujar(ListaItems);
 	fflush(stdout);
+}
+
+t_nivel *configurar_nivel(char* path){
+	t_nivel *nivel = malloc(sizeof(t_nivel));
+	t_config *config = config_create(path);
+	char *orquestador = config_get_string_value(config, "Orquestador");
+	char** direccionPuerto = string_split(orquestador, ":");
+	nivel->direccionOrq = string_duplicate(direccionPuerto[0]);
+	nivel->puertoOrq = atoi(direccionPuerto[1]);
+	free(direccionPuerto);
+	free(orquestador);
+	nivel->puerto = config_get_int_value(config, "Puerto");
+	nivel->nombre = string_duplicate(config_get_string_value(config, "Nombre"));
+	nivel->tiempoChequeoDeadlock = config_get_int_value(config, "TiempoChequeoDeadlock");
+	nivel->recovery = config_get_int_value(config, "Recovery");
+
+	//Recursos
+	nivel->recursos = list_create();
+	int i;
+	for (i = 1; i <= config_keys_amount(config)-5; i++) {
+		if(config_has_property(config, string_from_format("Caja%d",i))){
+			t_recurso *recurso = malloc(sizeof(t_recurso));
+			char **caja = config_get_array_value(config, string_from_format("Caja%d",i));
+			//recurso->nombre = string_duplicate(caja[0]);
+
+			recurso->nombre = malloc(strlen(caja[0]));
+			strncpy(recurso->nombre, caja[0], strlen(caja[0])+1);
+
+			recurso->simbolo = caja[1][0];
+			recurso->instancias = atoi(caja[2]);
+			recurso->x = atoi(caja[3]);
+			recurso->y = atoi(caja[4]);
+			list_add(nivel->recursos, recurso);
+			free(caja);
+		}
+	}
+
+	//TODO: LCTMAB - Me rompe el nombre y el simbolo, si libero el config
+	//config_destroy(config);
+
+	return nivel;
+}
+
+void iterar_recurso(t_list* self, void(*closure)(t_recurso*)) {
+	t_link_element *element = self->head;
+	while (element != NULL) {
+		closure(element->data);
+		element = element->next;
+	}
 }
 
 //int drawing(void) {

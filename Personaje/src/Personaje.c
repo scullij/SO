@@ -22,6 +22,7 @@
 
 #define LOCALHOST "127.0.0.1"
 #define DIRECCION "127.0.0.1"
+#define PUERTO_ORQ 30000
 #define PUERTO_PLANIFICADOR 30000
 #define PUERTO_NIVEL 30005
 
@@ -39,6 +40,7 @@ int main() {
 		char recursos[5][10];
 		int vidas;
 		char* orquestador;
+		uint16_t puertoOrq;
 
 		t_posicion* objetivo;
 		t_posicion* posicion;
@@ -56,6 +58,7 @@ int main() {
 	p.vidas=5;
 	p.orquestador = malloc(strlen(LOCALHOST)+1);
 	strcpy(p.orquestador, LOCALHOST);
+	p.puertoOrq = PUERTO_ORQ;
 
 	p.posicion = malloc(sizeof(t_posicion));
 	p.posicion->x = 1;
@@ -68,20 +71,20 @@ int main() {
 
 	puts("Personaje...");
 
-	uint16_t planificador = create_socket();
+	uint16_t planificador = create_and_connect(p.orquestador, p.puertoOrq);
 
-	if (connect_socket(planificador, p.orquestador, PUERTO_PLANIFICADOR) < 0){
+	if (planificador < 0){
 		perror("Error al conectarse al planificador.");
 		return EXIT_FAILURE;
 	}
 
 	printf("Conectado!\n");
 
-	enviar(planificador, 150, NULL, 0);
+	enviar(planificador, P_PER_CONECT_PLA, NULL, 0);
 
 	int16_t type = recibir(planificador, NULL);
 
-	if(type != 50){
+	if(type != P_PLA_ACEPT_PER){
 		perror("Planificador rechaza personaje.");
 		return EXIT_FAILURE;
 	}
@@ -94,11 +97,11 @@ int main() {
 		return EXIT_FAILURE;
 	}
 
-	enviar(nivel, 151, NULL, 0);
+	enviar(nivel, P_PER_CONECT_NIV, NULL, 0);
 
 	type = recibir(nivel, NULL);
 
-	if(type != 100){
+	if(type != P_NIV_ACEPT_PER){
 		perror("Nivel rechaza personaje.\n");
 		return EXIT_FAILURE;
 	}
@@ -111,7 +114,7 @@ int main() {
 	{
 		if(*quantum == 0){
 			type = recibir(planificador, &quantum);
-			if(type != 51){
+			if(type != P_PLA_MOV_PERMITIDO){
 				continue;
 			}
 			printf("Quantum Recibido %d\n", *quantum);
@@ -121,13 +124,13 @@ int main() {
 		if(p.objetivo->x == NULL){
 			char* recurso = malloc(sizeof(char));
 			*recurso = p.recursos[0][p.recursoActual];
-			enviar(nivel, 152, recurso, sizeof(char));
+			enviar(nivel, P_PER_LUGAR_RECURSO, recurso, sizeof(char));
 			free(recurso);
 
 			t_posicion* posicion = malloc(sizeof(t_posicion));
 			type = recibir(nivel, &posicion);
 
-			if(type != 101){
+			if(type != P_NIV_UBIC_RECURSO){
 				continue;
 			}
 
@@ -138,17 +141,17 @@ int main() {
 		}else{
 
 			if(p.posicion->x == p.objetivo->x && p.posicion->y == p.objetivo->y){
-				enviar(nivel, 154, NULL, 0);
+				enviar(nivel, P_PER_PEDIR_RECURSO, NULL, 0);
 				*quantum = 0;
 				type = recibir(nivel, NULL);
-				if(type == 103){//RECURSO ASIGNADO
+				if(type == P_NIV_RECURSO_OK){//RECURSO ASIGNADO
 					p.objetivo->x = NULL;
 					p.objetivo->y = NULL;
 					p.recursoActual++;
 					puts("Recurso asignado.");
 				}else{
 					puts("Personaje bloqueado");
-					enviar(planificador, 156, NULL, 0);
+					enviar(planificador, P_PER_BLOQ_RECURSO, NULL, 0);
 				}
 			}else{
 				if(p.posicion->x != p.objetivo->x){
@@ -165,7 +168,7 @@ int main() {
 					}
 				}
 				sleep(1);
-				enviar(nivel, 153, p.posicion, sizeof(p.posicion));
+				enviar(nivel, P_PER_MOV, p.posicion, sizeof(p.posicion));
 				type = recibir(nivel, NULL);
 				*quantum = *quantum - 1;
 				printf("Nueva posicion: X:%d Y:%d \n", p.posicion->x, p.posicion->y);
@@ -173,7 +176,7 @@ int main() {
 		}
 
 		if(*quantum == 0){
-			enviar(planificador, 155, NULL, 0);
+			enviar(planificador, P_PER_TURNO_FINALIZADO, NULL, 0);
 			puts("Turno terminado.");
 		}
 		fflush(stdout);

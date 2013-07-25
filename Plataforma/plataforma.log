@@ -1,0 +1,129 @@
+[TRACE] 02:19:25:840 plataforma/(4077:4077): Plataforma...
+[TRACE] 02:22:51:918 plataforma/(4328:4328): Plataforma Listen 127.0.0.1, Port 30000
+[TRACE] 02:25:15:524 plataforma/(4395:4395): Plataforma Listen 127.0.0.1, Port 30000
+[TRACE] 02:26:36:955 plataforma/(4517:4517): Listen 127.0.0.1, Port 30000
+[TRACE] 02:43:06:587 plataforma/(5577:5577): Listen 127.0.0.1, Port 30000
+[TRACE] 02:43:24:515 plataforma/(5577:5577): New connection on socket 5.
+
+[TRACE] 19:08:36:720 plataforma/(17580:17580): Listen 127.0.0.1, Port 30000
+[TRACE] 19:13:20:846 plataforma/(17725:17725): Listen 127.0.0.1, Port 30000
+[TRACE] 20:24:48:388 plataforma/(18623:18634): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 20:42:50:825 plataforma/(18900:18909): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 22:54:30:703 plataforma/(7570:7576): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 22:55:46:937 plataforma/(7633:7639): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:10:33:729 plataforma/(2212:2291): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:11:32:884 plataforma/(2346:2351): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:12:22:914 plataforma/(2405:2410): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:15:57:178 plataforma/(2715:2720): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:32:21:51 plataforma/(3004:3009): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:47:38:668 plataforma/(3689:3694): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:54:50:223 plataforma/(4056:4061): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:57:51:107 plataforma/(4262:4269): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 23:59:56:925 plataforma/(4410:4416): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:06:12:356 plataforma/(4792:4798): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:07:34:538 plataforma/(4855:4860): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:08:51:547 plataforma/(5007:5012): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:09:38:780 plataforma/(5181:5188): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:11:13:544 plataforma/(5284:5290): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:12:14:119 plataforma/(5514:5519): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:16:08:497 plataforma/(5909:5914): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:18:48:534 plataforma/(6159:6164): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:19:22:595 plataforma/(6205:6211): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:19:49:24 plataforma/(6253:6259): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:22:16:716 plataforma/(6665:6670): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:22:45:165 plataforma/(6665:6670): Orquestador: New connection on socket 7.
+
+[TRACE] 00:22:51:939 plataforma/(6665:6689): PLanificador Nivel 1 creado.
+[TRACE] 00:23:08:334 plataforma/(6665:6689): No muere por la referencia del thread liberada.
+[TRACE] 00:44:38:219 plataforma/(7561:7566): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:45:20:467 plataforma/(7561:7566): Orquestador: New connection on socket 7.
+
+[TRACE] 01:26:15:362 plataforma/(9263:9269): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:27:58:926 plataforma/(9415:9421): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:39:06:904 plataforma/(10823:10829): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:39:37:102 plataforma/(10877:10882): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:40:08:496 plataforma/(10923:10928): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:40:27:738 plataforma/(10969:10974): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:40:43:184 plataforma/(11010:11015): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:41:30:919 plataforma/(11164:11170): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:47:26:195 plataforma/(11732:11737): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:47:53:45 plataforma/(11780:11785): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:48:26:350 plataforma/(11861:11866): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:49:05:518 plataforma/(11911:11916): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:52:52:548 plataforma/(12335:12340): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:54:05:276 plataforma/(12399:12404): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:54:18:821 plataforma/(12442:12447): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:54:43:892 plataforma/(12490:12495): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:54:53:612 plataforma/(12530:12535): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:55:31:719 plataforma/(12612:12622): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:56:56:446 plataforma/(12747:12752): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:57:20:72 plataforma/(12830:12835): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:57:39:943 plataforma/(12880:12885): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:58:45:209 plataforma/(13004:13009): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:03:48:275 plataforma/(13189:13194): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:13:27:337 plataforma/(13899:13904): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:13:41:61 plataforma/(13899:13904): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 46912.
+
+[TRACE] 02:15:56:677 plataforma/(14021:14026): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:17:55:684 plataforma/(14021:14026): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 46912.
+
+[TRACE] 02:20:24:656 plataforma/(14531:14536): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:23:38:75 plataforma/(14752:14757): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:24:07:428 plataforma/(14752:14757): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 46912.
+
+[TRACE] 02:26:22:488 plataforma/(14993:14998): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:27:12:720 plataforma/(15130:15135): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:27:22:654 plataforma/(15169:15174): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:27:31:934 plataforma/(15207:15212): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:28:18:340 plataforma/(15291:15296): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:28:45:895 plataforma/(15350:15355): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:30:34:625 plataforma/(15505:15510): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:31:06:323 plataforma/(15581:15587): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:31:32:855 plataforma/(15638:15643): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:42:23:471 plataforma/(16319:16324): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:42:45:80 plataforma/(16319:16324): Orquestador: Nuevo nivel conectado: Direccion: Pepe Puerto: 0.
+
+[TRACE] 02:42:57:319 plataforma/(16376:16381): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:43:54:128 plataforma/(16524:16529): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:44:57:103 plataforma/(16582:16587): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:45:15:431 plataforma/(16623:16628): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:45:46:147 plataforma/(16672:16677): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:47:07:747 plataforma/(16804:16809): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:47:50:282 plataforma/(16804:16809): Orquestador: Nuevo nivel conectado: Direccion: Pepe Puerto: 0.
+
+[TRACE] 02:48:20:320 plataforma/(16865:16870): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:48:33:775 plataforma/(16907:16912): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:48:50:533 plataforma/(16948:16953): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:49:01:249 plataforma/(16988:16993): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:49:06:166 plataforma/(17028:17034): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:49:12:841 plataforma/(17108:17113): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:49:18:484 plataforma/(17148:17153): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:51:34:67 plataforma/(17344:17349): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:51:59:953 plataforma/(17344:17349): Orquestador: Nuevo nivel conectado: Direccion: Pepe Puerto: -1220542400.
+
+[TRACE] 02:54:01:644 plataforma/(17496:17501): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:54:09:920 plataforma/(17534:17539): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 02:57:22:161 plataforma/(17631:17636): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:00:22:467 plataforma/(17631:17636): Orquestador: Nuevo nivel conectado: Direccion: Pepe Puerto: -1220542400.
+
+[TRACE] 03:08:36:942 plataforma/(18081:18086): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:08:52:91 plataforma/(18121:18126): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:10:29:28 plataforma/(18269:18274): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:10:42:575 plataforma/(18308:18313): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:11:02:425 plataforma/(18408:18413): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:11:25:224 plataforma/(18408:18413): Orquestador: Nuevo nivel conectado: Direccion: Pepe Puerto: 30005.
+
+[TRACE] 03:13:32:84 plataforma/(18623:18628): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:13:42:781 plataforma/(18623:18628): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: -18624.
+
+[TRACE] 03:15:01:381 plataforma/(18796:18801): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:15:17:442 plataforma/(18835:18840): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:15:31:874 plataforma/(18876:18881): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:15:38:946 plataforma/(18914:18919): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:15:59:984 plataforma/(19034:19039): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:16:23:666 plataforma/(19034:19039): Orquestador: Nuevo nivel conectado: Direccion: nivelDirecionPuerto->direccion Puerto: 30005.
+
+[TRACE] 03:18:19:593 plataforma/(19193:19198): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:19:14:496 plataforma/(19381:19386): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:20:01:735 plataforma/(19427:19432): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:20:12:454 plataforma/(19465:19470): Orquestador: Listen 127.0.0.1, Port 30000

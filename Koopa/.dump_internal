@@ -8,6 +8,6 @@ A[35:37:3]:WIN
 VACIO[38:38:1]
 X[39:48:10]:estenoseva
 VACIO[49:98:50]
-VACIO[99:999:901]
+VACIO[99:99:1]
 --------------------
-Total: 1000 bytes, libres: 967 bytes
+Total: 100 bytes, libres: 67 bytes

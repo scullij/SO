@@ -1,0 +1,6 @@
+[TRACE] 19:11:20:457 plataforma/(17674:17674): Listen 127.0.0.1, Port 30000
+[TRACE] 21:07:23:42 plataforma/(3728:3729): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 21:45:10:861 plataforma/(6509:6510): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:03:45:262 plataforma/(17859:17860): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 03:04:27:888 plataforma/(17859:17860): Orquestador: Nuevo nivel conectado: Direccion: Pepe Puerto: -1228931008.
+

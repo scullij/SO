@@ -1,0 +1,379 @@
+[TRACE] 22:36:53:81 nivel/(22136:22136): Recurso: Flores, F, 3, 23, 5
+[TRACE] 22:36:53:82 nivel/(22136:22136): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 22:36:53:82 nivel/(22136:22136): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 22:36:53:82 nivel/(22136:22136): Gui
+[TRACE] 22:37:33:126 nivel/(22247:22247): Recurso: Flores, F, 3, 23, 5
+[TRACE] 22:37:33:126 nivel/(22247:22247): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 22:37:33:126 nivel/(22247:22247): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 22:37:33:126 nivel/(22247:22247): Gui
+[TRACE] 22:37:33:127 nivel/(22247:22247): Gui2
+[TRACE] 23:12:36:738 nivel/(2073:2073): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:12:36:740 nivel/(2073:2073): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:12:36:740 nivel/(2073:2073): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:12:36:740 nivel/(2073:2073): Gui
+[TRACE] 23:12:36:741 nivel/(2073:2073): Gui2
+[TRACE] 23:13:36:525 nivel/(2214:2214): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:13:36:525 nivel/(2214:2214): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:13:36:525 nivel/(2214:2214): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:13:36:525 nivel/(2214:2214): Gui
+[TRACE] 23:13:36:526 nivel/(2214:2214): Gui2
+[TRACE] 23:14:28:954 nivel/(2313:2313): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:14:28:954 nivel/(2313:2313): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:14:28:954 nivel/(2313:2313): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:14:28:954 nivel/(2313:2313): Gui
+[TRACE] 23:14:28:955 nivel/(2313:2313): Gui2
+[TRACE] 23:14:28:955 nivel/(2313:2313): Gui3
+[TRACE] 23:16:19:781 nivel/(2428:2428): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:16:19:781 nivel/(2428:2428): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:16:19:781 nivel/(2428:2428): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:16:19:781 nivel/(2428:2428): Gui
+[TRACE] 23:16:19:782 nivel/(2428:2428): Gui2
+[TRACE] 23:16:19:782 nivel/(2428:2428): Gui3
+[TRACE] 23:16:36:952 nivel/(2520:2520): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:16:36:952 nivel/(2520:2520): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:16:36:952 nivel/(2520:2520): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:16:36:952 nivel/(2520:2520): Gui
+[TRACE] 23:16:36:954 nivel/(2520:2520): Gui2
+[TRACE] 23:16:36:954 nivel/(2520:2520): Gui3
+[TRACE] 23:16:36:954 nivel/(2520:2520): Gui4
+[TRACE] 23:17:48:873 nivel/(2714:2714): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:17:48:873 nivel/(2714:2714): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:17:48:873 nivel/(2714:2714): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:17:48:873 nivel/(2714:2714): Gui
+[TRACE] 23:17:48:874 nivel/(2714:2714): Gui2
+[TRACE] 23:17:48:874 nivel/(2714:2714): Gui3
+[TRACE] 23:17:48:874 nivel/(2714:2714): Recurso: , 1, 65792, 0
+[TRACE] 23:17:48:874 nivel/(2714:2714): Recurso: H, 2, 7, 4
+[TRACE] 23:17:48:874 nivel/(2714:2714): Recurso: M, 4, 21, 2
+[TRACE] 23:17:48:874 nivel/(2714:2714): Gui4
+[TRACE] 23:18:30:226 nivel/(2821:2821): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:18:30:226 nivel/(2821:2821): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:18:30:226 nivel/(2821:2821): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:18:30:227 nivel/(2821:2821): Recurso: m, 135157760, 135157736, 24
+[TRACE] 23:18:30:227 nivel/(2821:2821): Recurso: H, 2, 7, 4
+[TRACE] 23:18:30:227 nivel/(2821:2821): Recurso: M, 4, 21, 2
+[TRACE] 23:19:15:241 nivel/(2886:2886): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:19:15:241 nivel/(2886:2886): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:19:15:241 nivel/(2886:2886): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:19:15:242 nivel/(2886:2886): Recurso: m, 137172992, 137172968, 24
+[TRACE] 23:19:15:243 nivel/(2886:2886): Recurso: H, 2, 7, 4
+[TRACE] 23:19:15:243 nivel/(2886:2886): Recurso: M, 4, 21, 2
+[TRACE] 23:36:40:986 nivel/(2939:2939): Recurso: Flores, F, 3, 23, 5
+[TRACE] 23:36:40:986 nivel/(2939:2939): Recurso: Arbol, A, 1, 16, 5
+[TRACE] 23:36:40:986 nivel/(2939:2939): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:36:40:986 nivel/(2939:2939): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:36:40:987 nivel/(2939:2939): Recurso: , -1, -1, -1
+[TRACE] 23:36:40:987 nivel/(2939:2939): Recurso: A, 1, 16, 5
+[TRACE] 23:36:40:987 nivel/(2939:2939): Recurso: H, 2, 7, 4
+[TRACE] 23:36:40:987 nivel/(2939:2939): Recurso: M, 4, 21, 2
+[TRACE] 23:37:40:759 nivel/(2956:2956): Recurso: Arbol, A, 1, 16, 5
+[TRACE] 23:37:40:759 nivel/(2956:2956): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:37:40:760 nivel/(2956:2956): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:37:40:761 nivel/(2956:2956): Recurso: m, 1852786688, 16, 5
+[TRACE] 23:37:40:761 nivel/(2956:2956): Recurso: H, 2, 7, 4
+[TRACE] 23:37:40:761 nivel/(2956:2956): Recurso: M, 4, 21, 2
+[TRACE] 23:58:08:15 nivel/(3133:3133): Recurso: Arbol, A, 1, 16, 5
+[TRACE] 23:58:08:15 nivel/(3133:3133): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:58:08:16 nivel/(3133:3133): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:58:08:16 nivel/(3133:3133): Recurso: m, 0, 16, 5
+[TRACE] 23:58:08:16 nivel/(3133:3133): Recurso: H, 2, 7, 4
+[TRACE] 23:58:08:16 nivel/(3133:3133): Recurso: M, 4, 21, 2
+[TRACE] 23:59:24:896 nivel/(3243:3243): Recurso: Arbol, A, 1, 16, 5
+[TRACE] 23:59:24:896 nivel/(3243:3243): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:59:24:896 nivel/(3243:3243): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:59:48:871 nivel/(3338:3338): Recurso: Arbol, A, 1, 16, 5
+[TRACE] 23:59:48:872 nivel/(3338:3338): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:59:48:872 nivel/(3338:3338): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:59:48:873 nivel/(3338:3338): Recurso: m, 0, 16, 5
+[TRACE] 23:59:48:873 nivel/(3338:3338): Recurso: H, 2, 7, 4
+[TRACE] 23:59:48:873 nivel/(3338:3338): Recurso: M, 4, 21, 2
+[TRACE] 23:59:58:935 nivel/(3342:3342): Recurso: Arbol, A, 1, 16, 5
+[TRACE] 23:59:58:935 nivel/(3342:3342): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 23:59:58:935 nivel/(3342:3342): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 23:59:58:936 nivel/(3342:3342): Recurso: m, 0, 16, 5
+[TRACE] 23:59:58:936 nivel/(3342:3342): Recurso: H, 2, 7, 4
+[TRACE] 23:59:58:936 nivel/(3342:3342): Recurso: M, 4, 21, 2
+[TRACE] 00:03:47:76 nivel/(3455:3455): Recurso: , A, 1, 16, 5
+[TRACE] 00:03:47:76 nivel/(3455:3455): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:03:47:76 nivel/(3455:3455): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:03:47:77 nivel/(3455:3455): Recurso: ð, 23593030, 17, 0
+[TRACE] 00:03:47:77 nivel/(3455:3455): Recurso: H, 2, 7, 4
+[TRACE] 00:03:47:77 nivel/(3455:3455): Recurso: M, 4, 21, 2
+[TRACE] 00:07:44:162 nivel/(3593:3593): Recurso: , A, 1, 16, 5
+[TRACE] 00:07:44:162 nivel/(3593:3593): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:07:44:162 nivel/(3593:3593): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:07:44:162 nivel/(3593:3593): Recurso: , A, 1, 16, 5
+[TRACE] 00:07:44:162 nivel/(3593:3593): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:07:44:162 nivel/(3593:3593): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:07:44:163 nivel/(3593:3593): Recurso: ð, 23593030, 17, 0
+[TRACE] 00:07:44:163 nivel/(3593:3593): Recurso: H, 2, 7, 4
+[TRACE] 00:07:44:163 nivel/(3593:3593): Recurso: M, 4, 21, 2
+[TRACE] 00:08:46:894 nivel/(3694:3694): Recurso: , A, 1, 16, 5
+[TRACE] 00:08:46:894 nivel/(3694:3694): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:08:46:894 nivel/(3694:3694): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:08:46:894 nivel/(3694:3694): Recurso: , A, 1, 16, 5
+[TRACE] 00:08:46:894 nivel/(3694:3694): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:08:46:894 nivel/(3694:3694): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:08:46:895 nivel/(3694:3694): Recurso: 
+[TRACE] 00:08:46:895 nivel/(3694:3694): Recurso: H, 2, 7, 4
+[TRACE] 00:08:46:895 nivel/(3694:3694): Recurso: M, 4, 21, 2
+[TRACE] 00:09:12:222 nivel/(3792:3792): Recurso: Arbol, A, 1, 16, 5
+[TRACE] 00:09:12:222 nivel/(3792:3792): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:09:12:222 nivel/(3792:3792): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:09:12:222 nivel/(3792:3792): Recurso: Arbol, A, 1, 16, 5
+[TRACE] 00:09:12:222 nivel/(3792:3792): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:09:12:223 nivel/(3792:3792): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:09:12:223 nivel/(3792:3792): Recurso: A, 1, 16, 5
+[TRACE] 00:09:12:224 nivel/(3792:3792): Recurso: H, 2, 7, 4
+[TRACE] 00:09:12:224 nivel/(3792:3792): Recurso: M, 4, 21, 2
+[TRACE] 00:15:16:546 nivel/(3968:3968): Recurso: , A, 1, 16, 5
+[TRACE] 00:15:16:547 nivel/(3968:3968): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:15:16:547 nivel/(3968:3968): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:15:16:547 nivel/(3968:3968): Recurso: , A, 1, 16, 5
+[TRACE] 00:15:16:547 nivel/(3968:3968): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:15:16:547 nivel/(3968:3968): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:15:16:548 nivel/(3968:3968): Recurso: ð, 23593030, 17, 0
+[TRACE] 00:15:16:548 nivel/(3968:3968): Recurso: H, 2, 7, 4
+[TRACE] 00:15:16:548 nivel/(3968:3968): Recurso: M, 4, 21, 2
+[TRACE] 00:16:27:330 nivel/(4077:4077): Recurso: , A, 1, 16, 5
+[TRACE] 00:16:27:330 nivel/(4077:4077): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:16:27:331 nivel/(4077:4077): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:16:27:331 nivel/(4077:4077): Recurso: , A, 1, 16, 5
+[TRACE] 00:16:27:331 nivel/(4077:4077): Recurso: Hongos, H, 2, 7, 4
+[TRACE] 00:16:27:331 nivel/(4077:4077): Recurso: Monedas, M, 4, 21, 2
+[TRACE] 00:16:27:332 nivel/(4077:4077): Recurso: ð, 23593030, 17, 0
+[TRACE] 00:16:27:332 nivel/(4077:4077): Recurso: H, 2, 7, 4
+[TRACE] 00:16:27:332 nivel/(4077:4077): Recurso: M, 4, 21, 2
+[TRACE] 00:17:52:450 nivel/(4222:4222): Recurso: A, 1, 16, 5
+[TRACE] 00:17:52:451 nivel/(4222:4222): Recurso: H, 2, 7, 4
+[TRACE] 00:17:52:451 nivel/(4222:4222): Recurso: M, 4, 21, 2
+[TRACE] 21:08:50:823 nivel/(3933:3933): Recurso: A, 1, 16, 5
+[TRACE] 21:08:50:823 nivel/(3933:3933): Recurso: H, 2, 7, 4
+[TRACE] 21:08:50:823 nivel/(3933:3933): Recurso: M, 4, 21, 2
+[TRACE] 21:10:23:962 nivel/(4064:4064): Recurso: A, 1, 16, 5
+[TRACE] 21:10:23:962 nivel/(4064:4064): Recurso: H, 2, 7, 4
+[TRACE] 21:10:23:962 nivel/(4064:4064): Recurso: M, 4, 21, 2
+[TRACE] 21:10:39:601 nivel/(4149:4149): Recurso: A, 1, 16, 5
+[TRACE] 21:10:39:601 nivel/(4149:4149): Recurso: H, 2, 7, 4
+[TRACE] 21:10:39:601 nivel/(4149:4149): Recurso: M, 4, 21, 2
+[TRACE] 21:11:07:831 nivel/(4219:4219): Recurso: A, 1, 16, 5
+[TRACE] 21:11:07:831 nivel/(4219:4219): Recurso: H, 2, 7, 4
+[TRACE] 21:11:07:831 nivel/(4219:4219): Recurso: M, 4, 21, 2
+[TRACE] 21:46:01:777 nivel/(6569:6569): Recurso: A, 1, 16, 5
+[TRACE] 21:46:01:777 nivel/(6569:6569): Recurso: H, 2, 7, 4
+[TRACE] 21:46:01:777 nivel/(6569:6569): Recurso: M, 4, 21, 2
+[TRACE] 22:52:08:221 nivel/(7453:7453): Recurso: A, 1, 16, 5
+[TRACE] 22:52:08:222 nivel/(7453:7453): Recurso: H, 2, 7, 4
+[TRACE] 22:52:08:222 nivel/(7453:7453): Recurso: M, 4, 21, 2
+[TRACE] 22:54:36:595 nivel/(7578:7578): Recurso: A, 1, 16, 5
+[TRACE] 22:54:36:595 nivel/(7578:7578): Recurso: H, 2, 7, 4
+[TRACE] 22:54:36:595 nivel/(7578:7578): Recurso: M, 4, 21, 2
+[TRACE] 22:55:51:489 nivel/(7642:7642): Recurso: A, 1, 16, 5
+[TRACE] 22:55:51:489 nivel/(7642:7642): Recurso: H, 2, 7, 4
+[TRACE] 22:55:51:490 nivel/(7642:7642): Recurso: M, 4, 21, 2
+[TRACE] 23:10:37:38 nivel/(2293:2293): Recurso: A, 1, 16, 5
+[TRACE] 23:10:37:39 nivel/(2293:2293): Recurso: H, 2, 7, 4
+[TRACE] 23:10:37:39 nivel/(2293:2293): Recurso: M, 4, 21, 2
+[TRACE] 23:11:35:113 nivel/(2353:2353): Recurso: A, 1, 16, 5
+[TRACE] 23:11:35:113 nivel/(2353:2353): Recurso: H, 2, 7, 4
+[TRACE] 23:11:35:113 nivel/(2353:2353): Recurso: M, 4, 21, 2
+[TRACE] 23:12:25:49 nivel/(2412:2412): Recurso: A, 1, 16, 5
+[TRACE] 23:12:25:50 nivel/(2412:2412): Recurso: H, 2, 7, 4
+[TRACE] 23:12:25:50 nivel/(2412:2412): Recurso: M, 4, 21, 2
+[TRACE] 23:15:58:509 nivel/(2722:2722): Recurso: A, 1, 16, 5
+[TRACE] 23:15:58:509 nivel/(2722:2722): Recurso: H, 2, 7, 4
+[TRACE] 23:15:58:509 nivel/(2722:2722): Recurso: M, 4, 21, 2
+[TRACE] 23:32:22:609 nivel/(3011:3011): Recurso: A, 1, 16, 5
+[TRACE] 23:32:22:609 nivel/(3011:3011): Recurso: H, 2, 7, 4
+[TRACE] 23:32:22:609 nivel/(3011:3011): Recurso: M, 4, 21, 2
+[TRACE] 23:47:41:605 nivel/(3696:3696): Recurso: A, 1, 16, 5
+[TRACE] 23:47:41:605 nivel/(3696:3696): Recurso: H, 2, 7, 4
+[TRACE] 23:47:41:605 nivel/(3696:3696): Recurso: M, 4, 21, 2
+[TRACE] 23:54:53:187 nivel/(4063:4063): Recurso: A, 1, 16, 5
+[TRACE] 23:54:53:187 nivel/(4063:4063): Recurso: H, 2, 7, 4
+[TRACE] 23:54:53:187 nivel/(4063:4063): Recurso: M, 4, 21, 2
+[TRACE] 23:55:43:403 nivel/(4086:4086): Recurso: A, 1, 16, 5
+[TRACE] 23:55:43:403 nivel/(4086:4086): Recurso: H, 2, 7, 4
+[TRACE] 23:55:43:403 nivel/(4086:4086): Recurso: M, 4, 21, 2
+[TRACE] 23:56:43:717 nivel/(4109:4109): Recurso: A, 1, 16, 5
+[TRACE] 23:56:43:717 nivel/(4109:4109): Recurso: H, 2, 7, 4
+[TRACE] 23:56:43:717 nivel/(4109:4109): Recurso: M, 4, 21, 2
+[TRACE] 23:57:53:264 nivel/(4271:4271): Recurso: A, 1, 16, 5
+[TRACE] 23:57:53:264 nivel/(4271:4271): Recurso: H, 2, 7, 4
+[TRACE] 23:57:53:264 nivel/(4271:4271): Recurso: M, 4, 21, 2
+[TRACE] 23:59:58:711 nivel/(4418:4418): Recurso: A, 1, 16, 5
+[TRACE] 23:59:58:711 nivel/(4418:4418): Recurso: H, 2, 7, 4
+[TRACE] 23:59:58:711 nivel/(4418:4418): Recurso: M, 4, 21, 2
+[TRACE] 00:06:14:940 nivel/(4800:4800): Recurso: A, 1, 16, 5
+[TRACE] 00:06:14:940 nivel/(4800:4800): Recurso: H, 2, 7, 4
+[TRACE] 00:06:14:940 nivel/(4800:4800): Recurso: M, 4, 21, 2
+[TRACE] 00:07:36:78 nivel/(4862:4862): Recurso: A, 1, 16, 5
+[TRACE] 00:07:36:78 nivel/(4862:4862): Recurso: H, 2, 7, 4
+[TRACE] 00:07:36:78 nivel/(4862:4862): Recurso: M, 4, 21, 2
+[TRACE] 00:08:09:875 nivel/(4881:4881): Recurso: A, 1, 16, 5
+[TRACE] 00:08:09:875 nivel/(4881:4881): Recurso: H, 2, 7, 4
+[TRACE] 00:08:09:875 nivel/(4881:4881): Recurso: M, 4, 21, 2
+[TRACE] 00:08:52:840 nivel/(5014:5014): Recurso: A, 1, 16, 5
+[TRACE] 00:08:52:840 nivel/(5014:5014): Recurso: H, 2, 7, 4
+[TRACE] 00:08:52:840 nivel/(5014:5014): Recurso: M, 4, 21, 2
+[TRACE] 00:09:42:385 nivel/(5191:5191): Recurso: A, 1, 16, 5
+[TRACE] 00:09:42:386 nivel/(5191:5191): Recurso: H, 2, 7, 4
+[TRACE] 00:09:42:386 nivel/(5191:5191): Recurso: M, 4, 21, 2
+[TRACE] 00:11:17:302 nivel/(5292:5292): Recurso: A, 1, 16, 5
+[TRACE] 00:11:17:302 nivel/(5292:5292): Recurso: H, 2, 7, 4
+[TRACE] 00:11:17:302 nivel/(5292:5292): Recurso: M, 4, 21, 2
+[TRACE] 00:12:18:958 nivel/(5521:5521): Recurso: A, 1, 16, 5
+[TRACE] 00:12:18:958 nivel/(5521:5521): Recurso: H, 2, 7, 4
+[TRACE] 00:12:18:958 nivel/(5521:5521): Recurso: M, 4, 21, 2
+[TRACE] 00:16:10:197 nivel/(5916:5916): Recurso: A, 1, 16, 5
+[TRACE] 00:16:10:199 nivel/(5916:5916): Recurso: H, 2, 7, 4
+[TRACE] 00:16:10:199 nivel/(5916:5916): Recurso: M, 4, 21, 2
+[TRACE] 00:18:53:246 nivel/(6167:6167): Recurso: A, 1, 16, 5
+[TRACE] 00:18:53:246 nivel/(6167:6167): Recurso: H, 2, 7, 4
+[TRACE] 00:18:53:246 nivel/(6167:6167): Recurso: M, 4, 21, 2
+[TRACE] 00:19:28:19 nivel/(6214:6214): Recurso: A, 1, 16, 5
+[TRACE] 00:19:28:19 nivel/(6214:6214): Recurso: H, 2, 7, 4
+[TRACE] 00:19:28:19 nivel/(6214:6214): Recurso: M, 4, 21, 2
+[TRACE] 00:19:52:130 nivel/(6261:6261): Recurso: A, 1, 16, 5
+[TRACE] 00:19:52:130 nivel/(6261:6261): Recurso: H, 2, 7, 4
+[TRACE] 00:19:52:130 nivel/(6261:6261): Recurso: M, 4, 21, 2
+[TRACE] 00:22:19:271 nivel/(6672:6672): Recurso: A, 1, 16, 5
+[TRACE] 00:22:19:271 nivel/(6672:6672): Recurso: H, 2, 7, 4
+[TRACE] 00:22:19:271 nivel/(6672:6672): Recurso: M, 4, 21, 2
+[TRACE] 00:44:40:671 nivel/(7568:7568): Recurso: A, 1, 16, 5
+[TRACE] 00:44:40:671 nivel/(7568:7568): Recurso: H, 2, 7, 4
+[TRACE] 00:44:40:671 nivel/(7568:7568): Recurso: M, 4, 21, 2
+[TRACE] 01:26:18:957 nivel/(9271:9271): Recurso: A, 1, 16, 5
+[TRACE] 01:26:18:957 nivel/(9271:9271): Recurso: H, 2, 7, 4
+[TRACE] 01:26:18:957 nivel/(9271:9271): Recurso: M, 4, 21, 2
+[TRACE] 01:28:02:43 nivel/(9423:9423): Recurso: A, 1, 16, 5
+[TRACE] 01:28:02:43 nivel/(9423:9423): Recurso: H, 2, 7, 4
+[TRACE] 01:28:02:43 nivel/(9423:9423): Recurso: M, 4, 21, 2
+[TRACE] 01:39:09:429 nivel/(10831:10831): Recurso: A, 1, 16, 5
+[TRACE] 01:39:09:429 nivel/(10831:10831): Recurso: H, 2, 7, 4
+[TRACE] 01:39:09:429 nivel/(10831:10831): Recurso: M, 4, 21, 2
+[TRACE] 01:39:38:858 nivel/(10884:10884): Recurso: A, 1, 16, 5
+[TRACE] 01:39:38:859 nivel/(10884:10884): Recurso: H, 2, 7, 4
+[TRACE] 01:39:38:859 nivel/(10884:10884): Recurso: M, 4, 21, 2
+[TRACE] 01:40:09:950 nivel/(10930:10930): Recurso: A, 1, 16, 5
+[TRACE] 01:40:09:951 nivel/(10930:10930): Recurso: H, 2, 7, 4
+[TRACE] 01:40:09:951 nivel/(10930:10930): Recurso: M, 4, 21, 2
+[TRACE] 01:40:15:697 nivel/(10933:10933): Recurso: A, 1, 16, 5
+[TRACE] 01:40:15:697 nivel/(10933:10933): Recurso: H, 2, 7, 4
+[TRACE] 01:40:15:697 nivel/(10933:10933): Recurso: M, 4, 21, 2
+[TRACE] 01:41:37:615 nivel/(11177:11177): Recurso: A, 1, 16, 5
+[TRACE] 01:41:37:615 nivel/(11177:11177): Recurso: H, 2, 7, 4
+[TRACE] 01:41:37:615 nivel/(11177:11177): Recurso: M, 4, 21, 2
+[TRACE] 01:47:29:158 nivel/(11739:11739): Recurso: A, 1, 16, 5
+[TRACE] 01:47:29:158 nivel/(11739:11739): Recurso: H, 2, 7, 4
+[TRACE] 01:47:29:158 nivel/(11739:11739): Recurso: M, 4, 21, 2
+[TRACE] 01:47:54:389 nivel/(11787:11787): Recurso: A, 1, 16, 5
+[TRACE] 01:47:54:389 nivel/(11787:11787): Recurso: H, 2, 7, 4
+[TRACE] 01:47:54:389 nivel/(11787:11787): Recurso: M, 4, 21, 2
+[TRACE] 01:49:09:513 nivel/(11918:11918): Recurso: A, 1, 16, 5
+[TRACE] 01:49:09:514 nivel/(11918:11918): Recurso: H, 2, 7, 4
+[TRACE] 01:49:09:514 nivel/(11918:11918): Recurso: M, 4, 21, 2
+[TRACE] 01:52:56:383 nivel/(12342:12342): Recurso: A, 1, 16, 5
+[TRACE] 01:52:56:383 nivel/(12342:12342): Recurso: H, 2, 7, 4
+[TRACE] 01:52:56:383 nivel/(12342:12342): Recurso: M, 4, 21, 2
+[TRACE] 01:54:08:948 nivel/(12407:12407): Recurso: A, 1, 16, 5
+[TRACE] 01:54:08:948 nivel/(12407:12407): Recurso: H, 2, 7, 4
+[TRACE] 01:54:08:948 nivel/(12407:12407): Recurso: M, 4, 21, 2
+[TRACE] 01:55:28:902 nivel/(12620:12620): Recurso: A, 1, 16, 5
+[TRACE] 01:55:28:902 nivel/(12620:12620): Recurso: H, 2, 7, 4
+[TRACE] 01:55:28:902 nivel/(12620:12620): Recurso: M, 4, 21, 2
+[TRACE] 01:55:35:782 nivel/(12625:12625): Recurso: A, 1, 16, 5
+[TRACE] 01:55:35:782 nivel/(12625:12625): Recurso: H, 2, 7, 4
+[TRACE] 01:55:35:782 nivel/(12625:12625): Recurso: M, 4, 21, 2
+[TRACE] 01:58:51:603 nivel/(13016:13016): Recurso: A, 1, 16, 5
+[TRACE] 01:58:51:603 nivel/(13016:13016): Recurso: H, 2, 7, 4
+[TRACE] 01:58:51:603 nivel/(13016:13016): Recurso: M, 4, 21, 2
+[TRACE] 02:03:53:34 nivel/(13196:13196): Recurso: A, 1, 16, 5
+[TRACE] 02:03:53:34 nivel/(13196:13196): Recurso: H, 2, 7, 4
+[TRACE] 02:03:53:34 nivel/(13196:13196): Recurso: M, 4, 21, 2
+[TRACE] 02:13:31:156 nivel/(13907:13907): Recurso: A, 1, 16, 5
+[TRACE] 02:13:31:156 nivel/(13907:13907): Recurso: H, 2, 7, 4
+[TRACE] 02:13:31:156 nivel/(13907:13907): Recurso: M, 4, 21, 2
+[TRACE] 02:16:02:402 nivel/(14029:14029): Recurso: A, 1, 16, 5
+[TRACE] 02:16:02:402 nivel/(14029:14029): Recurso: H, 2, 7, 4
+[TRACE] 02:16:02:402 nivel/(14029:14029): Recurso: M, 4, 21, 2
+[TRACE] 02:20:29:86 nivel/(14539:14539): Puerto 30005.
+[TRACE] 02:20:29:90 nivel/(14539:14539): Recurso: A, 1, 16, 5
+[TRACE] 02:20:29:90 nivel/(14539:14539): Recurso: H, 2, 7, 4
+[TRACE] 02:20:29:90 nivel/(14539:14539): Recurso: M, 4, 21, 2
+[TRACE] 02:23:41:651 nivel/(14760:14760): Puerto 30005.
+[TRACE] 02:23:41:653 nivel/(14760:14760): Recurso: A, 1, 16, 5
+[TRACE] 02:23:41:653 nivel/(14760:14760): Recurso: H, 2, 7, 4
+[TRACE] 02:23:41:653 nivel/(14760:14760): Recurso: M, 4, 21, 2
+[TRACE] 02:26:25:133 nivel/(15000:15000): Puerto 30005.
+[TRACE] 02:26:25:135 nivel/(15000:15000): Recurso: A, 1, 16, 5
+[TRACE] 02:26:25:136 nivel/(15000:15000): Recurso: H, 2, 7, 4
+[TRACE] 02:26:25:136 nivel/(15000:15000): Recurso: M, 4, 21, 2
+[TRACE] 02:28:54:497 nivel/(15362:15362): Puerto 30005.
+[TRACE] 02:28:54:499 nivel/(15362:15362): Recurso: A, 1, 16, 5
+[TRACE] 02:28:54:499 nivel/(15362:15362): Recurso: H, 2, 7, 4
+[TRACE] 02:28:54:499 nivel/(15362:15362): Recurso: M, 4, 21, 2
+[TRACE] 02:31:37:393 nivel/(15645:15645): Puerto 30005.
+[TRACE] 02:31:37:395 nivel/(15645:15645): Recurso: A, 1, 16, 5
+[TRACE] 02:31:37:395 nivel/(15645:15645): Recurso: H, 2, 7, 4
+[TRACE] 02:31:37:395 nivel/(15645:15645): Recurso: M, 4, 21, 2
+[TRACE] 02:36:07:835 nivel/(15919:15919): Puerto 30005.
+[TRACE] 02:36:07:836 nivel/(15919:15919): Recurso: A, 1, 16, 5
+[TRACE] 02:36:07:836 nivel/(15919:15919): Recurso: H, 2, 7, 4
+[TRACE] 02:36:07:836 nivel/(15919:15919): Recurso: M, 4, 21, 2
+[TRACE] 02:36:34:77 nivel/(15933:15933): Puerto 30005.
+[TRACE] 02:36:34:78 nivel/(15933:15933): Recurso: A, 1, 16, 5
+[TRACE] 02:36:34:78 nivel/(15933:15933): Recurso: H, 2, 7, 4
+[TRACE] 02:36:34:78 nivel/(15933:15933): Recurso: M, 4, 21, 2
+[TRACE] 02:39:12:768 nivel/(16052:16052): Puerto 30005.
+[TRACE] 02:39:12:768 nivel/(16052:16052): Puerto 30005.
+[TRACE] 02:39:12:769 nivel/(16052:16052): Recurso: A, 1, 16, 5
+[TRACE] 02:39:12:769 nivel/(16052:16052): Recurso: H, 2, 7, 4
+[TRACE] 02:39:12:769 nivel/(16052:16052): Recurso: M, 4, 21, 2
+[TRACE] 02:42:29:640 nivel/(16327:16327): Recurso: A, 1, 16, 5
+[TRACE] 02:42:29:640 nivel/(16327:16327): Recurso: H, 2, 7, 4
+[TRACE] 02:42:29:640 nivel/(16327:16327): Recurso: M, 4, 21, 2
+[TRACE] 02:43:57:813 nivel/(16532:16532): Puerto: 30005
+[TRACE] 02:43:57:815 nivel/(16532:16532): Recurso: A, 1, 16, 5
+[TRACE] 02:43:57:815 nivel/(16532:16532): Recurso: H, 2, 7, 4
+[TRACE] 02:43:57:815 nivel/(16532:16532): Recurso: M, 4, 21, 2
+[TRACE] 02:47:13:629 nivel/(16811:16811): Puerto: 30005
+[TRACE] 02:47:13:631 nivel/(16811:16811): Recurso: A, 1, 16, 5
+[TRACE] 02:47:13:631 nivel/(16811:16811): Recurso: H, 2, 7, 4
+[TRACE] 02:47:13:631 nivel/(16811:16811): Recurso: M, 4, 21, 2
+[TRACE] 02:51:37:234 nivel/(17351:17351): Puerto: 30005
+[TRACE] 02:51:37:235 nivel/(17351:17351): Recurso: A, 1, 16, 5
+[TRACE] 02:51:37:237 nivel/(17351:17351): Recurso: H, 2, 7, 4
+[TRACE] 02:51:37:237 nivel/(17351:17351): Recurso: M, 4, 21, 2
+[TRACE] 02:54:13:975 nivel/(17541:17541): Puerto: 30005
+[TRACE] 02:54:13:977 nivel/(17541:17541): Recurso: A, 1, 16, 5
+[TRACE] 02:54:13:977 nivel/(17541:17541): Recurso: H, 2, 7, 4
+[TRACE] 02:54:13:977 nivel/(17541:17541): Recurso: M, 4, 21, 2
+[TRACE] 02:57:27:960 nivel/(17638:17638): Puerto: 30005
+[TRACE] 02:57:27:963 nivel/(17638:17638): Recurso: A, 1, 16, 5
+[TRACE] 02:57:27:963 nivel/(17638:17638): Recurso: H, 2, 7, 4
+[TRACE] 02:57:27:963 nivel/(17638:17638): Recurso: M, 4, 21, 2
+[TRACE] 03:08:58:122 nivel/(18128:18128): Puerto: 30005
+[TRACE] 03:08:58:124 nivel/(18128:18128): Recurso: A, 1, 16, 5
+[TRACE] 03:08:58:124 nivel/(18128:18128): Recurso: H, 2, 7, 4
+[TRACE] 03:08:58:124 nivel/(18128:18128): Recurso: M, 4, 21, 2
+[TRACE] 03:11:08:460 nivel/(18419:18419): Puerto: 30005
+[TRACE] 03:11:08:463 nivel/(18419:18419): Recurso: A, 1, 16, 5
+[TRACE] 03:11:08:463 nivel/(18419:18419): Recurso: H, 2, 7, 4
+[TRACE] 03:11:08:463 nivel/(18419:18419): Recurso: M, 4, 21, 2
+[TRACE] 03:13:36:135 nivel/(18631:18631): Puerto: 30005
+[TRACE] 03:13:36:139 nivel/(18631:18631): Recurso: A, 1, 16, 5
+[TRACE] 03:13:36:139 nivel/(18631:18631): Recurso: H, 2, 7, 4
+[TRACE] 03:13:36:139 nivel/(18631:18631): Recurso: M, 4, 21, 2
+[TRACE] 03:16:06:851 nivel/(19041:19041): Puerto: 30005
+[TRACE] 03:16:06:853 nivel/(19041:19041): Recurso: A, 1, 16, 5
+[TRACE] 03:16:06:853 nivel/(19041:19041): Recurso: H, 2, 7, 4
+[TRACE] 03:16:06:853 nivel/(19041:19041): Recurso: M, 4, 21, 2
+[TRACE] 03:18:23:92 nivel/(19201:19201): Puerto: 30005
+[TRACE] 03:18:23:93 nivel/(19201:19201): Recurso: A, 1, 16, 5
+[TRACE] 03:18:23:93 nivel/(19201:19201): Recurso: H, 2, 7, 4
+[TRACE] 03:18:23:93 nivel/(19201:19201): Recurso: M, 4, 21, 2
+[TRACE] 03:20:18:97 nivel/(19473:19473): Puerto: 30005
+[TRACE] 03:20:18:100 nivel/(19473:19473): Recurso: A, 1, 16, 5
+[TRACE] 03:20:18:100 nivel/(19473:19473): Recurso: H, 2, 7, 4
+[TRACE] 03:20:18:100 nivel/(19473:19473): Recurso: M, 4, 21, 2

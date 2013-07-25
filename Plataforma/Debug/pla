@@ -1,0 +1,5 @@
+Orquestador=127.0.0.1:30000
+DeteccionInterbloqueo=1
+TiempoDeteccionInterbloqueo=20
+Quantum=3
+Retardo=500

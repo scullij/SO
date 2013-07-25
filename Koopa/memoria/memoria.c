@@ -24,7 +24,6 @@ t_memoria crear_memoria(int tamanio) {
 	// Creo particion vacia (tamanio total)
 	t_particion* particionLibre = crear_particion ('\0', 0, tamanio);
 	particionLibre->libre = true;
-	particionLibre->dato = segmento;
 
 	return segmento;
 }
@@ -52,6 +51,10 @@ int almacenar_particion(t_memoria segmento, char id, int tamanio, char* contenid
 	// Muevo el inicio de lo que sobra de espacio al tamanio de la nueva particion
 	particionBestFit->inicio = particionBestFit->inicio + tamanio;
 	particionBestFit->tamanio = particionBestFit->tamanio - tamanio;
+
+	if(particionBestFit->tamanio <= 0){
+		eliminar_particion(segmento, particionBestFit->id);
+	}
 
 	log_trace(logger, "FIN almacenar_particion()");
 
@@ -104,7 +107,7 @@ t_particion* crear_particion (char id, int inicio, int tamanio) {
 	particion->inicio = inicio;
 	particion->tamanio = tamanio;
 
-	particion->dato = NULL;
+	particion->dato = 0;
 	particion->libre = false;
 
 	list_add(_particiones, particion);

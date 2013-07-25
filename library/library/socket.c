@@ -83,25 +83,27 @@ int16_t connect_socket(uint16_t socket, __const char* direccion, uint16_t puerto
 		return -1;
 	}
 
-	return EXIT_SUCCESS;
+	return socket;
 }
 
-int16_t create_and_connect(uint16_t socket, char* direccion, uint16_t puerto){
+int16_t create_and_connect(char* direccion, uint16_t puerto){
 	uint16_t sockete = create_socket();
 	return connect_socket(sockete, direccion, puerto);
 }
 
-int16_t accept_connection(uint16_t socket){
-
+int16_t accept_connection(uint16_t socket, char* direccion){
 	uint16_t socketNuevaConexion;
 
-	// Aceptar una nueva conexion entrante. Se genera un nuevo socket con la nueva conexion.
-	if ((socketNuevaConexion = accept(socket, NULL, 0)) < 0) {
+	struct sockaddr_in socketInfo;
 
+	// Aceptar una nueva conexion entrante. Se genera un nuevo socket con la nueva conexion.
+	socklen_t sa = sizeof(socketInfo);
+	if ((socketNuevaConexion = accept(socket, (struct sockaddr*) &socketInfo, &sa)) < 0) {
 		perror("Error al aceptar conexion entrante");
 		return -1;
-
 	}
+
+	strcpy(direccion, inet_ntoa(socketInfo.sin_addr));
 
 	return socketNuevaConexion;
 }
