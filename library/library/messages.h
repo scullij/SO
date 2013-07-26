@@ -18,6 +18,8 @@
 
 #define P_PLA_ACEPT_NIV 60
 
+#define P_PLA_NIV_NO_EXITE 61
+
 //NIVEL 100
 #define P_NIV_ACEPT_PER 100
 #define P_NIV_UBIC_RECURSO 101

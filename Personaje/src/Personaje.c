@@ -31,6 +31,7 @@
 typedef struct {
 	int16_t x;
 	int16_t y;
+	char personaje;
 } __attribute__ ((__packed__)) t_posicion;
 
 typedef struct {
@@ -138,11 +139,11 @@ int main(int argc, char *argv[]){
 	log_trace(logger, "Conectado al Nivel %d: Direccion: %s, Puerto: %d.", *nivelActual, nivelDirecionPuerto->direccion, nivelDirecionPuerto->puerto);
 
 	//HANDSHAKE NIVEL
-	enviar(nivel, P_PER_CONECT_NIV, NULL, 0);
+	enviar(nivel, P_PER_CONECT_NIV, &personaje->simbolo, sizeof(char));
 	type = recibir(nivel, NULL);
 
 	if(type != P_NIV_ACEPT_PER){
-		perror("Nivel rechaza personaje.\n");
+		perror("Nivel rechaza personaje.");
 		return EXIT_FAILURE;
 	}
 
@@ -156,7 +157,7 @@ int main(int argc, char *argv[]){
 			if(type != P_PLA_MOV_PERMITIDO){
 				continue;
 			}
-			log_trace(logger, "Quantum Recibido %d\n", *quantum);
+			log_trace(logger, "Quantum Recibido %d", *quantum);
 			fflush(stdout);
 		}
 
@@ -180,7 +181,7 @@ int main(int argc, char *argv[]){
 				exit(EXIT_FAILURE);
 			}
 
-			log_trace(logger, "Siguiente posicion de objetivo : x: %d y: %d\n", posicion->x, posicion->y);
+			log_trace(logger, "Siguiente posicion de objetivo : x: %d y: %d", posicion->x, posicion->y);
 			fflush(stdout);
 			personaje->objetivo->x = posicion->x;
 			personaje->objetivo->y = posicion->y;
@@ -194,7 +195,7 @@ int main(int argc, char *argv[]){
 					personaje->objetivo->x = NULL;
 					personaje->objetivo->y = NULL;
 					personaje->recursoActual++;
-					log_trace(logger, "Recurso asignado.");
+					log_trace(logger, "Recurso asignado %c.", personaje->recursos[*nivelActual][personaje->recursoActual]);
 				}else{
 					log_trace(logger, "Personaje bloqueado");
 					t_nodoPerPLa* nodo = malloc(sizeof(t_nodoPerPLa));
@@ -221,22 +222,21 @@ int main(int argc, char *argv[]){
 				enviar(nivel, P_PER_MOV, personaje->posicion, sizeof(personaje->posicion));
 				type = recibir(nivel, NULL);
 				*quantum = *quantum - 1;
-				log_trace(logger, "Nueva posicion: X:%d Y:%d \n", personaje->posicion->x, personaje->posicion->y);
+				log_trace(logger, "Nueva posicion: X:%d Y:%d", personaje->posicion->x, personaje->posicion->y);
 			}
 		}
 
 		if(*quantum == 0){
-			if(personaje->recursos[*nivelActual][personaje->recursoActual] == '0'){
+			if(personaje->recursos[*nivelActual][personaje->recursoActual] == '\0'){
 				//LE AVISO AL NIVEL Y AL PLANIFICADOR QUE TERMINE
-				enviar(nivel, P_PER_NIV_FIN, NULL, 0);
-				enviar(planificador, P_PER_NIV_FIN, NULL, 0);
+				enviar(nivel, P_PER_NIV_FIN, &personaje->simbolo, sizeof(char));
+				enviar(planificador, P_PER_NIV_FIN, &personaje->simbolo, sizeof(char));
 				close(nivel);
 				close(planificador);
 				log_trace(logger, "Nivel terminado.");
 				personaje->indiceNivelActual++;
 				*nivelActual = personaje->niveles[personaje->indiceNivelActual];
-			}else if(1){ //Esta bloqueado
-
+				break;
 			}
 			log_trace(logger, "Turno terminado.");
 			enviar(planificador, P_PER_TURNO_FINALIZADO, NULL, 0);
@@ -244,9 +244,8 @@ int main(int argc, char *argv[]){
 		fflush(stdout);
 	}
 	free(quantum);
-	close(nivel);
-	close(orquestador);
 	free(personaje);
+	close(orquestador);
 
 	return EXIT_SUCCESS;
 }
@@ -289,6 +288,7 @@ t_personaje *configurar_personaje(char *path){
 	personaje->posicion = malloc(sizeof(t_posicion));
 	personaje->posicion->x = 1;
 	personaje->posicion->y = 1;
+	personaje->posicion->personaje = personaje->simbolo;
 
 	personaje->objetivo = malloc(sizeof(t_posicion));
 	personaje->objetivo->x = NULL;

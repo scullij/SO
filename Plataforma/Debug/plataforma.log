@@ -280,3 +280,236 @@
 [TRACE] 02:22:43:619 plataforma/(2794:2797): Acepto Personaje: en Socket: 8
 
 [TRACE] 02:22:43:619 plataforma/(2794:2797): Planificador Nivel 1, permitio movimiento personaje: @
+[TRACE] 14:42:56:333 plataforma/(3272:3273): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:43:12:770 plataforma/(3272:3273): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 14:43:12:771 plataforma/(3272:3289): Planificador Nivel 1 Started.
+[TRACE] 14:43:12:771 plataforma/(3272:3289): Planificador Nivel 1: Listen Port 30020
+[TRACE] 14:43:35:412 plataforma/(3272:3273): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 14:58:14:188 plataforma/(4190:4191): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:58:16:403 plataforma/(4190:4191): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 14:58:16:403 plataforma/(4190:4193): Planificador Nivel 1 Started.
+[TRACE] 14:58:16:403 plataforma/(4190:4193): Planificador Nivel 1: Listen Port 30020
+[TRACE] 14:58:20:611 plataforma/(4190:4191): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 14:58:20:611 plataforma/(4190:4193): Acepto Personaje: en Socket: 8
+
+[TRACE] 14:58:20:611 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 14:58:23:666 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 14:58:26:719 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 14:58:28:771 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 14:58:31:825 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 14:58:31:876 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 14:58:34:929 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 14:58:37:982 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 14:58:38:33 plataforma/(4190:4193): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:01:52:356 plataforma/(4336:4337): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:01:59:407 plataforma/(4340:4341): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:04:41:401 plataforma/(4343:4344): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:04:43:961 plataforma/(4343:4344): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 15:04:43:961 plataforma/(4343:4346): Planificador Nivel 1 Started.
+[TRACE] 15:04:43:961 plataforma/(4343:4346): Planificador Nivel 1: Listen Port 30020
+[TRACE] 15:05:51:464 plataforma/(4343:4344): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 15:05:51:465 plataforma/(4343:4346): Planificador Nivel 1: Acepto personaje @
+[TRACE] 15:05:51:465 plataforma/(4343:4346): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:05:58:820 plataforma/(4343:4346): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:06:01:874 plataforma/(4343:4346): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:07:16:672 plataforma/(4343:4346): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:09:22:226 plataforma/(4343:4346): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:09:26:808 plataforma/(4343:4346): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:09:29:863 plataforma/(4343:4346): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:09:32:916 plataforma/(4343:4346): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:18:02:405 plataforma/(4343:4344): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 15:18:22:469 plataforma/(4759:4760): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:38:13:896 plataforma/(4896:4897): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:38:16:289 plataforma/(4896:4897): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 15:38:16:289 plataforma/(4896:4899): Planificador Nivel 1 Started.
+[TRACE] 15:38:16:289 plataforma/(4896:4899): Planificador Nivel 1: Listen Port 30020
+[TRACE] 15:38:40:434 plataforma/(4896:4897): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 15:38:40:434 plataforma/(4896:4899): Planificador Nivel 1: Acepto personaje @
+[TRACE] 15:38:40:434 plataforma/(4896:4899): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:38:53:533 plataforma/(4896:4899): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:38:59:519 plataforma/(4896:4899): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 15:39:33:20 plataforma/(4896:4899): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:48:55:447 plataforma/(4896:4899): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:49:02:746 plataforma/(4896:4899): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:50:16:574 plataforma/(4896:4899): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:50:20:581 plataforma/(4896:4899): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:50:32:724 plataforma/(4896:4899): Personaje Finalizo Nivel 134816200 y se desconecta.
+[TRACE] 16:56:29:460 plataforma/(4896:4897): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:56:38:627 plataforma/(4896:4897): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:58:52:511 plataforma/(5341:5342): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:58:54:855 plataforma/(5341:5342): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 16:58:54:856 plataforma/(5341:5344): Planificador Nivel 1 Started.
+[TRACE] 16:58:54:856 plataforma/(5341:5344): Planificador Nivel 1: Listen Port 30020
+[TRACE] 16:58:56:910 plataforma/(5341:5342): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:58:56:911 plataforma/(5341:5344): Planificador Nivel 1: Acepto personaje @
+[TRACE] 16:58:56:911 plataforma/(5341:5344): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:58:59:963 plataforma/(5341:5344): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:59:03:18 plataforma/(5341:5344): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:59:05:71 plataforma/(5341:5344): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:59:08:126 plataforma/(5341:5344): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:59:08:179 plataforma/(5341:5344): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:59:11:231 plataforma/(5341:5344): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:59:14:283 plataforma/(5341:5344): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 16:59:14:285 plataforma/(5341:5344): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 17:00:07:453 plataforma/(5341:5342): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 17:00:19:693 plataforma/(5341:5342): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 17:00:19:693 plataforma/(5341:5452): Planificador Nivel 25903 Started.
+[TRACE] 17:00:19:693 plataforma/(5341:5452): Planificador Nivel 25903: Listen Port 30021
+[TRACE] 17:02:48:265 plataforma/(5557:5558): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 17:04:57:350 plataforma/(5562:5563): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 17:05:07:405 plataforma/(5562:5563): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 17:05:07:405 plataforma/(5562:5566): Planificador Nivel 1 Started.
+[TRACE] 17:05:07:405 plataforma/(5562:5566): Planificador Nivel 1: Listen Port 30020
+[TRACE] 17:05:12:492 plataforma/(5562:5563): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 17:05:12:494 plataforma/(5562:5566): Planificador Nivel 1: Acepto personaje @
+[TRACE] 17:05:12:494 plataforma/(5562:5566): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 17:05:15:547 plataforma/(5562:5566): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 17:05:18:600 plataforma/(5562:5566): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 17:05:20:655 plataforma/(5562:5566): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 17:05:23:708 plataforma/(5562:5566): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 17:05:23:759 plataforma/(5562:5566): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 17:05:26:812 plataforma/(5562:5566): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 17:05:29:865 plataforma/(5562:5566): Planificador Nivel 1, Movimiento personaje: @
+[TRACE] 17:05:29:866 plataforma/(5562:5566): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 17:09:20:812 plataforma/(5562:5563): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 17:10:24:815 plataforma/(5562:5563): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 17:11:21:211 plataforma/(5880:5881): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 17:12:31:841 plataforma/(5927:5928): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 17:12:38:721 plataforma/(5927:5928): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 17:12:38:721 plataforma/(5927:5930): Planificador Nivel 1 Started.
+[TRACE] 17:12:38:721 plataforma/(5927:5930): Planificador Nivel 1: Listen Port 30020
+[TRACE] 17:12:42:775 plataforma/(5927:5928): Alguien se desconecto.
+[TRACE] 17:12:47:152 plataforma/(5927:5928): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 17:12:47:152 plataforma/(5927:5932): Planificador Nivel 1 Started.
+[TRACE] 17:12:47:152 plataforma/(5927:5932): Planificador Nivel 1: Listen Port 30021
+[TRACE] 17:12:57:8 plataforma/(5927:5928): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 17:12:57:9 plataforma/(5927:5930): Planificador Nivel 1: Acepto personaje #
+[TRACE] 17:12:57:9 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje: #, Quantum: 3
+[TRACE] 17:13:00:63 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 17:13:03:115 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 17:13:06:168 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 17:13:06:219 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 17:13:09:274 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 17:13:12:328 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 17:13:12:379 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 17:13:15:433 plataforma/(5927:5930): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 17:13:17:436 plataforma/(5927:5930): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 17:15:10:492 plataforma/(5927:5928): Alguien se desconecto.
+[TRACE] 17:15:15:461 plataforma/(5927:5928): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 17:15:15:462 plataforma/(5927:6084): Planificador Nivel 1 Started.
+[TRACE] 17:15:15:462 plataforma/(5927:6084): Planificador Nivel 1: Listen Port 30022
+[TRACE] 17:15:24:117 plataforma/(5927:5928): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:01:44:672 plataforma/(6966:6967): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:02:15:618 plataforma/(7029:7030): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:02:28:159 plataforma/(7032:7033): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:02:32:33 plataforma/(7034:7035): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:02:55:716 plataforma/(7037:7038): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:02:59:789 plataforma/(7037:7038): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 18:02:59:789 plataforma/(7037:7040): Planificador Nivel 1 Started.
+[TRACE] 18:02:59:789 plataforma/(7037:7040): Planificador Nivel 1: Listen Port 30020
+[TRACE] 18:03:03:710 plataforma/(7037:7038): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:03:03:710 plataforma/(7037:7040): Planificador Nivel 1: Acepto personaje #
+[TRACE] 18:03:03:710 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje: #, Quantum: 3
+[TRACE] 18:03:06:766 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:09:822 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:12:877 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:12:928 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:15:983 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:19:38 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:19:89 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:22:144 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:24:149 plataforma/(7037:7040): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:03:27:286 plataforma/(7037:7038): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:03:27:286 plataforma/(7037:7040): Planificador Nivel 1: Acepto personaje #
+[TRACE] 18:03:27:286 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje: #, Quantum: 3
+[TRACE] 18:03:30:342 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:33:396 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:36:448 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:36:500 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:39:558 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:42:612 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:42:664 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:45:719 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:47:722 plataforma/(7037:7040): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:03:50:941 plataforma/(7037:7038): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:03:50:942 plataforma/(7037:7040): Planificador Nivel 1: Acepto personaje #
+[TRACE] 18:03:50:942 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje: #, Quantum: 3
+[TRACE] 18:03:53:997 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:03:57:51 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:04:00:104 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:04:00:155 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:04:03:209 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:04:06:262 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:04:06:313 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:04:09:369 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:04:11:372 plataforma/(7037:7040): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:04:38:316 plataforma/(7037:7038): Alguien se desconecto.
+[TRACE] 18:04:42:80 plataforma/(7037:7038): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 18:04:42:80 plataforma/(7037:7049): Planificador Nivel 1 Started.
+[TRACE] 18:04:42:80 plataforma/(7037:7049): Planificador Nivel 1: Listen Port 30021
+[TRACE] 18:04:54:669 plataforma/(7037:7038): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:04:54:669 plataforma/(7037:7040): Planificador Nivel 1: Acepto personaje #
+[TRACE] 18:04:54:669 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje: #, Quantum: 3
+[TRACE] 18:04:57:726 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:05:00:780 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:05:03:834 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:05:03:886 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:05:06:941 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:05:09:994 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:05:10:45 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:05:13:100 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:05:15:103 plataforma/(7037:7040): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:06:24:608 plataforma/(7037:7038): Alguien se desconecto.
+[TRACE] 18:06:30:533 plataforma/(7037:7038): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 18:06:30:533 plataforma/(7037:7180): Planificador Nivel 1 Started.
+[TRACE] 18:06:30:533 plataforma/(7037:7180): Planificador Nivel 1: Listen Port 30022
+[TRACE] 18:06:36:583 plataforma/(7037:7038): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:06:36:584 plataforma/(7037:7040): Planificador Nivel 1: Acepto personaje #
+[TRACE] 18:06:36:584 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje: #, Quantum: 3
+[TRACE] 18:06:39:638 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:06:42:691 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:06:45:745 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:06:45:796 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:06:48:849 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:06:51:902 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:06:51:953 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:06:55:8 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:06:57:10 plataforma/(7037:7040): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:08:04:471 plataforma/(7037:7038): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:08:04:472 plataforma/(7037:7040): Planificador Nivel 1: Acepto personaje #
+[TRACE] 18:08:04:472 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje: #, Quantum: 3
+[TRACE] 18:08:07:526 plataforma/(7037:7040): Planificador Nivel 1, Movimiento personaje #, Quantum: 3
+[TRACE] 18:08:08:503 plataforma/(7037:7038): Alguien se desconecto.

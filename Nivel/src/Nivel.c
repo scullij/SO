@@ -32,6 +32,7 @@ t_log* logger;
 typedef struct {
 	int16_t x;
 	int16_t y;
+	char personaje;
 } __attribute__ ((__packed__)) t_posicion;
 
 typedef struct {
@@ -185,7 +186,7 @@ void rutines(int sockete, int routine, void* payload){
 	switch (routine) {
 		case P_PER_CONECT_NIV:
 			log_trace(logger, "Acepto Personaje: en Socket: %u\n", sockete);
-			CrearPersonaje(&ListaItems, '@', 1, 1);
+			CrearPersonaje(&ListaItems, (*(char*)payload), 1, 1);
 			//char* puertoNivel = list_get(niveles, (int)payload);
 			enviar(sockete, P_NIV_ACEPT_PER, NULL, 0);
 			break;
@@ -205,7 +206,7 @@ void rutines(int sockete, int routine, void* payload){
 		case P_PER_MOV:
 			posicion = (t_posicion*)payload;
 //			log_trace(logger, "MOVIMIENTO PERSONAJE EN: x: %d, y: %d\n", posicion->x, posicion->y);
-			MoverPersonaje(ListaItems, '@', posicion->x, posicion->y);
+			MoverPersonaje(ListaItems, posicion->personaje, posicion->x, posicion->y);
 			enviar(sockete, P_NIV_OK_MOV, NULL, 0);
 			break;
 		case P_PER_PEDIR_RECURSO:
@@ -282,24 +283,4 @@ void iterar_recurso(t_list* self, void(*closure)(t_recurso*)) {
 		element = element->next;
 	}
 }
-
-//int drawing(void) {
-//
-//	MoverPersonaje(ListaItems, '@', 1, 1);
-//
-//	restarRecurso(ListaItems, 'H');
-//	BorrarItem(&ListaItems, '#'); //si chocan, borramos uno (!)
-//
-//	nivel_gui_dibujar(ListaItems);
-//
-//	BorrarItem(&ListaItems, '#');
-//	BorrarItem(&ListaItems, '@');
-//	BorrarItem(&ListaItems, 'H');
-//	BorrarItem(&ListaItems, 'M');
-//	BorrarItem(&ListaItems, 'F');
-//
-//	nivel_gui_terminar();
-//
-//	return EXIT_SUCCESS;
-//}
 

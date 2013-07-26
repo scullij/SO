@@ -117,7 +117,7 @@ int orquestador(void){
 	listener = create_and_listen(plataforma->puerto);
 	if(listener == -1){
 		perror("listener");
-		return EXIT_FAILURE;
+		exit(EXIT_FAILURE);
 	}
 
 	log_trace(logger, "Orquestador: Listen %s, Port %u", plataforma->direccion, plataforma->puerto);
@@ -198,6 +198,14 @@ int orquestador(void){
 							t_nivelDireccionPuerto* nivelDireccionPuerto;
 							nivelDireccionPuerto = dictionary_get(niveles, key);
 							free(key);
+
+							if(nivelDireccionPuerto == NULL){
+								log_trace(logger, "Personaje pidio Nivel %d, que no exta conectado.", (*(int*)buffer));
+								//enviar(newfd, P_PLA_NIV_NO_EXITE, nivelDireccionPuerto, sizeof(t_nivelDireccionPuerto));
+								//free(nivelDireccionPuerto);
+								break;
+							}
+
 							enviar(newfd, P_PLA_ENVIO_NIVEL, nivelDireccionPuerto, sizeof(t_nivelDireccionPuerto));
 							int* puertoPLanificador = malloc(sizeof(int));
 
@@ -206,7 +214,6 @@ int orquestador(void){
 							*puertoPLanificador = dictionary_get(planificadorPuerto, newKey);
 							enviar(newfd, P_PLA_ENVIO_PLANI, puertoPLanificador, sizeof(int));
 							free(newKey);
-							free(nivelDireccionPuerto);
                         }
                     }
                 } else {
@@ -216,6 +223,7 @@ int orquestador(void){
                     	if(type==-1){
                     		close(i); // bye!
                     		FD_CLR(i, &master); // remove from master set
+                    		log_trace(logger, "Alguien se desconecto.");
                     	}else{
                     		perror("Invalid Recv");
                     	}
@@ -321,7 +329,7 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 	//SOLO ESCUCHA PERSONAJES
 	switch (routine) {
 		case P_PER_CONECT_PLANI:
-            log_trace(logger, "Acepto Personaje: en Socket: %u\n", sockete);
+            log_trace(logger, "Planificador Nivel %d: Acepto personaje %c", nivel, (*(char*)payload));
 			enviar(sockete, P_PLA_ACEPT_PER, NULL, 0);
 
 			new->personaje = (*(char*)payload);
@@ -329,7 +337,7 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 
 			if(planificacion->personajeActivo == 0){ // ES EL UNICO QUE ESTA POR AHORA
 				planificacion->personajeActivo = new->personaje;
-				log_trace(logger, "Planificador Nivel %d, Movimiento personaje: %c", nivel, new->personaje);
+				log_trace(logger, "Planificador Nivel %d, Movimiento personaje: %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
 				enviar(sockete, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
 			}else{
 				log_trace(logger, "Planificador Nivel %d, Encolo personaje: %c", nivel, new->personaje);
@@ -346,7 +354,7 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 			usleep(100*plataforma->retardo);
 
 			new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
-			log_trace(logger, "Planificador Nivel %d, Movimiento personaje: %c", nivel, new->personaje);
+			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
 			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
 			break;
 		case P_PER_BLOQ_RECURSO:
@@ -357,7 +365,7 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 			log_trace(logger, "Planificador Nivel %d, Bloqueo personaje: %c", nivel, new->personaje);
 			break;
 		case P_PER_NIV_FIN:
-			log_trace(logger, "Personaje Finalizo Nivel %d y se desconecta.");
+			log_trace(logger, "Personaje %c Finalizo Nivel %d y se desconecta.", (*(char*)payload), nivel);
 			break;
 		default:
 			log_trace(logger, "Planificador - Routine number %d dont exist.", routine);
