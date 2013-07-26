@@ -3,6 +3,6 @@ Orquestador=127.0.0.1:30000
 Puerto=30005
 TiempoChequeoDeadlock=10000
 Recovery=1
-Caja1=[Arbol,A,1,16,5]
+Caja1=[Arbol,F,1,16,5]
 Caja2=[Hongos,H,2,7,4]
 Caja3=[Monedas,M,4,21,2]

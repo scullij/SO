@@ -1,0 +1,23 @@
+[TRACE] 16:21:29:33 personaje/(8534:8534): Personaje conectado al orquestador.
+[TRACE] 16:21:42:500 personaje/(8534:8534): Datos Nivel: Direccion: ¨…û·16:2), Puerto: 30005.
+[TRACE] 16:23:31:291 personaje/(8534:8534): Datos Planificador: Puerto: 3005.
+[TRACE] 16:29:47:365 personaje/(8844:8844): Personaje conectado al orquestador.
+[TRACE] 18:08:52:45 personaje/(13400:13400): Personaje conectado al orquestador.
+[TRACE] 18:08:56:817 personaje/(13400:13400): Datos Nivel: Direccion: 127.0.0.1, Puerto: 30005.
+[TRACE] 18:09:07:845 personaje/(13400:13400): Datos Planificador: Puerto: 30020.
+[TRACE] 18:15:24:256 personaje/(13610:13610): Personaje conectado al orquestador.
+[TRACE] 18:15:27:189 personaje/(13610:13610): Datos Nivel: Direccion: 127.0.0.1, Puerto: 30005.
+[TRACE] 18:15:30:719 personaje/(13610:13610): Datos Planificador: Puerto: 30020.
+[TRACE] 18:22:46:167 personaje/(13846:13846): Personaje conectado al orquestador.
+[TRACE] 18:22:51:854 personaje/(13846:13846): Datos Nivel: Direccion: 127.0.0.1, Puerto: 30005.
+[TRACE] 18:22:56:362 personaje/(13846:13846): Datos Planificador: Puerto: 30020.
+[TRACE] 18:37:17:599 personaje/(14500:14500): Personaje conectado al orquestador.
+[TRACE] 18:37:17:601 personaje/(14500:14500): Conectado al Planificador del Nivel 1, Puerto: 30020.
+[TRACE] 18:37:17:601 personaje/(14500:14500): Conectado al Nivel 1: Direccion: 127.0.0.1, Puerto: 30005.
+[TRACE] 18:37:17:602 personaje/(14500:14500): Quantum Recibido 3
+
+[TRACE] 18:47:33:410 personaje/(14716:14716): Personaje conectado al orquestador.
+[TRACE] 18:47:33:411 personaje/(14716:14716): Conectado al Planificador del Nivel 1, Puerto: 30020.
+[TRACE] 18:47:33:411 personaje/(14716:14716): Conectado al Nivel 1: Direccion: 127.0.0.1, Puerto: 30005.
+[TRACE] 18:47:33:411 personaje/(14716:14716): Quantum Recibido 3
+

@@ -127,3 +127,131 @@
 [TRACE] 03:19:14:496 plataforma/(19381:19386): Orquestador: Listen 127.0.0.1, Port 30000
 [TRACE] 03:20:01:735 plataforma/(19427:19432): Orquestador: Listen 127.0.0.1, Port 30000
 [TRACE] 03:20:12:454 plataforma/(19465:19470): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:52:10:89 plataforma/(2246:2251): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:52:28:774 plataforma/(2287:2293): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:52:43:948 plataforma/(2328:2333): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:52:57:709 plataforma/(2328:2333): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 13:53:54:103 plataforma/(2396:2401): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:54:08:526 plataforma/(2439:2444): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:54:14:564 plataforma/(2480:2485): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:54:22:957 plataforma/(2523:2528): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:54:28:566 plataforma/(2565:2570): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:54:39:214 plataforma/(2606:2611): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:54:53:984 plataforma/(2650:2655): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:55:04:962 plataforma/(2692:2697): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:55:19:859 plataforma/(2692:2697): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 13:57:28:469 plataforma/(2769:2774): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 13:57:51:196 plataforma/(2769:2774): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 14:02:20:386 plataforma/(3205:3210): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:02:31:481 plataforma/(3205:3210): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 360.
+
+[TRACE] 14:09:04:746 plataforma/(3400:3405): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:09:48:466 plataforma/(3400:3405): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 14:16:36:138 plataforma/(3718:3724): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:16:44:264 plataforma/(3718:3724): Orquestador: Nuevo nivel conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 14:44:03:187 plataforma/(4851:4857): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:44:23:588 plataforma/(4851:4857): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 14:52:09:179 plataforma/(5159:5164): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:52:14:684 plataforma/(5159:5164): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 14:53:30:512 plataforma/(5323:5328): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:53:38:208 plataforma/(5323:5328): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 14:56:14:9 plataforma/(5574:5579): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 14:57:11:591 plataforma/(5641:5646): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:02:15:36 plataforma/(5999:6004): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:02:27:712 plataforma/(5999:6004): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 15:03:07:129 plataforma/(6055:6060): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:03:21:688 plataforma/(6100:6105): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:07:15:850 plataforma/(6150:6155): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:07:23:739 plataforma/(6150:6155): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 15:09:27:757 plataforma/(6281:6286): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:09:48:146 plataforma/(6324:6329): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:10:01:54 plataforma/(6367:6372): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:10:25:736 plataforma/(6367:6372): Orquestador: Nuevo Nivel 5 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 15:11:13:80 plataforma/(6367:6372): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 15:11:54:916 plataforma/(6367:6372): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 15:12:23:792 plataforma/(6470:6475): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:12:37:756 plataforma/(6514:6519): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:13:44:686 plataforma/(6566:6571): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:13:55:393 plataforma/(6566:6571): Orquestador: Nuevo Nivel 5 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 15:15:11:590 plataforma/(6727:6732): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:16:39:890 plataforma/(6774:6779): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 15:16:45:858 plataforma/(6774:6779): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 15:16:58:538 plataforma/(6774:6779): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:09:50:444 plataforma/(8114:8119): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:10:26:989 plataforma/(8152:8157): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:10:31:933 plataforma/(8152:8157): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 16:10:48:510 plataforma/(8152:8157): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:11:02:258 plataforma/(8152:8157): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:12:01:340 plataforma/(8250:8255): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:12:28:933 plataforma/(8290:8295): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:12:45:840 plataforma/(8290:8295): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 16:13:17:213 plataforma/(8290:8295): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:24:42:251 plataforma/(8609:8615): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:25:59:929 plataforma/(8656:8661): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:26:05:99 plataforma/(8656:8661): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 16:26:13:570 plataforma/(8656:8661): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:32:59:162 plataforma/(8930:8935): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:33:04:191 plataforma/(8930:8935): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 16:33:10:630 plataforma/(8930:8935): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 16:35:35:503 plataforma/(9071:9076): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:35:48:957 plataforma/(9113:9118): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:35:53:71 plataforma/(9153:9158): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:35:58:323 plataforma/(9193:9198): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:36:05:765 plataforma/(9233:9238): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:36:12:605 plataforma/(9273:9278): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:36:22:603 plataforma/(9314:9319): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 16:36:28:299 plataforma/(9314:9319): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 16:36:38:120 plataforma/(9314:9319): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 17:59:32:226 plataforma/(12860:12871): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:00:10:670 plataforma/(12958:12963): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:05:11:837 plataforma/(13227:13232): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:05:45:841 plataforma/(13276:13282): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:06:01:34 plataforma/(13320:13325): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:06:05:276 plataforma/(13320:13325): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 18:06:05:281 plataforma/(13320:13333): Planificador Nivel 1 Started.
+[TRACE] 18:06:05:281 plataforma/(13320:13333): Planificador Nivel 1: Listen Port 30020
+[TRACE] 18:06:10:540 plataforma/(13320:13325): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:06:10:541 plataforma/(13320:13333): Planificador Nivel 1 Acepto Personaje ?.
+
+[TRACE] 18:06:32:656 plataforma/(13320:13333): ACEPTO PERSONAJE: en Socket: 10
+
+[TRACE] 18:26:38:368 plataforma/(14076:14081): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 18:26:47:892 plataforma/(14076:14081): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 18:26:47:896 plataforma/(14076:14088): Planificador Nivel 1 Started.
+[TRACE] 18:26:47:896 plataforma/(14076:14088): Planificador Nivel 1: Listen Port 30020
+[TRACE] 18:26:51:532 plataforma/(14076:14081): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 18:26:51:532 plataforma/(14076:14088): Planificador Nivel 1 Acepto Personaje ?.
+
+[TRACE] 18:27:53:798 plataforma/(14076:14088): ACEPTO PERSONAJE: en Socket: 10
+

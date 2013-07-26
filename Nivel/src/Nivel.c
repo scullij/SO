@@ -13,6 +13,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <curses.h>
+#include <unistd.h>
 
 #include <commons/collections/list.h>
 #include <commons/string.h>
@@ -84,9 +85,8 @@ int main(int argc, char *argv[]) {
 	}
 
 	t_nivelDireccionPuerto* nivelPuerto = malloc(sizeof(t_nivelDireccionPuerto));
-	nivelPuerto->nivel = 5;
+	nivelPuerto->nivel = 1;
 	nivelPuerto->puerto = nivel->puerto;
-	log_trace(logger, "Puerto: %d", nivel->puerto);
 	enviar(orquestador, P_NIV_CONNECT_ORQ, nivelPuerto, sizeof(nivelPuerto));
 
 	fd_set master;    // master file descriptor list
@@ -105,7 +105,7 @@ int main(int argc, char *argv[]) {
     nivel_gui_get_area_nivel(&rows, &cols);
 
     void _crear_recurso(t_recurso* element){
-    	log_trace(logger, "Recurso: %c, %d, %d, %d", element->simbolo, element->instancias, element->x, element->y);
+    	//log_trace(logger, "Recurso: %c, %d, %d, %d", element->simbolo, element->instancias, element->x, element->y);
     	CrearCaja(&ListaItems, element->simbolo, element->x, element->y, element->instancias);
     }
     iterar_recurso(nivel->recursos, _crear_recurso);
@@ -180,17 +180,19 @@ int main(int argc, char *argv[]) {
 
 void rutines(int sockete, int routine, void* payload){
 	t_posicion* posicion = malloc(sizeof(t_posicion));
+	posicion->x = -1;
 	//SOLO ESCUCHA PERSONAJES
 	switch (routine) {
 		case P_PER_CONECT_NIV:
-			printf("ACEPTO PERSONAJE: en Socket: %u\n", sockete);
+			log_trace(logger, "Acepto Personaje: en Socket: %u\n", sockete);
 			CrearPersonaje(&ListaItems, '@', 1, 1);
 			//char* puertoNivel = list_get(niveles, (int)payload);
 			enviar(sockete, P_NIV_ACEPT_PER, NULL, 0);
 			break;
 		case P_PER_LUGAR_RECURSO:
-			log_trace("Pedido posicion recurso: %c", (*(char*)payload));
+			log_trace(logger, "Pedido posicion recurso: %c", (*(char*)payload));
 			void _encontrar_recurso(t_recurso* element){
+				log_trace(logger, "BUscando recurso: %c == %c", element->simbolo, (*(char*)payload));
 				if(element->simbolo == (*(char*)payload)){
 					posicion->x = element->x;
 					posicion->y = element->y;
@@ -202,25 +204,30 @@ void rutines(int sockete, int routine, void* payload){
 			break;
 		case P_PER_MOV:
 			posicion = (t_posicion*)payload;
-//			printf("MOVIMIENTO PERSONAJE EN: x: %d, y: %d\n", posicion->x, posicion->y);
+//			log_trace(logger, "MOVIMIENTO PERSONAJE EN: x: %d, y: %d\n", posicion->x, posicion->y);
 			MoverPersonaje(ListaItems, '@', posicion->x, posicion->y);
 			enviar(sockete, P_NIV_OK_MOV, NULL, 0);
 			break;
 		case P_PER_PEDIR_RECURSO:
 			posicion = (t_posicion*)payload;
-//			puts("PEDIDO RECURSO");
 			//TODO VALIDAR POSICION CORRECTA PERSONAJE PARA PEDIR RECURSO
 		    void _restar_recurso(t_recurso* element){
 		    	if(element->x == posicion->x && element->y == posicion->y){
-					restarRecurso(ListaItems, element->simbolo);
+		    		if(element->instancias > 0){
+		    			restarRecurso(ListaItems, element->simbolo);
+		    			enviar(sockete, P_NIV_RECURSO_OK, NULL, 0);
+		    		}else {
+		    			enviar(sockete, P_NIV_RECURSO_BLOQUEO, NULL, 0);
+					}
 				}
 		    }
 			iterar_recurso(nivel->recursos, _restar_recurso);
-
-			enviar(sockete, P_NIV_RECURSO_OK, NULL, 0);
+			break;
+		case P_PER_NIV_FIN:
+			//TODO LIMPIAR RECURSOS LIBERADO POR EL PERSONAJE
 			break;
 		default:
-			printf("Routine number %d dont exist.", routine);
+			log_trace(logger, "Routine number %d dont exist.", routine);
 			break;
 	}
 	nivel_gui_dibujar(ListaItems);
