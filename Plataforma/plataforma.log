@@ -255,3 +255,29 @@
 
 [TRACE] 18:27:53:798 plataforma/(14076:14088): ACEPTO PERSONAJE: en Socket: 10
 
+[TRACE] 00:41:31:121 plataforma/(18779:18821): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:41:35:170 plataforma/(18779:18821): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 00:41:35:173 plataforma/(18779:18826): Planificador Nivel 1 Started.
+[TRACE] 00:41:35:173 plataforma/(18779:18826): Planificador Nivel 1: Listen Port 30020
+[TRACE] 00:44:28:517 plataforma/(18908:18915): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 00:44:30:850 plataforma/(18908:18915): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 00:44:34:941 plataforma/(18908:18920): Planificador Nivel 1 Started.
+[TRACE] 00:44:42:703 plataforma/(18908:18920): Planificador Nivel 1: Listen Port 30020
+[TRACE] 00:45:04:268 plataforma/(18908:18915): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 00:45:31:287 plataforma/(18908:18920): Acepto Personaje: en Socket: 10
+
+[TRACE] 00:46:44:749 plataforma/(18908:18920): Planificador Nivel 1, permitio movimiento personaje: 
+[TRACE] 01:28:07:952 plataforma/(20653:20658): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:31:05:49 plataforma/(2062:2067): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 01:31:13:123 plataforma/(2062:2067): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+
+[TRACE] 01:31:13:129 plataforma/(2062:2074): Planificador Nivel 1 Started.
+[TRACE] 01:31:13:129 plataforma/(2062:2074): Planificador Nivel 1: Listen Port 30020
+[TRACE] 01:31:25:319 plataforma/(2062:2067): Orquestador: Nuevo personaje conectado.
+
+[TRACE] 01:31:31:438 plataforma/(2062:2074): Acepto Personaje: en Socket: 10
+
+[TRACE] 01:31:31:438 plataforma/(2062:2074): Planificador Nivel 1, permitio movimiento personaje: @

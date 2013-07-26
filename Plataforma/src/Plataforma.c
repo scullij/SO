@@ -32,6 +32,7 @@ t_log* logger;
 typedef struct {
 	t_queue* rr;
 	t_queue* bloqueados;
+	char personajeActivo;
 } t_planificacionNodo;
 
 t_dictionary* planificacion;
@@ -41,6 +42,12 @@ typedef struct {
 	int16_t puerto;
 	char direccion[16];
 } __attribute__ ((__packed__)) t_nivelDireccionPuerto;
+
+typedef struct{
+	char personaje;
+	int socket;
+	char recurso;
+} __attribute__ ((__packed__)) t_nodoPerPLa;
 
 typedef struct {
 	char *direccion;
@@ -62,7 +69,7 @@ t_plataforma *plataforma;
 t_plataforma *configurar_plataforma(char* path);
 
 void rutinasOrquestador(int sockete, int routine, void* payload);
-void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion);
+void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel);
 int orquestador(void);
 int planificador(void* ptr);
 
@@ -166,6 +173,7 @@ int orquestador(void){
                         	t_planificacionNodo* planificacionNodo = malloc(sizeof(t_planificacionNodo));
                         	planificacionNodo->rr = queue_create();
                         	planificacionNodo->bloqueados = queue_create();
+                        	planificacionNodo->personajeActivo = 0;
                         	dictionary_put(planificacion, key, planificacionNodo);
 
                         	pthread_t thr_pla;
@@ -227,7 +235,7 @@ int orquestador(void){
 }
 
 int planificador(void* ptr){
-	t_plaThread *pla = malloc(sizeof(t_plaThread));
+	t_plaThread *pla;
 	pla = (t_plaThread*)ptr;
 
 	log_trace(logger, "Planificador Nivel %d Started.", pla->nivel);
@@ -295,7 +303,7 @@ int planificador(void* ptr){
 						}
 					} else {
 						// we got some data from a client
-						rutinasPlanificador(i, type, buffer, pla->planificacionNodo);
+						rutinasPlanificador(i, type, buffer, pla->planificacionNodo, pla->nivel);
 					}
 				} // END handle data from client
 			} // END got new incoming connection
@@ -308,24 +316,48 @@ int planificador(void* ptr){
 	return EXIT_SUCCESS;
 }
 
-void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion){
+void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel){
+	t_nodoPerPLa* new = malloc(sizeof(t_nodoPerPLa));
 	//SOLO ESCUCHA PERSONAJES
 	switch (routine) {
 		case P_PER_CONECT_PLANI:
             log_trace(logger, "Acepto Personaje: en Socket: %u\n", sockete);
 			enviar(sockete, P_PLA_ACEPT_PER, NULL, 0);
 
-			queue_push(planificacion->rr, "@");
-			if(queue_size(planificacion->rr) == 1){ // ES EL UNICO QUE ESTA POR AHORA
+			new->personaje = (*(char*)payload);
+			new->socket = sockete;
+
+			if(planificacion->personajeActivo == 0){ // ES EL UNICO QUE ESTA POR AHORA
+				planificacion->personajeActivo = new->personaje;
+				log_trace(logger, "Planificador Nivel %d, Movimiento personaje: %c", nivel, new->personaje);
 				enviar(sockete, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
+			}else{
+				log_trace(logger, "Planificador Nivel %d, Encolo personaje: %c", nivel, new->personaje);
+				queue_push(planificacion->rr, new);
 			}
 			break;
 		case P_PER_TURNO_FINALIZADO:
+			planificacion->personajeActivo = 0;
+
+			new->personaje = (*(char*)payload);
+			new->socket = sockete;
+			queue_push(planificacion->rr, new);
+
 			usleep(100*plataforma->retardo);
-			enviar(sockete, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
+
+			new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
+			log_trace(logger, "Planificador Nivel %d, Movimiento personaje: %c", nivel, new->personaje);
+			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
 			break;
 		case P_PER_BLOQ_RECURSO:
-			//TODO: SE BLOQUEO
+			new->personaje = ((t_nodoPerPLa*)payload)->personaje;
+			new->socket = sockete;
+			new->recurso = ((t_nodoPerPLa*)payload)->recurso;
+			queue_push(planificacion->bloqueados, new);
+			log_trace(logger, "Planificador Nivel %d, Bloqueo personaje: %c", nivel, new->personaje);
+			break;
+		case P_PER_NIV_FIN:
+			log_trace(logger, "Personaje Finalizo Nivel %d y se desconecta.");
 			break;
 		default:
 			log_trace(logger, "Planificador - Routine number %d dont exist.", routine);

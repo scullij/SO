@@ -20,12 +20,36 @@
 
 #include <commons/string.h>
 #include <commons/log.h>
+#include <commons/config.h>
 
 #define LOCALHOST "127.0.0.1"
 #define DIRECCION "127.0.0.1"
 #define PUERTO_ORQ 30000
 #define PUERTO_PLANIFICADOR 30000
 #define PUERTO_NIVEL 30005
+
+typedef struct {
+	int16_t x;
+	int16_t y;
+} __attribute__ ((__packed__)) t_posicion;
+
+typedef struct {
+	char* nombre;
+	char simbolo;
+	int niveles[5];
+	char recursos[5][10];
+	int vidas;
+	char* orquestador;
+	uint16_t puertoOrq;
+
+	t_posicion* objetivo;
+	t_posicion* posicion;
+	int recursoActual;
+
+	int indiceNivelActual;
+} t_personaje;
+
+t_personaje *configurar_personaje(char *path);
 
 int main(int argc, char *argv[]){
 	t_log* logger;
@@ -39,11 +63,6 @@ int main(int argc, char *argv[]){
 	}
 
 	typedef struct {
-		int16_t x;
-		int16_t y;
-	} __attribute__ ((__packed__)) t_posicion;
-
-	typedef struct {
 		int16_t puerto;
 		char direccion[16];
 	} __attribute__ ((__packed__)) t_direccionPuerto;
@@ -54,50 +73,18 @@ int main(int argc, char *argv[]){
 		char direccion[16];
 	} __attribute__ ((__packed__)) t_nivelDireccionPuerto;
 
-	typedef struct {
-		char nombre[10];
-		char simbolo;
-		int niveles[5];
-		char recursos[5][10];
-		int vidas;
-		char* orquestador;
-		uint16_t puertoOrq;
+	typedef struct{
+		char personaje;
+		int socket;
+		char recurso;
+	} __attribute__ ((__packed__)) t_nodoPerPLa;
 
-		t_posicion* objetivo;
-		t_posicion* posicion;
-		int recursoActual;
-
-		int indiceNivelActual;
-	} personaje;
-
-	personaje p;
-	strcpy(p.nombre, "Mario");
-	//strcpy(p.simbolo,"@");
-	p.niveles[0]=1;
-	p.niveles[1]=2;
-	p.recursos[1][0] = 'F';
-	p.recursos[1][1] = 'H';
-	p.recursos[1][2] = 'M';
-	p.recursos[1][3] = '0';
-	p.vidas=5;
-	p.orquestador = malloc(strlen(LOCALHOST)+1);
-	strcpy(p.orquestador, LOCALHOST);
-	p.puertoOrq = PUERTO_ORQ;
-
-	p.posicion = malloc(sizeof(t_posicion));
-	p.posicion->x = 1;
-	p.posicion->y = 1;
-
-	p.objetivo = malloc(sizeof(t_posicion));
-	p.objetivo->x = NULL;
-
-	p.recursoActual = 0;
-	p.indiceNivelActual = 0;
+	t_personaje* personaje = configurar_personaje(path);
 
     void *buffer;    // buffer for client data
 	int16_t type;
 
-	uint16_t orquestador = create_and_connect(p.orquestador, p.puertoOrq);
+	uint16_t orquestador = create_and_connect(personaje->orquestador, personaje->puertoOrq);
 
 	if (orquestador < 0){
 		perror("Error al conectarse al orquestador.");
@@ -106,7 +93,7 @@ int main(int argc, char *argv[]){
 
 	//ME CONECTO AL ORQUESTADOR
 	int* nivelActual = malloc(sizeof(int));
-	*nivelActual = p.niveles[p.indiceNivelActual];
+	*nivelActual = personaje->niveles[personaje->indiceNivelActual];
 	enviar(orquestador, P_PER_CONECT_PLA, nivelActual, sizeof(int));
 
 	log_trace(logger, "Personaje conectado al orquestador.");
@@ -126,7 +113,7 @@ int main(int argc, char *argv[]){
 	close(orquestador);
 
 	//ME CONECTO AL PLANIFICADOR
-	uint16_t planificador = create_and_connect(p.orquestador, puertoPlanificador);
+	uint16_t planificador = create_and_connect(personaje->orquestador, puertoPlanificador);
 	if (planificador < 0){
 		perror("Error al conectarse al planificador.");
 		return EXIT_FAILURE;
@@ -134,7 +121,7 @@ int main(int argc, char *argv[]){
 
 	log_trace(logger, "Conectado al Planificador del Nivel %d, Puerto: %d.", *nivelActual, puertoPlanificador);
 
-	enviar(planificador, P_PER_CONECT_PLANI, NULL, 0);
+	enviar(planificador, P_PER_CONECT_PLANI, &personaje->simbolo, sizeof(char));
 	type = recibir(planificador, &buffer);
 	if(type != P_PLA_ACEPT_PER){
 		perror("Planificador rechaza personaje.");
@@ -161,6 +148,7 @@ int main(int argc, char *argv[]){
 
 	int* quantum = malloc(sizeof(int));
 	*quantum = 0;
+	char* recurso = malloc(sizeof(char));
 	while (1)
 	{
 		if(*quantum == 0){
@@ -172,9 +160,8 @@ int main(int argc, char *argv[]){
 			fflush(stdout);
 		}
 
-		if(p.objetivo->x == NULL){
-			char* recurso = malloc(sizeof(char));
-			*recurso = p.recursos[*nivelActual][p.recursoActual];
+		if(personaje->objetivo->x == NULL){
+			*recurso = personaje->recursos[*nivelActual][personaje->recursoActual];
 			enviar(nivel, P_PER_LUGAR_RECURSO, recurso, sizeof(char));
 			free(recurso);
 
@@ -195,65 +182,120 @@ int main(int argc, char *argv[]){
 
 			log_trace(logger, "Siguiente posicion de objetivo : x: %d y: %d\n", posicion->x, posicion->y);
 			fflush(stdout);
-			p.objetivo->x = posicion->x;
-			p.objetivo->y = posicion->y;
+			personaje->objetivo->x = posicion->x;
+			personaje->objetivo->y = posicion->y;
 		}else{
 
-			if(p.posicion->x == p.objetivo->x && p.posicion->y == p.objetivo->y){
+			if(personaje->posicion->x == personaje->objetivo->x && personaje->posicion->y == personaje->objetivo->y){
 				enviar(nivel, P_PER_PEDIR_RECURSO, NULL, 0);
 				*quantum = 0;
 				type = recibir(nivel, NULL);
 				if(type == P_NIV_RECURSO_OK){//RECURSO ASIGNADO
-					p.objetivo->x = NULL;
-					p.objetivo->y = NULL;
-					p.recursoActual++;
+					personaje->objetivo->x = NULL;
+					personaje->objetivo->y = NULL;
+					personaje->recursoActual++;
 					log_trace(logger, "Recurso asignado.");
 				}else{
 					log_trace(logger, "Personaje bloqueado");
-					enviar(planificador, P_PER_BLOQ_RECURSO, NULL, 0);
+					t_nodoPerPLa* nodo = malloc(sizeof(t_nodoPerPLa));
+					nodo->personaje = personaje->simbolo;
+					nodo->recurso = *recurso;
+					enviar(planificador, P_PER_BLOQ_RECURSO, nodo, sizeof(nodo));
+					continue;
 				}
 			}else{
-				if(p.posicion->x != p.objetivo->x){
-					if(p.posicion->x > p.objetivo->x){
-						p.posicion->x--;
+				if(personaje->posicion->x != personaje->objetivo->x){
+					if(personaje->posicion->x > personaje->objetivo->x){
+						personaje->posicion->x--;
 					}else{
-						p.posicion->x++;
+						personaje->posicion->x++;
 					}
-				}else if(p.posicion->y != p.objetivo->y){
-					if(p.posicion->y > p.objetivo->y){
-						p.posicion->y--;
+				}else if(personaje->posicion->y != personaje->objetivo->y){
+					if(personaje->posicion->y > personaje->objetivo->y){
+						personaje->posicion->y--;
 					}else{
-						p.posicion->y++;
+						personaje->posicion->y++;
 					}
 				}
 				sleep(1);
-				enviar(nivel, P_PER_MOV, p.posicion, sizeof(p.posicion));
+				enviar(nivel, P_PER_MOV, personaje->posicion, sizeof(personaje->posicion));
 				type = recibir(nivel, NULL);
 				*quantum = *quantum - 1;
-				log_trace(logger, "Nueva posicion: X:%d Y:%d \n", p.posicion->x, p.posicion->y);
+				log_trace(logger, "Nueva posicion: X:%d Y:%d \n", personaje->posicion->x, personaje->posicion->y);
 			}
 		}
 
 		if(*quantum == 0){
-			if(p.recursos[*nivelActual][p.recursoActual] == '0'){
+			if(personaje->recursos[*nivelActual][personaje->recursoActual] == '0'){
 				//LE AVISO AL NIVEL Y AL PLANIFICADOR QUE TERMINE
 				enviar(nivel, P_PER_NIV_FIN, NULL, 0);
 				enviar(planificador, P_PER_NIV_FIN, NULL, 0);
 				close(nivel);
 				close(planificador);
 				log_trace(logger, "Nivel terminado.");
-				p.indiceNivelActual++;
-				*nivelActual = p.niveles[p.indiceNivelActual];
+				personaje->indiceNivelActual++;
+				*nivelActual = personaje->niveles[personaje->indiceNivelActual];
+			}else if(1){ //Esta bloqueado
+
 			}
 			log_trace(logger, "Turno terminado.");
 			enviar(planificador, P_PER_TURNO_FINALIZADO, NULL, 0);
 		}
 		fflush(stdout);
 	}
-
 	free(quantum);
 	close(nivel);
 	close(orquestador);
+	free(personaje);
 
 	return EXIT_SUCCESS;
+}
+
+t_personaje *configurar_personaje(char *path){
+	t_personaje* personaje = malloc(sizeof(t_personaje));
+	t_config *config = config_create(path);
+
+	char *orquestador = config_get_string_value(config, "Orquestador");
+	char** direccionPuerto = string_split(orquestador, ":");
+	personaje->orquestador = string_duplicate(direccionPuerto[0]);
+	personaje->puertoOrq = atoi(direccionPuerto[1]);
+	free(direccionPuerto);
+	free(orquestador);
+
+	personaje->nombre = config_get_string_value(config, "Nombre");
+	personaje->simbolo = config_get_string_value(config, "Simbolo")[0];
+
+	char** niveles = config_get_array_value(config, "PlanDeNiveles");
+	int cantNiveles = 0;
+    int i = 0;
+    while (niveles[i] != NULL) {
+		personaje->niveles[i] = atoi(niveles[i]);
+    	i++;
+    }
+    cantNiveles = i;
+
+    int var;
+	for (var = 0; var < cantNiveles; ++var) {
+		char** recursos = config_get_array_value(config, string_from_format("Objetivo%d", var+1));
+		i=0;
+		while(recursos[i] != NULL){
+			personaje->recursos[personaje->niveles[var]][i] = *(char*)recursos[i];
+			i++;
+		}
+	}
+
+	personaje->vidas = config_get_int_value(config, "Vidas");
+
+	personaje->posicion = malloc(sizeof(t_posicion));
+	personaje->posicion->x = 1;
+	personaje->posicion->y = 1;
+
+	personaje->objetivo = malloc(sizeof(t_posicion));
+	personaje->objetivo->x = NULL;
+
+	personaje->recursoActual = 0;
+	personaje->indiceNivelActual = 0;
+
+	config_destroy(config);
+	return personaje;
 }

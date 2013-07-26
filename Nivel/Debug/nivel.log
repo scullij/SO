@@ -532,3 +532,41 @@
 [TRACE] 19:18:44:511 nivel/(15483:15483): BUscando recurso: F == È
 [TRACE] 19:18:44:511 nivel/(15483:15483): BUscando recurso: H == È
 [TRACE] 19:18:44:511 nivel/(15483:15483): BUscando recurso: M == È
+[TRACE] 00:45:33:241 nivel/(18919:18919): Acepto Personaje: en Socket: 6
+
+[TRACE] 00:46:47:664 nivel/(18919:18919): Pedido posicion recurso: F
+[TRACE] 00:46:47:664 nivel/(18919:18919): BUscando recurso: F == F
+[TRACE] 00:46:47:664 nivel/(18919:18919): BUscando recurso: H == F
+[TRACE] 00:46:47:664 nivel/(18919:18919): BUscando recurso: M == F
+[TRACE] 00:55:45:376 nivel/(19521:19521): Acepto Personaje: en Socket: 6
+
+[TRACE] 00:55:45:377 nivel/(19521:19521): Pedido posicion recurso: F
+[TRACE] 00:55:45:377 nivel/(19521:19521): BUscando recurso: F == F
+[TRACE] 00:55:45:377 nivel/(19521:19521): BUscando recurso: H == F
+[TRACE] 00:55:45:377 nivel/(19521:19521): BUscando recurso: M == F
+[TRACE] 00:56:04:753 nivel/(19521:19521): Pedido posicion recurso: H
+[TRACE] 00:56:04:753 nivel/(19521:19521): BUscando recurso: F == H
+[TRACE] 00:56:04:754 nivel/(19521:19521): BUscando recurso: H == H
+[TRACE] 00:56:04:754 nivel/(19521:19521): BUscando recurso: M == H
+[TRACE] 00:56:14:973 nivel/(19521:19521): Pedido posicion recurso: M
+[TRACE] 00:56:14:973 nivel/(19521:19521): BUscando recurso: F == M
+[TRACE] 00:56:14:973 nivel/(19521:19521): BUscando recurso: H == M
+[TRACE] 00:56:14:973 nivel/(19521:19521): BUscando recurso: M == M
+[TRACE] 01:31:31:438 nivel/(2073:2073): Acepto Personaje: en Socket: 6
+
+[TRACE] 01:31:31:441 nivel/(2073:2073): Pedido posicion recurso: F
+[TRACE] 01:31:31:441 nivel/(2073:2073): BUscando recurso: F == F
+[TRACE] 01:31:31:441 nivel/(2073:2073): BUscando recurso: H == F
+[TRACE] 01:31:31:441 nivel/(2073:2073): BUscando recurso: M == F
+[TRACE] 02:20:14:392 nivel/(2615:2615): Acepto Personaje: en Socket: 6
+
+[TRACE] 02:20:14:393 nivel/(2615:2615): Pedido posicion recurso: F
+[TRACE] 02:20:14:393 nivel/(2615:2615): BUscando recurso: F == F
+[TRACE] 02:20:14:393 nivel/(2615:2615): BUscando recurso: H == F
+[TRACE] 02:20:14:393 nivel/(2615:2615): BUscando recurso: M == F
+[TRACE] 02:22:43:619 nivel/(2796:2796): Acepto Personaje: en Socket: 6
+
+[TRACE] 02:22:43:619 nivel/(2796:2796): Pedido posicion recurso: F
+[TRACE] 02:22:43:619 nivel/(2796:2796): BUscando recurso: F == F
+[TRACE] 02:22:43:619 nivel/(2796:2796): BUscando recurso: H == F
+[TRACE] 02:22:43:619 nivel/(2796:2796): BUscando recurso: M == F

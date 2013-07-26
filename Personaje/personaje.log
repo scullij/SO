@@ -21,3 +21,6 @@
 [TRACE] 18:47:33:411 personaje/(14716:14716): Conectado al Nivel 1: Direccion: 127.0.0.1, Puerto: 30005.
 [TRACE] 18:47:33:411 personaje/(14716:14716): Quantum Recibido 3
 
+[TRACE] 00:53:04:412 personaje/(19112:19112): Personaje conectado al orquestador.
+[TRACE] 00:53:04:412 personaje/(19112:19112): Conectado al Planificador del Nivel 1, Puerto: 30020.
+[TRACE] 03:50:51:496 personaje/(2373:2373): Personaje conectado al orquestador.
