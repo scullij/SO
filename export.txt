@@ -1,0 +1,1 @@
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:~/dev/tp-20131c-osgroup/so-commons-library/Debug:~/dev/tp-20131c-osgroup/library/Debug:~/dev/tp-20131c-osgroup/Koopa/memoria/Debug
