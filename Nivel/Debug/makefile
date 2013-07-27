@@ -27,13 +27,13 @@ all: Nivel
 
 dependents:
 	-cd /home/utnso/dev/tp-20131c-osgroup/library/Debug && $(MAKE) all
-	-cd /home/utnso/workspace/so-commons-library/Debug && $(MAKE) all
+	-cd /home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug && $(MAKE) all
 
 # Tool invocations
-Nivel: $(OBJS) $(USER_OBJS) /home/utnso/dev/tp-20131c-osgroup/library/Debug/liblibrary.so /home/utnso/workspace/so-commons-library/Debug/libso-commons-library.so
+Nivel: $(OBJS) $(USER_OBJS) /home/utnso/dev/tp-20131c-osgroup/library/Debug/liblibrary.so /home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug/libso-commons-library.so
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L"/home/utnso/workspace/so-commons-library/Debug" -L"/home/utnso/dev/tp-20131c-osgroup/library/Debug" -o "Nivel" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"/home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug" -L"/home/utnso/dev/tp-20131c-osgroup/library/Debug" -o "Nivel" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -45,6 +45,6 @@ clean:
 .PHONY: all clean dependents
 .SECONDARY:
 /home/utnso/dev/tp-20131c-osgroup/library/Debug/liblibrary.so:
-/home/utnso/workspace/so-commons-library/Debug/libso-commons-library.so:
+/home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug/libso-commons-library.so:
 
 -include ../makefile.targets

@@ -24,11 +24,14 @@ endif
 # All Target
 all: libmemoria.so
 
+dependents:
+	-cd /home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug && $(MAKE) all
+
 # Tool invocations
-libmemoria.so: $(OBJS) $(USER_OBJS)
+libmemoria.so: $(OBJS) $(USER_OBJS) /home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug/libso-commons-library.so
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L"/home/utnso/workspace/so-commons-library/Debug" -shared -o "libmemoria.so" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"/home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug" -shared -o "libmemoria.so" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -39,5 +42,6 @@ clean:
 
 .PHONY: all clean dependents
 .SECONDARY:
+/home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug/libso-commons-library.so:
 
 -include ../makefile.targets

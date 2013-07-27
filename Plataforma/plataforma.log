@@ -654,3 +654,5 @@
 [TRACE] 05:15:22:775 plataforma/(9980:9988): Planificador Nivel 1, Movimiento personaje @, Quantum: 3
 [TRACE] 05:15:22:776 plataforma/(9980:9988): Personaje @ Finalizo Nivel 1 y se desconecta.
 [TRACE] 05:16:06:766 plataforma/(9980:9985): Personaje desbloqueado # por recurso H
+[TRACE] 06:21:41:775 plataforma/(11922:11927): Orquestador: Listen 127.0.0.1, Port 30000
+[TRACE] 06:26:18:565 plataforma/(12316:12321): Orquestador: Listen 127.0.0.1, Port 30000

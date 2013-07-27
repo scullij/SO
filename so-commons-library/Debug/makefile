@@ -8,7 +8,8 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
--include src/subdir.mk
+-include commons/collections/subdir.mk
+-include commons/subdir.mk
 -include subdir.mk
 -include objects.mk
 
@@ -23,28 +24,22 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: Plataforma
-
-dependents:
-	-cd /home/utnso/dev/tp-20131c-osgroup/library/Debug && $(MAKE) all
-	-cd /home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug && $(MAKE) all
+all: libso-commons-library.so
 
 # Tool invocations
-Plataforma: $(OBJS) $(USER_OBJS) /home/utnso/dev/tp-20131c-osgroup/library/Debug/liblibrary.so /home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug/libso-commons-library.so
+libso-commons-library.so: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L"/home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug" -L"/home/utnso/dev/tp-20131c-osgroup/library/Debug" -o "Plataforma" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -shared -o "libso-commons-library.so" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(C_DEPS)$(EXECUTABLES) Plataforma
+	-$(RM) $(OBJS)$(C_DEPS)$(LIBRARIES) libso-commons-library.so
 	-@echo ' '
 
 .PHONY: all clean dependents
 .SECONDARY:
-/home/utnso/dev/tp-20131c-osgroup/library/Debug/liblibrary.so:
-/home/utnso/dev/tp-20131c-osgroup/so-commons-library/Debug/libso-commons-library.so:
 
 -include ../makefile.targets
