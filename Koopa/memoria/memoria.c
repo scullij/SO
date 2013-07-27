@@ -24,12 +24,17 @@ t_memoria crear_memoria(int tamanio) {
 	// Creo particion vacia (tamanio total)
 	t_particion* particionLibre = crear_particion ('\0', 0, tamanio);
 	particionLibre->libre = true;
+	particionLibre->dato = segmento;
+
+	log_trace(logger, "segmento direccion: %p", segmento);
+	log_trace(logger, "segmento direccion maxima: %p", segmento + tamanio);
+	log_trace(logger, "bloque inicial libre - dato: %p", particionLibre->dato);
 
 	return segmento;
 }
 
 int almacenar_particion(t_memoria segmento, char id, int tamanio, char* contenido) {
-	log_trace(logger, "almacenar_particion()");
+	log_trace(logger, "almacenar_particion(tamanio: %d)", tamanio);
 	log_trace(logger, contenido);
 
 	// Busco la particion donde mejor cabe el tamanio (best fit)
@@ -45,12 +50,13 @@ int almacenar_particion(t_memoria segmento, char id, int tamanio, char* contenid
 
 	// Creo una nueva particion para almacenar la posicion
 	t_particion* particionNueva = crear_particion(id, particionBestFit->inicio, tamanio);
-	memcpy(segmento+particionBestFit->inicio, contenido, tamanio);
-	particionNueva->dato = segmento+particionBestFit->inicio;
+	memcpy(segmento + particionBestFit->inicio, contenido, tamanio);
+	particionNueva->dato = segmento + particionBestFit->inicio;
 
 	// Muevo el inicio de lo que sobra de espacio al tamanio de la nueva particion
 	particionBestFit->inicio = particionBestFit->inicio + tamanio;
 	particionBestFit->tamanio = particionBestFit->tamanio - tamanio;
+	particionBestFit->dato = segmento + particionBestFit->inicio;
 
 	if(particionBestFit->tamanio <= 0){
 		eliminar_particion(segmento, particionBestFit->id);
@@ -80,6 +86,7 @@ void liberar_memoria(t_memoria segmento) {
 	log_trace(logger, "liberar_memoria()");
 
 	list_clean(_particiones);
+	free(_particiones);
 	free(segmento);
 }
 
@@ -107,7 +114,7 @@ t_particion* crear_particion (char id, int inicio, int tamanio) {
 	particion->inicio = inicio;
 	particion->tamanio = tamanio;
 
-	particion->dato = 0;
+	particion->dato = NULL;
 	particion->libre = false;
 
 	list_add(_particiones, particion);

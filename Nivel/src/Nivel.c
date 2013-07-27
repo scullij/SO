@@ -26,6 +26,7 @@
 #include <library/messages.h>
 
 #include <library/Items.h>
+#include <stdbool.h>
 
 t_log* logger;
 
@@ -60,12 +61,19 @@ typedef struct {
 	int recovery;
 } t_nivel;
 
+typedef struct {
+	char recurso;
+	char personaje;
+} __attribute__ ((__packed__)) t_recursoAsignado;
+
 t_nivel* nivel;
 ITEM_NIVEL* ListaItems;
+t_list* recursosAsignados;
 
-void rutines(int sockete, int routine, void* payload);
+void rutines(int sockete, int routine, void* payload, int orquestador);
 t_nivel *configurar_nivel(char* path);
 void iterar_recurso(t_list* self, void(*closure)(t_recurso*));
+void sumarRecurso(ITEM_NIVEL* ListaItems, char id);
 
 int main(int argc, char *argv[]) {
 	logger = log_create("nivel.log", "nivel", false, LOG_LEVEL_TRACE);
@@ -78,6 +86,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	nivel = configurar_nivel(path);
+	recursosAsignados = list_create();
 
 	//Nos conectamos al orquestador para pasarle info del nivel
 	uint16_t orquestador = create_and_connect(nivel->direccionOrq, nivel->puertoOrq);
@@ -166,7 +175,7 @@ int main(int argc, char *argv[]) {
                         // we got some data from a client
                     	//TODO: RUTINA CON EL TYPE
 //                    	printf("Nivel: Socket %d, recibido: %u\n", i, type);
-                    	rutines(i, type, buffer);
+                    	rutines(i, type, buffer, orquestador);
                     }
                 } // END handle data from client
             } // END got new incoming connection
@@ -179,7 +188,7 @@ int main(int argc, char *argv[]) {
     return EXIT_SUCCESS;
 }
 
-void rutines(int sockete, int routine, void* payload){
+void rutines(int sockete, int routine, void* payload, int orquestador){
 	t_posicion* posicion = malloc(sizeof(t_posicion));
 	posicion->x = -1;
 	//SOLO ESCUCHA PERSONAJES
@@ -214,9 +223,15 @@ void rutines(int sockete, int routine, void* payload){
 			posicion = (t_posicion*)payload;
 			//TODO VALIDAR POSICION CORRECTA PERSONAJE PARA PEDIR RECURSO
 		    void _restar_recurso(t_recurso* element){
-		    	log_trace(logger, "Esta sobre el recurso %d", element->x == posicion->x && element->y == posicion->y);
+		    	//log_trace(logger, "Esta sobre el recurso %d", element->x == posicion->x && element->y == posicion->y);
 		    	if(element->x == posicion->x && element->y == posicion->y){
 		    		if(element->instancias > 0){
+
+		    			t_recursoAsignado* recursoAsignado = malloc(sizeof(t_recursoAsignado));
+		    			recursoAsignado->recurso = element->simbolo;
+		    			recursoAsignado->personaje = posicion->personaje;
+		    			list_add(recursosAsignados, recursoAsignado);
+
 		    			element->instancias--;
 		    			log_trace(logger, "Recurso a asignar %c", element->simbolo);
 		    			restarRecurso(ListaItems, element->simbolo);
@@ -231,6 +246,53 @@ void rutines(int sockete, int routine, void* payload){
 			break;
 		case P_PER_NIV_FIN:
 			//TODO LIMPIAR RECURSOS LIBERADO POR EL PERSONAJE
+			sleep(0);
+			bool _encontrar_recursos_personaje(void* element){
+				return ((t_recursoAsignado*)element)->personaje == (*(char*)payload);
+			}
+			t_list* recursosADevolver = list_filter(recursosAsignados, _encontrar_recursos_personaje);
+
+			char recursosLiberados[20];
+			strncpy(recursosLiberados, nivel->nombre+5, 1);
+
+			int i = 1;
+
+			void _liberar_recursos(void* element){
+				char recurso = ((t_recursoAsignado*)element)->recurso;
+				recursosLiberados[i] = ((t_recursoAsignado*)element)->recurso;
+				i++;
+			}
+
+			list_iterate(recursosADevolver, _liberar_recursos);
+			free(recursosADevolver);
+
+			recursosLiberados[i] = '\0';
+			//P_NIV_RECURSOS_LIBERADOS
+			enviar(orquestador, 112, recursosLiberados, sizeof(recursosLiberados));
+			void* payload;
+			recibir(orquestador, &payload);
+			strncpy(recursosLiberados, (char*)payload, 10);
+
+			void _liberar_recurso(void* el){
+				log_trace(logger, "Liberando...");
+				i=1;
+				while(recursosLiberados[i] != NULL){
+					log_trace(logger, "Recurso a sumar! %c - %c", recursosLiberados[i], ((t_recurso*)el)->simbolo);
+					if(((t_recurso*)el)->simbolo == recursosLiberados[i]){
+						if(recursosLiberados[i+10] != '1'){
+							sumarRecurso(ListaItems, ((t_recurso*)el)->simbolo);
+						}
+						((t_recurso*)el)->instancias++;
+						log_trace(logger, "Liberado! %c", ((t_recurso*)el)->simbolo);
+					}
+					i++;
+				}
+
+			}
+			list_iterate(nivel->recursos, _liberar_recurso);
+
+			enviar(orquestador, 114, NULL, 0);
+
 			break;
 		default:
 			log_trace(logger, "Routine number %d dont exist.", routine);
@@ -287,5 +349,22 @@ void iterar_recurso(t_list* self, void(*closure)(t_recurso*)) {
 		closure(element->data);
 		element = element->next;
 	}
+}
+
+void sumarRecurso(ITEM_NIVEL* ListaItems, char id) {
+
+        ITEM_NIVEL * temp;
+        temp = ListaItems;
+
+        while ((temp != NULL) && (temp->id != id)) {
+                temp = temp->next;
+        }
+
+        if ((temp != NULL) && (temp->id == id)) {
+                if ((temp->item_type) && (temp->quantity >= 0)) {
+                        temp->quantity++;
+                }
+        }
+
 }
 

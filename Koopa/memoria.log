@@ -1410,3 +1410,599 @@
 [TRACE] 23:41:18:415 memoria/(3311:3311): carabanadamarcelinhoparabasadaritchkernestenosevaaca van muchos caracteres que terminan siendo 50 b
 [TRACE] 23:41:18:415 memoria/(3311:3311): FIN almacenar_particion()
 [TRACE] 23:41:18:415 memoria/(3311:3311): particiones()
+[TRACE] 23:09:29:807 memoria/(1953:1953): crear_memoria()
+[TRACE] 23:09:29:811 memoria/(1953:1953): almacenar_particion()
+[TRACE] 23:09:29:811 memoria/(1953:1953): carabanada
+[TRACE] 23:09:29:811 memoria/(1953:1953): BEST FIT Algoritmo:
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 0 - 0
+[TRACE] 23:09:29:812 memoria/(1953:1953): BEST FIT FOUND: 0
+[TRACE] 23:09:29:812 memoria/(1953:1953): FIN almacenar_particion()
+[TRACE] 23:09:29:812 memoria/(1953:1953): almacenar_particion()
+[TRACE] 23:09:29:812 memoria/(1953:1953): marcelinho
+[TRACE] 23:09:29:812 memoria/(1953:1953): BEST FIT Algoritmo:
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 0 - 10
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 1 - 0
+[TRACE] 23:09:29:812 memoria/(1953:1953): BEST FIT FOUND: 10
+[TRACE] 23:09:29:812 memoria/(1953:1953): FIN almacenar_particion()
+[TRACE] 23:09:29:812 memoria/(1953:1953): almacenar_particion()
+[TRACE] 23:09:29:812 memoria/(1953:1953): parabasada
+[TRACE] 23:09:29:812 memoria/(1953:1953): BEST FIT Algoritmo:
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 0 - 20
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 1 - 0
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 2 - 10
+[TRACE] 23:09:29:812 memoria/(1953:1953): BEST FIT FOUND: 20
+[TRACE] 23:09:29:812 memoria/(1953:1953): FIN almacenar_particion()
+[TRACE] 23:09:29:812 memoria/(1953:1953): almacenar_particion()
+[TRACE] 23:09:29:812 memoria/(1953:1953): ritch
+[TRACE] 23:09:29:812 memoria/(1953:1953): BEST FIT Algoritmo:
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 0 - 30
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 1 - 0
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 2 - 10
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 3 - 20
+[TRACE] 23:09:29:812 memoria/(1953:1953): BEST FIT FOUND: 30
+[TRACE] 23:09:29:812 memoria/(1953:1953): FIN almacenar_particion()
+[TRACE] 23:09:29:812 memoria/(1953:1953): almacenar_particion()
+[TRACE] 23:09:29:812 memoria/(1953:1953): kern
+[TRACE] 23:09:29:812 memoria/(1953:1953): BEST FIT Algoritmo:
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 0 - 35
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 1 - 0
+[TRACE] 23:09:29:812 memoria/(1953:1953): Particion = 2 - 10
+[TRACE] 23:09:29:813 memoria/(1953:1953): Particion = 3 - 20
+[TRACE] 23:09:29:813 memoria/(1953:1953): Particion = 4 - 30
+[TRACE] 23:09:29:813 memoria/(1953:1953): BEST FIT FOUND: 35
+[TRACE] 23:09:29:813 memoria/(1953:1953): FIN almacenar_particion()
+[TRACE] 23:09:29:813 memoria/(1953:1953): almacenar_particion()
+[TRACE] 23:09:29:813 memoria/(1953:1953): estenoseva
+[TRACE] 23:09:29:813 memoria/(1953:1953): BEST FIT Algoritmo:
+[TRACE] 23:09:29:813 memoria/(1953:1953): Particion = 0 - 39
+[TRACE] 23:09:29:813 memoria/(1953:1953): Particion = 1 - 0
+[TRACE] 23:09:29:813 memoria/(1953:1953): Particion = 2 - 10
+[TRACE] 23:09:29:813 memoria/(1953:1953): Particion = 3 - 20
+[TRACE] 23:09:29:813 memoria/(1953:1953): Particion = 4 - 30
+[TRACE] 23:09:29:813 memoria/(1953:1953): Particion = 5 - 35
+[TRACE] 23:09:29:813 memoria/(1953:1953): BEST FIT FOUND: 39
+[TRACE] 23:09:29:813 memoria/(1953:1953): FIN almacenar_particion()
+[TRACE] 23:09:29:813 memoria/(1953:1953): almacenar_particion()
+[TRACE] 23:09:29:813 memoria/(1953:1953): aca van muchos caracteres que terminan siendo 50 b
+[TRACE] 23:09:29:813 memoria/(1953:1953): BEST FIT Algoritmo:
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 0 - 49
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 1 - 0
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 2 - 10
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 3 - 20
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 4 - 30
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 5 - 35
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 6 - 39
+[TRACE] 23:09:29:814 memoria/(1953:1953): BEST FIT FOUND: 49
+[TRACE] 23:09:29:814 memoria/(1953:1953): FIN almacenar_particion()
+[TRACE] 23:09:29:814 memoria/(1953:1953): eliminar_particion()
+[TRACE] 23:09:29:814 memoria/(1953:1953): eliminar_particion()
+[TRACE] 23:09:29:814 memoria/(1953:1953): eliminar_particion()
+[TRACE] 23:09:29:814 memoria/(1953:1953): eliminar_particion()
+[TRACE] 23:09:29:814 memoria/(1953:1953): almacenar_particion()
+[TRACE] 23:09:29:814 memoria/(1953:1953): WIN
+[TRACE] 23:09:29:814 memoria/(1953:1953): BEST FIT Algoritmo:
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 0 - 99
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 1 - 0
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 2 - 10
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 3 - 20
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 4 - 30
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 5 - 35
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 6 - 39
+[TRACE] 23:09:29:814 memoria/(1953:1953): Particion = 7 - 49
+[TRACE] 23:09:29:814 memoria/(1953:1953): BEST FIT FOUND: 35
+[TRACE] 23:09:29:814 memoria/(1953:1953): FIN almacenar_particion()
+[TRACE] 23:09:29:815 memoria/(1953:1953): particiones()
+[TRACE] 23:09:32:189 memoria/(1953:1953): particiones()
+[TRACE] 23:11:32:386 memoria/(1996:1996): crear_memoria()
+[TRACE] 23:11:32:386 memoria/(1996:1996): almacenar_particion()
+[TRACE] 23:11:32:386 memoria/(1996:1996): carabanada
+[TRACE] 23:11:32:386 memoria/(1996:1996): BEST FIT Algoritmo:
+[TRACE] 23:11:32:386 memoria/(1996:1996): Particion = 0 - 0
+[TRACE] 23:11:32:386 memoria/(1996:1996): BEST FIT FOUND: 0
+[TRACE] 23:11:32:386 memoria/(1996:1996): FIN almacenar_particion()
+[TRACE] 23:11:32:386 memoria/(1996:1996): almacenar_particion()
+[TRACE] 23:11:32:386 memoria/(1996:1996): marcelinho
+[TRACE] 23:11:32:386 memoria/(1996:1996): BEST FIT Algoritmo:
+[TRACE] 23:11:32:386 memoria/(1996:1996): Particion = 0 - 10
+[TRACE] 23:11:32:386 memoria/(1996:1996): Particion = 1 - 0
+[TRACE] 23:11:32:386 memoria/(1996:1996): BEST FIT FOUND: 10
+[TRACE] 23:11:32:386 memoria/(1996:1996): FIN almacenar_particion()
+[TRACE] 23:11:32:387 memoria/(1996:1996): almacenar_particion()
+[TRACE] 23:11:32:387 memoria/(1996:1996): parabasada
+[TRACE] 23:11:32:387 memoria/(1996:1996): BEST FIT Algoritmo:
+[TRACE] 23:11:32:387 memoria/(1996:1996): Particion = 0 - 20
+[TRACE] 23:11:32:387 memoria/(1996:1996): Particion = 1 - 0
+[TRACE] 23:11:32:387 memoria/(1996:1996): Particion = 2 - 10
+[TRACE] 23:11:32:387 memoria/(1996:1996): BEST FIT FOUND: 20
+[TRACE] 23:11:32:387 memoria/(1996:1996): FIN almacenar_particion()
+[TRACE] 23:11:32:387 memoria/(1996:1996): almacenar_particion()
+[TRACE] 23:11:32:387 memoria/(1996:1996): ritch
+[TRACE] 23:11:32:387 memoria/(1996:1996): BEST FIT Algoritmo:
+[TRACE] 23:11:32:387 memoria/(1996:1996): Particion = 0 - 30
+[TRACE] 23:11:32:387 memoria/(1996:1996): Particion = 1 - 0
+[TRACE] 23:11:32:387 memoria/(1996:1996): Particion = 2 - 10
+[TRACE] 23:11:32:387 memoria/(1996:1996): Particion = 3 - 20
+[TRACE] 23:11:32:387 memoria/(1996:1996): BEST FIT FOUND: 30
+[TRACE] 23:11:32:387 memoria/(1996:1996): FIN almacenar_particion()
+[TRACE] 23:11:32:388 memoria/(1996:1996): almacenar_particion()
+[TRACE] 23:11:32:388 memoria/(1996:1996): kern
+[TRACE] 23:11:32:388 memoria/(1996:1996): BEST FIT Algoritmo:
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 0 - 35
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 1 - 0
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 2 - 10
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 3 - 20
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 4 - 30
+[TRACE] 23:11:32:388 memoria/(1996:1996): BEST FIT FOUND: 35
+[TRACE] 23:11:32:388 memoria/(1996:1996): FIN almacenar_particion()
+[TRACE] 23:11:32:388 memoria/(1996:1996): almacenar_particion()
+[TRACE] 23:11:32:388 memoria/(1996:1996): estenoseva
+[TRACE] 23:11:32:388 memoria/(1996:1996): BEST FIT Algoritmo:
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 0 - 39
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 1 - 0
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 2 - 10
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 3 - 20
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 4 - 30
+[TRACE] 23:11:32:388 memoria/(1996:1996): Particion = 5 - 35
+[TRACE] 23:11:32:388 memoria/(1996:1996): BEST FIT FOUND: 39
+[TRACE] 23:11:32:388 memoria/(1996:1996): FIN almacenar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): almacenar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): aca van muchos caracteres que terminan siendo 50 b
+[TRACE] 23:11:32:389 memoria/(1996:1996): BEST FIT Algoritmo:
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 0 - 49
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 1 - 0
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 2 - 10
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 3 - 20
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 4 - 30
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 5 - 35
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 6 - 39
+[TRACE] 23:11:32:389 memoria/(1996:1996): BEST FIT FOUND: 49
+[TRACE] 23:11:32:389 memoria/(1996:1996): FIN almacenar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): eliminar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): eliminar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): eliminar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): eliminar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): almacenar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): WIN
+[TRACE] 23:11:32:389 memoria/(1996:1996): BEST FIT Algoritmo:
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 0 - 99
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 1 - 0
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 2 - 10
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 3 - 20
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 4 - 30
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 5 - 35
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 6 - 39
+[TRACE] 23:11:32:389 memoria/(1996:1996): Particion = 7 - 49
+[TRACE] 23:11:32:389 memoria/(1996:1996): BEST FIT FOUND: 35
+[TRACE] 23:11:32:389 memoria/(1996:1996): FIN almacenar_particion()
+[TRACE] 23:11:32:389 memoria/(1996:1996): particiones()
+[TRACE] 23:11:34:349 memoria/(1996:1996): particiones()
+[TRACE] 23:12:30:6 memoria/(2039:2039): crear_memoria()
+[TRACE] 23:12:30:6 memoria/(2039:2039): segmento direccion: 0x93cb0a8
+[TRACE] 23:12:30:6 memoria/(2039:2039): segmento direccion maxima: 0x93cb10c
+[TRACE] 23:12:30:6 memoria/(2039:2039): bloque inicial libre - dato: 0x93cb0a8
+[TRACE] 23:12:30:7 memoria/(2039:2039): almacenar_particion(tamanio: 10)
+[TRACE] 23:12:30:7 memoria/(2039:2039): carabanada
+[TRACE] 23:12:30:7 memoria/(2039:2039): BEST FIT Algoritmo:
+[TRACE] 23:12:30:7 memoria/(2039:2039): Particion = 0 - 0
+[TRACE] 23:12:30:7 memoria/(2039:2039): BEST FIT FOUND: 0
+[TRACE] 23:12:30:7 memoria/(2039:2039): FIN almacenar_particion()
+[TRACE] 23:12:30:7 memoria/(2039:2039): almacenar_particion(tamanio: 10)
+[TRACE] 23:12:30:7 memoria/(2039:2039): marcelinho
+[TRACE] 23:12:30:7 memoria/(2039:2039): BEST FIT Algoritmo:
+[TRACE] 23:12:30:7 memoria/(2039:2039): Particion = 0 - 10
+[TRACE] 23:12:30:7 memoria/(2039:2039): Particion = 1 - 0
+[TRACE] 23:12:30:7 memoria/(2039:2039): BEST FIT FOUND: 10
+[TRACE] 23:12:30:7 memoria/(2039:2039): FIN almacenar_particion()
+[TRACE] 23:12:30:7 memoria/(2039:2039): almacenar_particion(tamanio: 10)
+[TRACE] 23:12:30:7 memoria/(2039:2039): parabasada
+[TRACE] 23:12:30:7 memoria/(2039:2039): BEST FIT Algoritmo:
+[TRACE] 23:12:30:8 memoria/(2039:2039): Particion = 0 - 20
+[TRACE] 23:12:30:8 memoria/(2039:2039): Particion = 1 - 0
+[TRACE] 23:12:30:8 memoria/(2039:2039): Particion = 2 - 10
+[TRACE] 23:12:30:8 memoria/(2039:2039): BEST FIT FOUND: 20
+[TRACE] 23:12:30:8 memoria/(2039:2039): FIN almacenar_particion()
+[TRACE] 23:12:30:8 memoria/(2039:2039): almacenar_particion(tamanio: 5)
+[TRACE] 23:12:30:8 memoria/(2039:2039): ritch
+[TRACE] 23:12:30:8 memoria/(2039:2039): BEST FIT Algoritmo:
+[TRACE] 23:12:30:8 memoria/(2039:2039): Particion = 0 - 30
+[TRACE] 23:12:30:8 memoria/(2039:2039): Particion = 1 - 0
+[TRACE] 23:12:30:8 memoria/(2039:2039): Particion = 2 - 10
+[TRACE] 23:12:30:8 memoria/(2039:2039): Particion = 3 - 20
+[TRACE] 23:12:30:8 memoria/(2039:2039): BEST FIT FOUND: 30
+[TRACE] 23:12:30:8 memoria/(2039:2039): FIN almacenar_particion()
+[TRACE] 23:12:30:8 memoria/(2039:2039): almacenar_particion(tamanio: 4)
+[TRACE] 23:12:30:8 memoria/(2039:2039): kern
+[TRACE] 23:12:30:9 memoria/(2039:2039): BEST FIT Algoritmo:
+[TRACE] 23:12:30:9 memoria/(2039:2039): Particion = 0 - 35
+[TRACE] 23:12:30:9 memoria/(2039:2039): Particion = 1 - 0
+[TRACE] 23:12:30:9 memoria/(2039:2039): Particion = 2 - 10
+[TRACE] 23:12:30:9 memoria/(2039:2039): Particion = 3 - 20
+[TRACE] 23:12:30:9 memoria/(2039:2039): Particion = 4 - 30
+[TRACE] 23:12:30:9 memoria/(2039:2039): BEST FIT FOUND: 35
+[TRACE] 23:12:30:10 memoria/(2039:2039): FIN almacenar_particion()
+[TRACE] 23:12:30:10 memoria/(2039:2039): almacenar_particion(tamanio: 10)
+[TRACE] 23:12:30:10 memoria/(2039:2039): estenoseva
+[TRACE] 23:12:30:10 memoria/(2039:2039): BEST FIT Algoritmo:
+[TRACE] 23:12:30:10 memoria/(2039:2039): Particion = 0 - 39
+[TRACE] 23:12:30:10 memoria/(2039:2039): Particion = 1 - 0
+[TRACE] 23:12:30:10 memoria/(2039:2039): Particion = 2 - 10
+[TRACE] 23:12:30:10 memoria/(2039:2039): Particion = 3 - 20
+[TRACE] 23:12:30:10 memoria/(2039:2039): Particion = 4 - 30
+[TRACE] 23:12:30:10 memoria/(2039:2039): Particion = 5 - 35
+[TRACE] 23:12:30:10 memoria/(2039:2039): BEST FIT FOUND: 39
+[TRACE] 23:12:30:10 memoria/(2039:2039): FIN almacenar_particion()
+[TRACE] 23:12:30:10 memoria/(2039:2039): almacenar_particion(tamanio: 50)
+[TRACE] 23:12:30:10 memoria/(2039:2039): aca van muchos caracteres que terminan siendo 50 b
+[TRACE] 23:12:30:10 memoria/(2039:2039): BEST FIT Algoritmo:
+[TRACE] 23:12:30:10 memoria/(2039:2039): Particion = 0 - 49
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 1 - 0
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 2 - 10
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 3 - 20
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 4 - 30
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 5 - 35
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 6 - 39
+[TRACE] 23:12:30:11 memoria/(2039:2039): BEST FIT FOUND: 49
+[TRACE] 23:12:30:11 memoria/(2039:2039): FIN almacenar_particion()
+[TRACE] 23:12:30:11 memoria/(2039:2039): eliminar_particion()
+[TRACE] 23:12:30:11 memoria/(2039:2039): eliminar_particion()
+[TRACE] 23:12:30:11 memoria/(2039:2039): eliminar_particion()
+[TRACE] 23:12:30:11 memoria/(2039:2039): eliminar_particion()
+[TRACE] 23:12:30:11 memoria/(2039:2039): almacenar_particion(tamanio: 3)
+[TRACE] 23:12:30:11 memoria/(2039:2039): WIN
+[TRACE] 23:12:30:11 memoria/(2039:2039): BEST FIT Algoritmo:
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 0 - 99
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 1 - 0
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 2 - 10
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 3 - 20
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 4 - 30
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 5 - 35
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 6 - 39
+[TRACE] 23:12:30:11 memoria/(2039:2039): Particion = 7 - 49
+[TRACE] 23:12:30:11 memoria/(2039:2039): BEST FIT FOUND: 35
+[TRACE] 23:12:30:11 memoria/(2039:2039): FIN almacenar_particion()
+[TRACE] 23:12:30:11 memoria/(2039:2039): particiones()
+[TRACE] 23:12:30:761 memoria/(2039:2039): particiones()
+[TRACE] 23:21:34:625 memoria/(2054:2054): crear_memoria()
+[TRACE] 23:21:34:625 memoria/(2054:2054): segmento direccion: 0x840a0a8
+[TRACE] 23:21:34:625 memoria/(2054:2054): segmento direccion maxima: 0x840a10c
+[TRACE] 23:21:34:625 memoria/(2054:2054): bloque inicial libre - dato: 0x840a0a8
+[TRACE] 23:21:34:625 memoria/(2054:2054): almacenar_particion(tamanio: 10)
+[TRACE] 23:21:34:625 memoria/(2054:2054): carabanada
+[TRACE] 23:21:34:625 memoria/(2054:2054): BEST FIT Algoritmo:
+[TRACE] 23:21:34:625 memoria/(2054:2054): Particion = 0 - 0
+[TRACE] 23:21:34:625 memoria/(2054:2054): BEST FIT FOUND: 0
+[TRACE] 23:21:34:625 memoria/(2054:2054): FIN almacenar_particion()
+[TRACE] 23:21:34:625 memoria/(2054:2054): almacenar_particion(tamanio: 10)
+[TRACE] 23:21:34:625 memoria/(2054:2054): marcelinho
+[TRACE] 23:21:34:625 memoria/(2054:2054): BEST FIT Algoritmo:
+[TRACE] 23:21:34:625 memoria/(2054:2054): Particion = 0 - 10
+[TRACE] 23:21:34:625 memoria/(2054:2054): Particion = 1 - 0
+[TRACE] 23:21:34:625 memoria/(2054:2054): BEST FIT FOUND: 10
+[TRACE] 23:21:34:625 memoria/(2054:2054): FIN almacenar_particion()
+[TRACE] 23:21:34:626 memoria/(2054:2054): almacenar_particion(tamanio: 10)
+[TRACE] 23:21:34:626 memoria/(2054:2054): parabasada
+[TRACE] 23:21:34:626 memoria/(2054:2054): BEST FIT Algoritmo:
+[TRACE] 23:21:34:626 memoria/(2054:2054): Particion = 0 - 20
+[TRACE] 23:21:34:626 memoria/(2054:2054): Particion = 1 - 0
+[TRACE] 23:21:34:626 memoria/(2054:2054): Particion = 2 - 10
+[TRACE] 23:21:34:626 memoria/(2054:2054): BEST FIT FOUND: 20
+[TRACE] 23:21:34:626 memoria/(2054:2054): FIN almacenar_particion()
+[TRACE] 23:21:34:626 memoria/(2054:2054): almacenar_particion(tamanio: 5)
+[TRACE] 23:21:34:626 memoria/(2054:2054): ritch
+[TRACE] 23:21:34:626 memoria/(2054:2054): BEST FIT Algoritmo:
+[TRACE] 23:21:34:626 memoria/(2054:2054): Particion = 0 - 30
+[TRACE] 23:21:34:626 memoria/(2054:2054): Particion = 1 - 0
+[TRACE] 23:21:34:626 memoria/(2054:2054): Particion = 2 - 10
+[TRACE] 23:21:34:626 memoria/(2054:2054): Particion = 3 - 20
+[TRACE] 23:21:34:626 memoria/(2054:2054): BEST FIT FOUND: 30
+[TRACE] 23:21:34:626 memoria/(2054:2054): FIN almacenar_particion()
+[TRACE] 23:21:34:626 memoria/(2054:2054): almacenar_particion(tamanio: 4)
+[TRACE] 23:21:34:626 memoria/(2054:2054): kern
+[TRACE] 23:21:34:627 memoria/(2054:2054): BEST FIT Algoritmo:
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 0 - 35
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 1 - 0
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 2 - 10
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 3 - 20
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 4 - 30
+[TRACE] 23:21:34:627 memoria/(2054:2054): BEST FIT FOUND: 35
+[TRACE] 23:21:34:627 memoria/(2054:2054): FIN almacenar_particion()
+[TRACE] 23:21:34:627 memoria/(2054:2054): almacenar_particion(tamanio: 10)
+[TRACE] 23:21:34:627 memoria/(2054:2054): estenoseva
+[TRACE] 23:21:34:627 memoria/(2054:2054): BEST FIT Algoritmo:
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 0 - 39
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 1 - 0
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 2 - 10
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 3 - 20
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 4 - 30
+[TRACE] 23:21:34:627 memoria/(2054:2054): Particion = 5 - 35
+[TRACE] 23:21:34:627 memoria/(2054:2054): BEST FIT FOUND: 39
+[TRACE] 23:21:34:627 memoria/(2054:2054): FIN almacenar_particion()
+[TRACE] 23:21:34:627 memoria/(2054:2054): almacenar_particion(tamanio: 50)
+[TRACE] 23:21:34:628 memoria/(2054:2054): aca van muchos caracteres que terminan siendo 50 b
+[TRACE] 23:21:34:628 memoria/(2054:2054): BEST FIT Algoritmo:
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 0 - 49
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 1 - 0
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 2 - 10
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 3 - 20
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 4 - 30
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 5 - 35
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 6 - 39
+[TRACE] 23:21:34:628 memoria/(2054:2054): BEST FIT FOUND: 49
+[TRACE] 23:21:34:628 memoria/(2054:2054): FIN almacenar_particion()
+[TRACE] 23:21:34:628 memoria/(2054:2054): eliminar_particion()
+[TRACE] 23:21:34:628 memoria/(2054:2054): eliminar_particion()
+[TRACE] 23:21:34:628 memoria/(2054:2054): eliminar_particion()
+[TRACE] 23:21:34:628 memoria/(2054:2054): eliminar_particion()
+[TRACE] 23:21:34:628 memoria/(2054:2054): almacenar_particion(tamanio: 3)
+[TRACE] 23:21:34:628 memoria/(2054:2054): WIN
+[TRACE] 23:21:34:628 memoria/(2054:2054): BEST FIT Algoritmo:
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 0 - 99
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 1 - 0
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 2 - 10
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 3 - 20
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 4 - 30
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 5 - 35
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 6 - 39
+[TRACE] 23:21:34:628 memoria/(2054:2054): Particion = 7 - 49
+[TRACE] 23:21:34:628 memoria/(2054:2054): BEST FIT FOUND: 35
+[TRACE] 23:21:34:628 memoria/(2054:2054): FIN almacenar_particion()
+[TRACE] 23:21:34:628 memoria/(2054:2054): particiones()
+[TRACE] 23:21:35:295 memoria/(2054:2054): particiones()
+[TRACE] 23:21:49:836 memoria/(2061:2061): crear_memoria()
+[TRACE] 23:21:49:836 memoria/(2061:2061): segmento direccion: 0x9f370a8
+[TRACE] 23:21:49:836 memoria/(2061:2061): segmento direccion maxima: 0x9f3710c
+[TRACE] 23:21:49:836 memoria/(2061:2061): bloque inicial libre - dato: 0x9f370a8
+[TRACE] 23:21:49:836 memoria/(2061:2061): almacenar_particion(tamanio: 10)
+[TRACE] 23:21:49:836 memoria/(2061:2061): carabanada
+[TRACE] 23:21:49:836 memoria/(2061:2061): BEST FIT Algoritmo:
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 0 - 0
+[TRACE] 23:21:49:836 memoria/(2061:2061): BEST FIT FOUND: 0
+[TRACE] 23:21:49:836 memoria/(2061:2061): FIN almacenar_particion()
+[TRACE] 23:21:49:836 memoria/(2061:2061): almacenar_particion(tamanio: 10)
+[TRACE] 23:21:49:836 memoria/(2061:2061): marcelinho
+[TRACE] 23:21:49:836 memoria/(2061:2061): BEST FIT Algoritmo:
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 0 - 10
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 1 - 0
+[TRACE] 23:21:49:836 memoria/(2061:2061): BEST FIT FOUND: 10
+[TRACE] 23:21:49:836 memoria/(2061:2061): FIN almacenar_particion()
+[TRACE] 23:21:49:836 memoria/(2061:2061): almacenar_particion(tamanio: 10)
+[TRACE] 23:21:49:836 memoria/(2061:2061): parabasada
+[TRACE] 23:21:49:836 memoria/(2061:2061): BEST FIT Algoritmo:
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 0 - 20
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 1 - 0
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 2 - 10
+[TRACE] 23:21:49:836 memoria/(2061:2061): BEST FIT FOUND: 20
+[TRACE] 23:21:49:836 memoria/(2061:2061): FIN almacenar_particion()
+[TRACE] 23:21:49:836 memoria/(2061:2061): almacenar_particion(tamanio: 5)
+[TRACE] 23:21:49:836 memoria/(2061:2061): ritch
+[TRACE] 23:21:49:836 memoria/(2061:2061): BEST FIT Algoritmo:
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 0 - 30
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 1 - 0
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 2 - 10
+[TRACE] 23:21:49:836 memoria/(2061:2061): Particion = 3 - 20
+[TRACE] 23:21:49:836 memoria/(2061:2061): BEST FIT FOUND: 30
+[TRACE] 23:21:49:836 memoria/(2061:2061): FIN almacenar_particion()
+[TRACE] 23:21:49:836 memoria/(2061:2061): almacenar_particion(tamanio: 4)
+[TRACE] 23:21:49:837 memoria/(2061:2061): kern
+[TRACE] 23:21:49:837 memoria/(2061:2061): BEST FIT Algoritmo:
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 0 - 35
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 1 - 0
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 2 - 10
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 3 - 20
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 4 - 30
+[TRACE] 23:21:49:837 memoria/(2061:2061): BEST FIT FOUND: 35
+[TRACE] 23:21:49:837 memoria/(2061:2061): FIN almacenar_particion()
+[TRACE] 23:21:49:837 memoria/(2061:2061): almacenar_particion(tamanio: 10)
+[TRACE] 23:21:49:837 memoria/(2061:2061): estenoseva
+[TRACE] 23:21:49:837 memoria/(2061:2061): BEST FIT Algoritmo:
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 0 - 39
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 1 - 0
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 2 - 10
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 3 - 20
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 4 - 30
+[TRACE] 23:21:49:837 memoria/(2061:2061): Particion = 5 - 35
+[TRACE] 23:21:49:837 memoria/(2061:2061): BEST FIT FOUND: 39
+[TRACE] 23:21:49:837 memoria/(2061:2061): FIN almacenar_particion()
+[TRACE] 23:21:49:838 memoria/(2061:2061): almacenar_particion(tamanio: 50)
+[TRACE] 23:21:49:838 memoria/(2061:2061): aca van muchos caracteres que terminan siendo 50 b
+[TRACE] 23:21:49:838 memoria/(2061:2061): BEST FIT Algoritmo:
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 0 - 49
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 1 - 0
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 2 - 10
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 3 - 20
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 4 - 30
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 5 - 35
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 6 - 39
+[TRACE] 23:21:49:838 memoria/(2061:2061): BEST FIT FOUND: 49
+[TRACE] 23:21:49:838 memoria/(2061:2061): FIN almacenar_particion()
+[TRACE] 23:21:49:838 memoria/(2061:2061): eliminar_particion()
+[TRACE] 23:21:49:838 memoria/(2061:2061): eliminar_particion()
+[TRACE] 23:21:49:838 memoria/(2061:2061): eliminar_particion()
+[TRACE] 23:21:49:838 memoria/(2061:2061): eliminar_particion()
+[TRACE] 23:21:49:838 memoria/(2061:2061): almacenar_particion(tamanio: 3)
+[TRACE] 23:21:49:838 memoria/(2061:2061): WIN
+[TRACE] 23:21:49:838 memoria/(2061:2061): BEST FIT Algoritmo:
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 0 - 99
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 1 - 0
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 2 - 10
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 3 - 20
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 4 - 30
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 5 - 35
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 6 - 39
+[TRACE] 23:21:49:838 memoria/(2061:2061): Particion = 7 - 49
+[TRACE] 23:21:49:838 memoria/(2061:2061): BEST FIT FOUND: 35
+[TRACE] 23:21:49:838 memoria/(2061:2061): FIN almacenar_particion()
+[TRACE] 23:21:49:838 memoria/(2061:2061): particiones()
+[TRACE] 23:21:51:89 memoria/(2061:2061): particiones()
+[TRACE] 23:22:10:329 memoria/(2068:2068): crear_memoria()
+[TRACE] 23:22:10:329 memoria/(2068:2068): segmento direccion: 0x872a0a8
+[TRACE] 23:22:10:329 memoria/(2068:2068): segmento direccion maxima: 0x872a10c
+[TRACE] 23:22:10:329 memoria/(2068:2068): bloque inicial libre - dato: 0x872a0a8
+[TRACE] 23:22:10:329 memoria/(2068:2068): almacenar_particion(tamanio: 10)
+[TRACE] 23:22:10:329 memoria/(2068:2068): carabanada
+[TRACE] 23:22:10:329 memoria/(2068:2068): BEST FIT Algoritmo:
+[TRACE] 23:22:10:330 memoria/(2068:2068): Particion = 0 - 0
+[TRACE] 23:22:10:330 memoria/(2068:2068): BEST FIT FOUND: 0
+[TRACE] 23:22:10:330 memoria/(2068:2068): FIN almacenar_particion()
+[TRACE] 23:22:10:330 memoria/(2068:2068): almacenar_particion(tamanio: 10)
+[TRACE] 23:22:10:330 memoria/(2068:2068): marcelinho
+[TRACE] 23:22:10:330 memoria/(2068:2068): BEST FIT Algoritmo:
+[TRACE] 23:22:10:330 memoria/(2068:2068): Particion = 0 - 10
+[TRACE] 23:22:10:330 memoria/(2068:2068): Particion = 1 - 0
+[TRACE] 23:22:10:330 memoria/(2068:2068): BEST FIT FOUND: 10
+[TRACE] 23:22:10:330 memoria/(2068:2068): FIN almacenar_particion()
+[TRACE] 23:22:10:330 memoria/(2068:2068): almacenar_particion(tamanio: 10)
+[TRACE] 23:22:10:330 memoria/(2068:2068): parabasada
+[TRACE] 23:22:10:330 memoria/(2068:2068): BEST FIT Algoritmo:
+[TRACE] 23:22:10:330 memoria/(2068:2068): Particion = 0 - 20
+[TRACE] 23:22:10:330 memoria/(2068:2068): Particion = 1 - 0
+[TRACE] 23:22:10:330 memoria/(2068:2068): Particion = 2 - 10
+[TRACE] 23:22:10:330 memoria/(2068:2068): BEST FIT FOUND: 20
+[TRACE] 23:22:10:331 memoria/(2068:2068): FIN almacenar_particion()
+[TRACE] 23:22:10:331 memoria/(2068:2068): almacenar_particion(tamanio: 5)
+[TRACE] 23:22:10:331 memoria/(2068:2068): ritch
+[TRACE] 23:22:10:331 memoria/(2068:2068): BEST FIT Algoritmo:
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 0 - 30
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 1 - 0
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 2 - 10
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 3 - 20
+[TRACE] 23:22:10:331 memoria/(2068:2068): BEST FIT FOUND: 30
+[TRACE] 23:22:10:331 memoria/(2068:2068): FIN almacenar_particion()
+[TRACE] 23:22:10:331 memoria/(2068:2068): almacenar_particion(tamanio: 4)
+[TRACE] 23:22:10:331 memoria/(2068:2068): kern
+[TRACE] 23:22:10:331 memoria/(2068:2068): BEST FIT Algoritmo:
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 0 - 35
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 1 - 0
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 2 - 10
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 3 - 20
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 4 - 30
+[TRACE] 23:22:10:331 memoria/(2068:2068): BEST FIT FOUND: 35
+[TRACE] 23:22:10:331 memoria/(2068:2068): FIN almacenar_particion()
+[TRACE] 23:22:10:331 memoria/(2068:2068): almacenar_particion(tamanio: 10)
+[TRACE] 23:22:10:331 memoria/(2068:2068): estenoseva
+[TRACE] 23:22:10:331 memoria/(2068:2068): BEST FIT Algoritmo:
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 0 - 39
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 1 - 0
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 2 - 10
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 3 - 20
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 4 - 30
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 5 - 35
+[TRACE] 23:22:10:331 memoria/(2068:2068): BEST FIT FOUND: 39
+[TRACE] 23:22:10:331 memoria/(2068:2068): FIN almacenar_particion()
+[TRACE] 23:22:10:331 memoria/(2068:2068): almacenar_particion(tamanio: 50)
+[TRACE] 23:22:10:331 memoria/(2068:2068): aca van muchos caracteres que terminan siendo 50 b
+[TRACE] 23:22:10:331 memoria/(2068:2068): BEST FIT Algoritmo:
+[TRACE] 23:22:10:331 memoria/(2068:2068): Particion = 0 - 49
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 1 - 0
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 2 - 10
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 3 - 20
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 4 - 30
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 5 - 35
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 6 - 39
+[TRACE] 23:22:10:332 memoria/(2068:2068): BEST FIT FOUND: 49
+[TRACE] 23:22:10:332 memoria/(2068:2068): FIN almacenar_particion()
+[TRACE] 23:22:10:332 memoria/(2068:2068): eliminar_particion()
+[TRACE] 23:22:10:332 memoria/(2068:2068): eliminar_particion()
+[TRACE] 23:22:10:332 memoria/(2068:2068): eliminar_particion()
+[TRACE] 23:22:10:332 memoria/(2068:2068): eliminar_particion()
+[TRACE] 23:22:10:332 memoria/(2068:2068): almacenar_particion(tamanio: 3)
+[TRACE] 23:22:10:332 memoria/(2068:2068): WIN
+[TRACE] 23:22:10:332 memoria/(2068:2068): BEST FIT Algoritmo:
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 0 - 99
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 1 - 0
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 2 - 10
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 3 - 20
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 4 - 30
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 5 - 35
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 6 - 39
+[TRACE] 23:22:10:332 memoria/(2068:2068): Particion = 7 - 49
+[TRACE] 23:22:10:332 memoria/(2068:2068): BEST FIT FOUND: 35
+[TRACE] 23:22:10:332 memoria/(2068:2068): FIN almacenar_particion()
+[TRACE] 23:22:10:332 memoria/(2068:2068): particiones()
+[TRACE] 23:22:11:672 memoria/(2068:2068): particiones()
+[TRACE] 23:22:26:376 memoria/(2075:2075): crear_memoria()
+[TRACE] 23:22:26:376 memoria/(2075:2075): segmento direccion: 0x8f3b0a8
+[TRACE] 23:22:26:376 memoria/(2075:2075): segmento direccion maxima: 0x8f3b10c
+[TRACE] 23:22:26:376 memoria/(2075:2075): bloque inicial libre - dato: 0x8f3b0a8
+[TRACE] 23:22:26:376 memoria/(2075:2075): almacenar_particion(tamanio: 10)
+[TRACE] 23:22:26:376 memoria/(2075:2075): carabanada
+[TRACE] 23:22:26:376 memoria/(2075:2075): BEST FIT Algoritmo:
+[TRACE] 23:22:26:376 memoria/(2075:2075): Particion = 0 - 0
+[TRACE] 23:22:26:376 memoria/(2075:2075): BEST FIT FOUND: 0
+[TRACE] 23:22:26:376 memoria/(2075:2075): FIN almacenar_particion()
+[TRACE] 23:22:26:376 memoria/(2075:2075): almacenar_particion(tamanio: 10)
+[TRACE] 23:22:26:376 memoria/(2075:2075): marcelinho
+[TRACE] 23:22:26:376 memoria/(2075:2075): BEST FIT Algoritmo:
+[TRACE] 23:22:26:376 memoria/(2075:2075): Particion = 0 - 10
+[TRACE] 23:22:26:376 memoria/(2075:2075): Particion = 1 - 0
+[TRACE] 23:22:26:376 memoria/(2075:2075): BEST FIT FOUND: 10
+[TRACE] 23:22:26:376 memoria/(2075:2075): FIN almacenar_particion()
+[TRACE] 23:22:26:377 memoria/(2075:2075): almacenar_particion(tamanio: 10)
+[TRACE] 23:22:26:377 memoria/(2075:2075): parabasada
+[TRACE] 23:22:26:377 memoria/(2075:2075): BEST FIT Algoritmo:
+[TRACE] 23:22:26:377 memoria/(2075:2075): Particion = 0 - 20
+[TRACE] 23:22:26:377 memoria/(2075:2075): Particion = 1 - 0
+[TRACE] 23:22:26:377 memoria/(2075:2075): Particion = 2 - 10
+[TRACE] 23:22:26:377 memoria/(2075:2075): BEST FIT FOUND: 20
+[TRACE] 23:22:26:377 memoria/(2075:2075): FIN almacenar_particion()
+[TRACE] 23:22:26:377 memoria/(2075:2075): almacenar_particion(tamanio: 5)
+[TRACE] 23:22:26:377 memoria/(2075:2075): ritch
+[TRACE] 23:22:26:377 memoria/(2075:2075): BEST FIT Algoritmo:
+[TRACE] 23:22:26:377 memoria/(2075:2075): Particion = 0 - 30
+[TRACE] 23:22:26:377 memoria/(2075:2075): Particion = 1 - 0
+[TRACE] 23:22:26:377 memoria/(2075:2075): Particion = 2 - 10
+[TRACE] 23:22:26:377 memoria/(2075:2075): Particion = 3 - 20
+[TRACE] 23:22:26:377 memoria/(2075:2075): BEST FIT FOUND: 30
+[TRACE] 23:22:26:377 memoria/(2075:2075): FIN almacenar_particion()
+[TRACE] 23:22:26:377 memoria/(2075:2075): almacenar_particion(tamanio: 4)
+[TRACE] 23:22:26:378 memoria/(2075:2075): kern
+[TRACE] 23:22:26:378 memoria/(2075:2075): BEST FIT Algoritmo:
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 0 - 35
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 1 - 0
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 2 - 10
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 3 - 20
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 4 - 30
+[TRACE] 23:22:26:378 memoria/(2075:2075): BEST FIT FOUND: 35
+[TRACE] 23:22:26:378 memoria/(2075:2075): FIN almacenar_particion()
+[TRACE] 23:22:26:378 memoria/(2075:2075): almacenar_particion(tamanio: 10)
+[TRACE] 23:22:26:378 memoria/(2075:2075): estenoseva
+[TRACE] 23:22:26:378 memoria/(2075:2075): BEST FIT Algoritmo:
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 0 - 39
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 1 - 0
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 2 - 10
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 3 - 20
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 4 - 30
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 5 - 35
+[TRACE] 23:22:26:378 memoria/(2075:2075): BEST FIT FOUND: 39
+[TRACE] 23:22:26:378 memoria/(2075:2075): FIN almacenar_particion()
+[TRACE] 23:22:26:378 memoria/(2075:2075): almacenar_particion(tamanio: 50)
+[TRACE] 23:22:26:378 memoria/(2075:2075): aca van muchos caracteres que terminan siendo 50 b
+[TRACE] 23:22:26:378 memoria/(2075:2075): BEST FIT Algoritmo:
+[TRACE] 23:22:26:378 memoria/(2075:2075): Particion = 0 - 49
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 1 - 0
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 2 - 10
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 3 - 20
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 4 - 30
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 5 - 35
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 6 - 39
+[TRACE] 23:22:26:379 memoria/(2075:2075): BEST FIT FOUND: 49
+[TRACE] 23:22:26:379 memoria/(2075:2075): FIN almacenar_particion()
+[TRACE] 23:22:26:379 memoria/(2075:2075): eliminar_particion()
+[TRACE] 23:22:26:379 memoria/(2075:2075): eliminar_particion()
+[TRACE] 23:22:26:379 memoria/(2075:2075): eliminar_particion()
+[TRACE] 23:22:26:379 memoria/(2075:2075): eliminar_particion()
+[TRACE] 23:22:26:379 memoria/(2075:2075): almacenar_particion(tamanio: 3)
+[TRACE] 23:22:26:379 memoria/(2075:2075): WIN
+[TRACE] 23:22:26:379 memoria/(2075:2075): BEST FIT Algoritmo:
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 0 - 99
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 1 - 0
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 2 - 10
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 3 - 20
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 4 - 30
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 5 - 35
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 6 - 39
+[TRACE] 23:22:26:379 memoria/(2075:2075): Particion = 7 - 49
+[TRACE] 23:22:26:379 memoria/(2075:2075): BEST FIT FOUND: 35
+[TRACE] 23:22:26:379 memoria/(2075:2075): FIN almacenar_particion()
+[TRACE] 23:22:26:379 memoria/(2075:2075): particiones()
+[TRACE] 23:22:28:678 memoria/(2075:2075): particiones()

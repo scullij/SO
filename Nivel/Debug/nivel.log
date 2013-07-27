@@ -1,2060 +1,592 @@
-[TRACE] 21:25:43:311 nivel/(9120:9120): Acepto Personaje: en Socket: 6
+[TRACE] 05:11:33:387 nivel/(9704:9704): Acepto Personaje: en Socket: 6
 
-[TRACE] 21:25:43:312 nivel/(9120:9120): Pedido posicion recurso: F
-[TRACE] 21:25:43:312 nivel/(9120:9120): BUscando recurso: F == F
-[TRACE] 21:25:43:312 nivel/(9120:9120): BUscando recurso: H == F
-[TRACE] 21:25:43:312 nivel/(9120:9120): BUscando recurso: M == F
-[TRACE] 21:25:44:313 nivel/(9120:9120): Personaje a mover 
-[TRACE] 21:25:44:314 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 2, y: 1
+[TRACE] 05:11:33:387 nivel/(9704:9704): Pedido posicion recurso: M
+[TRACE] 05:11:33:387 nivel/(9704:9704): BUscando recurso: H == M
+[TRACE] 05:11:33:387 nivel/(9704:9704): BUscando recurso: F == M
+[TRACE] 05:11:33:387 nivel/(9704:9704): BUscando recurso: M == M
+[TRACE] 05:11:33:638 nivel/(9704:9704): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 05:11:33:638 nivel/(9704:9704): Movimiento personaje: x: 2, y: 1
 
-[TRACE] 21:25:45:314 nivel/(9120:9120): Personaje a mover p
-[TRACE] 21:25:45:314 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 3, y: 1
+[TRACE] 05:11:33:858 nivel/(9704:9704): Acepto Personaje: en Socket: 7
 
-[TRACE] 21:25:46:315 nivel/(9120:9120): Personaje a mover p
-[TRACE] 21:25:46:315 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 4, y: 1
+[TRACE] 05:11:33:890 nivel/(9704:9704): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 05:11:33:890 nivel/(9704:9704): Movimiento personaje: x: 3, y: 1
 
-[TRACE] 21:25:47:366 nivel/(9120:9120): Personaje a mover p
-[TRACE] 21:25:47:366 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 5, y: 1
+[TRACE] 05:11:34:140 nivel/(9704:9704): Personaje a mover #, posicionX 3 posicionY 2
+[TRACE] 05:11:34:141 nivel/(9704:9704): Movimiento personaje: x: 3, y: 2
 
-[TRACE] 21:25:48:367 nivel/(9120:9120): Personaje a mover p
-[TRACE] 21:25:48:367 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 5, y: 2
+[TRACE] 05:11:34:642 nivel/(9704:9704): Pedido posicion recurso: H
+[TRACE] 05:11:34:642 nivel/(9704:9704): BUscando recurso: H == H
+[TRACE] 05:11:34:642 nivel/(9704:9704): BUscando recurso: F == H
+[TRACE] 05:11:34:642 nivel/(9704:9704): BUscando recurso: M == H
+[TRACE] 05:11:34:893 nivel/(9704:9704): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 05:11:34:893 nivel/(9704:9704): Movimiento personaje: x: 2, y: 1
 
-[TRACE] 21:25:49:368 nivel/(9120:9120): Personaje a mover p
-[TRACE] 21:25:49:368 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 5, y: 3
+[TRACE] 05:11:35:143 nivel/(9704:9704): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 05:11:35:143 nivel/(9704:9704): Movimiento personaje: x: 3, y: 1
 
-[TRACE] 21:25:50:420 nivel/(9120:9120): Personaje a mover ˆ
-[TRACE] 21:25:50:420 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 5, y: 4
+[TRACE] 05:11:35:398 nivel/(9704:9704): Personaje a mover @, posicionX 4 posicionY 1
+[TRACE] 05:11:35:398 nivel/(9704:9704): Movimiento personaje: x: 4, y: 1
 
-[TRACE] 21:25:51:421 nivel/(9120:9120): Personaje a mover M
-[TRACE] 21:25:51:421 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 5, y: 5
-
-[TRACE] 21:25:51:472 nivel/(9120:9120): Pedido posicion recurso: H
-[TRACE] 21:25:51:472 nivel/(9120:9120): BUscando recurso: F == H
-[TRACE] 21:25:51:472 nivel/(9120:9120): BUscando recurso: H == H
-[TRACE] 21:25:51:472 nivel/(9120:9120): BUscando recurso: M == H
-[TRACE] 21:25:52:472 nivel/(9120:9120): Personaje a mover 
-[TRACE] 21:25:52:473 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 6, y: 5
-
-[TRACE] 21:25:53:473 nivel/(9120:9120): Personaje a mover M
-[TRACE] 21:25:53:473 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 7, y: 5
-
-[TRACE] 21:25:54:474 nivel/(9120:9120): Personaje a mover M
-[TRACE] 21:25:54:474 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 7, y: 4
-
-[TRACE] 21:25:54:575 nivel/(9120:9120): Pedido posicion recurso: M
-[TRACE] 21:25:54:575 nivel/(9120:9120): BUscando recurso: F == M
-[TRACE] 21:25:54:575 nivel/(9120:9120): BUscando recurso: H == M
-[TRACE] 21:25:54:575 nivel/(9120:9120): BUscando recurso: M == M
-[TRACE] 21:25:55:576 nivel/(9120:9120): Personaje a mover 
-[TRACE] 21:25:55:576 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 6, y: 4
-
-[TRACE] 21:25:56:579 nivel/(9120:9120): Personaje a mover M
-[TRACE] 21:25:56:579 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 5, y: 4
-
-[TRACE] 21:25:57:579 nivel/(9120:9120): Personaje a mover M
-[TRACE] 21:25:57:580 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 4, y: 4
-
-[TRACE] 21:25:58:631 nivel/(9120:9120): Personaje a mover M
-[TRACE] 21:25:58:631 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 3, y: 4
-
-[TRACE] 21:25:59:631 nivel/(9120:9120): Personaje a mover M
-[TRACE] 21:25:59:631 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 3, y: 3
-
-[TRACE] 21:26:00:634 nivel/(9120:9120): Personaje a mover M
-[TRACE] 21:26:00:634 nivel/(9120:9120): MOVIMIENTO PERSONAJE EN: x: 3, y: 2
-
-[TRACE] 21:27:29:607 nivel/(9240:9240): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:27:29:608 nivel/(9240:9240): Pedido posicion recurso: F
-[TRACE] 21:27:29:608 nivel/(9240:9240): BUscando recurso: F == F
-[TRACE] 21:27:29:608 nivel/(9240:9240): BUscando recurso: H == F
-[TRACE] 21:27:29:608 nivel/(9240:9240): BUscando recurso: M == F
-[TRACE] 21:27:30:608 nivel/(9240:9240): Personaje a mover , posicionX 2 posicionY 1
-[TRACE] 21:27:30:609 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 2, y: 1
-
-[TRACE] 21:27:31:609 nivel/(9240:9240): Personaje a mover p, posicionX 3 posicionY 1
-[TRACE] 21:27:31:610 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 3, y: 1
-
-[TRACE] 21:27:32:610 nivel/(9240:9240): Personaje a mover p, posicionX 4 posicionY 1
-[TRACE] 21:27:32:610 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 4, y: 1
-
-[TRACE] 21:27:33:663 nivel/(9240:9240): Personaje a mover p, posicionX 5 posicionY 1
-[TRACE] 21:27:33:663 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 5, y: 1
-
-[TRACE] 21:27:34:664 nivel/(9240:9240): Personaje a mover p, posicionX 5 posicionY 2
-[TRACE] 21:27:34:664 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 5, y: 2
-
-[TRACE] 21:27:35:665 nivel/(9240:9240): Personaje a mover p, posicionX 5 posicionY 3
-[TRACE] 21:27:35:665 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 5, y: 3
-
-[TRACE] 21:27:36:717 nivel/(9240:9240): Personaje a mover ˆ, posicionX 5 posicionY 4
-[TRACE] 21:27:36:717 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 5, y: 4
-
-[TRACE] 21:27:37:718 nivel/(9240:9240): Personaje a mover M, posicionX 5 posicionY 5
-[TRACE] 21:27:37:718 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 5, y: 5
-
-[TRACE] 21:27:37:770 nivel/(9240:9240): Pedido posicion recurso: H
-[TRACE] 21:27:37:770 nivel/(9240:9240): BUscando recurso: F == H
-[TRACE] 21:27:37:770 nivel/(9240:9240): BUscando recurso: H == H
-[TRACE] 21:27:37:771 nivel/(9240:9240): BUscando recurso: M == H
-[TRACE] 21:27:38:771 nivel/(9240:9240): Personaje a mover , posicionX 6 posicionY 5
-[TRACE] 21:27:38:771 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 6, y: 5
-
-[TRACE] 21:27:39:772 nivel/(9240:9240): Personaje a mover M, posicionX 7 posicionY 5
-[TRACE] 21:27:39:772 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 7, y: 5
-
-[TRACE] 21:27:40:773 nivel/(9240:9240): Personaje a mover M, posicionX 7 posicionY 4
-[TRACE] 21:27:40:773 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 7, y: 4
-
-[TRACE] 21:27:40:877 nivel/(9240:9240): Pedido posicion recurso: M
-[TRACE] 21:27:40:877 nivel/(9240:9240): BUscando recurso: F == M
-[TRACE] 21:27:40:877 nivel/(9240:9240): BUscando recurso: H == M
-[TRACE] 21:27:40:877 nivel/(9240:9240): BUscando recurso: M == M
-[TRACE] 21:27:41:877 nivel/(9240:9240): Personaje a mover , posicionX 6 posicionY 4
-[TRACE] 21:27:41:877 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 6, y: 4
-
-[TRACE] 21:27:42:878 nivel/(9240:9240): Personaje a mover M, posicionX 5 posicionY 4
-[TRACE] 21:27:42:878 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 5, y: 4
-
-[TRACE] 21:27:43:879 nivel/(9240:9240): Personaje a mover M, posicionX 4 posicionY 4
-[TRACE] 21:27:43:879 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 4, y: 4
-
-[TRACE] 21:27:44:930 nivel/(9240:9240): Personaje a mover M, posicionX 3 posicionY 4
-[TRACE] 21:27:44:930 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 3, y: 4
-
-[TRACE] 21:27:45:933 nivel/(9240:9240): Personaje a mover M, posicionX 3 posicionY 3
-[TRACE] 21:27:45:933 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 3, y: 3
-
-[TRACE] 21:27:46:934 nivel/(9240:9240): Personaje a mover M, posicionX 3 posicionY 2
-[TRACE] 21:27:46:934 nivel/(9240:9240): MOVIMIENTO PERSONAJE EN: x: 3, y: 2
-
-[TRACE] 21:29:34:347 nivel/(9266:9266): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:29:34:347 nivel/(9266:9266): Pedido posicion recurso: F
-[TRACE] 21:29:34:347 nivel/(9266:9266): BUscando recurso: F == F
-[TRACE] 21:29:34:347 nivel/(9266:9266): BUscando recurso: H == F
-[TRACE] 21:29:34:347 nivel/(9266:9266): BUscando recurso: M == F
-[TRACE] 21:30:41:642 nivel/(9266:9266): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:31:29:710 nivel/(9360:9360): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:31:29:710 nivel/(9360:9360): Pedido posicion recurso: F
-[TRACE] 21:31:29:710 nivel/(9360:9360): BUscando recurso: F == F
-[TRACE] 21:31:29:710 nivel/(9360:9360): BUscando recurso: H == F
-[TRACE] 21:31:29:710 nivel/(9360:9360): BUscando recurso: M == F
-[TRACE] 21:31:30:711 nivel/(9360:9360): Personaje a mover , posicionX 2 posicionY 1
-[TRACE] 21:31:30:712 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 2, y: 1
-
-[TRACE] 21:31:31:713 nivel/(9360:9360): Personaje a mover p, posicionX 3 posicionY 1
-[TRACE] 21:31:31:713 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 3, y: 1
-
-[TRACE] 21:31:32:714 nivel/(9360:9360): Personaje a mover p, posicionX 4 posicionY 1
-[TRACE] 21:31:32:714 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 4, y: 1
-
-[TRACE] 21:31:33:766 nivel/(9360:9360): Personaje a mover p, posicionX 5 posicionY 1
-[TRACE] 21:31:33:766 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 5, y: 1
-
-[TRACE] 21:31:34:767 nivel/(9360:9360): Personaje a mover p, posicionX 5 posicionY 2
-[TRACE] 21:31:34:767 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 5, y: 2
-
-[TRACE] 21:31:35:769 nivel/(9360:9360): Personaje a mover p, posicionX 5 posicionY 3
-[TRACE] 21:31:35:769 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 5, y: 3
-
-[TRACE] 21:31:36:822 nivel/(9360:9360): Personaje a mover ˆ, posicionX 5 posicionY 4
-[TRACE] 21:31:36:822 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 5, y: 4
-
-[TRACE] 21:31:37:823 nivel/(9360:9360): Personaje a mover M, posicionX 5 posicionY 5
-[TRACE] 21:31:37:823 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 5, y: 5
-
-[TRACE] 21:31:37:876 nivel/(9360:9360): Pedido posicion recurso: H
-[TRACE] 21:31:37:876 nivel/(9360:9360): BUscando recurso: F == H
-[TRACE] 21:31:37:876 nivel/(9360:9360): BUscando recurso: H == H
-[TRACE] 21:31:37:876 nivel/(9360:9360): BUscando recurso: M == H
-[TRACE] 21:31:38:876 nivel/(9360:9360): Personaje a mover , posicionX 6 posicionY 5
-[TRACE] 21:31:38:876 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 6, y: 5
-
-[TRACE] 21:31:39:878 nivel/(9360:9360): Personaje a mover M, posicionX 7 posicionY 5
-[TRACE] 21:31:39:878 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 7, y: 5
-
-[TRACE] 21:31:40:879 nivel/(9360:9360): Personaje a mover M, posicionX 7 posicionY 4
-[TRACE] 21:31:40:879 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 7, y: 4
-
-[TRACE] 21:31:40:982 nivel/(9360:9360): Pedido posicion recurso: M
-[TRACE] 21:31:40:982 nivel/(9360:9360): BUscando recurso: F == M
-[TRACE] 21:31:40:982 nivel/(9360:9360): BUscando recurso: H == M
-[TRACE] 21:31:40:982 nivel/(9360:9360): BUscando recurso: M == M
-[TRACE] 21:31:41:984 nivel/(9360:9360): Personaje a mover , posicionX 6 posicionY 4
-[TRACE] 21:31:41:984 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 6, y: 4
-
-[TRACE] 21:31:42:984 nivel/(9360:9360): Personaje a mover M, posicionX 5 posicionY 4
-[TRACE] 21:31:42:984 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 5, y: 4
-
-[TRACE] 21:31:43:985 nivel/(9360:9360): Personaje a mover M, posicionX 4 posicionY 4
-[TRACE] 21:31:43:985 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 4, y: 4
-
-[TRACE] 21:31:45:36 nivel/(9360:9360): Personaje a mover M, posicionX 3 posicionY 4
-[TRACE] 21:31:45:36 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 3, y: 4
-
-[TRACE] 21:31:46:38 nivel/(9360:9360): Personaje a mover M, posicionX 3 posicionY 3
-[TRACE] 21:31:46:38 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 3, y: 3
-
-[TRACE] 21:31:47:39 nivel/(9360:9360): Personaje a mover M, posicionX 3 posicionY 2
-[TRACE] 21:31:47:39 nivel/(9360:9360): MOVIMIENTO PERSONAJE EN: x: 3, y: 2
-
-[TRACE] 21:33:26:740 nivel/(9383:9383): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:33:26:740 nivel/(9383:9383): Pedido posicion recurso: F
-[TRACE] 21:33:26:740 nivel/(9383:9383): BUscando recurso: F == F
-[TRACE] 21:33:26:740 nivel/(9383:9383): BUscando recurso: H == F
-[TRACE] 21:33:26:740 nivel/(9383:9383): BUscando recurso: M == F
-[TRACE] 21:34:00:234 nivel/(9383:9383): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 21:34:00:234 nivel/(9383:9383): MOVIMIENTO PERSONAJE EN: x: 2, y: 1
-
-[TRACE] 21:34:45:324 nivel/(9572:9572): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:34:45:324 nivel/(9572:9572): Pedido posicion recurso: F
-[TRACE] 21:34:45:324 nivel/(9572:9572): BUscando recurso: F == F
-[TRACE] 21:34:45:324 nivel/(9572:9572): BUscando recurso: H == F
-[TRACE] 21:34:45:324 nivel/(9572:9572): BUscando recurso: M == F
-[TRACE] 21:34:46:326 nivel/(9572:9572): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 21:34:46:326 nivel/(9572:9572): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:34:47:328 nivel/(9572:9572): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 21:34:47:328 nivel/(9572:9572): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:34:48:329 nivel/(9572:9572): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 21:34:48:330 nivel/(9572:9572): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:34:49:382 nivel/(9572:9572): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 21:34:49:382 nivel/(9572:9572): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:34:50:384 nivel/(9572:9572): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 21:34:50:384 nivel/(9572:9572): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 21:34:51:386 nivel/(9572:9572): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 21:34:51:386 nivel/(9572:9572): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 21:34:52:438 nivel/(9572:9572): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 21:34:52:438 nivel/(9572:9572): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:34:53:439 nivel/(9572:9572): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 21:34:53:439 nivel/(9572:9572): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 21:34:53:491 nivel/(9572:9572): Pedido posicion recurso: H
-[TRACE] 21:34:53:491 nivel/(9572:9572): BUscando recurso: F == H
-[TRACE] 21:34:53:491 nivel/(9572:9572): BUscando recurso: H == H
-[TRACE] 21:34:53:491 nivel/(9572:9572): BUscando recurso: M == H
-[TRACE] 21:34:54:491 nivel/(9572:9572): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 21:34:54:492 nivel/(9572:9572): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 21:34:55:492 nivel/(9572:9572): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 21:34:55:493 nivel/(9572:9572): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 21:34:56:495 nivel/(9572:9572): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 21:34:56:495 nivel/(9572:9572): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:34:56:597 nivel/(9572:9572): Pedido posicion recurso: M
-[TRACE] 21:34:56:597 nivel/(9572:9572): BUscando recurso: F == M
-[TRACE] 21:34:56:597 nivel/(9572:9572): BUscando recurso: H == M
-[TRACE] 21:34:56:597 nivel/(9572:9572): BUscando recurso: M == M
-[TRACE] 21:34:57:598 nivel/(9572:9572): Personaje a mover @, posicionX 6 posicionY 4
-[TRACE] 21:34:57:598 nivel/(9572:9572): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 21:34:58:599 nivel/(9572:9572): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 21:34:58:599 nivel/(9572:9572): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:34:59:600 nivel/(9572:9572): Personaje a mover @, posicionX 4 posicionY 4
-[TRACE] 21:34:59:600 nivel/(9572:9572): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 21:35:00:653 nivel/(9572:9572): Personaje a mover @, posicionX 3 posicionY 4
-[TRACE] 21:35:00:653 nivel/(9572:9572): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 21:35:01:655 nivel/(9572:9572): Personaje a mover @, posicionX 3 posicionY 3
-[TRACE] 21:35:01:655 nivel/(9572:9572): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 21:35:02:656 nivel/(9572:9572): Personaje a mover @, posicionX 3 posicionY 2
-[TRACE] 21:35:02:656 nivel/(9572:9572): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 21:35:52:405 nivel/(9628:9628): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:35:52:405 nivel/(9628:9628): Pedido posicion recurso: F
-[TRACE] 21:35:52:405 nivel/(9628:9628): BUscando recurso: F == F
-[TRACE] 21:35:52:405 nivel/(9628:9628): BUscando recurso: H == F
-[TRACE] 21:35:52:405 nivel/(9628:9628): BUscando recurso: M == F
-[TRACE] 21:35:52:821 nivel/(9628:9628): Acepto Personaje: en Socket: 7
-
-[TRACE] 21:35:53:405 nivel/(9628:9628): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 21:35:53:405 nivel/(9628:9628): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:35:54:406 nivel/(9628:9628): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 21:35:54:406 nivel/(9628:9628): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:35:55:407 nivel/(9628:9628): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 21:35:55:407 nivel/(9628:9628): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:35:55:458 nivel/(9628:9628): Pedido posicion recurso: H
-[TRACE] 21:35:55:458 nivel/(9628:9628): BUscando recurso: F == H
-[TRACE] 21:35:55:458 nivel/(9628:9628): BUscando recurso: H == H
-[TRACE] 21:35:55:458 nivel/(9628:9628): BUscando recurso: M == H
-[TRACE] 21:35:56:458 nivel/(9628:9628): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 21:35:56:458 nivel/(9628:9628): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:35:57:459 nivel/(9628:9628): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 21:35:57:459 nivel/(9628:9628): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:35:58:460 nivel/(9628:9628): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 21:35:58:461 nivel/(9628:9628): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:35:59:512 nivel/(9628:9628): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 21:35:59:512 nivel/(9628:9628): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:36:00:513 nivel/(9628:9628): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 21:36:00:513 nivel/(9628:9628): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 21:36:01:514 nivel/(9628:9628): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 21:36:01:514 nivel/(9628:9628): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 21:36:02:566 nivel/(9628:9628): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 21:36:02:566 nivel/(9628:9628): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:36:03:568 nivel/(9628:9628): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 21:36:03:568 nivel/(9628:9628): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 21:36:04:569 nivel/(9628:9628): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 21:36:04:569 nivel/(9628:9628): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 21:36:05:622 nivel/(9628:9628): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 21:36:05:622 nivel/(9628:9628): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:36:06:623 nivel/(9628:9628): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 21:36:06:623 nivel/(9628:9628): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 21:36:07:677 nivel/(9628:9628): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 21:36:07:677 nivel/(9628:9628): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 21:36:08:680 nivel/(9628:9628): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 21:36:08:680 nivel/(9628:9628): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 21:36:09:681 nivel/(9628:9628): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 21:36:09:681 nivel/(9628:9628): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:36:09:732 nivel/(9628:9628): Pedido posicion recurso: H
-[TRACE] 21:36:09:732 nivel/(9628:9628): BUscando recurso: F == H
-[TRACE] 21:36:09:732 nivel/(9628:9628): BUscando recurso: H == H
-[TRACE] 21:36:09:732 nivel/(9628:9628): BUscando recurso: M == H
-[TRACE] 21:36:10:733 nivel/(9628:9628): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 21:36:10:733 nivel/(9628:9628): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 21:36:11:734 nivel/(9628:9628): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 21:36:11:734 nivel/(9628:9628): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 21:36:12:736 nivel/(9628:9628): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 21:36:12:736 nivel/(9628:9628): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:36:12:889 nivel/(9628:9628): Pedido posicion recurso: M
-[TRACE] 21:36:12:889 nivel/(9628:9628): BUscando recurso: F == M
-[TRACE] 21:36:12:889 nivel/(9628:9628): BUscando recurso: H == M
-[TRACE] 21:36:12:889 nivel/(9628:9628): BUscando recurso: M == M
-[TRACE] 21:36:13:890 nivel/(9628:9628): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 21:36:13:890 nivel/(9628:9628): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 21:36:14:890 nivel/(9628:9628): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:36:14:891 nivel/(9628:9628): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:36:15:891 nivel/(9628:9628): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 21:36:15:891 nivel/(9628:9628): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 21:36:15:944 nivel/(9628:9628): Pedido posicion recurso: M
-[TRACE] 21:36:15:944 nivel/(9628:9628): BUscando recurso: F == M
-[TRACE] 21:36:15:944 nivel/(9628:9628): BUscando recurso: H == M
-[TRACE] 21:36:15:944 nivel/(9628:9628): BUscando recurso: M == M
-[TRACE] 21:36:16:944 nivel/(9628:9628): Personaje a mover @, posicionX 6 posicionY 4
-[TRACE] 21:36:16:944 nivel/(9628:9628): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 21:36:17:946 nivel/(9628:9628): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 21:36:17:946 nivel/(9628:9628): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:36:18:948 nivel/(9628:9628): Personaje a mover @, posicionX 4 posicionY 4
-[TRACE] 21:36:18:948 nivel/(9628:9628): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 21:36:19:1 nivel/(9628:9628): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 21:36:19:1 nivel/(9628:9628): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 21:36:21:2 nivel/(9628:9628): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 21:36:21:2 nivel/(9628:9628): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 21:36:22:3 nivel/(9628:9628): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 21:36:22:3 nivel/(9628:9628): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 21:36:23:54 nivel/(9628:9628): Personaje a mover @, posicionX 3 posicionY 4
-[TRACE] 21:36:23:54 nivel/(9628:9628): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 21:36:24:56 nivel/(9628:9628): Personaje a mover @, posicionX 3 posicionY 3
-[TRACE] 21:36:24:56 nivel/(9628:9628): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 21:36:25:57 nivel/(9628:9628): Personaje a mover @, posicionX 3 posicionY 2
-[TRACE] 21:36:25:58 nivel/(9628:9628): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 21:39:10:235 nivel/(9667:9667): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:39:10:235 nivel/(9667:9667): Pedido posicion recurso: H
-[TRACE] 21:39:10:235 nivel/(9667:9667): BUscando recurso: F == H
-[TRACE] 21:39:10:235 nivel/(9667:9667): BUscando recurso: H == H
-[TRACE] 21:39:10:235 nivel/(9667:9667): BUscando recurso: M == H
-[TRACE] 21:39:11:237 nivel/(9667:9667): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 21:39:11:237 nivel/(9667:9667): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:39:12:238 nivel/(9667:9667): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 21:39:12:238 nivel/(9667:9667): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:39:13:240 nivel/(9667:9667): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 21:39:13:240 nivel/(9667:9667): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:39:14:293 nivel/(9667:9667): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 21:39:14:293 nivel/(9667:9667): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:39:15:295 nivel/(9667:9667): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 21:39:15:295 nivel/(9667:9667): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 21:39:16:297 nivel/(9667:9667): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 21:39:16:297 nivel/(9667:9667): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 21:39:17:349 nivel/(9667:9667): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 21:39:17:349 nivel/(9667:9667): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 21:39:18:350 nivel/(9667:9667): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 21:39:18:350 nivel/(9667:9667): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 21:39:19:351 nivel/(9667:9667): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 21:39:19:351 nivel/(9667:9667): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:39:19:455 nivel/(9667:9667): Pedido posicion recurso: M
-[TRACE] 21:39:19:455 nivel/(9667:9667): BUscando recurso: F == M
-[TRACE] 21:39:19:455 nivel/(9667:9667): BUscando recurso: H == M
-[TRACE] 21:39:19:455 nivel/(9667:9667): BUscando recurso: M == M
-[TRACE] 21:39:20:456 nivel/(9667:9667): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 21:39:20:456 nivel/(9667:9667): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 21:39:21:458 nivel/(9667:9667): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:39:21:458 nivel/(9667:9667): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:39:22:459 nivel/(9667:9667): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 21:39:22:459 nivel/(9667:9667): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 21:39:23:510 nivel/(9667:9667): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 21:39:23:510 nivel/(9667:9667): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 21:39:24:512 nivel/(9667:9667): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 21:39:24:512 nivel/(9667:9667): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 21:39:25:514 nivel/(9667:9667): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 21:39:25:514 nivel/(9667:9667): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 21:39:25:617 nivel/(9667:9667): Pedido posicion recurso: F
-[TRACE] 21:39:25:617 nivel/(9667:9667): BUscando recurso: F == F
-[TRACE] 21:39:25:617 nivel/(9667:9667): BUscando recurso: H == F
-[TRACE] 21:39:25:617 nivel/(9667:9667): BUscando recurso: M == F
-[TRACE] 21:39:26:619 nivel/(9667:9667): Personaje a mover #, posicionX 4 posicionY 2
-[TRACE] 21:39:26:619 nivel/(9667:9667): Movimiento personaje: x: 4, y: 2
-
-[TRACE] 21:39:27:620 nivel/(9667:9667): Personaje a mover #, posicionX 5 posicionY 2
-[TRACE] 21:39:27:621 nivel/(9667:9667): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 21:39:28:621 nivel/(9667:9667): Personaje a mover #, posicionX 5 posicionY 3
-[TRACE] 21:39:28:621 nivel/(9667:9667): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 21:39:29:675 nivel/(9667:9667): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:39:29:675 nivel/(9667:9667): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:39:30:677 nivel/(9667:9667): Personaje a mover #, posicionX 5 posicionY 5
-[TRACE] 21:39:30:677 nivel/(9667:9667): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 21:42:13:548 nivel/(9667:9667): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:42:29:538 nivel/(9667:9667): Pedido posicion recurso: H
-[TRACE] 21:42:29:538 nivel/(9667:9667): BUscando recurso: F == H
-[TRACE] 21:42:29:539 nivel/(9667:9667): BUscando recurso: H == H
-[TRACE] 21:42:29:539 nivel/(9667:9667): BUscando recurso: M == H
-[TRACE] 21:42:35:315 nivel/(9667:9667): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 21:42:35:315 nivel/(9667:9667): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:42:36:316 nivel/(9667:9667): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 21:42:36:316 nivel/(9667:9667): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:42:37:317 nivel/(9667:9667): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 21:42:37:317 nivel/(9667:9667): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:42:38:370 nivel/(9667:9667): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 21:42:38:370 nivel/(9667:9667): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:42:39:370 nivel/(9667:9667): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 21:42:39:371 nivel/(9667:9667): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 21:42:40:371 nivel/(9667:9667): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 21:42:40:371 nivel/(9667:9667): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 21:42:41:425 nivel/(9667:9667): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 21:42:41:425 nivel/(9667:9667): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 21:42:42:426 nivel/(9667:9667): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 21:42:42:426 nivel/(9667:9667): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 21:42:43:427 nivel/(9667:9667): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 21:42:43:427 nivel/(9667:9667): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:43:21:554 nivel/(9667:9667): Pedido posicion recurso: M
-[TRACE] 21:43:21:554 nivel/(9667:9667): BUscando recurso: F == M
-[TRACE] 21:43:21:554 nivel/(9667:9667): BUscando recurso: H == M
-[TRACE] 21:43:21:554 nivel/(9667:9667): BUscando recurso: M == M
-[TRACE] 21:43:22:555 nivel/(9667:9667): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 21:43:22:555 nivel/(9667:9667): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 21:43:23:557 nivel/(9667:9667): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:43:23:557 nivel/(9667:9667): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:43:24:557 nivel/(9667:9667): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 21:43:24:557 nivel/(9667:9667): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 21:43:25:609 nivel/(9667:9667): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 21:43:25:609 nivel/(9667:9667): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 21:43:26:609 nivel/(9667:9667): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 21:43:26:609 nivel/(9667:9667): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 21:43:27:611 nivel/(9667:9667): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 21:43:27:611 nivel/(9667:9667): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 21:48:47:640 nivel/(9840:9840): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:48:47:640 nivel/(9840:9840): Pedido posicion recurso: H
-[TRACE] 21:48:47:640 nivel/(9840:9840): BUscando recurso: F == H
-[TRACE] 21:48:47:640 nivel/(9840:9840): BUscando recurso: H == H
-[TRACE] 21:48:47:640 nivel/(9840:9840): BUscando recurso: M == H
-[TRACE] 21:48:48:640 nivel/(9840:9840): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 21:48:48:640 nivel/(9840:9840): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:48:49:642 nivel/(9840:9840): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 21:48:49:642 nivel/(9840:9840): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:48:50:643 nivel/(9840:9840): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 21:48:50:643 nivel/(9840:9840): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:48:51:694 nivel/(9840:9840): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 21:48:51:694 nivel/(9840:9840): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:48:52:696 nivel/(9840:9840): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 21:48:52:696 nivel/(9840:9840): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 21:48:53:697 nivel/(9840:9840): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 21:48:53:697 nivel/(9840:9840): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 21:48:54:749 nivel/(9840:9840): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 21:48:54:749 nivel/(9840:9840): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 21:48:55:750 nivel/(9840:9840): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 21:48:55:750 nivel/(9840:9840): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 21:48:56:751 nivel/(9840:9840): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 21:48:56:751 nivel/(9840:9840): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:48:56:853 nivel/(9840:9840): Pedido posicion recurso: M
-[TRACE] 21:48:56:853 nivel/(9840:9840): BUscando recurso: F == M
-[TRACE] 21:48:56:853 nivel/(9840:9840): BUscando recurso: H == M
-[TRACE] 21:48:56:853 nivel/(9840:9840): BUscando recurso: M == M
-[TRACE] 21:48:57:855 nivel/(9840:9840): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 21:48:57:855 nivel/(9840:9840): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 21:48:58:856 nivel/(9840:9840): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:48:58:856 nivel/(9840:9840): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:48:59:859 nivel/(9840:9840): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 21:48:59:859 nivel/(9840:9840): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 21:49:00:910 nivel/(9840:9840): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 21:49:00:911 nivel/(9840:9840): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 21:49:01:911 nivel/(9840:9840): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 21:49:01:911 nivel/(9840:9840): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 21:49:02:912 nivel/(9840:9840): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 21:49:02:912 nivel/(9840:9840): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 21:49:03:14 nivel/(9840:9840): Pedido posicion recurso: F
-[TRACE] 21:49:03:14 nivel/(9840:9840): BUscando recurso: F == F
-[TRACE] 21:49:03:14 nivel/(9840:9840): BUscando recurso: H == F
-[TRACE] 21:49:03:14 nivel/(9840:9840): BUscando recurso: M == F
-[TRACE] 21:49:04:15 nivel/(9840:9840): Personaje a mover #, posicionX 4 posicionY 2
-[TRACE] 21:49:04:15 nivel/(9840:9840): Movimiento personaje: x: 4, y: 2
-
-[TRACE] 21:49:05:17 nivel/(9840:9840): Personaje a mover #, posicionX 5 posicionY 2
-[TRACE] 21:49:05:17 nivel/(9840:9840): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 21:49:06:18 nivel/(9840:9840): Personaje a mover #, posicionX 5 posicionY 3
-[TRACE] 21:49:06:18 nivel/(9840:9840): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 21:49:07:70 nivel/(9840:9840): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:49:07:70 nivel/(9840:9840): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:49:08:71 nivel/(9840:9840): Personaje a mover #, posicionX 5 posicionY 5
-[TRACE] 21:49:08:71 nivel/(9840:9840): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 21:49:30:654 nivel/(9937:9937): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:49:30:655 nivel/(9937:9937): Pedido posicion recurso: H
-[TRACE] 21:49:30:655 nivel/(9937:9937): BUscando recurso: F == H
-[TRACE] 21:49:30:655 nivel/(9937:9937): BUscando recurso: H == H
-[TRACE] 21:49:30:655 nivel/(9937:9937): BUscando recurso: M == H
-[TRACE] 21:49:31:655 nivel/(9937:9937): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 21:49:31:655 nivel/(9937:9937): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:49:32:656 nivel/(9937:9937): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 21:49:32:656 nivel/(9937:9937): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:49:33:658 nivel/(9937:9937): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 21:49:33:658 nivel/(9937:9937): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:49:34:710 nivel/(9937:9937): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 21:49:34:710 nivel/(9937:9937): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:49:35:711 nivel/(9937:9937): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 21:49:35:711 nivel/(9937:9937): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 21:49:36:713 nivel/(9937:9937): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 21:49:36:713 nivel/(9937:9937): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 21:49:37:764 nivel/(9937:9937): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 21:49:37:764 nivel/(9937:9937): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 21:49:38:764 nivel/(9937:9937): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 21:49:38:765 nivel/(9937:9937): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 21:49:39:765 nivel/(9937:9937): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 21:49:39:765 nivel/(9937:9937): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:49:39:868 nivel/(9937:9937): Pedido posicion recurso: M
-[TRACE] 21:49:39:868 nivel/(9937:9937): BUscando recurso: F == M
-[TRACE] 21:49:39:868 nivel/(9937:9937): BUscando recurso: H == M
-[TRACE] 21:49:39:868 nivel/(9937:9937): BUscando recurso: M == M
-[TRACE] 21:49:40:869 nivel/(9937:9937): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 21:49:40:869 nivel/(9937:9937): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 21:49:41:870 nivel/(9937:9937): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:49:41:870 nivel/(9937:9937): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:49:42:871 nivel/(9937:9937): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 21:49:42:871 nivel/(9937:9937): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 21:49:43:924 nivel/(9937:9937): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 21:49:43:924 nivel/(9937:9937): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 21:49:44:925 nivel/(9937:9937): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 21:49:44:925 nivel/(9937:9937): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 21:49:45:926 nivel/(9937:9937): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 21:49:45:926 nivel/(9937:9937): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 21:49:46:28 nivel/(9937:9937): Pedido posicion recurso: F
-[TRACE] 21:49:46:28 nivel/(9937:9937): BUscando recurso: F == F
-[TRACE] 21:49:46:28 nivel/(9937:9937): BUscando recurso: H == F
-[TRACE] 21:49:46:28 nivel/(9937:9937): BUscando recurso: M == F
-[TRACE] 21:49:47:29 nivel/(9937:9937): Personaje a mover #, posicionX 4 posicionY 2
-[TRACE] 21:49:47:29 nivel/(9937:9937): Movimiento personaje: x: 4, y: 2
-
-[TRACE] 21:49:48:31 nivel/(9937:9937): Personaje a mover #, posicionX 5 posicionY 2
-[TRACE] 21:49:48:31 nivel/(9937:9937): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 21:49:49:32 nivel/(9937:9937): Personaje a mover #, posicionX 5 posicionY 3
-[TRACE] 21:49:49:32 nivel/(9937:9937): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 21:49:50:83 nivel/(9937:9937): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:49:50:83 nivel/(9937:9937): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:49:51:84 nivel/(9937:9937): Personaje a mover #, posicionX 5 posicionY 5
-[TRACE] 21:49:51:84 nivel/(9937:9937): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 21:50:14:74 nivel/(9948:9948): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:50:14:74 nivel/(9948:9948): Pedido posicion recurso: H
-[TRACE] 21:50:14:74 nivel/(9948:9948): BUscando recurso: F == H
-[TRACE] 21:50:14:74 nivel/(9948:9948): BUscando recurso: H == H
-[TRACE] 21:50:14:74 nivel/(9948:9948): BUscando recurso: M == H
-[TRACE] 21:50:15:75 nivel/(9948:9948): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 21:50:15:75 nivel/(9948:9948): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:50:16:77 nivel/(9948:9948): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 21:50:16:77 nivel/(9948:9948): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:50:17:78 nivel/(9948:9948): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 21:50:17:78 nivel/(9948:9948): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:50:17:132 nivel/(9948:9948): Acepto Personaje: en Socket: 7
-
-[TRACE] 21:50:18:131 nivel/(9948:9948): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 21:50:18:131 nivel/(9948:9948): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:50:19:132 nivel/(9948:9948): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 21:50:19:132 nivel/(9948:9948): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 21:50:20:134 nivel/(9948:9948): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 21:50:20:134 nivel/(9948:9948): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 21:50:20:185 nivel/(9948:9948): Pedido posicion recurso: F
-[TRACE] 21:50:20:185 nivel/(9948:9948): BUscando recurso: F == F
-[TRACE] 21:50:20:185 nivel/(9948:9948): BUscando recurso: H == F
-[TRACE] 21:50:20:185 nivel/(9948:9948): BUscando recurso: M == F
-[TRACE] 21:50:21:187 nivel/(9948:9948): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 21:50:21:187 nivel/(9948:9948): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:50:22:188 nivel/(9948:9948): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 21:50:22:188 nivel/(9948:9948): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:50:23:189 nivel/(9948:9948): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 21:50:23:189 nivel/(9948:9948): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:50:24:240 nivel/(9948:9948): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 21:50:24:240 nivel/(9948:9948): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 21:50:25:242 nivel/(9948:9948): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 21:50:25:242 nivel/(9948:9948): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 21:50:26:243 nivel/(9948:9948): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 21:50:26:243 nivel/(9948:9948): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:50:27:296 nivel/(9948:9948): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 21:50:27:296 nivel/(9948:9948): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:50:28:297 nivel/(9948:9948): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 21:50:28:297 nivel/(9948:9948): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 21:50:29:298 nivel/(9948:9948): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 21:50:29:298 nivel/(9948:9948): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 21:52:35:963 nivel/(9966:9966): Acepto Personaje: en Socket: 6
-
-[TRACE] 21:53:23:586 nivel/(9966:9966): Acepto Personaje: en Socket: 7
-
-[TRACE] 21:53:45:694 nivel/(9966:9966): Pedido posicion recurso: H
-[TRACE] 21:53:45:694 nivel/(9966:9966): BUscando recurso: F == H
-[TRACE] 21:53:45:694 nivel/(9966:9966): BUscando recurso: H == H
-[TRACE] 21:53:45:694 nivel/(9966:9966): BUscando recurso: M == H
-[TRACE] 21:53:46:694 nivel/(9966:9966): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 21:53:46:694 nivel/(9966:9966): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:53:47:696 nivel/(9966:9966): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 21:53:47:696 nivel/(9966:9966): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:53:48:698 nivel/(9966:9966): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 21:53:48:698 nivel/(9966:9966): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:53:48:750 nivel/(9966:9966): Pedido posicion recurso: F
-[TRACE] 21:53:48:750 nivel/(9966:9966): BUscando recurso: F == F
-[TRACE] 21:53:48:750 nivel/(9966:9966): BUscando recurso: H == F
-[TRACE] 21:53:48:750 nivel/(9966:9966): BUscando recurso: M == F
-[TRACE] 21:53:49:750 nivel/(9966:9966): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 21:53:49:751 nivel/(9966:9966): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 21:53:50:751 nivel/(9966:9966): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 21:53:50:751 nivel/(9966:9966): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 21:53:51:753 nivel/(9966:9966): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 21:53:51:754 nivel/(9966:9966): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 21:54:28:446 nivel/(9966:9966): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 21:54:28:446 nivel/(9966:9966): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:55:13:511 nivel/(9966:9966): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 21:55:13:511 nivel/(9966:9966): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 21:55:33:744 nivel/(9966:9966): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 21:55:33:744 nivel/(9966:9966): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 21:55:52:897 nivel/(9966:9966): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 21:55:52:897 nivel/(9966:9966): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 21:55:53:899 nivel/(9966:9966): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 21:55:53:899 nivel/(9966:9966): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 21:55:54:899 nivel/(9966:9966): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 21:55:54:899 nivel/(9966:9966): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 21:56:56:686 nivel/(9966:9966): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 21:56:56:686 nivel/(9966:9966): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 21:57:00:933 nivel/(9966:9966): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 21:57:00:933 nivel/(9966:9966): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 21:57:01:934 nivel/(9966:9966): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 21:57:01:934 nivel/(9966:9966): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:57:02:987 nivel/(9966:9966): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 21:57:02:987 nivel/(9966:9966): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:57:03:988 nivel/(9966:9966): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 21:57:03:988 nivel/(9966:9966): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 21:57:04:821 nivel/(9966:9966): Pedido posicion recurso: H
-[TRACE] 21:57:04:821 nivel/(9966:9966): BUscando recurso: F == H
-[TRACE] 21:57:04:821 nivel/(9966:9966): BUscando recurso: H == H
-[TRACE] 21:57:04:821 nivel/(9966:9966): BUscando recurso: M == H
-[TRACE] 21:57:05:822 nivel/(9966:9966): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 21:57:05:822 nivel/(9966:9966): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 21:57:06:823 nivel/(9966:9966): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 21:57:06:823 nivel/(9966:9966): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 21:57:07:824 nivel/(9966:9966): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 21:57:07:824 nivel/(9966:9966): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 21:57:19:172 nivel/(9966:9966): Pedido posicion recurso: M
-[TRACE] 21:57:19:172 nivel/(9966:9966): BUscando recurso: F == M
-[TRACE] 21:57:19:172 nivel/(9966:9966): BUscando recurso: H == M
-[TRACE] 21:57:19:172 nivel/(9966:9966): BUscando recurso: M == M
-[TRACE] 21:57:20:172 nivel/(9966:9966): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 21:57:20:173 nivel/(9966:9966): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 21:57:21:173 nivel/(9966:9966): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 21:57:21:173 nivel/(9966:9966): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 21:57:22:175 nivel/(9966:9966): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 21:57:22:175 nivel/(9966:9966): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 21:58:34:314 nivel/(9966:9966): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:01:54:698 nivel/(10220:10220): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:02:04:405 nivel/(10220:10220): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:02:08:257 nivel/(10220:10220): Pedido posicion recurso: H
-[TRACE] 22:02:08:257 nivel/(10220:10220): BUscando recurso: F == H
-[TRACE] 22:02:08:257 nivel/(10220:10220): BUscando recurso: H == H
-[TRACE] 22:02:08:257 nivel/(10220:10220): BUscando recurso: M == H
-[TRACE] 22:02:09:258 nivel/(10220:10220): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:02:09:258 nivel/(10220:10220): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:02:10:259 nivel/(10220:10220): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:02:10:259 nivel/(10220:10220): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:02:11:260 nivel/(10220:10220): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:02:11:260 nivel/(10220:10220): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:02:11:311 nivel/(10220:10220): Pedido posicion recurso: F
-[TRACE] 22:02:11:311 nivel/(10220:10220): BUscando recurso: F == F
-[TRACE] 22:02:11:311 nivel/(10220:10220): BUscando recurso: H == F
-[TRACE] 22:02:11:311 nivel/(10220:10220): BUscando recurso: M == F
-[TRACE] 22:02:12:312 nivel/(10220:10220): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:02:12:312 nivel/(10220:10220): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:02:13:313 nivel/(10220:10220): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:02:13:313 nivel/(10220:10220): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:02:14:314 nivel/(10220:10220): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:02:14:314 nivel/(10220:10220): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:02:15:365 nivel/(10220:10220): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:02:15:366 nivel/(10220:10220): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:02:16:367 nivel/(10220:10220): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:02:16:368 nivel/(10220:10220): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:02:17:368 nivel/(10220:10220): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:02:17:369 nivel/(10220:10220): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:02:18:421 nivel/(10220:10220): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:02:18:421 nivel/(10220:10220): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:02:19:423 nivel/(10220:10220): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:02:19:423 nivel/(10220:10220): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:02:20:425 nivel/(10220:10220): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:02:20:425 nivel/(10220:10220): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:02:21:478 nivel/(10220:10220): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 22:02:21:478 nivel/(10220:10220): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 22:02:22:479 nivel/(10220:10220): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 22:02:22:479 nivel/(10220:10220): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 22:02:23:481 nivel/(10220:10220): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:02:23:481 nivel/(10220:10220): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:02:24:533 nivel/(10220:10220): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:02:24:533 nivel/(10220:10220): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:02:25:534 nivel/(10220:10220): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:02:25:534 nivel/(10220:10220): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:02:25:639 nivel/(10220:10220): Pedido posicion recurso: H
-[TRACE] 22:02:25:639 nivel/(10220:10220): BUscando recurso: F == H
-[TRACE] 22:02:25:639 nivel/(10220:10220): BUscando recurso: H == H
-[TRACE] 22:02:25:639 nivel/(10220:10220): BUscando recurso: M == H
-[TRACE] 22:02:26:640 nivel/(10220:10220): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:02:26:640 nivel/(10220:10220): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:02:27:640 nivel/(10220:10220): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:02:27:640 nivel/(10220:10220): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:02:28:641 nivel/(10220:10220): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:02:28:641 nivel/(10220:10220): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:02:32:238 nivel/(10220:10220): Pedido posicion recurso: M
-[TRACE] 22:02:32:238 nivel/(10220:10220): BUscando recurso: F == M
-[TRACE] 22:02:32:238 nivel/(10220:10220): BUscando recurso: H == M
-[TRACE] 22:02:32:238 nivel/(10220:10220): BUscando recurso: M == M
-[TRACE] 22:02:33:239 nivel/(10220:10220): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:02:33:239 nivel/(10220:10220): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:02:34:240 nivel/(10220:10220): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:02:34:240 nivel/(10220:10220): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:02:35:241 nivel/(10220:10220): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:02:35:241 nivel/(10220:10220): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:04:50:963 nivel/(10370:10370): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:04:50:964 nivel/(10370:10370): Pedido posicion recurso: H
-[TRACE] 22:04:50:964 nivel/(10370:10370): BUscando recurso: F == H
-[TRACE] 22:04:50:964 nivel/(10370:10370): BUscando recurso: H == H
-[TRACE] 22:04:50:964 nivel/(10370:10370): BUscando recurso: M == H
-[TRACE] 22:04:51:964 nivel/(10370:10370): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:04:51:964 nivel/(10370:10370): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:04:52:965 nivel/(10370:10370): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:04:52:966 nivel/(10370:10370): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:04:53:967 nivel/(10370:10370): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:04:53:967 nivel/(10370:10370): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:04:54:599 nivel/(10370:10370): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:04:55:18 nivel/(10370:10370): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:04:55:18 nivel/(10370:10370): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:04:56:20 nivel/(10370:10370): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:04:56:20 nivel/(10370:10370): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:04:57:23 nivel/(10370:10370): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:04:57:23 nivel/(10370:10370): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:05:08:316 nivel/(10370:10370): Pedido posicion recurso: F
-[TRACE] 22:05:08:316 nivel/(10370:10370): BUscando recurso: F == F
-[TRACE] 22:05:08:316 nivel/(10370:10370): BUscando recurso: H == F
-[TRACE] 22:05:08:316 nivel/(10370:10370): BUscando recurso: M == F
-[TRACE] 22:05:09:318 nivel/(10370:10370): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:05:09:318 nivel/(10370:10370): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:05:10:319 nivel/(10370:10370): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:05:10:319 nivel/(10370:10370): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:05:11:321 nivel/(10370:10370): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:05:11:321 nivel/(10370:10370): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:05:12:372 nivel/(10370:10370): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 22:05:12:372 nivel/(10370:10370): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 22:05:13:373 nivel/(10370:10370): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 22:05:13:373 nivel/(10370:10370): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 22:05:14:376 nivel/(10370:10370): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:05:14:376 nivel/(10370:10370): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:05:21:262 nivel/(10370:10370): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:05:21:262 nivel/(10370:10370): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:05:22:264 nivel/(10370:10370): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:05:22:264 nivel/(10370:10370): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:05:23:265 nivel/(10370:10370): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:05:23:265 nivel/(10370:10370): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:08:58:887 nivel/(10479:10479): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:08:58:887 nivel/(10479:10479): Pedido posicion recurso: H
-[TRACE] 22:08:58:887 nivel/(10479:10479): BUscando recurso: F == H
-[TRACE] 22:08:58:887 nivel/(10479:10479): BUscando recurso: H == H
-[TRACE] 22:08:58:887 nivel/(10479:10479): BUscando recurso: M == H
-[TRACE] 22:08:59:477 nivel/(10479:10479): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:08:59:887 nivel/(10479:10479): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:08:59:887 nivel/(10479:10479): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:09:00:888 nivel/(10479:10479): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:09:00:888 nivel/(10479:10479): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:09:01:889 nivel/(10479:10479): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:09:01:889 nivel/(10479:10479): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:09:01:940 nivel/(10479:10479): Pedido posicion recurso: F
-[TRACE] 22:09:01:940 nivel/(10479:10479): BUscando recurso: F == F
-[TRACE] 22:09:01:940 nivel/(10479:10479): BUscando recurso: H == F
-[TRACE] 22:09:01:940 nivel/(10479:10479): BUscando recurso: M == F
-[TRACE] 22:09:02:942 nivel/(10479:10479): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:09:02:942 nivel/(10479:10479): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:09:03:944 nivel/(10479:10479): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:09:03:944 nivel/(10479:10479): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:09:04:946 nivel/(10479:10479): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:09:04:946 nivel/(10479:10479): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:09:05:999 nivel/(10479:10479): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:09:05:999 nivel/(10479:10479): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:09:06:1 nivel/(10479:10479): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:09:06:1 nivel/(10479:10479): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:09:07:2 nivel/(10479:10479): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:09:08:3 nivel/(10479:10479): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:09:09:57 nivel/(10479:10479): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:09:09:57 nivel/(10479:10479): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:09:10:59 nivel/(10479:10479): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:09:10:59 nivel/(10479:10479): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:09:11:61 nivel/(10479:10479): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:09:11:61 nivel/(10479:10479): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:09:12:113 nivel/(10479:10479): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 22:09:12:113 nivel/(10479:10479): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 22:09:13:114 nivel/(10479:10479): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 22:09:13:114 nivel/(10479:10479): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 22:09:14:118 nivel/(10479:10479): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:09:14:118 nivel/(10479:10479): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:09:15:171 nivel/(10479:10479): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:09:15:172 nivel/(10479:10479): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:09:16:174 nivel/(10479:10479): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:09:16:174 nivel/(10479:10479): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:09:16:276 nivel/(10479:10479): Pedido posicion recurso: H
-[TRACE] 22:09:16:276 nivel/(10479:10479): BUscando recurso: F == H
-[TRACE] 22:09:16:276 nivel/(10479:10479): BUscando recurso: H == H
-[TRACE] 22:09:16:276 nivel/(10479:10479): BUscando recurso: M == H
-[TRACE] 22:09:17:277 nivel/(10479:10479): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:09:17:277 nivel/(10479:10479): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:09:18:280 nivel/(10479:10479): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:09:18:280 nivel/(10479:10479): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:09:19:282 nivel/(10479:10479): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:09:19:282 nivel/(10479:10479): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:09:19:333 nivel/(10479:10479): Pedido posicion recurso: M
-[TRACE] 22:09:19:333 nivel/(10479:10479): BUscando recurso: F == M
-[TRACE] 22:09:19:333 nivel/(10479:10479): BUscando recurso: H == M
-[TRACE] 22:09:19:333 nivel/(10479:10479): BUscando recurso: M == M
-[TRACE] 22:09:20:334 nivel/(10479:10479): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:09:20:334 nivel/(10479:10479): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:09:21:336 nivel/(10479:10479): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:09:21:336 nivel/(10479:10479): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:09:22:338 nivel/(10479:10479): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:09:22:338 nivel/(10479:10479): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:10:38:682 nivel/(10582:10582): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:10:38:682 nivel/(10582:10582): Pedido posicion recurso: H
-[TRACE] 22:10:38:682 nivel/(10582:10582): BUscando recurso: F == H
-[TRACE] 22:10:38:682 nivel/(10582:10582): BUscando recurso: H == H
-[TRACE] 22:10:38:682 nivel/(10582:10582): BUscando recurso: M == H
-[TRACE] 22:10:39:256 nivel/(10582:10582): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:10:39:684 nivel/(10582:10582): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:10:39:684 nivel/(10582:10582): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:10:40:686 nivel/(10582:10582): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:10:40:686 nivel/(10582:10582): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:10:41:687 nivel/(10582:10582): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:10:41:687 nivel/(10582:10582): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:10:41:738 nivel/(10582:10582): Pedido posicion recurso: F
-[TRACE] 22:10:41:738 nivel/(10582:10582): BUscando recurso: F == F
-[TRACE] 22:10:41:738 nivel/(10582:10582): BUscando recurso: H == F
-[TRACE] 22:10:41:738 nivel/(10582:10582): BUscando recurso: M == F
-[TRACE] 22:10:42:739 nivel/(10582:10582): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:10:42:739 nivel/(10582:10582): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:10:43:741 nivel/(10582:10582): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:10:43:741 nivel/(10582:10582): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:10:44:742 nivel/(10582:10582): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:10:44:742 nivel/(10582:10582): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:10:45:793 nivel/(10582:10582): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:10:45:793 nivel/(10582:10582): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:10:46:794 nivel/(10582:10582): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:10:46:794 nivel/(10582:10582): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:10:47:795 nivel/(10582:10582): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:10:47:795 nivel/(10582:10582): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:10:48:847 nivel/(10582:10582): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:10:48:847 nivel/(10582:10582): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:10:49:848 nivel/(10582:10582): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:10:49:848 nivel/(10582:10582): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:10:50:849 nivel/(10582:10582): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:10:50:849 nivel/(10582:10582): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:10:51:903 nivel/(10582:10582): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 22:10:51:903 nivel/(10582:10582): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 22:10:52:905 nivel/(10582:10582): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 22:10:52:905 nivel/(10582:10582): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 22:10:53:907 nivel/(10582:10582): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:10:53:907 nivel/(10582:10582): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:10:54:961 nivel/(10582:10582): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:10:54:961 nivel/(10582:10582): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:10:55:962 nivel/(10582:10582): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:10:55:962 nivel/(10582:10582): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:10:56:65 nivel/(10582:10582): Pedido posicion recurso: H
-[TRACE] 22:10:56:65 nivel/(10582:10582): BUscando recurso: F == H
-[TRACE] 22:10:56:65 nivel/(10582:10582): BUscando recurso: H == H
-[TRACE] 22:10:56:65 nivel/(10582:10582): BUscando recurso: M == H
-[TRACE] 22:10:57:66 nivel/(10582:10582): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:10:57:66 nivel/(10582:10582): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:10:58:68 nivel/(10582:10582): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:10:58:68 nivel/(10582:10582): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:10:59:70 nivel/(10582:10582): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:10:59:70 nivel/(10582:10582): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:10:59:122 nivel/(10582:10582): Pedido posicion recurso: M
-[TRACE] 22:10:59:122 nivel/(10582:10582): BUscando recurso: F == M
-[TRACE] 22:10:59:122 nivel/(10582:10582): BUscando recurso: H == M
-[TRACE] 22:10:59:122 nivel/(10582:10582): BUscando recurso: M == M
-[TRACE] 22:11:00:122 nivel/(10582:10582): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:11:00:122 nivel/(10582:10582): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:11:01:124 nivel/(10582:10582): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:11:01:124 nivel/(10582:10582): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:11:02:126 nivel/(10582:10582): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:11:02:126 nivel/(10582:10582): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:16:46:27 nivel/(10785:10785): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:16:46:27 nivel/(10785:10785): Pedido posicion recurso: H
-[TRACE] 22:16:46:27 nivel/(10785:10785): BUscando recurso: F == H
-[TRACE] 22:16:46:27 nivel/(10785:10785): BUscando recurso: H == H
-[TRACE] 22:16:46:27 nivel/(10785:10785): BUscando recurso: M == H
-[TRACE] 22:16:46:562 nivel/(10785:10785): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:16:47:28 nivel/(10785:10785): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:16:47:28 nivel/(10785:10785): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:16:48:28 nivel/(10785:10785): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:16:48:28 nivel/(10785:10785): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:16:49:29 nivel/(10785:10785): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:16:49:29 nivel/(10785:10785): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:16:49:80 nivel/(10785:10785): Pedido posicion recurso: F
-[TRACE] 22:16:49:80 nivel/(10785:10785): BUscando recurso: F == F
-[TRACE] 22:16:49:80 nivel/(10785:10785): BUscando recurso: H == F
-[TRACE] 22:16:49:80 nivel/(10785:10785): BUscando recurso: M == F
-[TRACE] 22:16:50:81 nivel/(10785:10785): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:16:50:81 nivel/(10785:10785): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:16:51:82 nivel/(10785:10785): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:16:51:82 nivel/(10785:10785): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:16:52:83 nivel/(10785:10785): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:16:52:83 nivel/(10785:10785): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:16:53:136 nivel/(10785:10785): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:16:53:136 nivel/(10785:10785): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:16:54:138 nivel/(10785:10785): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:16:54:138 nivel/(10785:10785): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:16:55:141 nivel/(10785:10785): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:16:55:141 nivel/(10785:10785): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:16:56:193 nivel/(10785:10785): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:16:56:193 nivel/(10785:10785): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:16:57:194 nivel/(10785:10785): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:16:57:194 nivel/(10785:10785): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:16:58:196 nivel/(10785:10785): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:16:58:196 nivel/(10785:10785): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:16:59:248 nivel/(10785:10785): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 22:16:59:248 nivel/(10785:10785): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 22:17:00:251 nivel/(10785:10785): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 22:17:00:251 nivel/(10785:10785): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 22:17:01:253 nivel/(10785:10785): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:17:01:253 nivel/(10785:10785): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:17:02:305 nivel/(10785:10785): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:17:02:305 nivel/(10785:10785): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:17:03:306 nivel/(10785:10785): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:17:03:306 nivel/(10785:10785): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:17:03:306 nivel/(10785:10785): Esta sobre el recurso 1
-[TRACE] 22:17:03:306 nivel/(10785:10785): Recurso a asignar F
-[TRACE] 22:17:03:307 nivel/(10785:10785): Esta sobre el recurso 0
-[TRACE] 22:17:03:307 nivel/(10785:10785): Esta sobre el recurso 0
-[TRACE] 22:17:03:357 nivel/(10785:10785): Esta sobre el recurso 1
-[TRACE] 22:17:03:357 nivel/(10785:10785): Recurso a asignar F
-[TRACE] 22:17:03:357 nivel/(10785:10785): Esta sobre el recurso 0
-[TRACE] 22:17:03:357 nivel/(10785:10785): Esta sobre el recurso 0
-[TRACE] 22:17:03:408 nivel/(10785:10785): Pedido posicion recurso: H
-[TRACE] 22:17:03:408 nivel/(10785:10785): BUscando recurso: F == H
-[TRACE] 22:17:03:408 nivel/(10785:10785): BUscando recurso: H == H
-[TRACE] 22:17:03:408 nivel/(10785:10785): BUscando recurso: M == H
-[TRACE] 22:17:04:410 nivel/(10785:10785): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:17:04:410 nivel/(10785:10785): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:17:05:411 nivel/(10785:10785): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:17:05:411 nivel/(10785:10785): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:17:06:412 nivel/(10785:10785): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:17:06:412 nivel/(10785:10785): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:17:06:463 nivel/(10785:10785): Pedido posicion recurso: M
-[TRACE] 22:17:06:463 nivel/(10785:10785): BUscando recurso: F == M
-[TRACE] 22:17:06:463 nivel/(10785:10785): BUscando recurso: H == M
-[TRACE] 22:17:06:463 nivel/(10785:10785): BUscando recurso: M == M
-[TRACE] 22:17:07:465 nivel/(10785:10785): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:17:07:465 nivel/(10785:10785): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:17:08:466 nivel/(10785:10785): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:17:08:466 nivel/(10785:10785): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:17:09:467 nivel/(10785:10785): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:17:09:467 nivel/(10785:10785): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:17:09:519 nivel/(10785:10785): Esta sobre el recurso 0
-[TRACE] 22:17:09:519 nivel/(10785:10785): Esta sobre el recurso 0
-[TRACE] 22:17:09:519 nivel/(10785:10785): Esta sobre el recurso 0
-[TRACE] 22:21:03:524 nivel/(10884:10884): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:21:03:524 nivel/(10884:10884): Pedido posicion recurso: H
-[TRACE] 22:21:03:524 nivel/(10884:10884): BUscando recurso: F == H
-[TRACE] 22:21:03:524 nivel/(10884:10884): BUscando recurso: H == H
-[TRACE] 22:21:03:524 nivel/(10884:10884): BUscando recurso: M == H
-[TRACE] 22:21:04:149 nivel/(10884:10884): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:21:04:525 nivel/(10884:10884): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:21:04:525 nivel/(10884:10884): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:21:05:526 nivel/(10884:10884): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:21:05:527 nivel/(10884:10884): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:21:06:527 nivel/(10884:10884): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:21:06:527 nivel/(10884:10884): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:21:06:578 nivel/(10884:10884): Pedido posicion recurso: F
-[TRACE] 22:21:06:578 nivel/(10884:10884): BUscando recurso: F == F
-[TRACE] 22:21:06:579 nivel/(10884:10884): BUscando recurso: H == F
-[TRACE] 22:21:06:579 nivel/(10884:10884): BUscando recurso: M == F
-[TRACE] 22:21:07:580 nivel/(10884:10884): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:21:07:580 nivel/(10884:10884): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:21:08:581 nivel/(10884:10884): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:21:08:581 nivel/(10884:10884): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:21:09:582 nivel/(10884:10884): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:21:09:582 nivel/(10884:10884): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:21:10:637 nivel/(10884:10884): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:21:10:637 nivel/(10884:10884): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:21:11:639 nivel/(10884:10884): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:21:11:639 nivel/(10884:10884): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:21:12:642 nivel/(10884:10884): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:21:12:642 nivel/(10884:10884): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:21:13:694 nivel/(10884:10884): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:21:13:694 nivel/(10884:10884): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:21:14:697 nivel/(10884:10884): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:21:14:697 nivel/(10884:10884): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:21:15:698 nivel/(10884:10884): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:21:15:698 nivel/(10884:10884): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:21:16:749 nivel/(10884:10884): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 22:21:16:749 nivel/(10884:10884): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 22:21:17:750 nivel/(10884:10884): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 22:21:17:750 nivel/(10884:10884): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 22:21:18:751 nivel/(10884:10884): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:21:18:751 nivel/(10884:10884): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:21:19:804 nivel/(10884:10884): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:21:19:804 nivel/(10884:10884): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:21:20:805 nivel/(10884:10884): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:21:20:805 nivel/(10884:10884): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:21:20:805 nivel/(10884:10884): Esta sobre el recurso 1
-[TRACE] 22:21:20:805 nivel/(10884:10884): Recurso a asignar F
-[TRACE] 22:21:20:805 nivel/(10884:10884): Esta sobre el recurso 0
-[TRACE] 22:21:20:805 nivel/(10884:10884): Esta sobre el recurso 0
-[TRACE] 22:21:20:856 nivel/(10884:10884): Esta sobre el recurso 1
-[TRACE] 22:21:20:856 nivel/(10884:10884): Recurso a asignar F
-[TRACE] 22:21:20:856 nivel/(10884:10884): Esta sobre el recurso 0
-[TRACE] 22:21:20:856 nivel/(10884:10884): Esta sobre el recurso 0
-[TRACE] 22:21:20:907 nivel/(10884:10884): Pedido posicion recurso: H
-[TRACE] 22:21:20:907 nivel/(10884:10884): BUscando recurso: F == H
-[TRACE] 22:21:20:907 nivel/(10884:10884): BUscando recurso: H == H
-[TRACE] 22:21:20:907 nivel/(10884:10884): BUscando recurso: M == H
-[TRACE] 22:21:21:908 nivel/(10884:10884): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:21:21:908 nivel/(10884:10884): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:21:22:910 nivel/(10884:10884): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:21:22:910 nivel/(10884:10884): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:21:23:912 nivel/(10884:10884): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:21:23:912 nivel/(10884:10884): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:21:23:964 nivel/(10884:10884): Pedido posicion recurso: M
-[TRACE] 22:21:23:964 nivel/(10884:10884): BUscando recurso: F == M
-[TRACE] 22:21:23:964 nivel/(10884:10884): BUscando recurso: H == M
-[TRACE] 22:21:23:964 nivel/(10884:10884): BUscando recurso: M == M
-[TRACE] 22:21:24:965 nivel/(10884:10884): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:21:24:965 nivel/(10884:10884): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:21:25:967 nivel/(10884:10884): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:21:25:967 nivel/(10884:10884): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:21:26:969 nivel/(10884:10884): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:21:26:969 nivel/(10884:10884): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:21:27:20 nivel/(10884:10884): Esta sobre el recurso 0
-[TRACE] 22:21:27:20 nivel/(10884:10884): Esta sobre el recurso 0
-[TRACE] 22:21:27:20 nivel/(10884:10884): Esta sobre el recurso 0
-[TRACE] 22:22:42:470 nivel/(11008:11008): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:22:42:470 nivel/(11008:11008): Pedido posicion recurso: H
-[TRACE] 22:22:42:470 nivel/(11008:11008): BUscando recurso: F == H
-[TRACE] 22:22:42:470 nivel/(11008:11008): BUscando recurso: H == H
-[TRACE] 22:22:42:470 nivel/(11008:11008): BUscando recurso: M == H
-[TRACE] 22:22:42:885 nivel/(11008:11008): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:22:43:472 nivel/(11008:11008): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:22:43:472 nivel/(11008:11008): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:22:44:474 nivel/(11008:11008): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:22:44:474 nivel/(11008:11008): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:22:45:475 nivel/(11008:11008): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:22:45:475 nivel/(11008:11008): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:22:45:526 nivel/(11008:11008): Pedido posicion recurso: F
-[TRACE] 22:22:45:526 nivel/(11008:11008): BUscando recurso: F == F
-[TRACE] 22:22:45:526 nivel/(11008:11008): BUscando recurso: H == F
-[TRACE] 22:22:45:526 nivel/(11008:11008): BUscando recurso: M == F
-[TRACE] 22:22:46:526 nivel/(11008:11008): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:22:46:527 nivel/(11008:11008): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:22:47:527 nivel/(11008:11008): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:22:47:527 nivel/(11008:11008): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:22:48:531 nivel/(11008:11008): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:22:48:531 nivel/(11008:11008): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:22:49:584 nivel/(11008:11008): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:22:49:584 nivel/(11008:11008): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:22:50:586 nivel/(11008:11008): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:22:50:586 nivel/(11008:11008): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:22:51:588 nivel/(11008:11008): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:22:51:588 nivel/(11008:11008): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:22:52:640 nivel/(11008:11008): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:22:52:640 nivel/(11008:11008): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:22:53:642 nivel/(11008:11008): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:22:53:642 nivel/(11008:11008): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:22:54:644 nivel/(11008:11008): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:22:54:644 nivel/(11008:11008): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:22:55:696 nivel/(11008:11008): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 22:22:55:696 nivel/(11008:11008): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 22:22:56:698 nivel/(11008:11008): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 22:22:56:698 nivel/(11008:11008): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 22:22:57:699 nivel/(11008:11008): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:22:57:699 nivel/(11008:11008): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:22:58:753 nivel/(11008:11008): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:22:58:753 nivel/(11008:11008): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:22:59:753 nivel/(11008:11008): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:22:59:753 nivel/(11008:11008): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:22:59:754 nivel/(11008:11008): Esta sobre el recurso 1
-[TRACE] 22:22:59:754 nivel/(11008:11008): Recurso a asignar F
-[TRACE] 22:22:59:754 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:22:59:754 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:22:59:804 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:22:59:804 nivel/(11008:11008): Esta sobre el recurso 1
-[TRACE] 22:22:59:804 nivel/(11008:11008): Recurso a asignar H
-[TRACE] 22:22:59:804 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:22:59:855 nivel/(11008:11008): Pedido posicion recurso: H
-[TRACE] 22:22:59:855 nivel/(11008:11008): BUscando recurso: F == H
-[TRACE] 22:22:59:855 nivel/(11008:11008): BUscando recurso: H == H
-[TRACE] 22:22:59:855 nivel/(11008:11008): BUscando recurso: M == H
-[TRACE] 22:23:00:856 nivel/(11008:11008): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:23:00:856 nivel/(11008:11008): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:23:01:857 nivel/(11008:11008): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:23:01:857 nivel/(11008:11008): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:23:02:859 nivel/(11008:11008): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:23:02:859 nivel/(11008:11008): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:23:02:911 nivel/(11008:11008): Pedido posicion recurso: M
-[TRACE] 22:23:02:911 nivel/(11008:11008): BUscando recurso: F == M
-[TRACE] 22:23:02:911 nivel/(11008:11008): BUscando recurso: H == M
-[TRACE] 22:23:02:911 nivel/(11008:11008): BUscando recurso: M == M
-[TRACE] 22:23:03:912 nivel/(11008:11008): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:23:03:912 nivel/(11008:11008): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:23:04:913 nivel/(11008:11008): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:23:04:913 nivel/(11008:11008): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:23:05:916 nivel/(11008:11008): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:23:05:916 nivel/(11008:11008): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:23:05:967 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:23:05:967 nivel/(11008:11008): Esta sobre el recurso 1
-[TRACE] 22:23:05:967 nivel/(11008:11008): Recurso a asignar H
-[TRACE] 22:23:05:967 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:23:07:20 nivel/(11008:11008): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 22:23:07:20 nivel/(11008:11008): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 22:23:08:22 nivel/(11008:11008): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 22:23:08:22 nivel/(11008:11008): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 22:23:09:24 nivel/(11008:11008): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 22:23:09:24 nivel/(11008:11008): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 22:23:09:75 nivel/(11008:11008): Pedido posicion recurso: M
-[TRACE] 22:23:09:75 nivel/(11008:11008): BUscando recurso: F == M
-[TRACE] 22:23:09:75 nivel/(11008:11008): BUscando recurso: H == M
-[TRACE] 22:23:09:75 nivel/(11008:11008): BUscando recurso: M == M
-[TRACE] 22:23:10:77 nivel/(11008:11008): Personaje a mover @, posicionX 6 posicionY 4
-[TRACE] 22:23:10:77 nivel/(11008:11008): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:23:11:78 nivel/(11008:11008): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:23:11:78 nivel/(11008:11008): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:23:12:79 nivel/(11008:11008): Personaje a mover @, posicionX 4 posicionY 4
-[TRACE] 22:23:12:79 nivel/(11008:11008): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:23:12:130 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:23:12:130 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:23:12:130 nivel/(11008:11008): Esta sobre el recurso 1
-[TRACE] 22:23:12:130 nivel/(11008:11008): Recurso a asignar M
-[TRACE] 22:23:13:182 nivel/(11008:11008): Personaje a mover @, posicionX 3 posicionY 4
-[TRACE] 22:23:13:183 nivel/(11008:11008): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 22:23:14:185 nivel/(11008:11008): Personaje a mover @, posicionX 3 posicionY 3
-[TRACE] 22:23:14:185 nivel/(11008:11008): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 22:23:15:186 nivel/(11008:11008): Personaje a mover @, posicionX 3 posicionY 2
-[TRACE] 22:23:15:186 nivel/(11008:11008): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 22:23:15:237 nivel/(11008:11008): Pedido posicion recurso: F
-[TRACE] 22:23:15:237 nivel/(11008:11008): BUscando recurso: F == F
-[TRACE] 22:23:15:237 nivel/(11008:11008): BUscando recurso: H == F
-[TRACE] 22:23:15:237 nivel/(11008:11008): BUscando recurso: M == F
-[TRACE] 22:23:16:238 nivel/(11008:11008): Personaje a mover #, posicionX 4 posicionY 2
-[TRACE] 22:23:16:238 nivel/(11008:11008): Movimiento personaje: x: 4, y: 2
-
-[TRACE] 22:23:17:239 nivel/(11008:11008): Personaje a mover #, posicionX 5 posicionY 2
-[TRACE] 22:23:17:239 nivel/(11008:11008): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:23:18:241 nivel/(11008:11008): Personaje a mover #, posicionX 5 posicionY 3
-[TRACE] 22:23:18:241 nivel/(11008:11008): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:23:18:294 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:23:18:294 nivel/(11008:11008): Esta sobre el recurso 0
-[TRACE] 22:23:18:294 nivel/(11008:11008): Esta sobre el recurso 1
-[TRACE] 22:23:18:294 nivel/(11008:11008): Recurso a asignar M
-[TRACE] 22:26:59:813 nivel/(11151:11151): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:26:59:813 nivel/(11151:11151): Pedido posicion recurso: H
-[TRACE] 22:26:59:813 nivel/(11151:11151): BUscando recurso: F == H
-[TRACE] 22:26:59:813 nivel/(11151:11151): BUscando recurso: H == H
-[TRACE] 22:26:59:813 nivel/(11151:11151): BUscando recurso: M == H
-[TRACE] 22:27:00:317 nivel/(11151:11151): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:27:00:814 nivel/(11151:11151): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:27:00:814 nivel/(11151:11151): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:27:01:815 nivel/(11151:11151): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:27:01:815 nivel/(11151:11151): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:27:02:816 nivel/(11151:11151): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:27:02:816 nivel/(11151:11151): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:27:02:868 nivel/(11151:11151): Pedido posicion recurso: F
-[TRACE] 22:27:02:868 nivel/(11151:11151): BUscando recurso: F == F
-[TRACE] 22:27:02:868 nivel/(11151:11151): BUscando recurso: H == F
-[TRACE] 22:27:02:868 nivel/(11151:11151): BUscando recurso: M == F
-[TRACE] 22:27:03:869 nivel/(11151:11151): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:27:03:869 nivel/(11151:11151): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:27:04:871 nivel/(11151:11151): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:27:04:871 nivel/(11151:11151): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:27:05:872 nivel/(11151:11151): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:27:05:872 nivel/(11151:11151): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:27:06:926 nivel/(11151:11151): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:27:06:926 nivel/(11151:11151): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:27:07:927 nivel/(11151:11151): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:27:07:927 nivel/(11151:11151): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:27:08:928 nivel/(11151:11151): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:27:08:928 nivel/(11151:11151): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:27:09:980 nivel/(11151:11151): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:27:09:981 nivel/(11151:11151): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:27:10:981 nivel/(11151:11151): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:27:10:981 nivel/(11151:11151): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:27:11:982 nivel/(11151:11151): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:27:11:982 nivel/(11151:11151): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:27:13:34 nivel/(11151:11151): Personaje a mover #, posicionX 7 posicionY 2
-[TRACE] 22:27:13:34 nivel/(11151:11151): Movimiento personaje: x: 7, y: 2
-
-[TRACE] 22:27:14:36 nivel/(11151:11151): Personaje a mover #, posicionX 7 posicionY 3
-[TRACE] 22:27:14:36 nivel/(11151:11151): Movimiento personaje: x: 7, y: 3
-
-[TRACE] 22:27:15:37 nivel/(11151:11151): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:27:15:37 nivel/(11151:11151): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:27:16:91 nivel/(11151:11151): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:27:16:91 nivel/(11151:11151): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:27:17:92 nivel/(11151:11151): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:27:17:92 nivel/(11151:11151): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:27:17:92 nivel/(11151:11151): Esta sobre el recurso 1
-[TRACE] 22:27:17:92 nivel/(11151:11151): Recurso a asignar F
-[TRACE] 22:27:17:92 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:17:92 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:17:143 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:17:143 nivel/(11151:11151): Esta sobre el recurso 1
-[TRACE] 22:27:17:143 nivel/(11151:11151): Recurso a asignar H
-[TRACE] 22:27:17:143 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:17:194 nivel/(11151:11151): Pedido posicion recurso: H
-[TRACE] 22:27:17:194 nivel/(11151:11151): BUscando recurso: F == H
-[TRACE] 22:27:17:195 nivel/(11151:11151): BUscando recurso: H == H
-[TRACE] 22:27:17:195 nivel/(11151:11151): BUscando recurso: M == H
-[TRACE] 22:27:18:195 nivel/(11151:11151): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:27:18:195 nivel/(11151:11151): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:27:19:196 nivel/(11151:11151): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:27:19:196 nivel/(11151:11151): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:27:20:198 nivel/(11151:11151): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:27:20:198 nivel/(11151:11151): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:27:20:251 nivel/(11151:11151): Pedido posicion recurso: M
-[TRACE] 22:27:20:251 nivel/(11151:11151): BUscando recurso: F == M
-[TRACE] 22:27:20:251 nivel/(11151:11151): BUscando recurso: H == M
-[TRACE] 22:27:20:251 nivel/(11151:11151): BUscando recurso: M == M
-[TRACE] 22:27:21:253 nivel/(11151:11151): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:27:21:253 nivel/(11151:11151): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:27:22:254 nivel/(11151:11151): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:27:22:254 nivel/(11151:11151): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:27:23:255 nivel/(11151:11151): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:27:23:255 nivel/(11151:11151): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:27:23:306 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:23:306 nivel/(11151:11151): Esta sobre el recurso 1
-[TRACE] 22:27:23:306 nivel/(11151:11151): Recurso a asignar H
-[TRACE] 22:27:23:306 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:24:357 nivel/(11151:11151): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 22:27:24:357 nivel/(11151:11151): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 22:27:25:359 nivel/(11151:11151): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 22:27:25:359 nivel/(11151:11151): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 22:27:26:360 nivel/(11151:11151): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 22:27:26:360 nivel/(11151:11151): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 22:27:26:412 nivel/(11151:11151): Pedido posicion recurso: M
-[TRACE] 22:27:26:412 nivel/(11151:11151): BUscando recurso: F == M
-[TRACE] 22:27:26:412 nivel/(11151:11151): BUscando recurso: H == M
-[TRACE] 22:27:26:412 nivel/(11151:11151): BUscando recurso: M == M
-[TRACE] 22:27:27:413 nivel/(11151:11151): Personaje a mover @, posicionX 6 posicionY 4
-[TRACE] 22:27:27:413 nivel/(11151:11151): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:27:28:414 nivel/(11151:11151): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:27:28:414 nivel/(11151:11151): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:27:29:415 nivel/(11151:11151): Personaje a mover @, posicionX 4 posicionY 4
-[TRACE] 22:27:29:415 nivel/(11151:11151): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:27:29:466 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:29:467 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:29:467 nivel/(11151:11151): Esta sobre el recurso 1
-[TRACE] 22:27:29:467 nivel/(11151:11151): Recurso a asignar M
-[TRACE] 22:27:30:518 nivel/(11151:11151): Personaje a mover @, posicionX 3 posicionY 4
-[TRACE] 22:27:30:518 nivel/(11151:11151): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 22:27:31:519 nivel/(11151:11151): Personaje a mover @, posicionX 3 posicionY 3
-[TRACE] 22:27:31:519 nivel/(11151:11151): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 22:27:32:521 nivel/(11151:11151): Personaje a mover @, posicionX 3 posicionY 2
-[TRACE] 22:27:32:521 nivel/(11151:11151): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 22:27:32:572 nivel/(11151:11151): Pedido posicion recurso: F
-[TRACE] 22:27:32:572 nivel/(11151:11151): BUscando recurso: F == F
-[TRACE] 22:27:32:572 nivel/(11151:11151): BUscando recurso: H == F
-[TRACE] 22:27:32:572 nivel/(11151:11151): BUscando recurso: M == F
-[TRACE] 22:27:33:574 nivel/(11151:11151): Personaje a mover #, posicionX 4 posicionY 2
-[TRACE] 22:27:33:574 nivel/(11151:11151): Movimiento personaje: x: 4, y: 2
-
-[TRACE] 22:27:34:574 nivel/(11151:11151): Personaje a mover #, posicionX 5 posicionY 2
-[TRACE] 22:27:34:574 nivel/(11151:11151): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:27:35:576 nivel/(11151:11151): Personaje a mover #, posicionX 5 posicionY 3
-[TRACE] 22:27:35:576 nivel/(11151:11151): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:27:35:627 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:35:627 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:35:627 nivel/(11151:11151): Esta sobre el recurso 1
-[TRACE] 22:27:35:627 nivel/(11151:11151): Recurso a asignar M
-[TRACE] 22:27:36:630 nivel/(11151:11151): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:27:36:630 nivel/(11151:11151): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:27:37:631 nivel/(11151:11151): Personaje a mover #, posicionX 5 posicionY 5
-[TRACE] 22:27:37:632 nivel/(11151:11151): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:27:37:632 nivel/(11151:11151): Esta sobre el recurso 1
-[TRACE] 22:27:37:632 nivel/(11151:11151): Recurso a asignar F
-[TRACE] 22:27:37:632 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:27:37:632 nivel/(11151:11151): Esta sobre el recurso 0
-[TRACE] 22:29:54:588 nivel/(11170:11170): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:29:54:588 nivel/(11170:11170): Pedido posicion recurso: H
-[TRACE] 22:29:54:588 nivel/(11170:11170): BUscando recurso: F == H
-[TRACE] 22:29:54:588 nivel/(11170:11170): BUscando recurso: H == H
-[TRACE] 22:29:54:588 nivel/(11170:11170): BUscando recurso: M == H
-[TRACE] 22:29:55:11 nivel/(11170:11170): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:29:55:591 nivel/(11170:11170): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:29:55:591 nivel/(11170:11170): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:29:56:592 nivel/(11170:11170): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:29:56:592 nivel/(11170:11170): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:29:57:593 nivel/(11170:11170): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:29:57:593 nivel/(11170:11170): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:29:57:644 nivel/(11170:11170): Pedido posicion recurso: F
-[TRACE] 22:29:57:644 nivel/(11170:11170): BUscando recurso: F == F
-[TRACE] 22:29:57:644 nivel/(11170:11170): BUscando recurso: H == F
-[TRACE] 22:29:57:644 nivel/(11170:11170): BUscando recurso: M == F
-[TRACE] 22:29:58:645 nivel/(11170:11170): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:29:58:645 nivel/(11170:11170): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:29:59:646 nivel/(11170:11170): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:29:59:646 nivel/(11170:11170): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:30:00:648 nivel/(11170:11170): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:30:00:648 nivel/(11170:11170): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:30:01:699 nivel/(11170:11170): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:30:01:699 nivel/(11170:11170): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:30:02:700 nivel/(11170:11170): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:30:02:700 nivel/(11170:11170): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:30:03:701 nivel/(11170:11170): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:30:03:701 nivel/(11170:11170): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:30:04:753 nivel/(11170:11170): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:30:04:753 nivel/(11170:11170): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:30:05:755 nivel/(11170:11170): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:30:05:755 nivel/(11170:11170): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:30:06:755 nivel/(11170:11170): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:30:06:755 nivel/(11170:11170): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:30:07:806 nivel/(11170:11170): Personaje a mover #, posicionX 8 posicionY 1
-[TRACE] 22:30:07:806 nivel/(11170:11170): Movimiento personaje: x: 8, y: 1
-
-[TRACE] 22:30:08:807 nivel/(11170:11170): Personaje a mover #, posicionX 9 posicionY 1
-[TRACE] 22:30:08:807 nivel/(11170:11170): Movimiento personaje: x: 9, y: 1
-
-[TRACE] 22:30:09:808 nivel/(11170:11170): Personaje a mover #, posicionX 10 posicionY 1
-[TRACE] 22:30:09:808 nivel/(11170:11170): Movimiento personaje: x: 10, y: 1
-
-[TRACE] 22:30:10:861 nivel/(11170:11170): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:30:10:861 nivel/(11170:11170): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:30:11:862 nivel/(11170:11170): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:30:11:862 nivel/(11170:11170): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:30:11:863 nivel/(11170:11170): Esta sobre el recurso 1
-[TRACE] 22:30:11:863 nivel/(11170:11170): Recurso a asignar F
-[TRACE] 22:30:11:863 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:11:863 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:12:916 nivel/(11170:11170): Personaje a mover #, posicionX 10 posicionY 2
-[TRACE] 22:30:12:916 nivel/(11170:11170): Movimiento personaje: x: 10, y: 2
-
-[TRACE] 22:30:13:917 nivel/(11170:11170): Personaje a mover #, posicionX 10 posicionY 3
-[TRACE] 22:30:13:917 nivel/(11170:11170): Movimiento personaje: x: 10, y: 3
-
-[TRACE] 22:30:14:918 nivel/(11170:11170): Personaje a mover #, posicionX 10 posicionY 4
-[TRACE] 22:30:14:918 nivel/(11170:11170): Movimiento personaje: x: 10, y: 4
-
-[TRACE] 22:30:14:970 nivel/(11170:11170): Pedido posicion recurso: H
-[TRACE] 22:30:14:970 nivel/(11170:11170): BUscando recurso: F == H
-[TRACE] 22:30:14:970 nivel/(11170:11170): BUscando recurso: H == H
-[TRACE] 22:30:14:970 nivel/(11170:11170): BUscando recurso: M == H
-[TRACE] 22:30:15:971 nivel/(11170:11170): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:30:15:971 nivel/(11170:11170): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:30:16:972 nivel/(11170:11170): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:30:16:972 nivel/(11170:11170): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:30:17:972 nivel/(11170:11170): Personaje a mover @, posicionX 8 posicionY 5
-[TRACE] 22:30:17:973 nivel/(11170:11170): Movimiento personaje: x: 8, y: 5
-
-[TRACE] 22:30:18:24 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:18:24 nivel/(11170:11170): Esta sobre el recurso 1
-[TRACE] 22:30:18:24 nivel/(11170:11170): Recurso a asignar H
-[TRACE] 22:30:18:24 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:19:75 nivel/(11170:11170): Personaje a mover @, posicionX 9 posicionY 5
-[TRACE] 22:30:19:75 nivel/(11170:11170): Movimiento personaje: x: 9, y: 5
-
-[TRACE] 22:30:20:76 nivel/(11170:11170): Personaje a mover @, posicionX 10 posicionY 5
-[TRACE] 22:30:20:76 nivel/(11170:11170): Movimiento personaje: x: 10, y: 5
-
-[TRACE] 22:30:21:78 nivel/(11170:11170): Personaje a mover @, posicionX 10 posicionY 4
-[TRACE] 22:30:21:78 nivel/(11170:11170): Movimiento personaje: x: 10, y: 4
-
-[TRACE] 22:30:21:129 nivel/(11170:11170): Pedido posicion recurso: M
-[TRACE] 22:30:21:129 nivel/(11170:11170): BUscando recurso: F == M
-[TRACE] 22:30:21:129 nivel/(11170:11170): BUscando recurso: H == M
-[TRACE] 22:30:21:129 nivel/(11170:11170): BUscando recurso: M == M
-[TRACE] 22:30:22:130 nivel/(11170:11170): Personaje a mover #, posicionX 9 posicionY 4
-[TRACE] 22:30:22:130 nivel/(11170:11170): Movimiento personaje: x: 9, y: 4
-
-[TRACE] 22:30:23:131 nivel/(11170:11170): Personaje a mover #, posicionX 8 posicionY 4
-[TRACE] 22:30:23:131 nivel/(11170:11170): Movimiento personaje: x: 8, y: 4
-
-[TRACE] 22:30:24:132 nivel/(11170:11170): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:30:24:132 nivel/(11170:11170): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:30:24:184 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:24:184 nivel/(11170:11170): Esta sobre el recurso 1
-[TRACE] 22:30:24:184 nivel/(11170:11170): Recurso a asignar H
-[TRACE] 22:30:24:184 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:25:235 nivel/(11170:11170): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:30:25:235 nivel/(11170:11170): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:30:26:236 nivel/(11170:11170): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:30:26:236 nivel/(11170:11170): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:30:27:237 nivel/(11170:11170): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:30:27:237 nivel/(11170:11170): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:30:27:288 nivel/(11170:11170): Pedido posicion recurso: M
-[TRACE] 22:30:27:288 nivel/(11170:11170): BUscando recurso: F == M
-[TRACE] 22:30:27:288 nivel/(11170:11170): BUscando recurso: H == M
-[TRACE] 22:30:27:288 nivel/(11170:11170): BUscando recurso: M == M
-[TRACE] 22:30:28:290 nivel/(11170:11170): Personaje a mover @, posicionX 9 posicionY 4
-[TRACE] 22:30:28:290 nivel/(11170:11170): Movimiento personaje: x: 9, y: 4
-
-[TRACE] 22:30:29:291 nivel/(11170:11170): Personaje a mover @, posicionX 8 posicionY 4
-[TRACE] 22:30:29:291 nivel/(11170:11170): Movimiento personaje: x: 8, y: 4
-
-[TRACE] 22:30:30:292 nivel/(11170:11170): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:30:30:292 nivel/(11170:11170): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:30:31:346 nivel/(11170:11170): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 22:30:31:346 nivel/(11170:11170): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 22:30:32:347 nivel/(11170:11170): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 22:30:32:347 nivel/(11170:11170): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 22:30:33:348 nivel/(11170:11170): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 22:30:33:348 nivel/(11170:11170): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 22:30:34:400 nivel/(11170:11170): Personaje a mover @, posicionX 6 posicionY 4
-[TRACE] 22:30:34:401 nivel/(11170:11170): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:30:35:401 nivel/(11170:11170): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:30:35:402 nivel/(11170:11170): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:30:36:404 nivel/(11170:11170): Personaje a mover @, posicionX 4 posicionY 4
-[TRACE] 22:30:36:404 nivel/(11170:11170): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:30:36:455 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:36:455 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:36:455 nivel/(11170:11170): Esta sobre el recurso 1
-[TRACE] 22:30:36:455 nivel/(11170:11170): Recurso a asignar M
-[TRACE] 22:30:37:506 nivel/(11170:11170): Personaje a mover @, posicionX 3 posicionY 4
-[TRACE] 22:30:37:507 nivel/(11170:11170): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 22:30:38:507 nivel/(11170:11170): Personaje a mover @, posicionX 3 posicionY 3
-[TRACE] 22:30:38:508 nivel/(11170:11170): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 22:30:39:508 nivel/(11170:11170): Personaje a mover @, posicionX 3 posicionY 2
-[TRACE] 22:30:39:509 nivel/(11170:11170): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 22:30:39:560 nivel/(11170:11170): Pedido posicion recurso: F
-[TRACE] 22:30:39:560 nivel/(11170:11170): BUscando recurso: F == F
-[TRACE] 22:30:39:560 nivel/(11170:11170): BUscando recurso: H == F
-[TRACE] 22:30:39:560 nivel/(11170:11170): BUscando recurso: M == F
-[TRACE] 22:30:40:561 nivel/(11170:11170): Personaje a mover #, posicionX 4 posicionY 2
-[TRACE] 22:30:40:561 nivel/(11170:11170): Movimiento personaje: x: 4, y: 2
-
-[TRACE] 22:30:41:563 nivel/(11170:11170): Personaje a mover #, posicionX 5 posicionY 2
-[TRACE] 22:30:41:564 nivel/(11170:11170): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:30:42:564 nivel/(11170:11170): Personaje a mover #, posicionX 5 posicionY 3
-[TRACE] 22:30:42:564 nivel/(11170:11170): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:30:42:616 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:42:617 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:42:617 nivel/(11170:11170): Esta sobre el recurso 1
-[TRACE] 22:30:42:617 nivel/(11170:11170): Recurso a asignar M
-[TRACE] 22:30:43:618 nivel/(11170:11170): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:30:43:618 nivel/(11170:11170): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:30:44:618 nivel/(11170:11170): Personaje a mover #, posicionX 5 posicionY 5
-[TRACE] 22:30:44:619 nivel/(11170:11170): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:30:44:619 nivel/(11170:11170): Esta sobre el recurso 1
-[TRACE] 22:30:44:619 nivel/(11170:11170): Recurso a asignar F
-[TRACE] 22:30:44:619 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:30:44:619 nivel/(11170:11170): Esta sobre el recurso 0
-[TRACE] 22:33:07:663 nivel/(11369:11369): Acepto Personaje: en Socket: 6
-
-[TRACE] 22:33:07:663 nivel/(11369:11369): Pedido posicion recurso: H
-[TRACE] 22:33:07:663 nivel/(11369:11369): BUscando recurso: F == H
-[TRACE] 22:33:07:663 nivel/(11369:11369): BUscando recurso: H == H
-[TRACE] 22:33:07:663 nivel/(11369:11369): BUscando recurso: M == H
-[TRACE] 22:33:08:37 nivel/(11369:11369): Acepto Personaje: en Socket: 7
-
-[TRACE] 22:33:08:664 nivel/(11369:11369): Personaje a mover #, posicionX 2 posicionY 1
-[TRACE] 22:33:08:664 nivel/(11369:11369): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:33:09:665 nivel/(11369:11369): Personaje a mover #, posicionX 3 posicionY 1
-[TRACE] 22:33:09:665 nivel/(11369:11369): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:33:10:667 nivel/(11369:11369): Personaje a mover #, posicionX 4 posicionY 1
-[TRACE] 22:33:10:667 nivel/(11369:11369): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:33:10:718 nivel/(11369:11369): Pedido posicion recurso: F
-[TRACE] 22:33:10:718 nivel/(11369:11369): BUscando recurso: F == F
-[TRACE] 22:33:10:718 nivel/(11369:11369): BUscando recurso: H == F
-[TRACE] 22:33:10:718 nivel/(11369:11369): BUscando recurso: M == F
-[TRACE] 22:33:11:720 nivel/(11369:11369): Personaje a mover @, posicionX 2 posicionY 1
-[TRACE] 22:33:11:720 nivel/(11369:11369): Movimiento personaje: x: 2, y: 1
-
-[TRACE] 22:33:12:721 nivel/(11369:11369): Personaje a mover @, posicionX 3 posicionY 1
-[TRACE] 22:33:12:722 nivel/(11369:11369): Movimiento personaje: x: 3, y: 1
-
-[TRACE] 22:33:13:724 nivel/(11369:11369): Personaje a mover @, posicionX 4 posicionY 1
-[TRACE] 22:33:13:724 nivel/(11369:11369): Movimiento personaje: x: 4, y: 1
-
-[TRACE] 22:33:14:777 nivel/(11369:11369): Personaje a mover #, posicionX 5 posicionY 1
-[TRACE] 22:33:14:778 nivel/(11369:11369): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:33:15:779 nivel/(11369:11369): Personaje a mover #, posicionX 6 posicionY 1
-[TRACE] 22:33:15:779 nivel/(11369:11369): Movimiento personaje: x: 6, y: 1
-
-[TRACE] 22:33:16:779 nivel/(11369:11369): Personaje a mover #, posicionX 7 posicionY 1
-[TRACE] 22:33:16:780 nivel/(11369:11369): Movimiento personaje: x: 7, y: 1
-
-[TRACE] 22:33:17:831 nivel/(11369:11369): Personaje a mover @, posicionX 5 posicionY 1
-[TRACE] 22:33:17:831 nivel/(11369:11369): Movimiento personaje: x: 5, y: 1
-
-[TRACE] 22:33:18:834 nivel/(11369:11369): Personaje a mover @, posicionX 5 posicionY 2
-[TRACE] 22:33:18:834 nivel/(11369:11369): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:33:19:836 nivel/(11369:11369): Personaje a mover @, posicionX 5 posicionY 3
-[TRACE] 22:33:19:836 nivel/(11369:11369): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:33:20:888 nivel/(11369:11369): Personaje a mover #, posicionX 8 posicionY 1
-[TRACE] 22:33:20:889 nivel/(11369:11369): Movimiento personaje: x: 8, y: 1
-
-[TRACE] 22:33:21:890 nivel/(11369:11369): Personaje a mover #, posicionX 9 posicionY 1
-[TRACE] 22:33:21:891 nivel/(11369:11369): Movimiento personaje: x: 9, y: 1
-
-[TRACE] 22:33:22:892 nivel/(11369:11369): Personaje a mover #, posicionX 10 posicionY 1
-[TRACE] 22:33:22:892 nivel/(11369:11369): Movimiento personaje: x: 10, y: 1
-
-[TRACE] 22:33:23:945 nivel/(11369:11369): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:33:23:945 nivel/(11369:11369): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:33:24:947 nivel/(11369:11369): Personaje a mover @, posicionX 5 posicionY 5
-[TRACE] 22:33:24:947 nivel/(11369:11369): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:33:24:947 nivel/(11369:11369): Esta sobre el recurso 1
-[TRACE] 22:33:24:947 nivel/(11369:11369): Recurso a asignar F
-[TRACE] 22:33:24:947 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:24:947 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:25:0 nivel/(11369:11369): Personaje a mover #, posicionX 10 posicionY 2
-[TRACE] 22:33:25:0 nivel/(11369:11369): Movimiento personaje: x: 10, y: 2
-
-[TRACE] 22:33:26:1 nivel/(11369:11369): Personaje a mover #, posicionX 10 posicionY 3
-[TRACE] 22:33:26:1 nivel/(11369:11369): Movimiento personaje: x: 10, y: 3
-
-[TRACE] 22:33:27:1 nivel/(11369:11369): Personaje a mover #, posicionX 10 posicionY 4
-[TRACE] 22:33:27:1 nivel/(11369:11369): Movimiento personaje: x: 10, y: 4
-
-[TRACE] 22:33:28:53 nivel/(11369:11369): Pedido posicion recurso: H
-[TRACE] 22:33:28:53 nivel/(11369:11369): BUscando recurso: F == H
-[TRACE] 22:33:28:53 nivel/(11369:11369): BUscando recurso: H == H
-[TRACE] 22:33:28:53 nivel/(11369:11369): BUscando recurso: M == H
-[TRACE] 22:33:29:53 nivel/(11369:11369): Personaje a mover @, posicionX 6 posicionY 5
-[TRACE] 22:33:29:53 nivel/(11369:11369): Movimiento personaje: x: 6, y: 5
-
-[TRACE] 22:33:30:55 nivel/(11369:11369): Personaje a mover @, posicionX 7 posicionY 5
-[TRACE] 22:33:30:55 nivel/(11369:11369): Movimiento personaje: x: 7, y: 5
-
-[TRACE] 22:33:31:57 nivel/(11369:11369): Personaje a mover @, posicionX 8 posicionY 5
-[TRACE] 22:33:31:57 nivel/(11369:11369): Movimiento personaje: x: 8, y: 5
-
-[TRACE] 22:33:31:109 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:31:109 nivel/(11369:11369): Esta sobre el recurso 1
-[TRACE] 22:33:31:109 nivel/(11369:11369): Recurso a asignar H
-[TRACE] 22:33:31:109 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:32:161 nivel/(11369:11369): Personaje a mover @, posicionX 9 posicionY 5
-[TRACE] 22:33:32:161 nivel/(11369:11369): Movimiento personaje: x: 9, y: 5
-
-[TRACE] 22:33:33:162 nivel/(11369:11369): Personaje a mover @, posicionX 10 posicionY 5
-[TRACE] 22:33:33:162 nivel/(11369:11369): Movimiento personaje: x: 10, y: 5
-
-[TRACE] 22:33:34:164 nivel/(11369:11369): Personaje a mover @, posicionX 10 posicionY 4
-[TRACE] 22:33:34:164 nivel/(11369:11369): Movimiento personaje: x: 10, y: 4
-
-[TRACE] 22:33:34:215 nivel/(11369:11369): Pedido posicion recurso: M
-[TRACE] 22:33:34:215 nivel/(11369:11369): BUscando recurso: F == M
-[TRACE] 22:33:34:215 nivel/(11369:11369): BUscando recurso: H == M
-[TRACE] 22:33:34:215 nivel/(11369:11369): BUscando recurso: M == M
-[TRACE] 22:33:35:216 nivel/(11369:11369): Personaje a mover #, posicionX 9 posicionY 4
-[TRACE] 22:33:35:217 nivel/(11369:11369): Movimiento personaje: x: 9, y: 4
-
-[TRACE] 22:33:36:217 nivel/(11369:11369): Personaje a mover #, posicionX 8 posicionY 4
-[TRACE] 22:33:36:218 nivel/(11369:11369): Movimiento personaje: x: 8, y: 4
-
-[TRACE] 22:33:37:220 nivel/(11369:11369): Personaje a mover #, posicionX 7 posicionY 4
-[TRACE] 22:33:37:220 nivel/(11369:11369): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:33:37:271 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:37:271 nivel/(11369:11369): Esta sobre el recurso 1
-[TRACE] 22:33:37:271 nivel/(11369:11369): Recurso a asignar H
-[TRACE] 22:33:37:271 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:38:323 nivel/(11369:11369): Personaje a mover #, posicionX 6 posicionY 4
-[TRACE] 22:33:38:323 nivel/(11369:11369): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:33:39:326 nivel/(11369:11369): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:33:39:326 nivel/(11369:11369): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:33:40:327 nivel/(11369:11369): Personaje a mover #, posicionX 4 posicionY 4
-[TRACE] 22:33:40:327 nivel/(11369:11369): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:33:40:379 nivel/(11369:11369): Pedido posicion recurso: M
-[TRACE] 22:33:40:379 nivel/(11369:11369): BUscando recurso: F == M
-[TRACE] 22:33:40:379 nivel/(11369:11369): BUscando recurso: H == M
-[TRACE] 22:33:40:379 nivel/(11369:11369): BUscando recurso: M == M
-[TRACE] 22:33:41:380 nivel/(11369:11369): Personaje a mover @, posicionX 9 posicionY 4
-[TRACE] 22:33:41:380 nivel/(11369:11369): Movimiento personaje: x: 9, y: 4
-
-[TRACE] 22:33:42:381 nivel/(11369:11369): Personaje a mover @, posicionX 8 posicionY 4
-[TRACE] 22:33:42:381 nivel/(11369:11369): Movimiento personaje: x: 8, y: 4
-
-[TRACE] 22:33:43:382 nivel/(11369:11369): Personaje a mover @, posicionX 7 posicionY 4
-[TRACE] 22:33:43:382 nivel/(11369:11369): Movimiento personaje: x: 7, y: 4
-
-[TRACE] 22:33:44:434 nivel/(11369:11369): Personaje a mover #, posicionX 3 posicionY 4
-[TRACE] 22:33:44:434 nivel/(11369:11369): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 22:33:45:435 nivel/(11369:11369): Personaje a mover #, posicionX 3 posicionY 3
-[TRACE] 22:33:45:435 nivel/(11369:11369): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 22:33:46:436 nivel/(11369:11369): Personaje a mover #, posicionX 3 posicionY 2
-[TRACE] 22:33:46:436 nivel/(11369:11369): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 22:33:47:488 nivel/(11369:11369): Personaje a mover @, posicionX 6 posicionY 4
-[TRACE] 22:33:47:488 nivel/(11369:11369): Movimiento personaje: x: 6, y: 4
-
-[TRACE] 22:33:48:490 nivel/(11369:11369): Personaje a mover @, posicionX 5 posicionY 4
-[TRACE] 22:33:48:490 nivel/(11369:11369): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:33:49:492 nivel/(11369:11369): Personaje a mover @, posicionX 4 posicionY 4
-[TRACE] 22:33:49:492 nivel/(11369:11369): Movimiento personaje: x: 4, y: 4
-
-[TRACE] 22:33:49:543 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:49:543 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:49:543 nivel/(11369:11369): Esta sobre el recurso 1
-[TRACE] 22:33:49:543 nivel/(11369:11369): Recurso a asignar M
-[TRACE] 22:33:50:594 nivel/(11369:11369): Personaje a mover @, posicionX 3 posicionY 4
-[TRACE] 22:33:50:594 nivel/(11369:11369): Movimiento personaje: x: 3, y: 4
-
-[TRACE] 22:33:51:596 nivel/(11369:11369): Personaje a mover @, posicionX 3 posicionY 3
-[TRACE] 22:33:51:596 nivel/(11369:11369): Movimiento personaje: x: 3, y: 3
-
-[TRACE] 22:33:52:597 nivel/(11369:11369): Personaje a mover @, posicionX 3 posicionY 2
-[TRACE] 22:33:52:597 nivel/(11369:11369): Movimiento personaje: x: 3, y: 2
-
-[TRACE] 22:33:52:649 nivel/(11369:11369): Pedido posicion recurso: F
-[TRACE] 22:33:52:649 nivel/(11369:11369): BUscando recurso: F == F
-[TRACE] 22:33:52:649 nivel/(11369:11369): BUscando recurso: H == F
-[TRACE] 22:33:52:649 nivel/(11369:11369): BUscando recurso: M == F
-[TRACE] 22:33:53:650 nivel/(11369:11369): Personaje a mover #, posicionX 4 posicionY 2
-[TRACE] 22:33:53:650 nivel/(11369:11369): Movimiento personaje: x: 4, y: 2
-
-[TRACE] 22:33:54:652 nivel/(11369:11369): Personaje a mover #, posicionX 5 posicionY 2
-[TRACE] 22:33:54:653 nivel/(11369:11369): Movimiento personaje: x: 5, y: 2
-
-[TRACE] 22:33:55:653 nivel/(11369:11369): Personaje a mover #, posicionX 5 posicionY 3
-[TRACE] 22:33:55:653 nivel/(11369:11369): Movimiento personaje: x: 5, y: 3
-
-[TRACE] 22:33:55:705 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:55:705 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:55:705 nivel/(11369:11369): Esta sobre el recurso 1
-[TRACE] 22:33:55:705 nivel/(11369:11369): Recurso a asignar M
-[TRACE] 22:33:56:707 nivel/(11369:11369): Personaje a mover #, posicionX 5 posicionY 4
-[TRACE] 22:33:56:707 nivel/(11369:11369): Movimiento personaje: x: 5, y: 4
-
-[TRACE] 22:33:57:708 nivel/(11369:11369): Personaje a mover #, posicionX 5 posicionY 5
-[TRACE] 22:33:57:708 nivel/(11369:11369): Movimiento personaje: x: 5, y: 5
-
-[TRACE] 22:33:57:709 nivel/(11369:11369): Esta sobre el recurso 1
-[TRACE] 22:33:57:709 nivel/(11369:11369): Recurso bloqueado F
-[TRACE] 22:33:57:709 nivel/(11369:11369): Esta sobre el recurso 0
-[TRACE] 22:33:57:709 nivel/(11369:11369): Esta sobre el recurso 0
+[TRACE] 05:11:35:899 nivel/(9704:9704): Recurso a asignar M
+[TRACE] 05:11:36:651 nivel/(9704:9704): Personaje a mover @, posicionX 5 posicionY 1
+[TRACE] 05:11:36:651 nivel/(9704:9704): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 05:11:36:902 nivel/(9704:9704): Personaje a mover @, posicionX 5 posicionY 2
+[TRACE] 05:11:36:902 nivel/(9704:9704): Movimiento personaje: x: 5, y: 2
+
+[TRACE] 05:11:37:153 nivel/(9704:9704): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 05:11:37:153 nivel/(9704:9704): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 05:11:37:653 nivel/(9704:9704): Pedido posicion recurso: H
+[TRACE] 05:11:37:653 nivel/(9704:9704): BUscando recurso: H == H
+[TRACE] 05:11:37:653 nivel/(9704:9704): BUscando recurso: F == H
+[TRACE] 05:11:37:653 nivel/(9704:9704): BUscando recurso: M == H
+[TRACE] 05:11:37:904 nivel/(9704:9704): Personaje a mover #, posicionX 4 posicionY 2
+[TRACE] 05:11:37:904 nivel/(9704:9704): Movimiento personaje: x: 4, y: 2
+
+[TRACE] 05:11:38:154 nivel/(9704:9704): Personaje a mover #, posicionX 5 posicionY 2
+[TRACE] 05:11:38:155 nivel/(9704:9704): Movimiento personaje: x: 5, y: 2
+
+[TRACE] 05:11:38:406 nivel/(9704:9704): Personaje a mover #, posicionX 5 posicionY 3
+[TRACE] 05:11:38:406 nivel/(9704:9704): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 05:11:39:159 nivel/(9704:9704): Personaje a mover @, posicionX 5 posicionY 4
+[TRACE] 05:11:39:159 nivel/(9704:9704): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:11:39:410 nivel/(9704:9704): Personaje a mover @, posicionX 5 posicionY 5
+[TRACE] 05:11:39:410 nivel/(9704:9704): Movimiento personaje: x: 5, y: 5
+
+[TRACE] 05:11:39:410 nivel/(9704:9704): Recurso a asignar H
+[TRACE] 05:11:40:161 nivel/(9704:9704): Personaje a mover #, posicionX 5 posicionY 4
+[TRACE] 05:11:40:161 nivel/(9704:9704): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:11:40:412 nivel/(9704:9704): Personaje a mover #, posicionX 5 posicionY 5
+[TRACE] 05:11:40:412 nivel/(9704:9704): Movimiento personaje: x: 5, y: 5
+
+[TRACE] 05:11:40:412 nivel/(9704:9704): Recurso bloqueado H
+[TRACE] 05:11:40:413 nivel/(9704:9704): Pedido posicion recurso: F
+[TRACE] 05:11:40:413 nivel/(9704:9704): BUscando recurso: H == F
+[TRACE] 05:11:40:413 nivel/(9704:9704): BUscando recurso: F == F
+[TRACE] 05:11:40:413 nivel/(9704:9704): BUscando recurso: M == F
+[TRACE] 05:11:40:663 nivel/(9704:9704): Personaje a mover @, posicionX 6 posicionY 5
+[TRACE] 05:11:40:663 nivel/(9704:9704): Movimiento personaje: x: 6, y: 5
+
+[TRACE] 05:11:40:914 nivel/(9704:9704): Personaje a mover @, posicionX 7 posicionY 5
+[TRACE] 05:11:40:914 nivel/(9704:9704): Movimiento personaje: x: 7, y: 5
+
+[TRACE] 05:11:41:165 nivel/(9704:9704): Personaje a mover @, posicionX 8 posicionY 5
+[TRACE] 05:11:41:165 nivel/(9704:9704): Movimiento personaje: x: 8, y: 5
+
+[TRACE] 05:11:41:917 nivel/(9704:9704): Personaje a mover @, posicionX 9 posicionY 5
+[TRACE] 05:11:41:917 nivel/(9704:9704): Movimiento personaje: x: 9, y: 5
+
+[TRACE] 05:11:42:168 nivel/(9704:9704): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 05:11:42:169 nivel/(9704:9704): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 05:11:42:420 nivel/(9704:9704): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 05:11:42:420 nivel/(9704:9704): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 05:11:42:921 nivel/(9704:9704): Recurso a asignar F
+[TRACE] 05:11:43:421 nivel/(9704:9704): Pedido posicion recurso: M
+[TRACE] 05:11:43:421 nivel/(9704:9704): BUscando recurso: H == M
+[TRACE] 05:11:43:421 nivel/(9704:9704): BUscando recurso: F == M
+[TRACE] 05:11:43:421 nivel/(9704:9704): BUscando recurso: M == M
+[TRACE] 05:11:43:673 nivel/(9704:9704): Personaje a mover @, posicionX 9 posicionY 4
+[TRACE] 05:11:43:673 nivel/(9704:9704): Movimiento personaje: x: 9, y: 4
+
+[TRACE] 05:11:43:924 nivel/(9704:9704): Personaje a mover @, posicionX 8 posicionY 4
+[TRACE] 05:11:43:924 nivel/(9704:9704): Movimiento personaje: x: 8, y: 4
+
+[TRACE] 05:11:44:174 nivel/(9704:9704): Personaje a mover @, posicionX 7 posicionY 4
+[TRACE] 05:11:44:174 nivel/(9704:9704): Movimiento personaje: x: 7, y: 4
+
+[TRACE] 05:11:44:926 nivel/(9704:9704): Personaje a mover @, posicionX 6 posicionY 4
+[TRACE] 05:11:44:926 nivel/(9704:9704): Movimiento personaje: x: 6, y: 4
+
+[TRACE] 05:11:45:177 nivel/(9704:9704): Personaje a mover @, posicionX 5 posicionY 4
+[TRACE] 05:11:45:177 nivel/(9704:9704): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:11:45:428 nivel/(9704:9704): Personaje a mover @, posicionX 4 posicionY 4
+[TRACE] 05:11:45:428 nivel/(9704:9704): Movimiento personaje: x: 4, y: 4
+
+[TRACE] 05:11:46:180 nivel/(9704:9704): Personaje a mover @, posicionX 3 posicionY 4
+[TRACE] 05:11:46:180 nivel/(9704:9704): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 05:11:46:432 nivel/(9704:9704): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 05:11:46:432 nivel/(9704:9704): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 05:11:46:683 nivel/(9704:9704): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 05:11:46:683 nivel/(9704:9704): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 05:11:47:184 nivel/(9704:9704): Recurso a asignar M
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberando...
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! H - H
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberado! H
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! F - H
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! M - H
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberando...
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! H - F
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! F - F
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberado! F
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! M - F
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberando...
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! H - M
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! F - M
+[TRACE] 05:11:47:185 nivel/(9704:9704): Recurso a sumar! M - M
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberado! M
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberando2...
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberando2...
+[TRACE] 05:11:47:185 nivel/(9704:9704): Liberando2...
+[TRACE] 05:15:08:975 nivel/(9987:9987): Acepto Personaje: en Socket: 6
+
+[TRACE] 05:15:08:976 nivel/(9987:9987): Pedido posicion recurso: M
+[TRACE] 05:15:08:976 nivel/(9987:9987): BUscando recurso: H == M
+[TRACE] 05:15:08:976 nivel/(9987:9987): BUscando recurso: F == M
+[TRACE] 05:15:08:976 nivel/(9987:9987): BUscando recurso: M == M
+[TRACE] 05:15:09:226 nivel/(9987:9987): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 05:15:09:226 nivel/(9987:9987): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 05:15:09:454 nivel/(9987:9987): Acepto Personaje: en Socket: 7
+
+[TRACE] 05:15:09:478 nivel/(9987:9987): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 05:15:09:478 nivel/(9987:9987): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 05:15:09:728 nivel/(9987:9987): Personaje a mover #, posicionX 3 posicionY 2
+[TRACE] 05:15:09:728 nivel/(9987:9987): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 05:15:10:229 nivel/(9987:9987): Pedido posicion recurso: H
+[TRACE] 05:15:10:229 nivel/(9987:9987): BUscando recurso: H == H
+[TRACE] 05:15:10:229 nivel/(9987:9987): BUscando recurso: F == H
+[TRACE] 05:15:10:229 nivel/(9987:9987): BUscando recurso: M == H
+[TRACE] 05:15:10:480 nivel/(9987:9987): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 05:15:10:480 nivel/(9987:9987): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 05:15:10:732 nivel/(9987:9987): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 05:15:10:732 nivel/(9987:9987): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 05:15:10:983 nivel/(9987:9987): Personaje a mover @, posicionX 4 posicionY 1
+[TRACE] 05:15:10:983 nivel/(9987:9987): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 05:15:11:486 nivel/(9987:9987): Recurso a asignar M
+[TRACE] 05:15:12:237 nivel/(9987:9987): Personaje a mover @, posicionX 5 posicionY 1
+[TRACE] 05:15:12:237 nivel/(9987:9987): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 05:15:12:487 nivel/(9987:9987): Personaje a mover @, posicionX 5 posicionY 2
+[TRACE] 05:15:12:487 nivel/(9987:9987): Movimiento personaje: x: 5, y: 2
+
+[TRACE] 05:15:12:739 nivel/(9987:9987): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 05:15:12:739 nivel/(9987:9987): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 05:15:13:240 nivel/(9987:9987): Pedido posicion recurso: H
+[TRACE] 05:15:13:240 nivel/(9987:9987): BUscando recurso: H == H
+[TRACE] 05:15:13:240 nivel/(9987:9987): BUscando recurso: F == H
+[TRACE] 05:15:13:240 nivel/(9987:9987): BUscando recurso: M == H
+[TRACE] 05:15:13:490 nivel/(9987:9987): Personaje a mover #, posicionX 4 posicionY 2
+[TRACE] 05:15:13:490 nivel/(9987:9987): Movimiento personaje: x: 4, y: 2
+
+[TRACE] 05:15:13:741 nivel/(9987:9987): Personaje a mover #, posicionX 5 posicionY 2
+[TRACE] 05:15:13:741 nivel/(9987:9987): Movimiento personaje: x: 5, y: 2
+
+[TRACE] 05:15:13:991 nivel/(9987:9987): Personaje a mover #, posicionX 5 posicionY 3
+[TRACE] 05:15:13:991 nivel/(9987:9987): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 05:15:14:744 nivel/(9987:9987): Personaje a mover @, posicionX 5 posicionY 4
+[TRACE] 05:15:14:744 nivel/(9987:9987): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:15:14:994 nivel/(9987:9987): Personaje a mover @, posicionX 5 posicionY 5
+[TRACE] 05:15:14:994 nivel/(9987:9987): Movimiento personaje: x: 5, y: 5
+
+[TRACE] 05:15:14:995 nivel/(9987:9987): Recurso a asignar H
+[TRACE] 05:15:15:748 nivel/(9987:9987): Personaje a mover #, posicionX 5 posicionY 4
+[TRACE] 05:15:15:748 nivel/(9987:9987): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:15:15:999 nivel/(9987:9987): Personaje a mover #, posicionX 5 posicionY 5
+[TRACE] 05:15:15:999 nivel/(9987:9987): Movimiento personaje: x: 5, y: 5
+
+[TRACE] 05:15:15:999 nivel/(9987:9987): Recurso bloqueado H
+[TRACE] 05:15:15:999 nivel/(9987:9987): Pedido posicion recurso: F
+[TRACE] 05:15:15:999 nivel/(9987:9987): BUscando recurso: H == F
+[TRACE] 05:15:15:999 nivel/(9987:9987): BUscando recurso: F == F
+[TRACE] 05:15:15:999 nivel/(9987:9987): BUscando recurso: M == F
+[TRACE] 05:15:16:251 nivel/(9987:9987): Personaje a mover @, posicionX 6 posicionY 5
+[TRACE] 05:15:16:251 nivel/(9987:9987): Movimiento personaje: x: 6, y: 5
+
+[TRACE] 05:15:16:503 nivel/(9987:9987): Personaje a mover @, posicionX 7 posicionY 5
+[TRACE] 05:15:16:503 nivel/(9987:9987): Movimiento personaje: x: 7, y: 5
+
+[TRACE] 05:15:16:754 nivel/(9987:9987): Personaje a mover @, posicionX 8 posicionY 5
+[TRACE] 05:15:16:754 nivel/(9987:9987): Movimiento personaje: x: 8, y: 5
+
+[TRACE] 05:15:17:506 nivel/(9987:9987): Personaje a mover @, posicionX 9 posicionY 5
+[TRACE] 05:15:17:506 nivel/(9987:9987): Movimiento personaje: x: 9, y: 5
+
+[TRACE] 05:15:17:756 nivel/(9987:9987): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 05:15:17:756 nivel/(9987:9987): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 05:15:18:7 nivel/(9987:9987): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 05:15:18:7 nivel/(9987:9987): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 05:15:18:508 nivel/(9987:9987): Recurso a asignar F
+[TRACE] 05:15:19:9 nivel/(9987:9987): Pedido posicion recurso: M
+[TRACE] 05:15:19:9 nivel/(9987:9987): BUscando recurso: H == M
+[TRACE] 05:15:19:9 nivel/(9987:9987): BUscando recurso: F == M
+[TRACE] 05:15:19:9 nivel/(9987:9987): BUscando recurso: M == M
+[TRACE] 05:15:19:260 nivel/(9987:9987): Personaje a mover @, posicionX 9 posicionY 4
+[TRACE] 05:15:19:260 nivel/(9987:9987): Movimiento personaje: x: 9, y: 4
+
+[TRACE] 05:15:19:511 nivel/(9987:9987): Personaje a mover @, posicionX 8 posicionY 4
+[TRACE] 05:15:19:511 nivel/(9987:9987): Movimiento personaje: x: 8, y: 4
+
+[TRACE] 05:15:19:762 nivel/(9987:9987): Personaje a mover @, posicionX 7 posicionY 4
+[TRACE] 05:15:19:762 nivel/(9987:9987): Movimiento personaje: x: 7, y: 4
+
+[TRACE] 05:15:20:514 nivel/(9987:9987): Personaje a mover @, posicionX 6 posicionY 4
+[TRACE] 05:15:20:514 nivel/(9987:9987): Movimiento personaje: x: 6, y: 4
+
+[TRACE] 05:15:20:765 nivel/(9987:9987): Personaje a mover @, posicionX 5 posicionY 4
+[TRACE] 05:15:20:765 nivel/(9987:9987): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:15:21:16 nivel/(9987:9987): Personaje a mover @, posicionX 4 posicionY 4
+[TRACE] 05:15:21:16 nivel/(9987:9987): Movimiento personaje: x: 4, y: 4
+
+[TRACE] 05:15:21:771 nivel/(9987:9987): Personaje a mover @, posicionX 3 posicionY 4
+[TRACE] 05:15:21:771 nivel/(9987:9987): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 05:15:22:23 nivel/(9987:9987): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 05:15:22:23 nivel/(9987:9987): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 05:15:22:274 nivel/(9987:9987): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 05:15:22:274 nivel/(9987:9987): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 05:15:22:775 nivel/(9987:9987): Recurso a asignar M
+[TRACE] 05:17:19:403 nivel/(9987:9987): Liberando...
+[TRACE] 05:17:19:403 nivel/(9987:9987): Recurso a sumar! F - H
+[TRACE] 05:17:19:403 nivel/(9987:9987): Recurso a sumar! M - H
+[TRACE] 05:17:19:403 nivel/(9987:9987): Liberando...
+[TRACE] 05:17:19:403 nivel/(9987:9987): Recurso a sumar! F - F
+[TRACE] 05:17:19:403 nivel/(9987:9987): Liberado! F
+[TRACE] 05:17:19:403 nivel/(9987:9987): Recurso a sumar! M - F
+[TRACE] 05:17:19:403 nivel/(9987:9987): Liberando...
+[TRACE] 05:17:19:403 nivel/(9987:9987): Recurso a sumar! F - M
+[TRACE] 05:17:19:403 nivel/(9987:9987): Recurso a sumar! M - M
+[TRACE] 05:17:19:403 nivel/(9987:9987): Liberado! M
+[TRACE] 05:17:27:926 nivel/(9987:9987): Liberando2...
+[TRACE] 05:17:27:926 nivel/(9987:9987): Liberando2...
+[TRACE] 05:17:27:926 nivel/(9987:9987): Liberando2...
+[TRACE] 05:23:08:295 nivel/(10223:10223): Acepto Personaje: en Socket: 6
+
+[TRACE] 05:23:08:295 nivel/(10223:10223): Pedido posicion recurso: M
+[TRACE] 05:23:08:295 nivel/(10223:10223): BUscando recurso: H == M
+[TRACE] 05:23:08:295 nivel/(10223:10223): BUscando recurso: F == M
+[TRACE] 05:23:08:295 nivel/(10223:10223): BUscando recurso: M == M
+[TRACE] 05:23:08:546 nivel/(10223:10223): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 05:23:08:546 nivel/(10223:10223): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 05:23:08:629 nivel/(10223:10223): Acepto Personaje: en Socket: 7
+
+[TRACE] 05:23:08:797 nivel/(10223:10223): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 05:23:08:797 nivel/(10223:10223): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 05:23:09:47 nivel/(10223:10223): Personaje a mover #, posicionX 3 posicionY 2
+[TRACE] 05:23:09:48 nivel/(10223:10223): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 05:23:09:549 nivel/(10223:10223): Pedido posicion recurso: H
+[TRACE] 05:23:09:549 nivel/(10223:10223): BUscando recurso: H == H
+[TRACE] 05:23:09:549 nivel/(10223:10223): BUscando recurso: F == H
+[TRACE] 05:23:09:549 nivel/(10223:10223): BUscando recurso: M == H
+[TRACE] 05:23:09:800 nivel/(10223:10223): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 05:23:09:800 nivel/(10223:10223): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 05:23:10:51 nivel/(10223:10223): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 05:23:10:51 nivel/(10223:10223): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 05:23:10:302 nivel/(10223:10223): Personaje a mover @, posicionX 4 posicionY 1
+[TRACE] 05:23:10:302 nivel/(10223:10223): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 05:23:10:804 nivel/(10223:10223): Recurso a asignar M
+[TRACE] 05:23:11:555 nivel/(10223:10223): Personaje a mover @, posicionX 5 posicionY 1
+[TRACE] 05:23:11:555 nivel/(10223:10223): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 05:23:11:806 nivel/(10223:10223): Personaje a mover @, posicionX 5 posicionY 2
+[TRACE] 05:23:11:806 nivel/(10223:10223): Movimiento personaje: x: 5, y: 2
+
+[TRACE] 05:23:12:57 nivel/(10223:10223): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 05:23:12:58 nivel/(10223:10223): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 05:23:12:559 nivel/(10223:10223): Pedido posicion recurso: H
+[TRACE] 05:23:12:559 nivel/(10223:10223): BUscando recurso: H == H
+[TRACE] 05:23:12:559 nivel/(10223:10223): BUscando recurso: F == H
+[TRACE] 05:23:12:559 nivel/(10223:10223): BUscando recurso: M == H
+[TRACE] 05:23:12:810 nivel/(10223:10223): Personaje a mover #, posicionX 4 posicionY 2
+[TRACE] 05:23:12:810 nivel/(10223:10223): Movimiento personaje: x: 4, y: 2
+
+[TRACE] 05:23:13:61 nivel/(10223:10223): Personaje a mover #, posicionX 5 posicionY 2
+[TRACE] 05:23:13:61 nivel/(10223:10223): Movimiento personaje: x: 5, y: 2
+
+[TRACE] 05:23:13:311 nivel/(10223:10223): Personaje a mover #, posicionX 5 posicionY 3
+[TRACE] 05:23:13:311 nivel/(10223:10223): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 05:23:14:63 nivel/(10223:10223): Personaje a mover @, posicionX 5 posicionY 4
+[TRACE] 05:23:14:64 nivel/(10223:10223): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:23:14:314 nivel/(10223:10223): Personaje a mover @, posicionX 5 posicionY 5
+[TRACE] 05:23:14:314 nivel/(10223:10223): Movimiento personaje: x: 5, y: 5
+
+[TRACE] 05:23:14:314 nivel/(10223:10223): Recurso a asignar H
+[TRACE] 05:23:15:69 nivel/(10223:10223): Personaje a mover #, posicionX 5 posicionY 4
+[TRACE] 05:23:15:69 nivel/(10223:10223): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:23:15:320 nivel/(10223:10223): Personaje a mover #, posicionX 5 posicionY 5
+[TRACE] 05:23:15:320 nivel/(10223:10223): Movimiento personaje: x: 5, y: 5
+
+[TRACE] 05:23:15:320 nivel/(10223:10223): Recurso bloqueado H
+[TRACE] 05:23:15:321 nivel/(10223:10223): Pedido posicion recurso: F
+[TRACE] 05:23:15:321 nivel/(10223:10223): BUscando recurso: H == F
+[TRACE] 05:23:15:321 nivel/(10223:10223): BUscando recurso: F == F
+[TRACE] 05:23:15:321 nivel/(10223:10223): BUscando recurso: M == F
+[TRACE] 05:23:15:572 nivel/(10223:10223): Personaje a mover @, posicionX 6 posicionY 5
+[TRACE] 05:23:15:572 nivel/(10223:10223): Movimiento personaje: x: 6, y: 5
+
+[TRACE] 05:23:15:823 nivel/(10223:10223): Personaje a mover @, posicionX 7 posicionY 5
+[TRACE] 05:23:15:823 nivel/(10223:10223): Movimiento personaje: x: 7, y: 5
+
+[TRACE] 05:23:16:74 nivel/(10223:10223): Personaje a mover @, posicionX 8 posicionY 5
+[TRACE] 05:23:16:74 nivel/(10223:10223): Movimiento personaje: x: 8, y: 5
+
+[TRACE] 05:23:16:826 nivel/(10223:10223): Personaje a mover @, posicionX 9 posicionY 5
+[TRACE] 05:23:16:826 nivel/(10223:10223): Movimiento personaje: x: 9, y: 5
+
+[TRACE] 05:23:17:77 nivel/(10223:10223): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 05:23:17:77 nivel/(10223:10223): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 05:23:17:327 nivel/(10223:10223): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 05:23:17:327 nivel/(10223:10223): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 05:23:17:829 nivel/(10223:10223): Recurso a asignar F
+[TRACE] 05:23:18:330 nivel/(10223:10223): Pedido posicion recurso: M
+[TRACE] 05:23:18:331 nivel/(10223:10223): BUscando recurso: H == M
+[TRACE] 05:23:18:331 nivel/(10223:10223): BUscando recurso: F == M
+[TRACE] 05:23:18:331 nivel/(10223:10223): BUscando recurso: M == M
+[TRACE] 05:23:18:581 nivel/(10223:10223): Personaje a mover @, posicionX 9 posicionY 4
+[TRACE] 05:23:18:581 nivel/(10223:10223): Movimiento personaje: x: 9, y: 4
+
+[TRACE] 05:23:18:832 nivel/(10223:10223): Personaje a mover @, posicionX 8 posicionY 4
+[TRACE] 05:23:18:832 nivel/(10223:10223): Movimiento personaje: x: 8, y: 4
+
+[TRACE] 05:23:19:82 nivel/(10223:10223): Personaje a mover @, posicionX 7 posicionY 4
+[TRACE] 05:23:19:82 nivel/(10223:10223): Movimiento personaje: x: 7, y: 4
+
+[TRACE] 05:23:19:834 nivel/(10223:10223): Personaje a mover @, posicionX 6 posicionY 4
+[TRACE] 05:23:19:834 nivel/(10223:10223): Movimiento personaje: x: 6, y: 4
+
+[TRACE] 05:23:20:85 nivel/(10223:10223): Personaje a mover @, posicionX 5 posicionY 4
+[TRACE] 05:23:20:85 nivel/(10223:10223): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:23:20:336 nivel/(10223:10223): Personaje a mover @, posicionX 4 posicionY 4
+[TRACE] 05:23:20:336 nivel/(10223:10223): Movimiento personaje: x: 4, y: 4
+
+[TRACE] 05:23:21:87 nivel/(10223:10223): Personaje a mover @, posicionX 3 posicionY 4
+[TRACE] 05:23:21:87 nivel/(10223:10223): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 05:23:21:337 nivel/(10223:10223): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 05:23:21:337 nivel/(10223:10223): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 05:23:21:588 nivel/(10223:10223): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 05:23:21:588 nivel/(10223:10223): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 05:23:22:90 nivel/(10223:10223): Recurso a asignar M
+[TRACE] 05:23:22:91 nivel/(10223:10223): Liberando...
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a sumar! F - H
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a sumar! M - H
+[TRACE] 05:23:22:91 nivel/(10223:10223): Liberando...
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a sumar! F - F
+[TRACE] 05:23:22:91 nivel/(10223:10223): Liberado! F
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a sumar! M - F
+[TRACE] 05:23:22:91 nivel/(10223:10223): Liberando...
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a sumar! F - M
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a sumar! M - M
+[TRACE] 05:23:22:91 nivel/(10223:10223): Liberado! M
+[TRACE] 05:23:22:91 nivel/(10223:10223): Liberando2...
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a liberar2 
+[TRACE] 05:23:22:91 nivel/(10223:10223): Liberando2...
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a liberar2 
+[TRACE] 05:23:22:91 nivel/(10223:10223): Liberando2...
+[TRACE] 05:23:22:91 nivel/(10223:10223): Recurso a liberar2 
+[TRACE] 05:23:22:92 nivel/(10223:10223): Recurso bloqueado H
+[TRACE] 05:38:28:63 nivel/(10517:10517): Acepto Personaje: en Socket: 6
+
+[TRACE] 05:38:28:64 nivel/(10517:10517): Pedido posicion recurso: M
+[TRACE] 05:38:28:64 nivel/(10517:10517): BUscando recurso: H == M
+[TRACE] 05:38:28:64 nivel/(10517:10517): BUscando recurso: F == M
+[TRACE] 05:38:28:64 nivel/(10517:10517): BUscando recurso: M == M
+[TRACE] 05:38:28:315 nivel/(10517:10517): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 05:38:28:315 nivel/(10517:10517): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 05:38:28:442 nivel/(10517:10517): Acepto Personaje: en Socket: 7
+
+[TRACE] 05:38:28:566 nivel/(10517:10517): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 05:38:28:566 nivel/(10517:10517): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 05:38:28:817 nivel/(10517:10517): Personaje a mover #, posicionX 3 posicionY 2
+[TRACE] 05:38:28:817 nivel/(10517:10517): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 05:38:29:319 nivel/(10517:10517): Pedido posicion recurso: H
+[TRACE] 05:38:29:319 nivel/(10517:10517): BUscando recurso: H == H
+[TRACE] 05:38:29:319 nivel/(10517:10517): BUscando recurso: F == H
+[TRACE] 05:38:29:319 nivel/(10517:10517): BUscando recurso: M == H
+[TRACE] 05:38:29:570 nivel/(10517:10517): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 05:38:29:570 nivel/(10517:10517): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 05:38:29:820 nivel/(10517:10517): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 05:38:29:820 nivel/(10517:10517): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 05:38:30:72 nivel/(10517:10517): Personaje a mover @, posicionX 4 posicionY 1
+[TRACE] 05:38:30:72 nivel/(10517:10517): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 05:38:30:574 nivel/(10517:10517): Recurso a asignar M
+[TRACE] 05:38:31:326 nivel/(10517:10517): Personaje a mover @, posicionX 5 posicionY 1
+[TRACE] 05:38:31:326 nivel/(10517:10517): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 05:38:31:577 nivel/(10517:10517): Personaje a mover @, posicionX 5 posicionY 2
+[TRACE] 05:38:31:577 nivel/(10517:10517): Movimiento personaje: x: 5, y: 2
+
+[TRACE] 05:38:31:828 nivel/(10517:10517): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 05:38:31:828 nivel/(10517:10517): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 05:38:32:330 nivel/(10517:10517): Pedido posicion recurso: H
+[TRACE] 05:38:32:330 nivel/(10517:10517): BUscando recurso: H == H
+[TRACE] 05:38:32:330 nivel/(10517:10517): BUscando recurso: F == H
+[TRACE] 05:38:32:330 nivel/(10517:10517): BUscando recurso: M == H
+[TRACE] 05:38:32:580 nivel/(10517:10517): Personaje a mover #, posicionX 4 posicionY 2
+[TRACE] 05:38:32:580 nivel/(10517:10517): Movimiento personaje: x: 4, y: 2
+
+[TRACE] 05:38:32:831 nivel/(10517:10517): Personaje a mover #, posicionX 5 posicionY 2
+[TRACE] 05:38:32:831 nivel/(10517:10517): Movimiento personaje: x: 5, y: 2
+
+[TRACE] 05:38:33:82 nivel/(10517:10517): Personaje a mover #, posicionX 5 posicionY 3
+[TRACE] 05:38:33:82 nivel/(10517:10517): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 05:38:33:833 nivel/(10517:10517): Personaje a mover @, posicionX 5 posicionY 4
+[TRACE] 05:38:33:833 nivel/(10517:10517): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:38:34:85 nivel/(10517:10517): Personaje a mover @, posicionX 5 posicionY 5
+[TRACE] 05:38:34:85 nivel/(10517:10517): Movimiento personaje: x: 5, y: 5
+
+[TRACE] 05:38:34:85 nivel/(10517:10517): Recurso a asignar H
+[TRACE] 05:38:34:836 nivel/(10517:10517): Personaje a mover #, posicionX 5 posicionY 4
+[TRACE] 05:38:34:836 nivel/(10517:10517): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:38:35:87 nivel/(10517:10517): Personaje a mover #, posicionX 5 posicionY 5
+[TRACE] 05:38:35:88 nivel/(10517:10517): Movimiento personaje: x: 5, y: 5
+
+[TRACE] 05:38:35:88 nivel/(10517:10517): Recurso bloqueado H
+[TRACE] 05:38:35:89 nivel/(10517:10517): Pedido posicion recurso: F
+[TRACE] 05:38:35:89 nivel/(10517:10517): BUscando recurso: H == F
+[TRACE] 05:38:35:89 nivel/(10517:10517): BUscando recurso: F == F
+[TRACE] 05:38:35:89 nivel/(10517:10517): BUscando recurso: M == F
+[TRACE] 05:38:35:339 nivel/(10517:10517): Personaje a mover @, posicionX 6 posicionY 5
+[TRACE] 05:38:35:339 nivel/(10517:10517): Movimiento personaje: x: 6, y: 5
+
+[TRACE] 05:38:35:590 nivel/(10517:10517): Personaje a mover @, posicionX 7 posicionY 5
+[TRACE] 05:38:35:590 nivel/(10517:10517): Movimiento personaje: x: 7, y: 5
+
+[TRACE] 05:38:35:841 nivel/(10517:10517): Personaje a mover @, posicionX 8 posicionY 5
+[TRACE] 05:38:35:841 nivel/(10517:10517): Movimiento personaje: x: 8, y: 5
+
+[TRACE] 05:38:36:594 nivel/(10517:10517): Personaje a mover @, posicionX 9 posicionY 5
+[TRACE] 05:38:36:594 nivel/(10517:10517): Movimiento personaje: x: 9, y: 5
+
+[TRACE] 05:38:36:844 nivel/(10517:10517): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 05:38:36:844 nivel/(10517:10517): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 05:38:37:95 nivel/(10517:10517): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 05:38:37:95 nivel/(10517:10517): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 05:38:37:596 nivel/(10517:10517): Recurso a asignar F
+[TRACE] 05:38:38:98 nivel/(10517:10517): Pedido posicion recurso: M
+[TRACE] 05:38:38:98 nivel/(10517:10517): BUscando recurso: H == M
+[TRACE] 05:38:38:98 nivel/(10517:10517): BUscando recurso: F == M
+[TRACE] 05:38:38:98 nivel/(10517:10517): BUscando recurso: M == M
+[TRACE] 05:38:38:350 nivel/(10517:10517): Personaje a mover @, posicionX 9 posicionY 4
+[TRACE] 05:38:38:350 nivel/(10517:10517): Movimiento personaje: x: 9, y: 4
+
+[TRACE] 05:38:38:600 nivel/(10517:10517): Personaje a mover @, posicionX 8 posicionY 4
+[TRACE] 05:38:38:600 nivel/(10517:10517): Movimiento personaje: x: 8, y: 4
+
+[TRACE] 05:38:38:851 nivel/(10517:10517): Personaje a mover @, posicionX 7 posicionY 4
+[TRACE] 05:38:38:851 nivel/(10517:10517): Movimiento personaje: x: 7, y: 4
+
+[TRACE] 05:38:39:602 nivel/(10517:10517): Personaje a mover @, posicionX 6 posicionY 4
+[TRACE] 05:38:39:602 nivel/(10517:10517): Movimiento personaje: x: 6, y: 4
+
+[TRACE] 05:38:39:853 nivel/(10517:10517): Personaje a mover @, posicionX 5 posicionY 4
+[TRACE] 05:38:39:853 nivel/(10517:10517): Movimiento personaje: x: 5, y: 4
+
+[TRACE] 05:38:40:104 nivel/(10517:10517): Personaje a mover @, posicionX 4 posicionY 4
+[TRACE] 05:38:40:104 nivel/(10517:10517): Movimiento personaje: x: 4, y: 4
+
+[TRACE] 05:38:40:855 nivel/(10517:10517): Personaje a mover @, posicionX 3 posicionY 4
+[TRACE] 05:38:40:855 nivel/(10517:10517): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 05:38:41:107 nivel/(10517:10517): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 05:38:41:107 nivel/(10517:10517): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 05:38:41:358 nivel/(10517:10517): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 05:38:41:358 nivel/(10517:10517): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 05:38:41:859 nivel/(10517:10517): Recurso a asignar M
+[TRACE] 05:38:41:860 nivel/(10517:10517): Liberando...
+[TRACE] 05:38:41:860 nivel/(10517:10517): Recurso a sumar! H - H
+[TRACE] 05:38:41:860 nivel/(10517:10517): Liberado! H
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a sumar! F - H
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a sumar! M - H
+[TRACE] 05:38:41:861 nivel/(10517:10517): Liberando...
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a sumar! H - F
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a sumar! F - F
+[TRACE] 05:38:41:861 nivel/(10517:10517): Liberado! F
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a sumar! M - F
+[TRACE] 05:38:41:861 nivel/(10517:10517): Liberando...
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a sumar! H - M
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a sumar! F - M
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a sumar! M - M
+[TRACE] 05:38:41:861 nivel/(10517:10517): Liberado! M
+[TRACE] 05:38:41:861 nivel/(10517:10517): Recurso a asignar H
+[TRACE] 05:38:42:362 nivel/(10517:10517): Pedido posicion recurso: F
+[TRACE] 05:38:42:362 nivel/(10517:10517): BUscando recurso: H == F
+[TRACE] 05:38:42:362 nivel/(10517:10517): BUscando recurso: F == F
+[TRACE] 05:38:42:362 nivel/(10517:10517): BUscando recurso: M == F
+[TRACE] 05:38:42:613 nivel/(10517:10517): Personaje a mover #, posicionX 6 posicionY 5
+[TRACE] 05:38:42:613 nivel/(10517:10517): Movimiento personaje: x: 6, y: 5
+
+[TRACE] 05:38:42:863 nivel/(10517:10517): Personaje a mover #, posicionX 7 posicionY 5
+[TRACE] 05:38:42:863 nivel/(10517:10517): Movimiento personaje: x: 7, y: 5
+
+[TRACE] 05:38:43:114 nivel/(10517:10517): Personaje a mover #, posicionX 8 posicionY 5
+[TRACE] 05:38:43:114 nivel/(10517:10517): Movimiento personaje: x: 8, y: 5
+
+[TRACE] 05:38:43:865 nivel/(10517:10517): Personaje a mover #, posicionX 9 posicionY 5
+[TRACE] 05:38:43:865 nivel/(10517:10517): Movimiento personaje: x: 9, y: 5
+
+[TRACE] 05:38:44:115 nivel/(10517:10517): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 05:38:44:115 nivel/(10517:10517): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 05:38:44:366 nivel/(10517:10517): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 05:38:44:366 nivel/(10517:10517): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 05:38:44:867 nivel/(10517:10517): Recurso a asignar F
+[TRACE] 05:38:44:868 nivel/(10517:10517): Liberando...
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! M - H
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! H - H
+[TRACE] 05:38:44:868 nivel/(10517:10517): Liberado! H
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! F - H
+[TRACE] 05:38:44:868 nivel/(10517:10517): Liberando...
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! M - F
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! H - F
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! F - F
+[TRACE] 05:38:44:868 nivel/(10517:10517): Liberado! F
+[TRACE] 05:38:44:868 nivel/(10517:10517): Liberando...
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! M - M
+[TRACE] 05:38:44:868 nivel/(10517:10517): Liberado! M
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! H - M
+[TRACE] 05:38:44:868 nivel/(10517:10517): Recurso a sumar! F - M

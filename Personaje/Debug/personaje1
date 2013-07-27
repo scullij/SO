@@ -1,6 +1,6 @@
 Nombre=Mario
 Simbolo=@
 PlanDeNiveles=[1]
-Objetivo1=[F,H,M]
+Objetivo1=[H,F,M]
 Vidas=5
 Orquestador=127.0.0.1:30000

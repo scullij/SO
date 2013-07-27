@@ -1,6 +1,6 @@
 Nombre=Luigi
 Simbolo=#
 PlanDeNiveles=[1]
-Objetivo1=[H,M,F]
+Objetivo1=[M,H,F]
 Vidas=5
 Orquestador=127.0.0.1:30000

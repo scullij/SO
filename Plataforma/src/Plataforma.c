@@ -29,6 +29,8 @@
 
 t_log* logger;
 
+pthread_mutex_t mutex_planificacion = PTHREAD_MUTEX_INITIALIZER;
+
 typedef struct{
 	char personaje;
 	int socket;
@@ -72,6 +74,7 @@ void rutinasOrquestador(int sockete, int routine, void* payload);
 void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel);
 int orquestador(void);
 int planificador(void* ptr);
+void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel);
 
 int main(int argc, char *argv[]){
 	logger = log_create("plataforma.log", "plataforma", "true", LOG_LEVEL_TRACE);
@@ -170,6 +173,7 @@ int orquestador(void){
                         	char* key = malloc(7);
                         	strcpy(key, string_from_format("nivel%d", nivelDirecionPuerto->nivel));
 
+                    		pthread_mutex_lock( &mutex_planificacion );
                         	t_planificacionNodo* planificacionNodo = malloc(sizeof(t_planificacionNodo));
                         	planificacionNodo->rr = queue_create();
                         	planificacionNodo->bloqueados = queue_create();
@@ -182,6 +186,7 @@ int orquestador(void){
 							pla.puerto = puertoInicialPlanificador;
 							pla.planificacionNodo = planificacionNodo;
 							pthread_create( &thr_pla, NULL, &planificador, &pla);
+							pthread_mutex_unlock( &mutex_planificacion );
 
 							char* newKey = malloc(3);
 							sprintf(newKey,"%d", pla.nivel);
@@ -325,6 +330,7 @@ int planificador(void* ptr){
 }
 
 void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel){
+	pthread_mutex_lock( &mutex_planificacion );
 	t_nodoPerPLa* new;
 	//SOLO ESCUCHA PERSONAJES
 	switch (routine) {
@@ -336,37 +342,29 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 			new->personaje = (*(char*)payload);
 			new->socket = sockete;
 
+			queue_push(planificacion->rr, new);
 			if(planificacion->personajeActivo == NULL){ // ES EL UNICO QUE ESTA POR AHORA
-				planificacion->personajeActivo = new;
-				log_trace(logger, "Planificador Nivel %d, Movimiento personaje: %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
-				enviar(sockete, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
+				moverPersonajePLanificador(planificacion, nivel);
 			}else{
 				log_trace(logger, "Planificador Nivel %d, Encolo personaje: %c", nivel, new->personaje);
-				queue_push(planificacion->rr, new);
 			}
 			break;
 		case P_PER_TURNO_FINALIZADO:
 			queue_push(planificacion->rr, planificacion->personajeActivo);
 			planificacion->personajeActivo = NULL;
 
-			usleep(100*plataforma->retardo);
+			usleep(1000*plataforma->retardo);
 
-			new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
-			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
-			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
-			planificacion->personajeActivo = new;
+			moverPersonajePLanificador(planificacion, nivel);
 			break;
 		case P_PER_BLOQ_RECURSO:
 			new = planificacion->personajeActivo;
 			planificacion->personajeActivo = NULL;
-			new->recurso = ((t_nodoPerPLa*)payload)->recurso;
+			new->recurso = *(char*)payload;
 			queue_push(planificacion->bloqueados, new);
 			log_trace(logger, "Planificador Nivel %d, Bloqueo personaje: %c", nivel, new->personaje);
 
-			new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
-			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
-			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
-			planificacion->personajeActivo = new;
+			moverPersonajePLanificador(planificacion, nivel);
 
 			break;
 		case P_PER_NIV_FIN:
@@ -374,23 +372,60 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 			planificacion->personajeActivo = NULL;
 			log_trace(logger, "Personaje %c Finalizo Nivel %d y se desconecta.", (*(char*)payload), nivel);
 
-			new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
-			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
-			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
-			planificacion->personajeActivo = new;
+			moverPersonajePLanificador(planificacion, nivel);
 
 			break;
 		default:
 			log_trace(logger, "Planificador - Routine number %d dont exist.", routine);
 			break;
 	}
+	pthread_mutex_unlock( &mutex_planificacion );
+}
+
+void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel){
+	if(!queue_is_empty(planificacion->rr)){
+		t_nodoPerPLa* new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
+			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
+			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
+			planificacion->personajeActivo = new;
+	}
 }
 
 void rutinasOrquestador(int sockete, int routine, void* payload){
+	char recursosLiberados[20];
+	int t=0;
 	switch(routine){
-		//case P_NIV_MUERTE_PERSONAJE:
-			//TODO LIBERAR RECURSOS
-		//break;
+		case 112: //Liberar recursos nivel
+
+		strncpy(recursosLiberados, (char*)payload, 10);
+
+		int i = 1;
+		pthread_mutex_lock( &mutex_planificacion );
+		t_planificacionNodo* planificadorNivel = dictionary_get(planificacion, string_from_format("nivel%c", recursosLiberados[0]));
+		while(recursosLiberados[i] != NULL){
+			int size = queue_size(planificadorNivel->bloqueados);
+			int j;
+			for (j = 0; j < size; j++) {
+				t_nodoPerPLa* nodo = queue_pop(planificadorNivel->bloqueados);
+				if(nodo->recurso == recursosLiberados[i]){
+					log_trace(logger, "Personaje desbloqueado %c por recurso %c", nodo->personaje, nodo->recurso);
+					queue_push(planificadorNivel->rr, nodo);
+					recursosLiberados[i+10] = '1';
+					t++;
+				}else{
+					queue_push(planificadorNivel->bloqueados, nodo);
+				}
+			}
+			i++;
+		}
+		enviar(sockete, 62, recursosLiberados, sizeof(recursosLiberados));
+		recibir(sockete, &payload); //Termino de sumar instancias devueltas el nivel
+		if(planificadorNivel->personajeActivo == NULL){
+			moverPersonajePLanificador(planificadorNivel, (int)(recursosLiberados[0]-'0'));
+		}
+		pthread_mutex_unlock( &mutex_planificacion );
+
+		break;
 		default:
 			log_trace(logger, "Orquestador - Routine number %d dont exist.", routine);
 		break;

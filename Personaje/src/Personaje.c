@@ -164,7 +164,6 @@ int main(int argc, char *argv[]){
 		if(personaje->objetivo->x == NULL){
 			*recurso = personaje->recursos[*nivelActual][personaje->recursoActual];
 			enviar(nivel, P_PER_LUGAR_RECURSO, recurso, sizeof(char));
-			free(recurso);
 
 			t_posicion* posicion = malloc(sizeof(t_posicion));
 			type = recibir(nivel, &posicion);
@@ -188,21 +187,17 @@ int main(int argc, char *argv[]){
 		}else{
 
 			if(personaje->posicion->x == personaje->objetivo->x && personaje->posicion->y == personaje->objetivo->y){
-				log_trace(logger, "Pedido recurso %d", personaje->recursoActual);
 				enviar(nivel, P_PER_PEDIR_RECURSO, personaje->posicion, sizeof(t_posicion));
 				*quantum = 0;
 				type = recibir(nivel, NULL);
 				if(type == P_NIV_RECURSO_OK){//RECURSO ASIGNADO
 					personaje->objetivo->x = NULL;
 					personaje->objetivo->y = NULL;
-					log_trace(logger, "Recurso asignado %c.", personaje->recursos[*nivelActual][personaje->recursoActual]);
+					log_info(logger, "Recurso asignado %c.", personaje->recursos[*nivelActual][personaje->recursoActual]);
 					personaje->recursoActual++;
 				}else{
-					log_trace(logger, "Personaje bloqueado");
-					t_nodoPerPLa* nodo = malloc(sizeof(t_nodoPerPLa));
-					nodo->personaje = personaje->simbolo;
-					nodo->recurso = *recurso;
-					enviar(planificador, P_PER_BLOQ_RECURSO, nodo, sizeof(nodo));
+					log_info(logger, "Personaje bloqueado por recurso %c.", personaje->recursos[*nivelActual][personaje->recursoActual]);
+					enviar(planificador, P_PER_BLOQ_RECURSO, recurso, sizeof(char));
 					continue;
 				}
 			}else{
@@ -219,7 +214,7 @@ int main(int argc, char *argv[]){
 						personaje->posicion->y++;
 					}
 				}
-				sleep(1);
+				usleep(250000);
 				enviar(nivel, P_PER_MOV, personaje->posicion, sizeof(t_posicion));
 				type = recibir(nivel, NULL);
 				*quantum = *quantum - 1;
@@ -244,6 +239,7 @@ int main(int argc, char *argv[]){
 		}
 		fflush(stdout);
 	}
+	free(recurso);
 	free(quantum);
 	free(personaje);
 	close(orquestador);
