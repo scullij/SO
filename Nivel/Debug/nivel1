@@ -4,5 +4,5 @@ Puerto=30005
 TiempoChequeoDeadlock=10000
 Recovery=1
 Caja1=[Arbol,F,1,5,5]
-Caja2=[Hongos,H,2,7,4]
+Caja2=[Hongos,H,2,10,4]
 Caja3=[Monedas,M,4,3,2]

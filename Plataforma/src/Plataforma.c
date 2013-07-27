@@ -29,10 +29,16 @@
 
 t_log* logger;
 
+typedef struct{
+	char personaje;
+	int socket;
+	char recurso;
+} __attribute__ ((__packed__)) t_nodoPerPLa;
+
 typedef struct {
 	t_queue* rr;
 	t_queue* bloqueados;
-	char personajeActivo;
+	t_nodoPerPLa* personajeActivo;
 } t_planificacionNodo;
 
 t_dictionary* planificacion;
@@ -42,12 +48,6 @@ typedef struct {
 	int16_t puerto;
 	char direccion[16];
 } __attribute__ ((__packed__)) t_nivelDireccionPuerto;
-
-typedef struct{
-	char personaje;
-	int socket;
-	char recurso;
-} __attribute__ ((__packed__)) t_nodoPerPLa;
 
 typedef struct {
 	char *direccion;
@@ -173,7 +173,7 @@ int orquestador(void){
                         	t_planificacionNodo* planificacionNodo = malloc(sizeof(t_planificacionNodo));
                         	planificacionNodo->rr = queue_create();
                         	planificacionNodo->bloqueados = queue_create();
-                        	planificacionNodo->personajeActivo = 0;
+                        	planificacionNodo->personajeActivo = NULL;
                         	dictionary_put(planificacion, key, planificacionNodo);
 
                         	pthread_t thr_pla;
@@ -325,18 +325,19 @@ int planificador(void* ptr){
 }
 
 void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel){
-	t_nodoPerPLa* new = malloc(sizeof(t_nodoPerPLa));
+	t_nodoPerPLa* new;
 	//SOLO ESCUCHA PERSONAJES
 	switch (routine) {
 		case P_PER_CONECT_PLANI:
             log_trace(logger, "Planificador Nivel %d: Acepto personaje %c", nivel, (*(char*)payload));
 			enviar(sockete, P_PLA_ACEPT_PER, NULL, 0);
 
+			new = malloc(sizeof(t_nodoPerPLa));
 			new->personaje = (*(char*)payload);
 			new->socket = sockete;
 
-			if(planificacion->personajeActivo == 0){ // ES EL UNICO QUE ESTA POR AHORA
-				planificacion->personajeActivo = new->personaje;
+			if(planificacion->personajeActivo == NULL){ // ES EL UNICO QUE ESTA POR AHORA
+				planificacion->personajeActivo = new;
 				log_trace(logger, "Planificador Nivel %d, Movimiento personaje: %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
 				enviar(sockete, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
 			}else{
@@ -345,27 +346,39 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 			}
 			break;
 		case P_PER_TURNO_FINALIZADO:
-			planificacion->personajeActivo = 0;
-
-			new->personaje = (*(char*)payload);
-			new->socket = sockete;
-			queue_push(planificacion->rr, new);
+			queue_push(planificacion->rr, planificacion->personajeActivo);
+			planificacion->personajeActivo = NULL;
 
 			usleep(100*plataforma->retardo);
 
 			new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
 			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
 			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
+			planificacion->personajeActivo = new;
 			break;
 		case P_PER_BLOQ_RECURSO:
-			new->personaje = ((t_nodoPerPLa*)payload)->personaje;
-			new->socket = sockete;
+			new = planificacion->personajeActivo;
+			planificacion->personajeActivo = NULL;
 			new->recurso = ((t_nodoPerPLa*)payload)->recurso;
 			queue_push(planificacion->bloqueados, new);
 			log_trace(logger, "Planificador Nivel %d, Bloqueo personaje: %c", nivel, new->personaje);
+
+			new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
+			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
+			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
+			planificacion->personajeActivo = new;
+
 			break;
 		case P_PER_NIV_FIN:
+			free(planificacion->personajeActivo);
+			planificacion->personajeActivo = NULL;
 			log_trace(logger, "Personaje %c Finalizo Nivel %d y se desconecta.", (*(char*)payload), nivel);
+
+			new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
+			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
+			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
+			planificacion->personajeActivo = new;
+
 			break;
 		default:
 			log_trace(logger, "Planificador - Routine number %d dont exist.", routine);

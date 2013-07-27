@@ -205,7 +205,8 @@ void rutines(int sockete, int routine, void* payload){
 			break;
 		case P_PER_MOV:
 			posicion = (t_posicion*)payload;
-//			log_trace(logger, "MOVIMIENTO PERSONAJE EN: x: %d, y: %d\n", posicion->x, posicion->y);
+			log_trace(logger, "Personaje a mover %c, posicionX %d posicionY %d", posicion->personaje, posicion->x, posicion->y);
+			log_trace(logger, "Movimiento personaje: x: %d, y: %d\n", posicion->x, posicion->y);
 			MoverPersonaje(ListaItems, posicion->personaje, posicion->x, posicion->y);
 			enviar(sockete, P_NIV_OK_MOV, NULL, 0);
 			break;
@@ -213,11 +214,15 @@ void rutines(int sockete, int routine, void* payload){
 			posicion = (t_posicion*)payload;
 			//TODO VALIDAR POSICION CORRECTA PERSONAJE PARA PEDIR RECURSO
 		    void _restar_recurso(t_recurso* element){
+		    	log_trace(logger, "Esta sobre el recurso %d", element->x == posicion->x && element->y == posicion->y);
 		    	if(element->x == posicion->x && element->y == posicion->y){
 		    		if(element->instancias > 0){
+		    			element->instancias--;
+		    			log_trace(logger, "Recurso a asignar %c", element->simbolo);
 		    			restarRecurso(ListaItems, element->simbolo);
 		    			enviar(sockete, P_NIV_RECURSO_OK, NULL, 0);
 		    		}else {
+		    			log_trace(logger, "Recurso bloqueado %c", element->simbolo);
 		    			enviar(sockete, P_NIV_RECURSO_BLOQUEO, NULL, 0);
 					}
 				}
