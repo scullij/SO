@@ -29,6 +29,8 @@
 
 t_log* logger;
 
+int personajesEnPlan;
+
 pthread_mutex_t mutex_planificacion = PTHREAD_MUTEX_INITIALIZER;
 
 typedef struct{
@@ -181,22 +183,23 @@ int orquestador(void){
                         	dictionary_put(planificacion, key, planificacionNodo);
 
                         	pthread_t thr_pla;
-							t_plaThread pla;
-							pla.nivel = nivelDirecionPuerto->nivel;
-							pla.puerto = puertoInicialPlanificador;
-							pla.planificacionNodo = planificacionNodo;
-							pthread_create( &thr_pla, NULL, &planificador, &pla);
+							t_plaThread* pla = malloc(sizeof(t_plaThread));
+							pla->nivel = nivelDirecionPuerto->nivel;
+							pla->puerto = puertoInicialPlanificador;
+							pla->planificacionNodo = planificacionNodo;
+							pthread_create( &thr_pla, NULL, &planificador, pla);
 							pthread_mutex_unlock( &mutex_planificacion );
 
 							char* newKey = malloc(3);
-							sprintf(newKey,"%d", pla.nivel);
-							dictionary_put(planificadorPuerto, newKey, pla.puerto);
+							sprintf(newKey,"%d", pla->nivel);
+							dictionary_put(planificadorPuerto, newKey, pla->puerto);
 
 				            puertoInicialPlanificador++;
 
                         	dictionary_put(niveles, key, nivelDirecionPuerto);
                         	free(key);
                         }else if(type == P_PER_CONECT_PLA){ //PERSONAJE
+                        	personajesEnPlan++;
                         	log_trace(logger, "Orquestador: Nuevo personaje conectado.\n", newfd);
 							char* key = malloc(7);
 							strcpy(key, string_from_format("nivel%d", (*(int*)buffer)));
@@ -217,6 +220,7 @@ int orquestador(void){
 							char* newKey = malloc(3);
 							sprintf(newKey,"%d", nivelDireccionPuerto->nivel);
 							*puertoPLanificador = dictionary_get(planificadorPuerto, newKey);
+							log_trace(logger, "Puerto enviado-> %d", *puertoPLanificador);
 							enviar(newfd, P_PLA_ENVIO_PLANI, puertoPLanificador, sizeof(int));
 							free(newKey);
                         }
@@ -375,6 +379,13 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 			moverPersonajePLanificador(planificacion, nivel);
 
 			break;
+		case 159: //FIN PLAN DE NIVELES
+			/*personajesEnPlan--;
+			if(personajesEnPlan == 0){
+				char *argv[] = {"/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "koopa.config"};
+				execv("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", argv);
+			}*/
+			break;
 		default:
 			log_trace(logger, "Planificador - Routine number %d dont exist.", routine);
 			break;
@@ -385,7 +396,7 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel){
 	if(!queue_is_empty(planificacion->rr)){
 		t_nodoPerPLa* new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
-			log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
+			//log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
 			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
 			planificacion->personajeActivo = new;
 	}

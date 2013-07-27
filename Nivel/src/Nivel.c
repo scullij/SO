@@ -95,7 +95,9 @@ int main(int argc, char *argv[]) {
 	}
 
 	t_nivelDireccionPuerto* nivelPuerto = malloc(sizeof(t_nivelDireccionPuerto));
-	nivelPuerto->nivel = 1;
+
+	nivelPuerto->nivel = *(nivel->nombre+5) - '0';
+	//nivelPuerto->nivel = 1;
 	nivelPuerto->puerto = nivel->puerto;
 	enviar(orquestador, P_NIV_CONNECT_ORQ, nivelPuerto, sizeof(nivelPuerto));
 
@@ -274,16 +276,13 @@ void rutines(int sockete, int routine, void* payload, int orquestador){
 			strncpy(recursosLiberados, (char*)payload, 10);
 
 			void _liberar_recurso(void* el){
-				log_trace(logger, "Liberando...");
 				i=1;
 				while(recursosLiberados[i] != NULL){
-					log_trace(logger, "Recurso a sumar! %c - %c", recursosLiberados[i], ((t_recurso*)el)->simbolo);
 					if(((t_recurso*)el)->simbolo == recursosLiberados[i]){
 						if(recursosLiberados[i+10] != '1'){
 							sumarRecurso(ListaItems, ((t_recurso*)el)->simbolo);
 						}
 						((t_recurso*)el)->instancias++;
-						log_trace(logger, "Liberado! %c", ((t_recurso*)el)->simbolo);
 					}
 					i++;
 				}

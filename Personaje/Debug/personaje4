@@ -1,0 +1,8 @@
+Nombre=Tortuga
+Simbolo=&
+PlanDeNiveles=[4,3,2]
+Objetivo1=[C,H,E]
+Objetivo2=[B,T,B,R,T]
+Objetivo3=[C,F,C,F,C,F,C,F,C,F]
+Vidas=5
+Orquestador=127.0.0.1:30000

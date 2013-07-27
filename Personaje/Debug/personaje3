@@ -1,0 +1,8 @@
+Nombre=Hongo
+Simbolo=#
+PlanDeNiveles=[4,1,2]
+Objetivo1=[H,E,C]
+Objetivo2=[B,T,B,T,R,T]
+Objetivo3=[C,F,C]
+Vidas=5
+Orquestador=127.0.0.1:30000

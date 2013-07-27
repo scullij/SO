@@ -48,6 +48,8 @@
 
 #define P_PER_NIV_FIN 158
 
+#define P_PER_TERMINO 159
+
 //STRUCTS
 typedef struct {
 	char direccion[16];
