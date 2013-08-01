@@ -47,8 +47,6 @@ typedef struct {
 t_personaje *configurar_personaje(char *path);
 
 int main(int argc, char *argv[]){
-	t_log* logger;
-	logger = log_create("personaje.log", "personaje", true, LOG_LEVEL_TRACE);
 	char* path = malloc(0);
 	if(argc < 2){
 		puts("Ingrese el path de configuracion:");
@@ -76,26 +74,30 @@ int main(int argc, char *argv[]){
 
 	t_personaje* personaje = configurar_personaje(path);
 
-    void *buffer;    // buffer for client data
+	char* personajeLog = string_from_format("personaje%c", personaje->simbolo);
+	t_log* logger;
+	logger = log_create(personajeLog, personajeLog, true, LOG_LEVEL_TRACE);
+
+	void *buffer;    // buffer for client data
 	int16_t type;
 
 	uint16_t orquestador;
-
-	if (orquestador < 0){
-		perror("Error al conectarse al orquestador.");
-		return EXIT_FAILURE;
-	}
 
 	int* nivelActual = malloc(sizeof(int));
 	while(personaje->niveles[personaje->indiceNivelActual] != 0){
 		orquestador = create_socket();
 		connect_socket(orquestador, personaje->orquestador, personaje->puertoOrq);
 
+		if (orquestador < 0){
+			perror("Error al conectarse al orquestador.");
+			return EXIT_FAILURE;
+		}
+
 		//ME CONECTO AL ORQUESTADOR
 		*nivelActual = personaje->niveles[personaje->indiceNivelActual];
 		enviar(orquestador, P_PER_CONECT_PLA, nivelActual, sizeof(int));
 
-		log_trace(logger, "Personaje conectado al orquestador - nivel: %d.", *nivelActual);
+		log_trace(logger, "Personaje conectado al orquestador.");
 
 		//DATOS NIVEL
 		type = recibir(orquestador, &buffer);
@@ -138,7 +140,7 @@ int main(int argc, char *argv[]){
 
 		//HANDSHAKE NIVEL
 		enviar(nivel, P_PER_CONECT_NIV, &personaje->simbolo, sizeof(char));
-		type = recibir(nivel, NULL);
+		type = recibir(nivel, &buffer);
 
 		if(type != P_NIV_ACEPT_PER){
 			perror("Nivel rechaza personaje.");
@@ -159,7 +161,7 @@ int main(int argc, char *argv[]){
 				fflush(stdout);
 			}
 
-			if(personaje->objetivo->x == NULL){
+			if(personaje->objetivo->x == 0){
 				*recurso = personaje->recursos[*nivelActual][personaje->recursoActual];
 				enviar(nivel, P_PER_LUGAR_RECURSO, recurso, sizeof(char));
 
@@ -189,12 +191,12 @@ int main(int argc, char *argv[]){
 					*quantum = 0;
 					type = recibir(nivel, NULL);
 					if(type == P_NIV_RECURSO_OK){//RECURSO ASIGNADO
-						personaje->objetivo->x = NULL;
-						personaje->objetivo->y = NULL;
-						log_info(logger, "Recurso asignado %c.", personaje->recursos[*nivelActual][personaje->recursoActual]);
+						personaje->objetivo->x = 0;
+						personaje->objetivo->y = 0;
+						log_trace(logger, "Recurso asignado %c.", personaje->recursos[*nivelActual][personaje->recursoActual]);
 						personaje->recursoActual++;
 					}else{
-						log_info(logger, "Personaje bloqueado por recurso %c.", personaje->recursos[*nivelActual][personaje->recursoActual]);
+						log_trace(logger, "Personaje bloqueado por recurso %c.", personaje->recursos[*nivelActual][personaje->recursoActual]);
 						enviar(planificador, P_PER_BLOQ_RECURSO, recurso, sizeof(char));
 						continue;
 					}
@@ -225,11 +227,14 @@ int main(int argc, char *argv[]){
 					//LE AVISO AL NIVEL Y AL PLANIFICADOR QUE TERMINE
 					enviar(nivel, P_PER_NIV_FIN, &personaje->simbolo, sizeof(char));
 					enviar(planificador, P_PER_NIV_FIN, &personaje->simbolo, sizeof(char));
+					recibir(planificador, NULL);
 					close(nivel);
 					close(planificador);
 					log_trace(logger, "Nivel terminado.");
 					personaje->indiceNivelActual++;
 					personaje->recursoActual=0;
+					personaje->posicion->x = 1;
+					personaje->posicion->y = 1;
 					*nivelActual = personaje->niveles[personaje->indiceNivelActual];
 					break;
 				}
@@ -297,11 +302,11 @@ t_personaje *configurar_personaje(char *path){
 	personaje->posicion->personaje = personaje->simbolo;
 
 	personaje->objetivo = malloc(sizeof(t_posicion));
-	personaje->objetivo->x = NULL;
+	personaje->objetivo->x = 0;
 
 	personaje->recursoActual = 0;
 	personaje->indiceNivelActual = 0;
 
-	config_destroy(config);
+	//config_destroy(config);
 	return personaje;
 }

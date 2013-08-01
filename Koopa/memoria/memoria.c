@@ -154,7 +154,7 @@ t_particion* buscar_particion_best_fit (int tamanio){
 		{
 			// Encaja mejor que la anterior
 			if (bestFit == NULL ||
-				bestFit->tamanio > particion->tamanio)
+				bestFit->tamanio >= particion->tamanio)
 			{
 				bestFit = particion;
 			}

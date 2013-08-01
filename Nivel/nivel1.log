@@ -1,0 +1,144 @@
+[TRACE] 04:55:53:586 nivel1/(25647:25647): Paso dibujar.
+[TRACE] 04:56:09:699 nivel1/(25647:25647): Acepto Personaje: en Socket: 8
+[TRACE] 04:56:09:699 nivel1/(25647:25647): Pedido posicion recurso: F
+[TRACE] 04:56:09:950 nivel1/(25647:25647): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 04:56:09:950 nivel1/(25647:25647): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 04:56:10:201 nivel1/(25647:25647): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 04:56:10:201 nivel1/(25647:25647): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 04:56:10:451 nivel1/(25647:25647): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 04:56:10:451 nivel1/(25647:25647): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 04:56:11:203 nivel1/(25647:25647): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 04:56:11:203 nivel1/(25647:25647): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 04:56:11:203 nivel1/(25647:25647): Cantidad recurso 3
+[TRACE] 04:56:11:203 nivel1/(25647:25647): Cantidad recurso 5
+[TRACE] 04:56:11:203 nivel1/(25647:25647): Cantidad recurso 2
+[TRACE] 04:56:11:203 nivel1/(25647:25647): Cantidad recurso 4
+[TRACE] 04:56:11:203 nivel1/(25647:25647): Cantidad recurso 1
+[TRACE] 04:56:21:608 nivel1/(25647:25647): Recurso F
+[TRACE] 04:56:21:608 nivel1/(25647:25647): Recurso a asignar F
+[TRACE] 04:56:22:110 nivel1/(25647:25647): Pedido posicion recurso: H
+[TRACE] 04:56:22:360 nivel1/(25647:25647): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 04:56:22:361 nivel1/(25647:25647): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 04:56:22:611 nivel1/(25647:25647): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 04:56:22:611 nivel1/(25647:25647): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 04:56:22:861 nivel1/(25647:25647): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 04:56:22:861 nivel1/(25647:25647): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 04:56:23:613 nivel1/(25647:25647): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 04:56:23:613 nivel1/(25647:25647): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 04:56:23:864 nivel1/(25647:25647): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 04:56:23:864 nivel1/(25647:25647): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 04:56:24:115 nivel1/(25647:25647): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 04:56:24:115 nivel1/(25647:25647): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 04:56:24:867 nivel1/(25647:25647): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 04:56:24:867 nivel1/(25647:25647): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 04:56:25:118 nivel1/(25647:25647): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 04:56:25:118 nivel1/(25647:25647): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 04:56:25:370 nivel1/(25647:25647): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 04:56:25:370 nivel1/(25647:25647): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 04:56:26:121 nivel1/(25647:25647): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 04:56:26:121 nivel1/(25647:25647): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 04:56:26:371 nivel1/(25647:25647): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 04:56:26:371 nivel1/(25647:25647): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 04:56:26:622 nivel1/(25647:25647): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 04:56:26:622 nivel1/(25647:25647): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 04:56:27:374 nivel1/(25647:25647): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 04:56:27:374 nivel1/(25647:25647): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 04:56:27:625 nivel1/(25647:25647): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 04:56:27:625 nivel1/(25647:25647): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 04:56:27:625 nivel1/(25647:25647): Cantidad recurso 3
+[TRACE] 04:56:34:749 nivel1/(25647:25647): Recurso H
+[TRACE] 04:56:34:750 nivel1/(25647:25647): Recurso a asignar H
+[TRACE] 04:56:34:750 nivel1/(25647:25647): Cantidad recurso 5
+[TRACE] 04:56:34:750 nivel1/(25647:25647): Cantidad recurso 2
+[TRACE] 04:56:34:750 nivel1/(25647:25647): Cantidad recurso 4
+[TRACE] 04:56:34:750 nivel1/(25647:25647): Cantidad recurso 0
+[TRACE] 04:58:44:823 nivel1/(25867:25867): Paso dibujar.
+[TRACE] 04:58:54:16 nivel1/(25867:25867): Acepto Personaje: en Socket: 8
+[TRACE] 04:58:54:16 nivel1/(25867:25867): Pedido posicion recurso: F
+[TRACE] 04:58:54:267 nivel1/(25867:25867): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 04:58:54:267 nivel1/(25867:25867): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 04:58:54:517 nivel1/(25867:25867): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 04:58:54:517 nivel1/(25867:25867): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 04:58:54:768 nivel1/(25867:25867): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 04:58:54:768 nivel1/(25867:25867): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 04:58:55:518 nivel1/(25867:25867): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 04:58:55:519 nivel1/(25867:25867): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 04:58:55:519 nivel1/(25867:25867): Cantidad recurso 3
+[TRACE] 04:58:55:519 nivel1/(25867:25867): Cantidad recurso 5
+[TRACE] 04:58:55:519 nivel1/(25867:25867): Cantidad recurso 2
+[TRACE] 04:58:55:519 nivel1/(25867:25867): Cantidad recurso 4
+[TRACE] 04:58:55:519 nivel1/(25867:25867): Cantidad recurso 1
+[TRACE] 04:58:55:519 nivel1/(25867:25867): Recurso F
+[TRACE] 04:58:59:677 nivel1/(25867:25867): Recurso a asignar F
+[TRACE] 04:59:00:179 nivel1/(25867:25867): Pedido posicion recurso: H
+[TRACE] 04:59:00:430 nivel1/(25867:25867): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 04:59:00:430 nivel1/(25867:25867): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 04:59:00:680 nivel1/(25867:25867): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 04:59:00:680 nivel1/(25867:25867): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 04:59:00:931 nivel1/(25867:25867): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 04:59:00:931 nivel1/(25867:25867): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 04:59:01:682 nivel1/(25867:25867): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 04:59:01:682 nivel1/(25867:25867): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 04:59:01:934 nivel1/(25867:25867): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 04:59:01:934 nivel1/(25867:25867): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 04:59:02:185 nivel1/(25867:25867): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 04:59:02:185 nivel1/(25867:25867): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 04:59:02:936 nivel1/(25867:25867): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 04:59:02:936 nivel1/(25867:25867): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 04:59:03:187 nivel1/(25867:25867): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 04:59:03:187 nivel1/(25867:25867): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 04:59:03:438 nivel1/(25867:25867): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 04:59:03:438 nivel1/(25867:25867): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 04:59:04:191 nivel1/(25867:25867): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 04:59:04:191 nivel1/(25867:25867): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 04:59:04:442 nivel1/(25867:25867): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 04:59:04:442 nivel1/(25867:25867): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 04:59:04:695 nivel1/(25867:25867): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 04:59:04:695 nivel1/(25867:25867): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 04:59:05:446 nivel1/(25867:25867): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 04:59:05:446 nivel1/(25867:25867): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 04:59:05:697 nivel1/(25867:25867): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 04:59:05:698 nivel1/(25867:25867): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 04:59:05:698 nivel1/(25867:25867): Cantidad recurso 3
+[TRACE] 04:59:05:698 nivel1/(25867:25867): Recurso H
+[TRACE] 04:59:05:698 nivel1/(25867:25867): Recurso a asignar H
+[TRACE] 04:59:05:698 nivel1/(25867:25867): Cantidad recurso 5
+[TRACE] 04:59:05:698 nivel1/(25867:25867): Cantidad recurso 2
+[TRACE] 04:59:05:698 nivel1/(25867:25867): Cantidad recurso 4
+[TRACE] 04:59:05:698 nivel1/(25867:25867): Cantidad recurso 0

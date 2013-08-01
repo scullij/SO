@@ -48,21 +48,44 @@ int16_t enviar(int16_t socket, int16_t tipoEnvio, void* payload, uint16_t payloa
 	header->type = tipoEnvio;
 	header->length = payloadLenght;
 
-	int16_t send1;
-	char* buffer = malloc(sizeof(header_t) + payloadLenght);
+	int totalAEnviar = sizeof(header_t) + payloadLenght;
+
+	char* buffer = malloc(totalAEnviar);
 	memcpy(buffer, header, sizeof(header_t));
 	if(payload != NULL){
 		memcpy(buffer + sizeof(header_t), payload, payloadLenght);
 	}
 
-	if ((send1 = send(socket, buffer, sizeof(header_t) + payloadLenght,0)) == -1)
-	{
-		perror("Error al enviar datos.");
-		return send1;
+	int n = 0;
+	int enviado = 0;
+	int quedaEnviar = totalAEnviar;
+	while(enviado < totalAEnviar){
+		n = send(socket, buffer+enviado, quedaEnviar, 0);
+		if (n == -1){ return -1; }
+		enviado += n;
+		quedaEnviar -= n;
 	}
 
 	free(buffer);
 	free(header);
 
 	return 0;
+}
+
+int sendall(int s, char *buf, int *len)
+{
+    int total = 0;        // how many bytes we've sent
+    int bytesleft = *len; // how many we have left to send
+    int n;
+
+    while(total < *len) {
+        n = send(s, buf+total, bytesleft, 0);
+        if (n == -1) { break; }
+        total += n;
+        bytesleft -= n;
+    }
+
+    *len = total; // return number actually sent here
+
+    return n==-1?-1:0; // return -1 on failure, 0 on success
 }

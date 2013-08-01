@@ -27,8 +27,6 @@
 #include <commons/config.h>
 #include <commons/log.h>
 
-t_log* logger;
-
 int personajesEnPlan;
 
 pthread_mutex_t mutex_planificacion = PTHREAD_MUTEX_INITIALIZER;
@@ -72,14 +70,13 @@ t_plataforma *plataforma;
 
 t_plataforma *configurar_plataforma(char* path);
 
-void rutinasOrquestador(int sockete, int routine, void* payload);
-void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel);
+void rutinasOrquestador(int sockete, int routine, void* payload, t_log* logger);
+void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel, t_log* logger);
 int orquestador(void);
 int planificador(void* ptr);
-void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel);
+void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel, t_log* logger);
 
 int main(int argc, char *argv[]){
-	logger = log_create("plataforma.log", "plataforma", "true", LOG_LEVEL_TRACE);
 	char* path = malloc(0);
 	if(argc < 2){
 		puts("Ingrese el path de configuracion:");
@@ -100,11 +97,13 @@ int main(int argc, char *argv[]){
 	pthread_join( thr_orquestador, NULL);
 
 	free(plataforma);
-	free(logger);
 	return EXIT_SUCCESS;
 }
 
 int orquestador(void){
+	t_log* logger;
+	logger = log_create("plataforma.log", "plataforma", true, LOG_LEVEL_TRACE);
+
 	t_dictionary* niveles = dictionary_create();
 	t_dictionary* planificadorPuerto = dictionary_create();
 	int puertoInicialPlanificador = 30020;
@@ -125,7 +124,7 @@ int orquestador(void){
 		exit(EXIT_FAILURE);
 	}
 
-	log_trace(logger, "Orquestador: Listen %s, Port %u", plataforma->direccion, plataforma->puerto);
+	log_trace(logger, "Orquestador: Listen %s, Port %u. \n", plataforma->direccion, plataforma->puerto);
 
     FD_ZERO(&master);    // clear the master and temp sets
     FD_ZERO(&read_fds);
@@ -170,7 +169,7 @@ int orquestador(void){
                         	memcpy(nivelDirecionPuerto, buffer, sizeof(t_nivelDireccionPuerto));
 							strcpy(nivelDirecionPuerto->direccion, direccion);
 
-                        	log_trace(logger, "Orquestador: Nuevo Nivel %d conectado: Direccion: %s Puerto: %d.\n", nivelDirecionPuerto->nivel, nivelDirecionPuerto->direccion, nivelDirecionPuerto->puerto);
+                        	log_trace(logger, "Orquestador: Nuevo Nivel %d conectado: Direccion: %s Puerto: %d.", nivelDirecionPuerto->nivel, nivelDirecionPuerto->direccion, nivelDirecionPuerto->puerto);
 
                         	char* key = malloc(7);
                         	strcpy(key, string_from_format("nivel%d", nivelDirecionPuerto->nivel));
@@ -187,6 +186,7 @@ int orquestador(void){
 							pla->nivel = nivelDirecionPuerto->nivel;
 							pla->puerto = puertoInicialPlanificador;
 							pla->planificacionNodo = planificacionNodo;
+
 							pthread_create( &thr_pla, NULL, &planificador, pla);
 							pthread_mutex_unlock( &mutex_planificacion );
 
@@ -200,7 +200,7 @@ int orquestador(void){
                         	free(key);
                         }else if(type == P_PER_CONECT_PLA){ //PERSONAJE
                         	personajesEnPlan++;
-                        	log_trace(logger, "Orquestador: Nuevo personaje conectado.\n", newfd);
+                        	log_trace(logger, "Orquestador: Personaje conectado.", newfd);
 							char* key = malloc(7);
 							strcpy(key, string_from_format("nivel%d", (*(int*)buffer)));
 							t_nivelDireccionPuerto* nivelDireccionPuerto;
@@ -220,9 +220,15 @@ int orquestador(void){
 							char* newKey = malloc(3);
 							sprintf(newKey,"%d", nivelDireccionPuerto->nivel);
 							*puertoPLanificador = dictionary_get(planificadorPuerto, newKey);
-							log_trace(logger, "Puerto enviado-> %d", *puertoPLanificador);
 							enviar(newfd, P_PLA_ENVIO_PLANI, puertoPLanificador, sizeof(int));
 							free(newKey);
+                        }else if(type == 159){
+                        	log_trace(logger, "Koopa.");
+							if(personajesEnPlan == 0){
+								//char *argv[] = {"/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "koopa.config"};
+								//execv("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", argv);
+								execl("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa.config", NULL);
+							}
                         }
                     }
                 } else {
@@ -238,7 +244,7 @@ int orquestador(void){
                     	}
                     } else {
                         // we got some data from a client
-                    	rutinasOrquestador(i, type, buffer);
+                    	rutinasOrquestador(i, type, buffer, logger);
                     }
                 } // END handle data from client
             } // END got new incoming connection
@@ -255,7 +261,9 @@ int planificador(void* ptr){
 	t_plaThread *pla;
 	pla = (t_plaThread*)ptr;
 
-	log_trace(logger, "Planificador Nivel %d Started.", pla->nivel);
+	t_log* loggerPLanificador;
+	char* logname = string_from_format("plani-%d", pla->nivel);
+	loggerPLanificador = log_create(logname, logname, true, LOG_LEVEL_TRACE);
 
 	fd_set master;    // master file descriptor list
 	fd_set read_fds;  // temp file descriptor list for select()
@@ -272,7 +280,8 @@ int planificador(void* ptr){
 		perror("listener planificador");
 	}
 
-	log_trace(logger, "Planificador Nivel %d: Listen Port %u", pla->nivel, pla->puerto);
+	int puerto = pla->puerto;
+	int nivel = pla->nivel;
 
 	FD_ZERO(&master);    // clear the master and temp sets
 	FD_ZERO(&read_fds);
@@ -320,7 +329,7 @@ int planificador(void* ptr){
 						}
 					} else {
 						// we got some data from a client
-						rutinasPlanificador(i, type, buffer, pla->planificacionNodo, pla->nivel);
+						rutinasPlanificador(i, type, buffer, pla->planificacionNodo, pla->nivel, loggerPLanificador);
 					}
 				} // END handle data from client
 			} // END got new incoming connection
@@ -328,18 +337,20 @@ int planificador(void* ptr){
 	} // END for(;;)--and you thought it would never end!
 
 
+	free(loggerPLanificador);
+	free(logname);
 	close(listener);
 
 	return EXIT_SUCCESS;
 }
 
-void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel){
+void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel, t_log* logger){
 	pthread_mutex_lock( &mutex_planificacion );
 	t_nodoPerPLa* new;
 	//SOLO ESCUCHA PERSONAJES
 	switch (routine) {
 		case P_PER_CONECT_PLANI:
-            log_trace(logger, "Planificador Nivel %d: Acepto personaje %c", nivel, (*(char*)payload));
+            log_trace(logger, "Planificador Nivel %d: Acepto personaje %c", nivel, ((char*)payload)[0]);
 			enviar(sockete, P_PLA_ACEPT_PER, NULL, 0);
 
 			new = malloc(sizeof(t_nodoPerPLa));
@@ -348,7 +359,7 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 
 			queue_push(planificacion->rr, new);
 			if(planificacion->personajeActivo == NULL){ // ES EL UNICO QUE ESTA POR AHORA
-				moverPersonajePLanificador(planificacion, nivel);
+				moverPersonajePLanificador(planificacion, nivel, logger);
 			}else{
 				log_trace(logger, "Planificador Nivel %d, Encolo personaje: %c", nivel, new->personaje);
 			}
@@ -359,7 +370,7 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 
 			usleep(1000*plataforma->retardo);
 
-			moverPersonajePLanificador(planificacion, nivel);
+			moverPersonajePLanificador(planificacion, nivel, logger);
 			break;
 		case P_PER_BLOQ_RECURSO:
 			new = planificacion->personajeActivo;
@@ -368,23 +379,20 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 			queue_push(planificacion->bloqueados, new);
 			log_trace(logger, "Planificador Nivel %d, Bloqueo personaje: %c", nivel, new->personaje);
 
-			moverPersonajePLanificador(planificacion, nivel);
+			moverPersonajePLanificador(planificacion, nivel, logger);
 
 			break;
 		case P_PER_NIV_FIN:
 			free(planificacion->personajeActivo);
 			planificacion->personajeActivo = NULL;
 			log_trace(logger, "Personaje %c Finalizo Nivel %d y se desconecta.", (*(char*)payload), nivel);
+			//Le da el ok de que lo saco del planificador
+			enviar(sockete, 63, NULL, 0);
 
-			moverPersonajePLanificador(planificacion, nivel);
+			personajesEnPlan--;
 
-			break;
-		case 159: //FIN PLAN DE NIVELES
-			/*personajesEnPlan--;
-			if(personajesEnPlan == 0){
-				char *argv[] = {"/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "koopa.config"};
-				execv("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", argv);
-			}*/
+			moverPersonajePLanificador(planificacion, nivel, logger);
+
 			break;
 		default:
 			log_trace(logger, "Planificador - Routine number %d dont exist.", routine);
@@ -393,16 +401,17 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 	pthread_mutex_unlock( &mutex_planificacion );
 }
 
-void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel){
+void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel, t_log* logger){
 	if(!queue_is_empty(planificacion->rr)){
 		t_nodoPerPLa* new = (t_nodoPerPLa*)queue_pop(planificacion->rr);
-			//log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
-			enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
-			planificacion->personajeActivo = new;
+		//log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d", nivel, new->personaje, plataforma->quantum);
+		log_trace(logger, "Planificador Nivel %d, Movimiento personaje %c, Quantum: %d. \n", nivel, new->personaje, plataforma->quantum);
+		enviar(new->socket, P_PLA_MOV_PERMITIDO, &plataforma->quantum, sizeof(int));
+		planificacion->personajeActivo = new;
 	}
 }
 
-void rutinasOrquestador(int sockete, int routine, void* payload){
+void rutinasOrquestador(int sockete, int routine, void* payload, t_log* logger){
 	char recursosLiberados[20];
 	int t=0;
 	switch(routine){
@@ -432,7 +441,7 @@ void rutinasOrquestador(int sockete, int routine, void* payload){
 		enviar(sockete, 62, recursosLiberados, sizeof(recursosLiberados));
 		recibir(sockete, &payload); //Termino de sumar instancias devueltas el nivel
 		if(planificadorNivel->personajeActivo == NULL){
-			moverPersonajePLanificador(planificadorNivel, (int)(recursosLiberados[0]-'0'));
+			moverPersonajePLanificador(planificadorNivel, (int)(recursosLiberados[0]-'0'), logger);
 		}
 		pthread_mutex_unlock( &mutex_planificacion );
 
@@ -456,6 +465,6 @@ t_plataforma *configurar_plataforma(char *path){
 	plataforma->tiempoDeteccionInterbloqueo = config_get_int_value(config, "TiempoDeteccionInterbloqueo");
 	plataforma->quantum = config_get_int_value(config, "Quantum");
 	plataforma->retardo = config_get_int_value(config, "Retardo");
-	config_destroy(config);
+	//config_destroy(config);
 	return plataforma;
 }
