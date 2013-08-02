@@ -277,3 +277,319 @@
 [TRACE] 05:04:27:237 plani-2/(26054:26063): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
 
 [TRACE] 05:04:27:741 plani-2/(26054:26063): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 18:01:45:980 plani-2/(2471:2493): Planificador Nivel 2: Acepto personaje @
+[TRACE] 18:01:45:980 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:47:234 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:48:489 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:49:745 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:50:1 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:52:255 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:53:507 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:54:762 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:56:16 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:57:271 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:58:524 plani-2/(2471:2493): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:59:27 plani-2/(2471:2493): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 18:07:53:829 plani-2/(2688:2695): Planificador Nivel 2: Acepto personaje @
+[TRACE] 18:07:53:829 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:54:331 plani-2/(2688:2695): Planificador Nivel 2: Acepto personaje @
+[TRACE] 18:07:54:331 plani-2/(2688:2695): Planificador Nivel 2, Encolo personaje: @
+[TRACE] 18:07:55:83 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:56:337 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:57:592 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:58:845 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:00:98 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:01:352 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:02:607 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:03:861 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:05:115 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:06:370 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:07:625 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:08:880 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:10:136 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:11:389 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:12:643 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:13:901 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:15:155 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:16:408 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:17:664 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:18:919 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:19:421 plani-2/(2688:2695): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 18:08:19:421 plani-2/(2688:2695): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:08:19:924 plani-2/(2688:2695): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 18:17:43:181 plani-2/(2746:2757): Planificador Nivel 2: Acepto personaje @
+[TRACE] 18:17:43:181 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:43:685 plani-2/(2746:2757): Planificador Nivel 2: Acepto personaje #
+[TRACE] 18:17:43:685 plani-2/(2746:2757): Planificador Nivel 2, Encolo personaje: #
+[TRACE] 18:17:44:435 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:45:691 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:46:949 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:48:203 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:49:456 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:50:710 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:51:967 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:53:222 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:54:475 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:55:728 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:56:984 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:58:240 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:59:494 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:18:00:746 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:18:01:2 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:18:03:257 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:18:04:513 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:18:05:766 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:18:07:23 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:18:08:279 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:18:08:783 plani-2/(2746:2757): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 18:18:08:783 plani-2/(2746:2757): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:18:09:287 plani-2/(2746:2757): Personaje # Finalizo Nivel 2 y se desconecta.
+[TRACE] 18:22:36:75 plani-2/(2969:2974): Planificador Nivel 2: Acepto personaje @
+[TRACE] 18:22:36:75 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:36:577 plani-2/(2969:2974): Planificador Nivel 2: Acepto personaje #
+[TRACE] 18:22:36:577 plani-2/(2969:2974): Planificador Nivel 2, Encolo personaje: #
+[TRACE] 18:22:37:331 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:38:587 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:39:844 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:41:100 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:42:355 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:43:610 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:44:865 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:46:122 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:47:377 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:48:630 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:49:885 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:51:138 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:52:393 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:53:645 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:54:899 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:56:152 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:57:408 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:58:664 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:59:916 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:23:01:170 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:23:01:672 plani-2/(2969:2974): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 18:23:01:672 plani-2/(2969:2974): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:23:02:174 plani-2/(2969:2974): Personaje # Finalizo Nivel 2 y se desconecta.
+[TRACE] 21:01:27:413 plani-2/(3153:3158): Planificador Nivel 2: Acepto personaje @
+[TRACE] 21:01:27:413 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:27:414 plani-2/(3153:3158): Planificador Nivel 2: Acepto personaje #
+[TRACE] 21:01:27:414 plani-2/(3153:3158): Planificador Nivel 2, Encolo personaje: #
+[TRACE] 21:01:28:667 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:29:921 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:31:175 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:32:433 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:33:688 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:34:941 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:36:195 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:37:450 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:38:705 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:39:958 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:41:213 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:42:467 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:43:721 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:44:975 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:46:229 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:47:483 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:48:737 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:49:990 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:51:243 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:52:497 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:52:1 plani-2/(3153:3158): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 21:01:52:1 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:53:505 plani-2/(3153:3158): Personaje # Finalizo Nivel 2 y se desconecta.
+[TRACE] 21:03:15:40 plani-2/(3153:3158): Planificador Nivel 2: Acepto personaje @
+[TRACE] 21:03:15:40 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:16:297 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:17:551 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:18:805 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:20:59 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:21:316 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:22:571 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:23:824 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:25:76 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:26:331 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:27:584 plani-2/(3153:3158): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:28:86 plani-2/(3153:3158): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 21:28:46:145 plani-2/(3776:3781): Planificador Nivel 2: Acepto personaje @
+[TRACE] 21:28:46:145 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:47:147 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:48:148 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:49:148 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:50:149 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:51:150 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:52:151 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:53:153 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:54:154 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:55:155 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:56:156 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:56:656 plani-2/(3776:3781): Personaje @ Finalizo Nivel 2 y se desconecta.
+[TRACE] 21:29:05:707 plani-2/(3776:3781): Planificador Nivel 2: Acepto personaje #
+[TRACE] 21:29:05:707 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:06:511 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:07:313 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:08:119 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:08:925 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:09:729 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:10:534 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:11:339 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:12:142 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:12:948 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:13:751 plani-2/(3776:3781): Planificador Nivel 2, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:13:954 plani-2/(3776:3781): Personaje # Finalizo Nivel 2 y se desconecta.
+[TRACE] 23:01:33:939 plani-2/(5337:5503): Planificador Nivel 2: Acepto personaje @
+[TRACE] 23:01:33:939 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:34:748 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:35:553 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:36:360 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:37:163 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:37:965 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:38:767 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:39:570 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:40:374 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:41:178 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:41:983 plani-2/(5337:5503): Planificador Nivel 2, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:42:185 plani-2/(5337:5503): Personaje @ Finalizo Nivel 2 y se desconecta.

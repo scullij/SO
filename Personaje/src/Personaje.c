@@ -154,11 +154,26 @@ int main(int argc, char *argv[]){
 		{
 			if(*quantum == 0){
 				type = recibir(planificador, &quantum);
-				if(type != P_PLA_MOV_PERMITIDO){
+				if(type == 64){ //Te mataron papu
+					close(nivel);
+					close(planificador);
+					log_trace(logger, "Me mataron.");
+					personaje->recursoActual=0;
+					personaje->posicion->x = 1;
+					personaje->posicion->y = 1;
+					personaje->objetivo->x = 0;
+					personaje->objetivo->y = 0;
+					personaje->vidas--;
+					if(personaje->vidas <= 0){
+						personaje->indiceNivelActual = 0;
+					}
+					break;
+				}else if(type == P_PLA_MOV_PERMITIDO){
+					log_trace(logger, "Quantum Recibido %d", *quantum);
+					fflush(stdout);
+				}else{
 					continue;
 				}
-				log_trace(logger, "Quantum Recibido %d", *quantum);
-				fflush(stdout);
 			}
 
 			if(personaje->objetivo->x == 0){
@@ -214,7 +229,7 @@ int main(int argc, char *argv[]){
 							personaje->posicion->y++;
 						}
 					}
-					usleep(250000);
+					usleep(100000);
 					enviar(nivel, P_PER_MOV, personaje->posicion, sizeof(t_posicion));
 					type = recibir(nivel, NULL);
 					*quantum = *quantum - 1;
@@ -225,6 +240,7 @@ int main(int argc, char *argv[]){
 			if(*quantum == 0){
 				if(personaje->recursos[*nivelActual][personaje->recursoActual] == '\0'){
 					//LE AVISO AL NIVEL Y AL PLANIFICADOR QUE TERMINE
+					log_trace(logger, "Estoy para terminar.");
 					enviar(nivel, P_PER_NIV_FIN, &personaje->simbolo, sizeof(char));
 					enviar(planificador, P_PER_NIV_FIN, &personaje->simbolo, sizeof(char));
 					recibir(planificador, NULL);

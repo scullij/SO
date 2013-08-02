@@ -142,3 +142,3192 @@
 [TRACE] 04:59:05:698 nivel1/(25867:25867): Cantidad recurso 2
 [TRACE] 04:59:05:698 nivel1/(25867:25867): Cantidad recurso 4
 [TRACE] 04:59:05:698 nivel1/(25867:25867): Cantidad recurso 0
+[TRACE] 22:40:54:368 nivel1/(4573:4573): Paso dibujar.
+[TRACE] 22:42:50:692 nivel1/(4753:4753): Paso dibujar.
+[TRACE] 22:44:01:685 nivel1/(4840:4840): Paso dibujar.
+[TRACE] 22:45:17:318 nivel1/(4893:4893): Paso dibujar.
+[TRACE] 22:47:13:674 nivel1/(5085:5085): Paso dibujar.
+[TRACE] 22:49:41:77 nivel1/(5305:5305): Paso dibujar.
+[TRACE] 22:50:06:880 nivel1/(5305:5311): Deadlock check started.
+[TRACE] 22:55:34:913 nivel1/(5479:5479): Paso dibujar.
+[TRACE] 22:55:44:913 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 22:56:19:180 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 22:56:31:454 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 22:56:43:286 nivel1/(5479:5479): Acepto Personaje: en Socket: 8
+[TRACE] 22:56:43:286 nivel1/(5479:5479): Pedido posicion recurso: F
+[TRACE] 22:56:43:388 nivel1/(5479:5479): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 22:56:43:388 nivel1/(5479:5479): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 22:56:43:489 nivel1/(5479:5479): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 22:56:43:489 nivel1/(5479:5479): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 22:56:43:589 nivel1/(5479:5479): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 22:56:43:589 nivel1/(5479:5479): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 22:56:44:90 nivel1/(5479:5479): Acepto Personaje: en Socket: 9
+[TRACE] 22:56:44:191 nivel1/(5479:5479): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 22:56:44:191 nivel1/(5479:5479): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 22:56:44:191 nivel1/(5479:5479): Recurso a asignar F
+[TRACE] 22:56:44:692 nivel1/(5479:5479): Pedido posicion recurso: H
+[TRACE] 22:56:44:792 nivel1/(5479:5479): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 22:56:44:792 nivel1/(5479:5479): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 22:56:44:892 nivel1/(5479:5479): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 22:56:44:892 nivel1/(5479:5479): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 22:56:44:993 nivel1/(5479:5479): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 22:56:44:993 nivel1/(5479:5479): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 22:56:45:493 nivel1/(5479:5479): Pedido posicion recurso: H
+[TRACE] 22:56:45:594 nivel1/(5479:5479): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 22:56:45:594 nivel1/(5479:5479): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 22:56:45:695 nivel1/(5479:5479): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 22:56:45:695 nivel1/(5479:5479): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 22:56:45:796 nivel1/(5479:5479): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 22:56:45:796 nivel1/(5479:5479): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 22:56:46:398 nivel1/(5479:5479): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 22:56:46:398 nivel1/(5479:5479): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 22:56:46:500 nivel1/(5479:5479): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 22:56:46:500 nivel1/(5479:5479): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 22:56:46:600 nivel1/(5479:5479): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 22:56:46:600 nivel1/(5479:5479): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 22:56:47:201 nivel1/(5479:5479): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 22:56:47:201 nivel1/(5479:5479): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 22:56:47:302 nivel1/(5479:5479): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 22:56:47:302 nivel1/(5479:5479): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 22:56:47:403 nivel1/(5479:5479): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 22:56:47:403 nivel1/(5479:5479): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 22:56:48:7 nivel1/(5479:5479): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 22:56:48:7 nivel1/(5479:5479): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 22:56:48:108 nivel1/(5479:5479): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 22:56:48:108 nivel1/(5479:5479): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 22:56:48:209 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 22:56:48:209 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 22:56:48:811 nivel1/(5479:5479): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 22:56:48:811 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 22:56:48:911 nivel1/(5479:5479): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 22:56:48:912 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 22:56:49:12 nivel1/(5479:5479): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 22:56:49:12 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 22:56:49:516 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 22:57:10:491 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 22:57:10:492 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 22:57:10:592 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 22:57:10:592 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 22:57:10:692 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 22:57:10:692 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 22:57:11:294 nivel1/(5479:5479): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 22:57:11:294 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 22:57:11:395 nivel1/(5479:5479): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 22:57:11:395 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 22:57:11:496 nivel1/(5479:5479): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 22:57:11:496 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 22:57:12:100 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 22:57:12:100 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 22:57:12:200 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 22:57:12:200 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 22:57:12:301 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 22:57:12:301 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 22:57:12:902 nivel1/(5479:5479): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 22:57:12:902 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 22:57:13:3 nivel1/(5479:5479): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 22:57:13:3 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 22:57:13:3 nivel1/(5479:5479): Recurso a asignar H
+[TRACE] 22:57:13:604 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 22:57:13:604 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 22:57:13:706 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 22:57:13:706 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 22:57:13:807 nivel1/(5479:5479): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 22:57:13:807 nivel1/(5479:5479): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 22:57:14:308 nivel1/(5479:5479): Pedido posicion recurso: B
+[TRACE] 22:57:14:408 nivel1/(5479:5479): Personaje a mover @, posicionX 11 posicionY 10
+[TRACE] 22:57:14:408 nivel1/(5479:5479): Movimiento personaje: x: 11, y: 10
+
+[TRACE] 22:57:14:509 nivel1/(5479:5479): Personaje a mover @, posicionX 12 posicionY 10
+[TRACE] 22:57:14:509 nivel1/(5479:5479): Movimiento personaje: x: 12, y: 10
+
+[TRACE] 22:57:14:609 nivel1/(5479:5479): Personaje a mover @, posicionX 13 posicionY 10
+[TRACE] 22:57:14:609 nivel1/(5479:5479): Movimiento personaje: x: 13, y: 10
+
+[TRACE] 22:57:15:110 nivel1/(5479:5479): Recurso bloqueado H
+[TRACE] 22:57:15:210 nivel1/(5479:5479): Personaje a mover @, posicionX 14 posicionY 10
+[TRACE] 22:57:15:210 nivel1/(5479:5479): Movimiento personaje: x: 14, y: 10
+
+[TRACE] 22:57:15:311 nivel1/(5479:5479): Personaje a mover @, posicionX 15 posicionY 10
+[TRACE] 22:57:15:311 nivel1/(5479:5479): Movimiento personaje: x: 15, y: 10
+
+[TRACE] 22:57:15:411 nivel1/(5479:5479): Personaje a mover @, posicionX 16 posicionY 10
+[TRACE] 22:57:15:411 nivel1/(5479:5479): Movimiento personaje: x: 16, y: 10
+
+[TRACE] 22:57:16:12 nivel1/(5479:5479): Personaje a mover @, posicionX 17 posicionY 10
+[TRACE] 22:57:16:12 nivel1/(5479:5479): Movimiento personaje: x: 17, y: 10
+
+[TRACE] 22:57:16:113 nivel1/(5479:5479): Personaje a mover @, posicionX 18 posicionY 10
+[TRACE] 22:57:16:113 nivel1/(5479:5479): Movimiento personaje: x: 18, y: 10
+
+[TRACE] 22:57:16:214 nivel1/(5479:5479): Personaje a mover @, posicionX 19 posicionY 10
+[TRACE] 22:57:16:214 nivel1/(5479:5479): Movimiento personaje: x: 19, y: 10
+
+[TRACE] 22:57:16:816 nivel1/(5479:5479): Personaje a mover @, posicionX 20 posicionY 10
+[TRACE] 22:57:16:816 nivel1/(5479:5479): Movimiento personaje: x: 20, y: 10
+
+[TRACE] 22:57:16:917 nivel1/(5479:5479): Personaje a mover @, posicionX 21 posicionY 10
+[TRACE] 22:57:16:917 nivel1/(5479:5479): Movimiento personaje: x: 21, y: 10
+
+[TRACE] 22:57:17:18 nivel1/(5479:5479): Personaje a mover @, posicionX 22 posicionY 10
+[TRACE] 22:57:17:18 nivel1/(5479:5479): Movimiento personaje: x: 22, y: 10
+
+[TRACE] 22:57:17:620 nivel1/(5479:5479): Personaje a mover @, posicionX 23 posicionY 10
+[TRACE] 22:57:17:620 nivel1/(5479:5479): Movimiento personaje: x: 23, y: 10
+
+[TRACE] 22:57:17:720 nivel1/(5479:5479): Personaje a mover @, posicionX 24 posicionY 10
+[TRACE] 22:57:17:720 nivel1/(5479:5479): Movimiento personaje: x: 24, y: 10
+
+[TRACE] 22:57:17:821 nivel1/(5479:5479): Personaje a mover @, posicionX 25 posicionY 10
+[TRACE] 22:57:17:821 nivel1/(5479:5479): Movimiento personaje: x: 25, y: 10
+
+[TRACE] 22:57:18:423 nivel1/(5479:5479): Personaje a mover @, posicionX 26 posicionY 10
+[TRACE] 22:57:18:423 nivel1/(5479:5479): Movimiento personaje: x: 26, y: 10
+
+[TRACE] 22:57:18:523 nivel1/(5479:5479): Personaje a mover @, posicionX 27 posicionY 10
+[TRACE] 22:57:18:523 nivel1/(5479:5479): Movimiento personaje: x: 27, y: 10
+
+[TRACE] 22:57:18:625 nivel1/(5479:5479): Personaje a mover @, posicionX 28 posicionY 10
+[TRACE] 22:57:18:625 nivel1/(5479:5479): Movimiento personaje: x: 28, y: 10
+
+[TRACE] 22:57:19:226 nivel1/(5479:5479): Personaje a mover @, posicionX 29 posicionY 10
+[TRACE] 22:57:19:227 nivel1/(5479:5479): Movimiento personaje: x: 29, y: 10
+
+[TRACE] 22:57:19:327 nivel1/(5479:5479): Personaje a mover @, posicionX 30 posicionY 10
+[TRACE] 22:57:19:327 nivel1/(5479:5479): Movimiento personaje: x: 30, y: 10
+
+[TRACE] 22:57:19:427 nivel1/(5479:5479): Personaje a mover @, posicionX 31 posicionY 10
+[TRACE] 22:57:19:427 nivel1/(5479:5479): Movimiento personaje: x: 31, y: 10
+
+[TRACE] 22:57:20:29 nivel1/(5479:5479): Personaje a mover @, posicionX 32 posicionY 10
+[TRACE] 22:57:20:29 nivel1/(5479:5479): Movimiento personaje: x: 32, y: 10
+
+[TRACE] 22:57:20:130 nivel1/(5479:5479): Personaje a mover @, posicionX 33 posicionY 10
+[TRACE] 22:57:20:130 nivel1/(5479:5479): Movimiento personaje: x: 33, y: 10
+
+[TRACE] 22:57:20:230 nivel1/(5479:5479): Personaje a mover @, posicionX 34 posicionY 10
+[TRACE] 22:57:20:230 nivel1/(5479:5479): Movimiento personaje: x: 34, y: 10
+
+[TRACE] 22:57:20:492 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 22:57:27:241 nivel1/(5479:5479): Personaje a mover @, posicionX 35 posicionY 10
+[TRACE] 22:57:27:242 nivel1/(5479:5479): Movimiento personaje: x: 35, y: 10
+
+[TRACE] 22:57:27:342 nivel1/(5479:5479): Personaje a mover @, posicionX 36 posicionY 10
+[TRACE] 22:57:27:342 nivel1/(5479:5479): Movimiento personaje: x: 36, y: 10
+
+[TRACE] 22:57:27:442 nivel1/(5479:5479): Personaje a mover @, posicionX 37 posicionY 10
+[TRACE] 22:57:27:442 nivel1/(5479:5479): Movimiento personaje: x: 37, y: 10
+
+[TRACE] 22:57:28:45 nivel1/(5479:5479): Personaje a mover @, posicionX 38 posicionY 10
+[TRACE] 22:57:28:45 nivel1/(5479:5479): Movimiento personaje: x: 38, y: 10
+
+[TRACE] 22:57:28:146 nivel1/(5479:5479): Personaje a mover @, posicionX 39 posicionY 10
+[TRACE] 22:57:28:146 nivel1/(5479:5479): Movimiento personaje: x: 39, y: 10
+
+[TRACE] 22:57:28:246 nivel1/(5479:5479): Personaje a mover @, posicionX 40 posicionY 10
+[TRACE] 22:57:28:247 nivel1/(5479:5479): Movimiento personaje: x: 40, y: 10
+
+[TRACE] 22:57:28:850 nivel1/(5479:5479): Personaje a mover @, posicionX 41 posicionY 10
+[TRACE] 22:57:28:850 nivel1/(5479:5479): Movimiento personaje: x: 41, y: 10
+
+[TRACE] 22:57:28:950 nivel1/(5479:5479): Personaje a mover @, posicionX 42 posicionY 10
+[TRACE] 22:57:28:950 nivel1/(5479:5479): Movimiento personaje: x: 42, y: 10
+
+[TRACE] 22:57:29:51 nivel1/(5479:5479): Personaje a mover @, posicionX 43 posicionY 10
+[TRACE] 22:57:29:51 nivel1/(5479:5479): Movimiento personaje: x: 43, y: 10
+
+[TRACE] 22:57:29:652 nivel1/(5479:5479): Personaje a mover @, posicionX 44 posicionY 10
+[TRACE] 22:57:29:652 nivel1/(5479:5479): Movimiento personaje: x: 44, y: 10
+
+[TRACE] 22:57:29:752 nivel1/(5479:5479): Personaje a mover @, posicionX 45 posicionY 10
+[TRACE] 22:57:29:752 nivel1/(5479:5479): Movimiento personaje: x: 45, y: 10
+
+[TRACE] 22:57:29:852 nivel1/(5479:5479): Personaje a mover @, posicionX 46 posicionY 10
+[TRACE] 22:57:29:852 nivel1/(5479:5479): Movimiento personaje: x: 46, y: 10
+
+[TRACE] 22:57:30:455 nivel1/(5479:5479): Personaje a mover @, posicionX 47 posicionY 10
+[TRACE] 22:57:30:455 nivel1/(5479:5479): Movimiento personaje: x: 47, y: 10
+
+[TRACE] 22:57:30:557 nivel1/(5479:5479): Personaje a mover @, posicionX 48 posicionY 10
+[TRACE] 22:57:30:557 nivel1/(5479:5479): Movimiento personaje: x: 48, y: 10
+
+[TRACE] 22:57:30:657 nivel1/(5479:5479): Personaje a mover @, posicionX 49 posicionY 10
+[TRACE] 22:57:30:657 nivel1/(5479:5479): Movimiento personaje: x: 49, y: 10
+
+[TRACE] 22:57:31:260 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 10
+[TRACE] 22:57:31:260 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 10
+
+[TRACE] 22:57:31:360 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 11
+[TRACE] 22:57:31:361 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 11
+
+[TRACE] 22:57:31:461 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 12
+[TRACE] 22:57:31:461 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 12
+
+[TRACE] 22:57:32:62 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 13
+[TRACE] 22:57:32:62 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 13
+
+[TRACE] 22:57:32:162 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 14
+[TRACE] 22:57:32:162 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 14
+
+[TRACE] 22:57:32:263 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 15
+[TRACE] 22:57:32:263 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 15
+
+[TRACE] 22:57:32:864 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 16
+[TRACE] 22:57:32:864 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 16
+
+[TRACE] 22:57:32:965 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 17
+[TRACE] 22:57:32:965 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 17
+
+[TRACE] 22:57:33:66 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 18
+[TRACE] 22:57:33:66 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 18
+
+[TRACE] 22:57:33:667 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 19
+[TRACE] 22:57:33:668 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 19
+
+[TRACE] 22:57:33:769 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 20
+[TRACE] 22:57:33:769 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 20
+
+[TRACE] 22:57:33:870 nivel1/(5479:5479): Personaje a mover @, posicionX 50 posicionY 21
+[TRACE] 22:57:33:870 nivel1/(5479:5479): Movimiento personaje: x: 50, y: 21
+
+[TRACE] 22:57:34:372 nivel1/(5479:5479): Recurso a asignar B
+[TRACE] 22:57:37:243 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 22:57:55:416 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 22:58:19:604 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 22:59:20:519 nivel1/(5479:5491): Deadlock check started.
+[TRACE] 23:10:35:292 nivel1/(6037:6037): Paso dibujar.
+[TRACE] 23:10:45:294 nivel1/(6037:6042): Deadlock check started.
+[TRACE] 23:10:53:429 nivel1/(6037:6037): Acepto Personaje: en Socket: 8
+[TRACE] 23:10:53:430 nivel1/(6037:6037): Pedido posicion recurso: H
+[TRACE] 23:10:53:530 nivel1/(6037:6037): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 23:10:53:530 nivel1/(6037:6037): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 23:10:53:631 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 23:10:53:631 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 23:10:53:702 nivel1/(6037:6037): Acepto Personaje: en Socket: 9
+[TRACE] 23:10:53:732 nivel1/(6037:6037): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 23:10:53:732 nivel1/(6037:6037): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 23:10:54:232 nivel1/(6037:6037): Pedido posicion recurso: F
+[TRACE] 23:10:54:333 nivel1/(6037:6037): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 23:10:54:333 nivel1/(6037:6037): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 23:10:54:433 nivel1/(6037:6037): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 23:10:54:433 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 23:10:54:534 nivel1/(6037:6037): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 23:10:54:534 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 23:10:55:135 nivel1/(6037:6037): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 23:10:55:135 nivel1/(6037:6037): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 23:10:55:235 nivel1/(6037:6037): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 23:10:55:235 nivel1/(6037:6037): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 23:10:55:336 nivel1/(6037:6037): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 23:10:55:336 nivel1/(6037:6037): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 23:10:55:937 nivel1/(6037:6037): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 23:10:55:937 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 23:10:55:937 nivel1/(6037:6037): Recurso a asignar F
+[TRACE] 23:10:56:539 nivel1/(6037:6037): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 23:10:56:539 nivel1/(6037:6037): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 23:10:56:640 nivel1/(6037:6037): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 23:10:56:640 nivel1/(6037:6037): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 23:10:56:740 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 23:10:56:740 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 23:10:57:242 nivel1/(6037:6037): Pedido posicion recurso: H
+[TRACE] 23:10:57:343 nivel1/(6037:6037): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 23:10:57:343 nivel1/(6037:6037): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 23:10:57:444 nivel1/(6037:6037): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 23:10:57:444 nivel1/(6037:6037): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 23:10:57:545 nivel1/(6037:6037): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 23:10:57:545 nivel1/(6037:6037): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 23:10:58:148 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 23:10:58:148 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 23:10:58:249 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 23:10:58:249 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 23:10:58:349 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 23:10:58:349 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 23:10:58:951 nivel1/(6037:6037): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 23:10:58:951 nivel1/(6037:6037): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 23:10:59:53 nivel1/(6037:6037): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 23:10:59:53 nivel1/(6037:6037): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 23:10:59:153 nivel1/(6037:6037): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 23:10:59:153 nivel1/(6037:6037): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 23:10:59:755 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 23:10:59:755 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 23:10:59:855 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 23:10:59:855 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 23:10:59:956 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 23:10:59:956 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 23:11:00:557 nivel1/(6037:6037): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 23:11:00:558 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 23:11:00:658 nivel1/(6037:6037): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 23:11:00:658 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 23:11:00:753 nivel1/(6037:6042): Deadlock check started.
+[TRACE] 23:11:13:976 nivel1/(6037:6037): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 23:11:13:976 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 23:11:14:577 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 23:11:14:577 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 23:11:14:677 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 23:11:14:677 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 23:11:14:778 nivel1/(6037:6037): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 23:11:14:778 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 23:11:15:379 nivel1/(6037:6037): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 23:11:15:380 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 23:11:15:480 nivel1/(6037:6037): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 23:11:15:480 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 23:11:15:581 nivel1/(6037:6037): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 23:11:15:581 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 23:11:16:82 nivel1/(6037:6037): Recurso a asignar H
+[TRACE] 23:11:16:683 nivel1/(6037:6037): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 23:11:16:683 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 23:11:16:784 nivel1/(6037:6037): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 23:11:16:784 nivel1/(6037:6037): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 23:11:16:785 nivel1/(6037:6037): Recurso bloqueado H
+[TRACE] 23:11:16:785 nivel1/(6037:6037): Pedido posicion recurso: F
+[TRACE] 23:11:16:886 nivel1/(6037:6037): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 23:11:16:886 nivel1/(6037:6037): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 23:11:16:987 nivel1/(6037:6037): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 23:11:16:987 nivel1/(6037:6037): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 23:11:17:87 nivel1/(6037:6037): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 23:11:17:87 nivel1/(6037:6037): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 23:11:17:689 nivel1/(6037:6037): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 23:11:17:689 nivel1/(6037:6037): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 23:11:17:790 nivel1/(6037:6037): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 23:11:17:790 nivel1/(6037:6037): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 23:11:17:890 nivel1/(6037:6037): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 23:11:17:890 nivel1/(6037:6037): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 23:11:18:492 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 23:11:18:492 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 23:11:18:593 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 23:11:18:593 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 23:11:18:693 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 23:11:18:694 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 23:11:19:295 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 23:11:19:295 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 23:11:19:395 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 23:11:19:395 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 23:11:19:495 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 23:11:19:495 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 23:11:20:98 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 23:11:20:98 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 23:11:20:198 nivel1/(6037:6037): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 23:11:20:198 nivel1/(6037:6037): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 23:11:20:198 nivel1/(6037:6037): Recurso bloqueado F
+[TRACE] 23:11:23:977 nivel1/(6037:6042): Deadlock check started.
+[INFO] 23:15:38:623 nivel1/(6037:6042): Cantidad de Personajes en Deadlock: 2
+[TRACE] 00:43:43:756 nivel1/(7838:7838): Paso dibujar.
+[TRACE] 00:43:53:757 nivel1/(7838:7843): Deadlock check started.
+[TRACE] 00:44:07:952 nivel1/(7838:7838): Acepto Personaje: en Socket: 8
+[TRACE] 00:44:07:952 nivel1/(7838:7838): Pedido posicion recurso: H
+[TRACE] 00:44:08:52 nivel1/(7838:7838): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 00:44:08:52 nivel1/(7838:7838): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 00:44:08:153 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 00:44:08:153 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 00:44:08:208 nivel1/(7838:7838): Acepto Personaje: en Socket: 9
+[TRACE] 00:44:08:253 nivel1/(7838:7838): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 00:44:08:253 nivel1/(7838:7838): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 00:44:08:754 nivel1/(7838:7838): Pedido posicion recurso: F
+[TRACE] 00:44:08:855 nivel1/(7838:7838): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 00:44:08:856 nivel1/(7838:7838): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 00:44:08:956 nivel1/(7838:7838): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 00:44:08:956 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 00:44:09:57 nivel1/(7838:7838): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 00:44:09:57 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 00:44:09:659 nivel1/(7838:7838): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 00:44:09:659 nivel1/(7838:7838): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 00:44:09:759 nivel1/(7838:7838): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 00:44:09:760 nivel1/(7838:7838): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 00:44:09:860 nivel1/(7838:7838): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 00:44:09:860 nivel1/(7838:7838): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 00:44:10:463 nivel1/(7838:7838): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 00:44:10:463 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 00:44:10:463 nivel1/(7838:7838): Recurso a asignar F
+[TRACE] 00:44:11:64 nivel1/(7838:7838): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 00:44:11:64 nivel1/(7838:7838): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 00:44:11:165 nivel1/(7838:7838): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 00:44:11:166 nivel1/(7838:7838): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 00:44:11:266 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 00:44:11:266 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 00:44:11:767 nivel1/(7838:7838): Pedido posicion recurso: H
+[TRACE] 00:44:11:867 nivel1/(7838:7838): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 00:44:11:867 nivel1/(7838:7838): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 00:44:11:968 nivel1/(7838:7838): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 00:44:11:968 nivel1/(7838:7838): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 00:44:12:69 nivel1/(7838:7838): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 00:44:12:69 nivel1/(7838:7838): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 00:44:12:670 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 00:44:12:670 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 00:44:12:771 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 00:44:12:771 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 00:44:12:873 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 00:44:12:873 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 00:44:13:476 nivel1/(7838:7838): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 00:44:13:476 nivel1/(7838:7838): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 00:44:13:577 nivel1/(7838:7838): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 00:44:13:577 nivel1/(7838:7838): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 00:44:13:678 nivel1/(7838:7838): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 00:44:13:678 nivel1/(7838:7838): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 00:44:14:281 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 00:44:14:281 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 00:44:14:382 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 00:44:14:382 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 00:44:14:483 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 00:44:14:483 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 00:44:15:85 nivel1/(7838:7838): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 00:44:15:85 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 00:44:15:186 nivel1/(7838:7838): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 00:44:15:186 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 00:44:15:286 nivel1/(7838:7838): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 00:44:15:286 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 00:44:15:888 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 00:44:15:888 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 00:44:15:947 nivel1/(7838:7843): Deadlock check started.
+[TRACE] 00:46:49:336 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 00:46:49:336 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 00:46:49:437 nivel1/(7838:7838): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 00:46:49:437 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 00:46:50:39 nivel1/(7838:7838): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 00:46:50:39 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 00:46:50:141 nivel1/(7838:7838): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 00:46:50:141 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 00:46:50:243 nivel1/(7838:7838): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 00:46:50:243 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 00:46:50:745 nivel1/(7838:7838): Recurso a asignar H
+[TRACE] 00:46:51:346 nivel1/(7838:7838): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 00:46:51:346 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 00:46:51:447 nivel1/(7838:7838): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 00:46:51:447 nivel1/(7838:7838): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 00:46:51:448 nivel1/(7838:7838): Recurso bloqueado H
+[TRACE] 00:46:51:448 nivel1/(7838:7838): Pedido posicion recurso: F
+[TRACE] 00:46:51:550 nivel1/(7838:7838): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 00:46:51:550 nivel1/(7838:7838): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 00:46:51:652 nivel1/(7838:7838): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 00:46:51:652 nivel1/(7838:7838): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 00:46:51:753 nivel1/(7838:7838): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 00:46:51:753 nivel1/(7838:7838): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 00:46:52:354 nivel1/(7838:7838): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 00:46:52:354 nivel1/(7838:7838): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 00:46:52:456 nivel1/(7838:7838): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 00:46:52:456 nivel1/(7838:7838): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 00:46:52:558 nivel1/(7838:7838): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 00:46:52:558 nivel1/(7838:7838): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 00:46:53:160 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 00:46:53:160 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 00:46:53:261 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 00:46:53:261 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 00:46:53:362 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 00:46:53:362 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 00:46:53:964 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 00:46:53:964 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 00:46:54:65 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 00:46:54:65 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 00:46:54:166 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 00:46:54:166 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 00:46:54:768 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 00:46:54:768 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 00:46:54:869 nivel1/(7838:7838): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 00:46:54:869 nivel1/(7838:7838): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 00:46:54:869 nivel1/(7838:7838): Recurso bloqueado F
+[TRACE] 00:46:59:337 nivel1/(7838:7843): Deadlock check started.
+[INFO] 00:47:42:12 nivel1/(7838:7843): Cantidad de Personajes en Deadlock: 2
+[TRACE] 01:07:45:533 nivel1/(8503:8503): Paso dibujar.
+[TRACE] 01:07:55:534 nivel1/(8503:8508): Deadlock check started.
+[TRACE] 01:07:59:405 nivel1/(8503:8503): Acepto Personaje: en Socket: 8
+[TRACE] 01:07:59:406 nivel1/(8503:8503): Pedido posicion recurso: H
+[TRACE] 01:07:59:506 nivel1/(8503:8503): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:07:59:506 nivel1/(8503:8503): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:07:59:606 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:07:59:606 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:07:59:679 nivel1/(8503:8503): Acepto Personaje: en Socket: 9
+[TRACE] 01:07:59:708 nivel1/(8503:8503): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 01:07:59:708 nivel1/(8503:8503): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 01:08:00:208 nivel1/(8503:8503): Pedido posicion recurso: F
+[TRACE] 01:08:00:309 nivel1/(8503:8503): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 01:08:00:309 nivel1/(8503:8503): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:08:00:410 nivel1/(8503:8503): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 01:08:00:410 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:08:00:511 nivel1/(8503:8503): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 01:08:00:511 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:08:01:112 nivel1/(8503:8503): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 01:08:01:112 nivel1/(8503:8503): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 01:08:01:212 nivel1/(8503:8503): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 01:08:01:212 nivel1/(8503:8503): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 01:08:01:313 nivel1/(8503:8503): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 01:08:01:313 nivel1/(8503:8503): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 01:08:01:915 nivel1/(8503:8503): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 01:08:01:915 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:08:01:916 nivel1/(8503:8503): Recurso a asignar F
+[TRACE] 01:08:02:517 nivel1/(8503:8503): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 01:08:02:517 nivel1/(8503:8503): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 01:08:02:617 nivel1/(8503:8503): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 01:08:02:618 nivel1/(8503:8503): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 01:08:02:718 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 01:08:02:718 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 01:08:03:219 nivel1/(8503:8503): Pedido posicion recurso: H
+[TRACE] 01:08:03:320 nivel1/(8503:8503): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 01:08:03:320 nivel1/(8503:8503): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 01:08:03:421 nivel1/(8503:8503): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 01:08:03:421 nivel1/(8503:8503): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 01:08:03:523 nivel1/(8503:8503): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 01:08:03:523 nivel1/(8503:8503): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 01:08:04:125 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 01:08:04:125 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 01:08:04:225 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 01:08:04:225 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:08:04:326 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 01:08:04:326 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:08:04:928 nivel1/(8503:8503): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 01:08:04:928 nivel1/(8503:8503): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 01:08:05:29 nivel1/(8503:8503): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 01:08:05:29 nivel1/(8503:8503): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 01:08:05:129 nivel1/(8503:8503): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 01:08:05:129 nivel1/(8503:8503): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 01:08:05:730 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 01:08:05:730 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:08:05:831 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 01:08:05:831 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:08:05:931 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 01:08:05:931 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:08:06:500 nivel1/(8503:8508): Deadlock check started.
+[TRACE] 01:08:08:370 nivel1/(8503:8503): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 01:08:08:371 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:08:08:471 nivel1/(8503:8503): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 01:08:08:471 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:08:08:571 nivel1/(8503:8503): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 01:08:08:571 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:08:09:173 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 01:08:09:173 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:08:09:274 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 01:08:09:274 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:08:09:377 nivel1/(8503:8503): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 01:08:09:377 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:08:09:978 nivel1/(8503:8503): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 01:08:09:978 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:08:10:79 nivel1/(8503:8503): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 01:08:10:79 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:08:10:181 nivel1/(8503:8503): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 01:08:10:181 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:08:10:682 nivel1/(8503:8503): Recurso a asignar H
+[TRACE] 01:08:11:283 nivel1/(8503:8503): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 01:08:11:283 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:08:11:384 nivel1/(8503:8503): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 01:08:11:384 nivel1/(8503:8503): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:08:11:385 nivel1/(8503:8503): Recurso bloqueado H
+[TRACE] 01:08:11:386 nivel1/(8503:8503): Pedido posicion recurso: F
+[TRACE] 01:08:11:486 nivel1/(8503:8503): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 01:08:11:486 nivel1/(8503:8503): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 01:08:11:589 nivel1/(8503:8503): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 01:08:11:589 nivel1/(8503:8503): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 01:08:11:689 nivel1/(8503:8503): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 01:08:11:689 nivel1/(8503:8503): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 01:08:12:291 nivel1/(8503:8503): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 01:08:12:291 nivel1/(8503:8503): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 01:08:12:392 nivel1/(8503:8503): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 01:08:12:393 nivel1/(8503:8503): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 01:08:12:495 nivel1/(8503:8503): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 01:08:12:495 nivel1/(8503:8503): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 01:08:13:97 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 01:08:13:97 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 01:08:13:197 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 01:08:13:197 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 01:08:13:298 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 01:08:13:299 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 01:08:13:900 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 01:08:13:900 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 01:08:13:1 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 01:08:13:1 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 01:08:14:101 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 01:08:14:101 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 01:08:14:704 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 01:08:14:704 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 01:08:14:805 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:08:14:805 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:08:14:805 nivel1/(8503:8503): Recurso bloqueado F
+[TRACE] 01:08:18:372 nivel1/(8503:8508): Deadlock check started.
+[INFO] 01:08:27:706 nivel1/(8503:8508): Cantidad de Personajes en Deadlock: 2
+[TRACE] 01:08:31:905 nivel1/(8503:8508): Mando al orquestador personaje a matar.
+[TRACE] 01:08:39:726 nivel1/(8503:8503): Acepto Personaje: en Socket: 8
+[TRACE] 01:08:41:221 nivel1/(8503:8503): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:08:41:221 nivel1/(8503:8503): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:08:46:111 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:08:46:111 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:08:46:248 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 2
+[TRACE] 01:08:46:248 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:08:49:853 nivel1/(8503:8503): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:08:49:853 nivel1/(8503:8503): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:08:49:853 nivel1/(8503:8503): Recurso bloqueado F
+[TRACE] 01:09:52:200 nivel1/(8671:8671): Paso dibujar.
+[TRACE] 01:10:16:319 nivel1/(8721:8721): Paso dibujar.
+[TRACE] 01:19:47:798 nivel1/(8862:8867): Deadlock check started.
+[TRACE] 01:19:51:903 nivel1/(8862:8862): Acepto Personaje: en Socket: 8
+[TRACE] 01:19:51:903 nivel1/(8862:8862): Pedido posicion recurso: H
+[TRACE] 01:19:52:4 nivel1/(8862:8862): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:19:52:4 nivel1/(8862:8862): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:19:52:104 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:19:52:104 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:19:52:195 nivel1/(8862:8862): Acepto Personaje: en Socket: 9
+[TRACE] 01:19:52:205 nivel1/(8862:8862): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 01:19:52:205 nivel1/(8862:8862): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 01:19:52:706 nivel1/(8862:8862): Pedido posicion recurso: F
+[TRACE] 01:19:52:807 nivel1/(8862:8862): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 01:19:52:807 nivel1/(8862:8862): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:19:52:910 nivel1/(8862:8862): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 01:19:52:910 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:19:53:11 nivel1/(8862:8862): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 01:19:53:12 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:19:53:612 nivel1/(8862:8862): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 01:19:53:612 nivel1/(8862:8862): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 01:19:53:714 nivel1/(8862:8862): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 01:19:53:714 nivel1/(8862:8862): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 01:19:53:814 nivel1/(8862:8862): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 01:19:53:814 nivel1/(8862:8862): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 01:19:54:415 nivel1/(8862:8862): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 01:19:54:415 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:19:54:415 nivel1/(8862:8862): Recurso a asignar F
+[TRACE] 01:19:55:16 nivel1/(8862:8862): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 01:19:55:16 nivel1/(8862:8862): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 01:19:55:117 nivel1/(8862:8862): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 01:19:55:117 nivel1/(8862:8862): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 01:19:55:217 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 01:19:55:217 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 01:19:55:719 nivel1/(8862:8862): Pedido posicion recurso: H
+[TRACE] 01:19:55:820 nivel1/(8862:8862): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 01:19:55:821 nivel1/(8862:8862): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 01:19:55:921 nivel1/(8862:8862): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 01:19:55:921 nivel1/(8862:8862): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 01:19:56:22 nivel1/(8862:8862): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 01:19:56:22 nivel1/(8862:8862): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 01:19:56:623 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 01:19:56:623 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 01:19:56:723 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 01:19:56:723 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:19:56:824 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 01:19:56:824 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:19:57:428 nivel1/(8862:8862): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 01:19:57:428 nivel1/(8862:8862): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 01:19:57:529 nivel1/(8862:8862): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 01:19:57:529 nivel1/(8862:8862): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 01:19:57:629 nivel1/(8862:8862): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 01:19:57:630 nivel1/(8862:8862): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 01:19:58:231 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 01:19:58:231 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:19:58:333 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 01:19:58:333 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:19:58:433 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 01:19:58:433 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:19:59:37 nivel1/(8862:8862): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 01:19:59:37 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:19:59:137 nivel1/(8862:8862): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 01:19:59:137 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:19:59:238 nivel1/(8862:8862): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 01:19:59:238 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:19:59:839 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 01:19:59:839 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:19:59:940 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 01:19:59:940 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:20:00:42 nivel1/(8862:8862): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 01:20:00:42 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:20:00:95 nivel1/(8862:8867): Deadlock check started.
+[TRACE] 01:20:01:940 nivel1/(8862:8862): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 01:20:01:940 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:20:02:43 nivel1/(8862:8862): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 01:20:02:43 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:20:02:143 nivel1/(8862:8862): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 01:20:02:143 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:20:02:644 nivel1/(8862:8862): Recurso a asignar H
+[TRACE] 01:20:03:245 nivel1/(8862:8862): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 01:20:03:245 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:20:03:346 nivel1/(8862:8862): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 01:20:03:346 nivel1/(8862:8862): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:20:03:347 nivel1/(8862:8862): Recurso bloqueado H
+[TRACE] 01:20:03:347 nivel1/(8862:8862): Pedido posicion recurso: F
+[TRACE] 01:20:03:448 nivel1/(8862:8862): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 01:20:03:448 nivel1/(8862:8862): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 01:20:03:549 nivel1/(8862:8862): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 01:20:03:549 nivel1/(8862:8862): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 01:20:03:651 nivel1/(8862:8862): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 01:20:03:651 nivel1/(8862:8862): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 01:20:04:252 nivel1/(8862:8862): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 01:20:04:252 nivel1/(8862:8862): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 01:20:04:353 nivel1/(8862:8862): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 01:20:04:353 nivel1/(8862:8862): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 01:20:04:454 nivel1/(8862:8862): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 01:20:04:454 nivel1/(8862:8862): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 01:20:05:57 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 01:20:05:57 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 01:20:05:159 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 01:20:05:159 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 01:20:05:259 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 01:20:05:260 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 01:20:05:861 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 01:20:05:862 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 01:20:05:963 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 01:20:05:963 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 01:20:06:64 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 01:20:06:64 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 01:20:06:666 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 01:20:06:666 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 01:20:06:768 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:20:06:768 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:20:06:768 nivel1/(8862:8862): Recurso bloqueado F
+[TRACE] 01:20:11:941 nivel1/(8862:8867): Deadlock check started.
+[INFO] 01:20:14:405 nivel1/(8862:8867): Cantidad de Personajes en Deadlock: 2
+[TRACE] 01:20:23:614 nivel1/(8862:8867): Mando al orquestador personaje a matar.
+[TRACE] 01:20:25:657 nivel1/(8862:8862): Acepto Personaje: en Socket: 8
+[TRACE] 01:20:29:104 nivel1/(8862:8862): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:20:29:104 nivel1/(8862:8862): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:20:34:433 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:20:34:433 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:20:36:60 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 2
+[TRACE] 01:20:36:60 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:20:37:580 nivel1/(8862:8862): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:20:37:580 nivel1/(8862:8862): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:20:37:580 nivel1/(8862:8862): Recurso bloqueado F
+[TRACE] 01:20:41:164 nivel1/(8862:8862): Recurso a asignar H
+[TRACE] 01:22:50:999 nivel1/(8972:8972): Acepto Personaje: en Socket: 8
+[TRACE] 01:22:50:999 nivel1/(8972:8972): Pedido posicion recurso: H
+[TRACE] 01:22:51:101 nivel1/(8972:8972): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:22:51:101 nivel1/(8972:8972): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:22:51:201 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:22:51:202 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:22:51:286 nivel1/(8972:8972): Acepto Personaje: en Socket: 9
+[TRACE] 01:22:51:302 nivel1/(8972:8972): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 01:22:51:302 nivel1/(8972:8972): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 01:22:51:803 nivel1/(8972:8972): Pedido posicion recurso: F
+[TRACE] 01:22:51:903 nivel1/(8972:8972): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 01:22:51:903 nivel1/(8972:8972): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:22:52:5 nivel1/(8972:8972): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 01:22:52:5 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:22:52:105 nivel1/(8972:8972): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 01:22:52:106 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:22:52:707 nivel1/(8972:8972): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 01:22:52:707 nivel1/(8972:8972): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 01:22:52:808 nivel1/(8972:8972): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 01:22:52:808 nivel1/(8972:8972): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 01:22:52:909 nivel1/(8972:8972): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 01:22:52:909 nivel1/(8972:8972): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 01:22:53:445 nivel1/(8972:8977): Deadlock check started.
+[TRACE] 01:22:54:918 nivel1/(8972:8972): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 01:22:54:918 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:22:54:919 nivel1/(8972:8972): Recurso a asignar F
+[TRACE] 01:22:55:520 nivel1/(8972:8972): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 01:22:55:520 nivel1/(8972:8972): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 01:22:55:621 nivel1/(8972:8972): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 01:22:55:621 nivel1/(8972:8972): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 01:22:55:721 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 01:22:55:721 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 01:22:56:225 nivel1/(8972:8972): Pedido posicion recurso: H
+[TRACE] 01:22:56:325 nivel1/(8972:8972): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 01:22:56:325 nivel1/(8972:8972): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 01:22:56:427 nivel1/(8972:8972): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 01:22:56:427 nivel1/(8972:8972): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 01:22:56:528 nivel1/(8972:8972): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 01:22:56:528 nivel1/(8972:8972): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 01:22:57:130 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 01:22:57:130 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 01:22:57:230 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 01:22:57:230 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:22:57:332 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 01:22:57:332 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:22:57:934 nivel1/(8972:8972): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 01:22:57:934 nivel1/(8972:8972): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 01:22:58:35 nivel1/(8972:8972): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 01:22:58:36 nivel1/(8972:8972): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 01:22:58:136 nivel1/(8972:8972): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 01:22:58:136 nivel1/(8972:8972): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 01:22:58:738 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 01:22:58:738 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:22:58:839 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 01:22:58:839 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:22:58:941 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 01:22:58:941 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:22:59:542 nivel1/(8972:8972): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 01:22:59:542 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:22:59:644 nivel1/(8972:8972): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 01:22:59:644 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:22:59:744 nivel1/(8972:8972): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 01:22:59:744 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:23:00:345 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 01:23:00:345 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:23:00:446 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 01:23:00:446 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:23:00:547 nivel1/(8972:8972): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 01:23:00:547 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:23:01:149 nivel1/(8972:8972): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 01:23:01:149 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:23:01:249 nivel1/(8972:8972): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 01:23:01:249 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:23:01:350 nivel1/(8972:8972): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 01:23:01:350 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:23:01:852 nivel1/(8972:8972): Recurso a asignar H
+[TRACE] 01:23:02:453 nivel1/(8972:8972): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 01:23:02:453 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:23:02:554 nivel1/(8972:8972): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 01:23:02:554 nivel1/(8972:8972): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:23:02:554 nivel1/(8972:8972): Recurso bloqueado H
+[TRACE] 01:23:02:554 nivel1/(8972:8972): Pedido posicion recurso: F
+[TRACE] 01:23:02:656 nivel1/(8972:8972): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 01:23:02:656 nivel1/(8972:8972): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 01:23:02:757 nivel1/(8972:8972): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 01:23:02:757 nivel1/(8972:8972): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 01:23:02:858 nivel1/(8972:8972): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 01:23:02:858 nivel1/(8972:8972): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 01:23:03:460 nivel1/(8972:8972): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 01:23:03:460 nivel1/(8972:8972): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 01:23:03:561 nivel1/(8972:8972): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 01:23:03:561 nivel1/(8972:8972): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 01:23:03:661 nivel1/(8972:8972): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 01:23:03:661 nivel1/(8972:8972): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 01:23:04:264 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 01:23:04:264 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 01:23:04:364 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 01:23:04:364 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 01:23:04:465 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 01:23:04:465 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 01:23:04:920 nivel1/(8972:8977): Deadlock check started.
+[TRACE] 01:23:07:76 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 01:23:07:76 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 01:23:07:177 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 01:23:07:177 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 01:23:07:277 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 01:23:07:277 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 01:23:07:879 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 01:23:07:879 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 01:23:07:979 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:23:07:979 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:23:07:979 nivel1/(8972:8972): Recurso bloqueado F
+[TRACE] 01:23:17:78 nivel1/(8972:8977): Deadlock check started.
+[INFO] 01:23:19:367 nivel1/(8972:8977): Cantidad de Personajes en Deadlock: 2
+[TRACE] 01:23:19:367 nivel1/(8972:8977): Mando al orquestador personaje a matar.
+[TRACE] 01:23:22:436 nivel1/(8972:8972): Acepto Personaje: en Socket: 8
+[TRACE] 01:23:22:762 nivel1/(8972:8972): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:23:22:762 nivel1/(8972:8972): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:23:22:949 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:23:22:949 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:23:27:220 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 2
+[TRACE] 01:23:27:220 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:23:32:261 nivel1/(8972:8972): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:23:32:261 nivel1/(8972:8972): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:23:32:262 nivel1/(8972:8972): Recurso bloqueado F
+[TRACE] 01:26:47:198 nivel1/(9159:9159): Acepto Personaje: en Socket: 8
+[TRACE] 01:26:47:199 nivel1/(9159:9159): Pedido posicion recurso: H
+[TRACE] 01:26:47:300 nivel1/(9159:9159): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:26:47:300 nivel1/(9159:9159): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:26:47:405 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:26:47:405 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:26:47:431 nivel1/(9159:9159): Acepto Personaje: en Socket: 9
+[TRACE] 01:26:47:506 nivel1/(9159:9159): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 01:26:47:506 nivel1/(9159:9159): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 01:26:48:8 nivel1/(9159:9159): Pedido posicion recurso: F
+[TRACE] 01:26:48:108 nivel1/(9159:9159): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 01:26:48:108 nivel1/(9159:9159): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:26:48:210 nivel1/(9159:9159): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 01:26:48:210 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:26:48:310 nivel1/(9159:9159): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 01:26:48:310 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:26:48:912 nivel1/(9159:9159): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 01:26:48:913 nivel1/(9159:9159): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 01:26:49:13 nivel1/(9159:9159): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 01:26:49:13 nivel1/(9159:9159): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 01:26:49:114 nivel1/(9159:9159): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 01:26:49:114 nivel1/(9159:9159): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 01:26:49:716 nivel1/(9159:9159): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 01:26:49:716 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:26:49:716 nivel1/(9159:9159): Recurso a asignar F
+[TRACE] 01:26:50:318 nivel1/(9159:9159): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 01:26:50:318 nivel1/(9159:9159): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 01:26:50:419 nivel1/(9159:9159): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 01:26:50:419 nivel1/(9159:9159): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 01:26:50:519 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 01:26:50:520 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 01:26:50:921 nivel1/(9159:9164): Deadlock check started.
+[TRACE] 01:27:54:1 nivel1/(9159:9159): Pedido posicion recurso: H
+[TRACE] 01:27:55:102 nivel1/(9159:9159): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 01:27:55:102 nivel1/(9159:9159): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 01:27:55:203 nivel1/(9159:9159): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 01:27:55:203 nivel1/(9159:9159): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 01:27:55:303 nivel1/(9159:9159): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 01:27:55:303 nivel1/(9159:9159): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 01:27:55:905 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 01:27:55:905 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 01:27:56:5 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 01:27:56:5 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:27:56:106 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 01:27:56:106 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:27:56:707 nivel1/(9159:9159): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 01:27:56:707 nivel1/(9159:9159): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 01:27:56:807 nivel1/(9159:9159): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 01:27:56:807 nivel1/(9159:9159): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 01:27:56:908 nivel1/(9159:9159): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 01:27:56:908 nivel1/(9159:9159): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 01:27:57:511 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 01:27:57:511 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:27:57:611 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 01:27:57:611 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:27:57:712 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 01:27:57:712 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:27:58:313 nivel1/(9159:9159): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 01:27:58:313 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:27:58:414 nivel1/(9159:9159): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 01:27:58:414 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:27:58:515 nivel1/(9159:9159): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 01:27:58:516 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:27:59:117 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 01:27:59:117 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:27:59:219 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 01:27:59:219 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:27:59:320 nivel1/(9159:9159): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 01:27:59:320 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:27:59:921 nivel1/(9159:9159): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 01:27:59:921 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:28:00:21 nivel1/(9159:9159): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 01:28:00:22 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:28:00:122 nivel1/(9159:9159): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 01:28:00:122 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:28:00:624 nivel1/(9159:9159): Recurso a asignar H
+[TRACE] 01:28:01:225 nivel1/(9159:9159): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 01:28:01:226 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:28:01:326 nivel1/(9159:9159): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 01:28:01:326 nivel1/(9159:9159): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:28:01:327 nivel1/(9159:9159): Recurso bloqueado H
+[TRACE] 01:28:01:327 nivel1/(9159:9159): Pedido posicion recurso: F
+[TRACE] 01:28:01:428 nivel1/(9159:9159): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 01:28:01:428 nivel1/(9159:9159): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 01:28:01:529 nivel1/(9159:9159): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 01:28:01:529 nivel1/(9159:9159): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 01:28:01:631 nivel1/(9159:9159): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 01:28:01:631 nivel1/(9159:9159): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 01:28:02:234 nivel1/(9159:9159): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 01:28:02:234 nivel1/(9159:9159): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 01:28:02:334 nivel1/(9159:9159): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 01:28:02:334 nivel1/(9159:9159): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 01:28:02:436 nivel1/(9159:9159): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 01:28:02:436 nivel1/(9159:9159): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 01:28:03:38 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 01:28:03:38 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 01:28:03:138 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 01:28:03:138 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 01:28:03:239 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 01:28:03:239 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 01:28:03:841 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 01:28:03:841 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 01:28:03:942 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 01:28:03:942 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 01:28:04:42 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 01:28:04:42 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 01:28:04:644 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 01:28:04:644 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 01:28:04:745 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:28:04:745 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:28:04:745 nivel1/(9159:9159): Recurso bloqueado F
+[TRACE] 01:28:05:2 nivel1/(9159:9164): Deadlock check started.
+[INFO] 01:28:11:285 nivel1/(9159:9164): Cantidad de Personajes en Deadlock: 2
+[TRACE] 01:28:11:285 nivel1/(9159:9164): Mando al orquestador personaje a matar.
+[TRACE] 01:28:14:338 nivel1/(9159:9159): Acepto Personaje: en Socket: 8
+[TRACE] 01:28:14:503 nivel1/(9159:9159): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:28:14:503 nivel1/(9159:9159): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:28:14:695 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:28:14:695 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:28:15:225 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 2
+[TRACE] 01:28:15:225 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:28:16:195 nivel1/(9159:9159): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:28:16:195 nivel1/(9159:9159): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:28:16:195 nivel1/(9159:9159): Recurso bloqueado F
+[TRACE] 01:28:35:469 nivel1/(9159:9159): Recurso a asignar H
+[TRACE] 01:28:46:217 nivel1/(9159:9159): Pedido posicion recurso: B
+[TRACE] 01:28:51:762 nivel1/(9159:9159): Personaje a mover @, posicionX 11 posicionY 10
+[TRACE] 01:28:51:762 nivel1/(9159:9159): Movimiento personaje: x: 11, y: 10
+
+[TRACE] 01:29:05:75 nivel1/(9159:9159): Personaje a mover @, posicionX 12 posicionY 10
+[TRACE] 01:29:05:75 nivel1/(9159:9159): Movimiento personaje: x: 12, y: 10
+
+[TRACE] 01:29:07:946 nivel1/(9159:9159): Personaje a mover @, posicionX 13 posicionY 10
+[TRACE] 01:29:07:947 nivel1/(9159:9159): Movimiento personaje: x: 13, y: 10
+
+[TRACE] 01:29:11:399 nivel1/(9159:9159): Personaje a mover @, posicionX 14 posicionY 10
+[TRACE] 01:29:11:399 nivel1/(9159:9159): Movimiento personaje: x: 14, y: 10
+
+[TRACE] 01:29:24:129 nivel1/(9159:9159): Personaje a mover @, posicionX 15 posicionY 10
+[TRACE] 01:29:24:129 nivel1/(9159:9159): Movimiento personaje: x: 15, y: 10
+
+[TRACE] 01:29:24:155 nivel1/(9159:9164): El Personaje # fue eliminado por deadlock
+[TRACE] 01:29:29:767 nivel1/(9159:9159): Personaje a mover @, posicionX 16 posicionY 10
+[TRACE] 01:29:29:767 nivel1/(9159:9159): Movimiento personaje: x: 16, y: 10
+
+[TRACE] 01:29:30:977 nivel1/(9159:9159): Personaje a mover @, posicionX 17 posicionY 10
+[TRACE] 01:29:30:977 nivel1/(9159:9159): Movimiento personaje: x: 17, y: 10
+
+[TRACE] 01:29:41:64 nivel1/(9159:9159): Personaje a mover @, posicionX 18 posicionY 10
+[TRACE] 01:29:41:64 nivel1/(9159:9159): Movimiento personaje: x: 18, y: 10
+
+[TRACE] 01:29:41:166 nivel1/(9159:9159): Personaje a mover @, posicionX 19 posicionY 10
+[TRACE] 01:29:41:166 nivel1/(9159:9159): Movimiento personaje: x: 19, y: 10
+
+[TRACE] 01:29:41:768 nivel1/(9159:9159): Personaje a mover @, posicionX 20 posicionY 10
+[TRACE] 01:29:41:768 nivel1/(9159:9159): Movimiento personaje: x: 20, y: 10
+
+[TRACE] 01:29:41:869 nivel1/(9159:9159): Personaje a mover @, posicionX 21 posicionY 10
+[TRACE] 01:29:41:869 nivel1/(9159:9159): Movimiento personaje: x: 21, y: 10
+
+[TRACE] 01:29:41:974 nivel1/(9159:9159): Personaje a mover @, posicionX 22 posicionY 10
+[TRACE] 01:29:41:974 nivel1/(9159:9159): Movimiento personaje: x: 22, y: 10
+
+[TRACE] 01:29:42:578 nivel1/(9159:9159): Personaje a mover @, posicionX 23 posicionY 10
+[TRACE] 01:29:42:578 nivel1/(9159:9159): Movimiento personaje: x: 23, y: 10
+
+[TRACE] 01:29:42:679 nivel1/(9159:9159): Personaje a mover @, posicionX 24 posicionY 10
+[TRACE] 01:29:42:680 nivel1/(9159:9159): Movimiento personaje: x: 24, y: 10
+
+[TRACE] 01:29:42:781 nivel1/(9159:9159): Personaje a mover @, posicionX 25 posicionY 10
+[TRACE] 01:29:42:781 nivel1/(9159:9159): Movimiento personaje: x: 25, y: 10
+
+[TRACE] 01:29:43:384 nivel1/(9159:9159): Personaje a mover @, posicionX 26 posicionY 10
+[TRACE] 01:29:43:384 nivel1/(9159:9159): Movimiento personaje: x: 26, y: 10
+
+[TRACE] 01:29:43:487 nivel1/(9159:9159): Personaje a mover @, posicionX 27 posicionY 10
+[TRACE] 01:29:43:487 nivel1/(9159:9159): Movimiento personaje: x: 27, y: 10
+
+[TRACE] 01:29:43:589 nivel1/(9159:9159): Personaje a mover @, posicionX 28 posicionY 10
+[TRACE] 01:29:43:589 nivel1/(9159:9159): Movimiento personaje: x: 28, y: 10
+
+[TRACE] 01:29:44:194 nivel1/(9159:9159): Personaje a mover @, posicionX 29 posicionY 10
+[TRACE] 01:29:44:195 nivel1/(9159:9159): Movimiento personaje: x: 29, y: 10
+
+[TRACE] 01:29:44:299 nivel1/(9159:9159): Personaje a mover @, posicionX 30 posicionY 10
+[TRACE] 01:29:44:299 nivel1/(9159:9159): Movimiento personaje: x: 30, y: 10
+
+[TRACE] 01:29:44:401 nivel1/(9159:9159): Personaje a mover @, posicionX 31 posicionY 10
+[TRACE] 01:29:44:401 nivel1/(9159:9159): Movimiento personaje: x: 31, y: 10
+
+[TRACE] 01:29:45:5 nivel1/(9159:9159): Personaje a mover @, posicionX 32 posicionY 10
+[TRACE] 01:29:45:5 nivel1/(9159:9159): Movimiento personaje: x: 32, y: 10
+
+[TRACE] 01:29:45:106 nivel1/(9159:9159): Personaje a mover @, posicionX 33 posicionY 10
+[TRACE] 01:29:45:106 nivel1/(9159:9159): Movimiento personaje: x: 33, y: 10
+
+[TRACE] 01:29:45:207 nivel1/(9159:9159): Personaje a mover @, posicionX 34 posicionY 10
+[TRACE] 01:29:45:207 nivel1/(9159:9159): Movimiento personaje: x: 34, y: 10
+
+[TRACE] 01:29:45:810 nivel1/(9159:9159): Personaje a mover @, posicionX 35 posicionY 10
+[TRACE] 01:29:45:810 nivel1/(9159:9159): Movimiento personaje: x: 35, y: 10
+
+[TRACE] 01:29:45:911 nivel1/(9159:9159): Personaje a mover @, posicionX 36 posicionY 10
+[TRACE] 01:29:45:911 nivel1/(9159:9159): Movimiento personaje: x: 36, y: 10
+
+[TRACE] 01:29:46:12 nivel1/(9159:9159): Personaje a mover @, posicionX 37 posicionY 10
+[TRACE] 01:29:46:12 nivel1/(9159:9159): Movimiento personaje: x: 37, y: 10
+
+[TRACE] 01:29:46:617 nivel1/(9159:9159): Personaje a mover @, posicionX 38 posicionY 10
+[TRACE] 01:29:46:617 nivel1/(9159:9159): Movimiento personaje: x: 38, y: 10
+
+[TRACE] 01:29:46:719 nivel1/(9159:9159): Personaje a mover @, posicionX 39 posicionY 10
+[TRACE] 01:29:46:719 nivel1/(9159:9159): Movimiento personaje: x: 39, y: 10
+
+[TRACE] 01:29:46:821 nivel1/(9159:9159): Personaje a mover @, posicionX 40 posicionY 10
+[TRACE] 01:29:46:821 nivel1/(9159:9159): Movimiento personaje: x: 40, y: 10
+
+[TRACE] 01:29:47:424 nivel1/(9159:9159): Personaje a mover @, posicionX 41 posicionY 10
+[TRACE] 01:29:47:424 nivel1/(9159:9159): Movimiento personaje: x: 41, y: 10
+
+[TRACE] 01:29:47:525 nivel1/(9159:9159): Personaje a mover @, posicionX 42 posicionY 10
+[TRACE] 01:29:47:525 nivel1/(9159:9159): Movimiento personaje: x: 42, y: 10
+
+[TRACE] 01:29:47:626 nivel1/(9159:9159): Personaje a mover @, posicionX 43 posicionY 10
+[TRACE] 01:29:47:626 nivel1/(9159:9159): Movimiento personaje: x: 43, y: 10
+
+[TRACE] 01:29:48:229 nivel1/(9159:9159): Personaje a mover @, posicionX 44 posicionY 10
+[TRACE] 01:29:48:229 nivel1/(9159:9159): Movimiento personaje: x: 44, y: 10
+
+[TRACE] 01:29:48:330 nivel1/(9159:9159): Personaje a mover @, posicionX 45 posicionY 10
+[TRACE] 01:29:48:331 nivel1/(9159:9159): Movimiento personaje: x: 45, y: 10
+
+[TRACE] 01:29:48:432 nivel1/(9159:9159): Personaje a mover @, posicionX 46 posicionY 10
+[TRACE] 01:29:48:432 nivel1/(9159:9159): Movimiento personaje: x: 46, y: 10
+
+[TRACE] 01:29:49:35 nivel1/(9159:9159): Personaje a mover @, posicionX 47 posicionY 10
+[TRACE] 01:29:49:35 nivel1/(9159:9159): Movimiento personaje: x: 47, y: 10
+
+[TRACE] 01:29:49:135 nivel1/(9159:9159): Personaje a mover @, posicionX 48 posicionY 10
+[TRACE] 01:29:49:136 nivel1/(9159:9159): Movimiento personaje: x: 48, y: 10
+
+[TRACE] 01:29:49:237 nivel1/(9159:9159): Personaje a mover @, posicionX 49 posicionY 10
+[TRACE] 01:29:49:237 nivel1/(9159:9159): Movimiento personaje: x: 49, y: 10
+
+[TRACE] 01:29:49:844 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 10
+[TRACE] 01:29:49:845 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 10
+
+[TRACE] 01:29:49:946 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 11
+[TRACE] 01:29:49:946 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 11
+
+[TRACE] 01:29:50:48 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 12
+[TRACE] 01:29:50:48 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 12
+
+[TRACE] 01:29:50:650 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 13
+[TRACE] 01:29:50:650 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 13
+
+[TRACE] 01:29:50:753 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 14
+[TRACE] 01:29:50:753 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 14
+
+[TRACE] 01:29:50:855 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 15
+[TRACE] 01:29:50:855 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 15
+
+[TRACE] 01:29:51:66 nivel1/(9159:9164): Deadlock check started.
+[TRACE] 01:29:53:840 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 16
+[TRACE] 01:29:53:840 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 16
+
+[TRACE] 01:29:53:943 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 17
+[TRACE] 01:29:53:943 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 17
+
+[TRACE] 01:29:54:44 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 18
+[TRACE] 01:29:54:44 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 18
+
+[TRACE] 01:29:54:647 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 19
+[TRACE] 01:29:54:647 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 19
+
+[TRACE] 01:29:54:748 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 20
+[TRACE] 01:29:54:748 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 20
+
+[TRACE] 01:29:54:849 nivel1/(9159:9159): Personaje a mover @, posicionX 50 posicionY 21
+[TRACE] 01:29:54:849 nivel1/(9159:9159): Movimiento personaje: x: 50, y: 21
+
+[TRACE] 01:29:55:352 nivel1/(9159:9159): Recurso a asignar B
+[TRACE] 01:30:03:843 nivel1/(9159:9164): Deadlock check started.
+[TRACE] 01:30:18:503 nivel1/(9159:9164): Deadlock check started.
+[TRACE] 01:55:45:334 nivel1/(10097:10097): Acepto Personaje: en Socket: 8
+[TRACE] 01:55:45:334 nivel1/(10097:10097): Pedido posicion recurso: H
+[TRACE] 01:55:45:435 nivel1/(10097:10097): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:55:45:435 nivel1/(10097:10097): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:55:45:536 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:55:45:536 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:55:45:637 nivel1/(10097:10097): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 01:55:45:637 nivel1/(10097:10097): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 01:55:46:139 nivel1/(10097:10097): Acepto Personaje: en Socket: 9
+[TRACE] 01:55:46:239 nivel1/(10097:10097): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 01:55:46:239 nivel1/(10097:10097): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 01:55:46:339 nivel1/(10097:10097): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 01:55:46:339 nivel1/(10097:10097): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 01:55:46:440 nivel1/(10097:10097): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 01:55:46:440 nivel1/(10097:10097): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 01:55:46:941 nivel1/(10097:10097): Pedido posicion recurso: F
+[TRACE] 01:55:47:42 nivel1/(10097:10097): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 01:55:47:42 nivel1/(10097:10097): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:55:47:144 nivel1/(10097:10097): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 01:55:47:144 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:55:47:245 nivel1/(10097:10097): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 01:55:47:245 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 01:55:47:848 nivel1/(10097:10097): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 01:55:47:848 nivel1/(10097:10097): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 01:55:47:949 nivel1/(10097:10097): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 01:55:47:949 nivel1/(10097:10097): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 01:55:48:51 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 01:55:48:51 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 01:55:48:83 nivel1/(10097:10102): Deadlock check started.
+[TRACE] 01:55:50:910 nivel1/(10097:10097): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 01:55:50:910 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:55:50:910 nivel1/(10097:10097): Recurso a asignar F
+[TRACE] 01:55:51:513 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 01:55:51:513 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 01:55:51:614 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 01:55:51:614 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:55:51:715 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 01:55:51:715 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:55:52:218 nivel1/(10097:10097): Pedido posicion recurso: H
+[TRACE] 01:55:52:318 nivel1/(10097:10097): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 01:55:52:318 nivel1/(10097:10097): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 01:55:52:419 nivel1/(10097:10097): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 01:55:52:419 nivel1/(10097:10097): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 01:55:52:520 nivel1/(10097:10097): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 01:55:52:520 nivel1/(10097:10097): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 01:55:53:122 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 01:55:53:122 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:55:53:223 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 01:55:53:224 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:55:53:324 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 01:55:53:324 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:55:53:926 nivel1/(10097:10097): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 01:55:53:926 nivel1/(10097:10097): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 01:55:54:27 nivel1/(10097:10097): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 01:55:54:27 nivel1/(10097:10097): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 01:55:54:128 nivel1/(10097:10097): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 01:55:54:128 nivel1/(10097:10097): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 01:55:54:731 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 01:55:54:731 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:55:54:831 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 01:55:54:831 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:55:54:932 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 01:55:54:932 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:55:55:533 nivel1/(10097:10097): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 01:55:55:534 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:55:55:634 nivel1/(10097:10097): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 01:55:55:634 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:55:55:736 nivel1/(10097:10097): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 01:55:55:736 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:55:56:238 nivel1/(10097:10097): Recurso a asignar H
+[TRACE] 01:55:56:839 nivel1/(10097:10097): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 01:55:56:839 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:55:56:940 nivel1/(10097:10097): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 01:55:56:940 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:55:57:40 nivel1/(10097:10097): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 01:55:57:40 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:55:57:541 nivel1/(10097:10097): Pedido posicion recurso: F
+[TRACE] 01:55:57:642 nivel1/(10097:10097): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 01:55:57:642 nivel1/(10097:10097): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 01:55:57:742 nivel1/(10097:10097): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 01:55:57:742 nivel1/(10097:10097): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 01:55:57:843 nivel1/(10097:10097): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 01:55:57:843 nivel1/(10097:10097): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 01:55:58:447 nivel1/(10097:10097): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 01:55:58:447 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:55:58:548 nivel1/(10097:10097): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 01:55:58:548 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:55:58:548 nivel1/(10097:10097): Recurso bloqueado H
+[TRACE] 01:55:58:649 nivel1/(10097:10097): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 01:55:58:649 nivel1/(10097:10097): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 01:55:58:749 nivel1/(10097:10097): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 01:55:58:750 nivel1/(10097:10097): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 01:55:58:850 nivel1/(10097:10097): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 01:55:58:850 nivel1/(10097:10097): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 01:55:59:452 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 01:55:59:452 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 01:55:59:553 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 01:55:59:553 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 01:55:59:655 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 01:55:59:655 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 01:56:00:258 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 01:56:00:258 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 01:56:00:358 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 01:56:00:358 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 01:56:00:460 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 01:56:00:460 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 01:56:00:912 nivel1/(10097:10102): Deadlock check started.
+[TRACE] 01:56:03:57 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 01:56:03:57 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 01:56:03:158 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:56:03:158 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:56:03:158 nivel1/(10097:10097): Recurso bloqueado F
+[TRACE] 01:56:13:58 nivel1/(10097:10102): Deadlock check started.
+[INFO] 01:56:15:416 nivel1/(10097:10102): Cantidad de Personajes en Deadlock: 2
+[TRACE] 01:56:15:416 nivel1/(10097:10102): Mando al orquestador personaje a matar.
+[TRACE] 01:56:23:903 nivel1/(10097:10097): Acepto Personaje: en Socket: 8
+[TRACE] 01:56:23:903 nivel1/(10097:10097): Pedido posicion recurso: H
+[TRACE] 01:56:24:336 nivel1/(10097:10097): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 01:56:24:336 nivel1/(10097:10097): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 01:56:24:851 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 01:56:24:851 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 01:56:25:401 nivel1/(10097:10097): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 01:56:25:401 nivel1/(10097:10097): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 01:56:26:41 nivel1/(10097:10097): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 01:56:26:41 nivel1/(10097:10097): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 01:56:26:595 nivel1/(10097:10097): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 01:56:26:595 nivel1/(10097:10097): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 01:56:27:745 nivel1/(10097:10097): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 01:56:27:745 nivel1/(10097:10097): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 01:58:12:758 nivel1/(10097:10097): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 01:58:12:758 nivel1/(10097:10097): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 01:58:12:759 nivel1/(10097:10102): El Personaje # fue eliminado por deadlock
+[TRACE] 01:58:12:860 nivel1/(10097:10097): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 01:58:12:860 nivel1/(10097:10097): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 01:58:12:960 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 01:58:12:960 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 01:58:13:462 nivel1/(10097:10097): Recurso a asignar H
+[TRACE] 01:58:14:65 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 01:58:14:65 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 01:58:14:166 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 01:58:14:166 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 01:58:14:268 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 01:58:14:268 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 01:58:14:770 nivel1/(10097:10097): Pedido posicion recurso: B
+[TRACE] 01:58:14:872 nivel1/(10097:10097): Personaje a mover @, posicionX 11 posicionY 10
+[TRACE] 01:58:14:872 nivel1/(10097:10097): Movimiento personaje: x: 11, y: 10
+
+[TRACE] 01:58:14:972 nivel1/(10097:10097): Personaje a mover @, posicionX 12 posicionY 10
+[TRACE] 01:58:14:972 nivel1/(10097:10097): Movimiento personaje: x: 12, y: 10
+
+[TRACE] 01:58:15:74 nivel1/(10097:10097): Personaje a mover @, posicionX 13 posicionY 10
+[TRACE] 01:58:15:74 nivel1/(10097:10097): Movimiento personaje: x: 13, y: 10
+
+[TRACE] 01:58:15:675 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 01:58:15:675 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 01:58:15:777 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 01:58:15:777 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 01:58:15:878 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 01:58:15:878 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 01:58:16:480 nivel1/(10097:10097): Personaje a mover @, posicionX 14 posicionY 10
+[TRACE] 01:58:16:480 nivel1/(10097:10097): Movimiento personaje: x: 14, y: 10
+
+[TRACE] 01:58:16:580 nivel1/(10097:10097): Personaje a mover @, posicionX 15 posicionY 10
+[TRACE] 01:58:16:580 nivel1/(10097:10097): Movimiento personaje: x: 15, y: 10
+
+[TRACE] 01:58:16:682 nivel1/(10097:10097): Personaje a mover @, posicionX 16 posicionY 10
+[TRACE] 01:58:16:682 nivel1/(10097:10097): Movimiento personaje: x: 16, y: 10
+
+[TRACE] 01:58:17:284 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 01:58:17:284 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 01:58:17:386 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 01:58:17:386 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 01:58:17:487 nivel1/(10097:10097): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 01:58:17:487 nivel1/(10097:10097): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 01:58:18:89 nivel1/(10097:10097): Personaje a mover @, posicionX 17 posicionY 10
+[TRACE] 01:58:18:89 nivel1/(10097:10097): Movimiento personaje: x: 17, y: 10
+
+[TRACE] 01:58:18:191 nivel1/(10097:10097): Personaje a mover @, posicionX 18 posicionY 10
+[TRACE] 01:58:18:191 nivel1/(10097:10097): Movimiento personaje: x: 18, y: 10
+
+[TRACE] 01:58:18:292 nivel1/(10097:10097): Personaje a mover @, posicionX 19 posicionY 10
+[TRACE] 01:58:18:292 nivel1/(10097:10097): Movimiento personaje: x: 19, y: 10
+
+[TRACE] 01:58:18:794 nivel1/(10097:10097): Recurso bloqueado H
+[TRACE] 01:58:18:895 nivel1/(10097:10097): Personaje a mover @, posicionX 20 posicionY 10
+[TRACE] 01:58:18:895 nivel1/(10097:10097): Movimiento personaje: x: 20, y: 10
+
+[TRACE] 01:58:18:995 nivel1/(10097:10097): Personaje a mover @, posicionX 21 posicionY 10
+[TRACE] 01:58:18:995 nivel1/(10097:10097): Movimiento personaje: x: 21, y: 10
+
+[TRACE] 01:58:19:97 nivel1/(10097:10097): Personaje a mover @, posicionX 22 posicionY 10
+[TRACE] 01:58:19:97 nivel1/(10097:10097): Movimiento personaje: x: 22, y: 10
+
+[TRACE] 01:58:19:698 nivel1/(10097:10097): Personaje a mover @, posicionX 23 posicionY 10
+[TRACE] 01:58:19:698 nivel1/(10097:10097): Movimiento personaje: x: 23, y: 10
+
+[TRACE] 01:58:19:799 nivel1/(10097:10097): Personaje a mover @, posicionX 24 posicionY 10
+[TRACE] 01:58:19:799 nivel1/(10097:10097): Movimiento personaje: x: 24, y: 10
+
+[TRACE] 01:58:19:900 nivel1/(10097:10097): Personaje a mover @, posicionX 25 posicionY 10
+[TRACE] 01:58:19:900 nivel1/(10097:10097): Movimiento personaje: x: 25, y: 10
+
+[TRACE] 01:58:20:503 nivel1/(10097:10097): Personaje a mover @, posicionX 26 posicionY 10
+[TRACE] 01:58:20:503 nivel1/(10097:10097): Movimiento personaje: x: 26, y: 10
+
+[TRACE] 01:58:20:603 nivel1/(10097:10097): Personaje a mover @, posicionX 27 posicionY 10
+[TRACE] 01:58:20:603 nivel1/(10097:10097): Movimiento personaje: x: 27, y: 10
+
+[TRACE] 01:58:20:704 nivel1/(10097:10097): Personaje a mover @, posicionX 28 posicionY 10
+[TRACE] 01:58:20:704 nivel1/(10097:10097): Movimiento personaje: x: 28, y: 10
+
+[TRACE] 01:58:21:305 nivel1/(10097:10097): Personaje a mover @, posicionX 29 posicionY 10
+[TRACE] 01:58:21:305 nivel1/(10097:10097): Movimiento personaje: x: 29, y: 10
+
+[TRACE] 01:58:21:407 nivel1/(10097:10097): Personaje a mover @, posicionX 30 posicionY 10
+[TRACE] 01:58:21:407 nivel1/(10097:10097): Movimiento personaje: x: 30, y: 10
+
+[TRACE] 01:58:21:507 nivel1/(10097:10097): Personaje a mover @, posicionX 31 posicionY 10
+[TRACE] 01:58:21:507 nivel1/(10097:10097): Movimiento personaje: x: 31, y: 10
+
+[TRACE] 01:58:22:109 nivel1/(10097:10097): Personaje a mover @, posicionX 32 posicionY 10
+[TRACE] 01:58:22:109 nivel1/(10097:10097): Movimiento personaje: x: 32, y: 10
+
+[TRACE] 01:58:22:209 nivel1/(10097:10097): Personaje a mover @, posicionX 33 posicionY 10
+[TRACE] 01:58:22:209 nivel1/(10097:10097): Movimiento personaje: x: 33, y: 10
+
+[TRACE] 01:58:22:310 nivel1/(10097:10097): Personaje a mover @, posicionX 34 posicionY 10
+[TRACE] 01:58:22:310 nivel1/(10097:10097): Movimiento personaje: x: 34, y: 10
+
+[TRACE] 01:58:22:759 nivel1/(10097:10102): Deadlock check started.
+[TRACE] 01:58:31:898 nivel1/(10097:10097): Personaje a mover @, posicionX 35 posicionY 10
+[TRACE] 01:58:31:898 nivel1/(10097:10097): Movimiento personaje: x: 35, y: 10
+
+[INFO] 01:58:31:898 nivel1/(10097:10102): Cantidad de Personajes en Deadlock: 2
+[TRACE] 01:58:31:898 nivel1/(10097:10102): Mando al orquestador personaje a matar.
+[TRACE] 01:58:38:422 nivel1/(10097:10097): Personaje a mover @, posicionX 36 posicionY 10
+[TRACE] 01:58:38:422 nivel1/(10097:10097): Movimiento personaje: x: 36, y: 10
+
+[TRACE] 01:59:17:900 nivel1/(10097:10097): Personaje a mover @, posicionX 37 posicionY 10
+[TRACE] 01:59:17:900 nivel1/(10097:10097): Movimiento personaje: x: 37, y: 10
+
+[TRACE] 01:59:18:401 nivel1/(10097:10102): El Personaje @ fue eliminado por deadlock
+[TRACE] 01:59:18:501 nivel1/(10097:10097): Personaje a mover @, posicionX 38 posicionY 10
+[TRACE] 01:59:18:501 nivel1/(10097:10097): Movimiento personaje: x: 38, y: 10
+
+[TRACE] 01:59:18:602 nivel1/(10097:10097): Personaje a mover @, posicionX 39 posicionY 10
+[TRACE] 01:59:18:602 nivel1/(10097:10097): Movimiento personaje: x: 39, y: 10
+
+[TRACE] 01:59:18:703 nivel1/(10097:10097): Personaje a mover @, posicionX 40 posicionY 10
+[TRACE] 01:59:18:703 nivel1/(10097:10097): Movimiento personaje: x: 40, y: 10
+
+[TRACE] 01:59:19:204 nivel1/(10097:10097): Recurso a asignar H
+[TRACE] 01:59:19:805 nivel1/(10097:10097): Personaje a mover @, posicionX 41 posicionY 10
+[TRACE] 01:59:19:805 nivel1/(10097:10097): Movimiento personaje: x: 41, y: 10
+
+[TRACE] 01:59:19:905 nivel1/(10097:10097): Personaje a mover @, posicionX 42 posicionY 10
+[TRACE] 01:59:19:905 nivel1/(10097:10097): Movimiento personaje: x: 42, y: 10
+
+[TRACE] 01:59:20:7 nivel1/(10097:10097): Personaje a mover @, posicionX 43 posicionY 10
+[TRACE] 01:59:20:7 nivel1/(10097:10097): Movimiento personaje: x: 43, y: 10
+
+[TRACE] 01:59:20:508 nivel1/(10097:10097): Pedido posicion recurso: F
+[TRACE] 01:59:20:609 nivel1/(10097:10097): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 01:59:20:609 nivel1/(10097:10097): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 01:59:20:710 nivel1/(10097:10097): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 01:59:20:710 nivel1/(10097:10097): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 01:59:20:811 nivel1/(10097:10097): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 01:59:20:811 nivel1/(10097:10097): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 01:59:21:414 nivel1/(10097:10097): Personaje a mover @, posicionX 44 posicionY 10
+[TRACE] 01:59:21:414 nivel1/(10097:10097): Movimiento personaje: x: 44, y: 10
+
+[TRACE] 01:59:21:515 nivel1/(10097:10097): Personaje a mover @, posicionX 45 posicionY 10
+[TRACE] 01:59:21:515 nivel1/(10097:10097): Movimiento personaje: x: 45, y: 10
+
+[TRACE] 01:59:21:616 nivel1/(10097:10097): Personaje a mover @, posicionX 46 posicionY 10
+[TRACE] 01:59:21:616 nivel1/(10097:10097): Movimiento personaje: x: 46, y: 10
+
+[TRACE] 01:59:22:217 nivel1/(10097:10097): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 01:59:22:217 nivel1/(10097:10097): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 01:59:22:318 nivel1/(10097:10097): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 01:59:22:318 nivel1/(10097:10097): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 01:59:22:420 nivel1/(10097:10097): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 01:59:22:420 nivel1/(10097:10097): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 01:59:23:22 nivel1/(10097:10097): Personaje a mover @, posicionX 47 posicionY 10
+[TRACE] 01:59:23:22 nivel1/(10097:10097): Movimiento personaje: x: 47, y: 10
+
+[TRACE] 01:59:23:123 nivel1/(10097:10097): Personaje a mover @, posicionX 48 posicionY 10
+[TRACE] 01:59:23:123 nivel1/(10097:10097): Movimiento personaje: x: 48, y: 10
+
+[TRACE] 01:59:23:223 nivel1/(10097:10097): Personaje a mover @, posicionX 49 posicionY 10
+[TRACE] 01:59:23:223 nivel1/(10097:10097): Movimiento personaje: x: 49, y: 10
+
+[TRACE] 01:59:23:825 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 01:59:23:825 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 01:59:23:926 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 01:59:23:926 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 01:59:24:26 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 01:59:24:26 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 01:59:24:629 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 10
+[TRACE] 01:59:24:629 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 10
+
+[TRACE] 01:59:24:731 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 11
+[TRACE] 01:59:24:732 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 11
+
+[TRACE] 01:59:24:832 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 12
+[TRACE] 01:59:24:832 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 12
+
+[TRACE] 01:59:25:433 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 01:59:25:433 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 01:59:25:534 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 01:59:25:534 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 01:59:25:635 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 01:59:25:635 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 01:59:26:237 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 13
+[TRACE] 01:59:26:237 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 13
+
+[TRACE] 01:59:26:339 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 14
+[TRACE] 01:59:26:339 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 14
+
+[TRACE] 01:59:26:440 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 15
+[TRACE] 01:59:26:440 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 15
+
+[TRACE] 01:59:27:43 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 01:59:27:43 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 01:59:27:143 nivel1/(10097:10097): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 01:59:27:143 nivel1/(10097:10097): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 01:59:27:144 nivel1/(10097:10097): Recurso a asignar F
+[TRACE] 01:59:27:746 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 16
+[TRACE] 01:59:27:746 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 16
+
+[TRACE] 01:59:27:848 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 17
+[TRACE] 01:59:27:848 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 17
+
+[TRACE] 01:59:27:949 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 18
+[TRACE] 01:59:27:949 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 18
+
+[TRACE] 01:59:28:402 nivel1/(10097:10102): Deadlock check started.
+[TRACE] 01:59:30:391 nivel1/(10097:10097): Pedido posicion recurso: B
+[TRACE] 01:59:30:491 nivel1/(10097:10097): Personaje a mover #, posicionX 4 posicionY 3
+[TRACE] 01:59:30:491 nivel1/(10097:10097): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 01:59:30:592 nivel1/(10097:10097): Personaje a mover #, posicionX 5 posicionY 3
+[TRACE] 01:59:30:592 nivel1/(10097:10097): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 01:59:30:693 nivel1/(10097:10097): Personaje a mover #, posicionX 6 posicionY 3
+[TRACE] 01:59:30:693 nivel1/(10097:10097): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 01:59:31:294 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 19
+[TRACE] 01:59:31:294 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 19
+
+[TRACE] 01:59:31:394 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 20
+[TRACE] 01:59:31:394 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 20
+
+[TRACE] 01:59:31:496 nivel1/(10097:10097): Personaje a mover @, posicionX 50 posicionY 21
+[TRACE] 01:59:31:496 nivel1/(10097:10097): Movimiento personaje: x: 50, y: 21
+
+[TRACE] 01:59:32:97 nivel1/(10097:10097): Personaje a mover #, posicionX 7 posicionY 3
+[TRACE] 01:59:32:97 nivel1/(10097:10097): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 01:59:32:198 nivel1/(10097:10097): Personaje a mover #, posicionX 8 posicionY 3
+[TRACE] 01:59:32:198 nivel1/(10097:10097): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 01:59:32:298 nivel1/(10097:10097): Personaje a mover #, posicionX 9 posicionY 3
+[TRACE] 01:59:32:298 nivel1/(10097:10097): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 01:59:46:704 nivel1/(10097:10102): Deadlock check started.
+[TRACE] 02:11:55:485 nivel1/(10450:10450): Acepto Personaje: en Socket: 8
+[TRACE] 02:11:55:485 nivel1/(10450:10450): Pedido posicion recurso: H
+[TRACE] 02:11:55:586 nivel1/(10450:10450): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 02:11:55:586 nivel1/(10450:10450): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 02:11:55:686 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 02:11:55:686 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 02:11:55:769 nivel1/(10450:10450): Acepto Personaje: en Socket: 9
+[TRACE] 02:11:55:788 nivel1/(10450:10450): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 02:11:55:788 nivel1/(10450:10450): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 02:11:56:288 nivel1/(10450:10450): Pedido posicion recurso: F
+[TRACE] 02:11:56:390 nivel1/(10450:10450): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 02:11:56:390 nivel1/(10450:10450): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 02:11:56:490 nivel1/(10450:10450): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 02:11:56:490 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 02:11:56:591 nivel1/(10450:10450): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 02:11:56:591 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 02:11:57:192 nivel1/(10450:10450): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 02:11:57:192 nivel1/(10450:10450): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 02:11:57:293 nivel1/(10450:10450): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 02:11:57:293 nivel1/(10450:10450): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 02:11:57:393 nivel1/(10450:10450): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 02:11:57:393 nivel1/(10450:10450): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 02:11:57:998 nivel1/(10450:10450): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 02:11:57:998 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 02:11:57:998 nivel1/(10450:10450): Recurso a asignar F
+[TRACE] 02:11:58:599 nivel1/(10450:10450): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 02:11:58:599 nivel1/(10450:10450): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 02:11:58:700 nivel1/(10450:10450): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 02:11:58:700 nivel1/(10450:10450): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 02:11:58:801 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 02:11:58:801 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 02:11:59:303 nivel1/(10450:10450): Pedido posicion recurso: H
+[TRACE] 02:11:59:404 nivel1/(10450:10450): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 02:11:59:404 nivel1/(10450:10450): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 02:11:59:505 nivel1/(10450:10450): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 02:11:59:505 nivel1/(10450:10450): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 02:11:59:605 nivel1/(10450:10450): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 02:11:59:606 nivel1/(10450:10450): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 02:11:59:942 nivel1/(10450:10455): Deadlock check started.
+[TRACE] 02:12:01:536 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 02:12:01:536 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 02:12:01:637 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 02:12:01:637 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 02:12:01:739 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 02:12:01:739 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 02:12:02:342 nivel1/(10450:10450): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 02:12:02:342 nivel1/(10450:10450): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 02:12:02:444 nivel1/(10450:10450): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 02:12:02:444 nivel1/(10450:10450): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 02:12:02:544 nivel1/(10450:10450): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 02:12:02:544 nivel1/(10450:10450): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 02:12:03:145 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 02:12:03:145 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 02:12:03:247 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 02:12:03:247 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 02:12:03:349 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 02:12:03:349 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 02:12:03:950 nivel1/(10450:10450): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 02:12:03:950 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 02:12:04:51 nivel1/(10450:10450): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 02:12:04:51 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 02:12:04:151 nivel1/(10450:10450): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 02:12:04:151 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 02:12:04:754 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 02:12:04:754 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 02:12:04:854 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 02:12:04:854 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 02:12:04:955 nivel1/(10450:10450): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 02:12:04:955 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 02:12:05:558 nivel1/(10450:10450): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 02:12:05:558 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 02:12:05:659 nivel1/(10450:10450): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 02:12:05:659 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 02:12:05:760 nivel1/(10450:10450): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 02:12:05:761 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 02:12:06:263 nivel1/(10450:10450): Recurso a asignar H
+[TRACE] 02:12:06:865 nivel1/(10450:10450): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 02:12:06:865 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 02:12:06:966 nivel1/(10450:10450): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 02:12:06:966 nivel1/(10450:10450): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 02:12:06:966 nivel1/(10450:10450): Recurso bloqueado H
+[TRACE] 02:12:06:967 nivel1/(10450:10450): Pedido posicion recurso: F
+[TRACE] 02:12:07:67 nivel1/(10450:10450): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 02:12:07:67 nivel1/(10450:10450): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 02:12:07:168 nivel1/(10450:10450): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 02:12:07:168 nivel1/(10450:10450): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 02:12:07:269 nivel1/(10450:10450): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 02:12:07:269 nivel1/(10450:10450): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 02:12:07:871 nivel1/(10450:10450): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 02:12:07:871 nivel1/(10450:10450): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 02:12:07:972 nivel1/(10450:10450): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 02:12:07:972 nivel1/(10450:10450): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 02:12:08:72 nivel1/(10450:10450): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 02:12:08:72 nivel1/(10450:10450): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 02:12:08:676 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 02:12:08:676 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 02:12:08:777 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 02:12:08:777 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 02:12:08:877 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 02:12:08:877 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 02:12:09:478 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 02:12:09:479 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 02:12:09:579 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 02:12:09:579 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 02:12:09:680 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 02:12:09:680 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 02:12:10:281 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 02:12:10:281 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 02:12:10:382 nivel1/(10450:10450): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 02:12:10:382 nivel1/(10450:10450): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 02:12:10:382 nivel1/(10450:10450): Recurso bloqueado F
+[TRACE] 02:12:11:538 nivel1/(10450:10455): Deadlock check started.
+[INFO] 02:15:28:60 nivel1/(10450:10455): Cantidad de Personajes en Deadlock: 2
+[TRACE] 02:15:28:60 nivel1/(10450:10455): Mando al orquestador personaje a matar.
+[TRACE] 02:15:40:288 nivel1/(10450:10450): Acepto Personaje: en Socket: 8
+[TRACE] 02:15:40:288 nivel1/(10450:10450): Pedido posicion recurso: H
+[TRACE] 02:20:33:944 nivel1/(10450:10450): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 02:20:33:944 nivel1/(10450:10450): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 02:50:45:66 nivel1/(12095:12095): Acepto Personaje: en Socket: 8
+[TRACE] 02:50:45:66 nivel1/(12095:12095): Pedido posicion recurso: H
+[TRACE] 02:50:45:167 nivel1/(12095:12095): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 02:50:45:167 nivel1/(12095:12095): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 02:50:45:267 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 02:50:45:267 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 02:50:45:321 nivel1/(12095:12095): Acepto Personaje: en Socket: 9
+[TRACE] 02:50:45:367 nivel1/(12095:12095): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 02:50:45:367 nivel1/(12095:12095): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 02:50:45:868 nivel1/(12095:12095): Pedido posicion recurso: F
+[TRACE] 02:50:45:969 nivel1/(12095:12095): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 02:50:45:969 nivel1/(12095:12095): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 02:50:46:70 nivel1/(12095:12095): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 02:50:46:70 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 02:50:46:172 nivel1/(12095:12095): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 02:50:46:172 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 02:50:46:773 nivel1/(12095:12095): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 02:50:46:773 nivel1/(12095:12095): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 02:50:46:874 nivel1/(12095:12095): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 02:50:46:874 nivel1/(12095:12095): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 02:50:46:976 nivel1/(12095:12095): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 02:50:46:976 nivel1/(12095:12095): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 02:50:47:513 nivel1/(12095:12101): Deadlock check started.
+[TRACE] 02:50:48:949 nivel1/(12095:12095): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 02:50:48:949 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 02:50:48:949 nivel1/(12095:12095): Recurso a asignar F
+[TRACE] 02:50:49:550 nivel1/(12095:12095): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 02:50:49:550 nivel1/(12095:12095): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 02:50:49:651 nivel1/(12095:12095): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 02:50:49:651 nivel1/(12095:12095): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 02:50:49:753 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 02:50:49:753 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 02:50:50:253 nivel1/(12095:12095): Pedido posicion recurso: H
+[TRACE] 02:50:50:354 nivel1/(12095:12095): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 02:50:50:354 nivel1/(12095:12095): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 02:50:50:455 nivel1/(12095:12095): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 02:50:50:455 nivel1/(12095:12095): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 02:50:50:555 nivel1/(12095:12095): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 02:50:50:556 nivel1/(12095:12095): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 02:50:51:158 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 02:50:51:158 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 02:50:51:259 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 02:50:51:259 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 02:50:51:361 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 02:50:51:361 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 02:50:51:963 nivel1/(12095:12095): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 02:50:51:963 nivel1/(12095:12095): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 02:50:52:64 nivel1/(12095:12095): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 02:50:52:64 nivel1/(12095:12095): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 02:50:52:164 nivel1/(12095:12095): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 02:50:52:164 nivel1/(12095:12095): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 02:50:52:765 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 02:50:52:765 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 02:50:52:867 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 02:50:52:867 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 02:50:52:969 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 02:50:52:969 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 02:50:53:571 nivel1/(12095:12095): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 02:50:53:572 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 02:50:53:672 nivel1/(12095:12095): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 02:50:53:672 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 02:50:53:773 nivel1/(12095:12095): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 02:50:53:773 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 02:50:54:375 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 02:50:54:376 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 02:50:54:477 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 02:50:54:477 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 02:50:54:578 nivel1/(12095:12095): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 02:50:54:578 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 02:50:55:181 nivel1/(12095:12095): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 02:50:55:181 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 02:50:55:282 nivel1/(12095:12095): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 02:50:55:283 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 02:50:55:388 nivel1/(12095:12095): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 02:50:55:388 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 02:50:55:889 nivel1/(12095:12095): Recurso a asignar H
+[TRACE] 02:50:56:491 nivel1/(12095:12095): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 02:50:56:491 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 02:50:56:591 nivel1/(12095:12095): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 02:50:56:591 nivel1/(12095:12095): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 02:50:56:591 nivel1/(12095:12095): Recurso bloqueado H
+[TRACE] 02:50:56:592 nivel1/(12095:12095): Pedido posicion recurso: F
+[TRACE] 02:50:56:692 nivel1/(12095:12095): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 02:50:56:692 nivel1/(12095:12095): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 02:50:56:793 nivel1/(12095:12095): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 02:50:56:793 nivel1/(12095:12095): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 02:50:56:895 nivel1/(12095:12095): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 02:50:56:895 nivel1/(12095:12095): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 02:50:57:497 nivel1/(12095:12095): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 02:50:57:497 nivel1/(12095:12095): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 02:50:57:599 nivel1/(12095:12095): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 02:50:57:599 nivel1/(12095:12095): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 02:50:57:699 nivel1/(12095:12095): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 02:50:57:700 nivel1/(12095:12095): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 02:50:58:303 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 02:50:58:303 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 02:50:58:405 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 02:50:58:405 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 02:50:58:506 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 02:50:58:506 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 02:50:58:950 nivel1/(12095:12101): Deadlock check started.
+[TRACE] 02:51:00:475 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 02:51:00:475 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 02:51:00:576 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 02:51:00:576 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 02:51:00:676 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 02:51:00:677 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 02:51:01:279 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 02:51:01:279 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 02:51:01:379 nivel1/(12095:12095): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 02:51:01:379 nivel1/(12095:12095): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 02:51:01:380 nivel1/(12095:12095): Recurso bloqueado F
+[TRACE] 02:51:10:476 nivel1/(12095:12101): Deadlock check started.
+[INFO] 02:51:11:94 nivel1/(12095:12101): Cantidad de Personajes en Deadlock: 2
+[TRACE] 02:51:11:94 nivel1/(12095:12101): Mando al orquestador personaje a matar.
+[TRACE] 02:53:03:245 nivel1/(12095:12095): Recurso a asignar H
+[TRACE] 02:53:03:922 nivel1/(12095:12095): Pedido posicion recurso: B
+[TRACE] 02:53:16:624 nivel1/(12095:12095): Personaje a mover @, posicionX 11 posicionY 10
+[TRACE] 02:53:16:624 nivel1/(12095:12095): Movimiento personaje: x: 11, y: 10
+
+[TRACE] 02:53:21:149 nivel1/(12095:12095): Personaje a mover @, posicionX 12 posicionY 10
+[TRACE] 02:53:21:149 nivel1/(12095:12095): Movimiento personaje: x: 12, y: 10
+
+[TRACE] 02:53:22:603 nivel1/(12095:12095): Personaje a mover @, posicionX 13 posicionY 10
+[TRACE] 02:53:22:603 nivel1/(12095:12095): Movimiento personaje: x: 13, y: 10
+
+[TRACE] 02:53:42:742 nivel1/(12095:12095): Personaje a mover @, posicionX 14 posicionY 10
+[TRACE] 02:53:42:742 nivel1/(12095:12095): Movimiento personaje: x: 14, y: 10
+
+[TRACE] 02:53:44:200 nivel1/(12095:12095): Personaje a mover @, posicionX 15 posicionY 10
+[TRACE] 02:53:44:200 nivel1/(12095:12095): Movimiento personaje: x: 15, y: 10
+
+[TRACE] 03:01:16:599 nivel1/(12599:12599): Acepto Personaje: en Socket: 8
+[TRACE] 03:01:16:599 nivel1/(12599:12599): Pedido posicion recurso: H
+[TRACE] 03:01:16:700 nivel1/(12599:12599): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 03:01:16:700 nivel1/(12599:12599): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 03:01:16:801 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 03:01:16:801 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 03:01:16:830 nivel1/(12599:12599): Acepto Personaje: en Socket: 9
+[TRACE] 03:01:16:901 nivel1/(12599:12599): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 03:01:16:901 nivel1/(12599:12599): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 03:01:17:403 nivel1/(12599:12599): Pedido posicion recurso: F
+[TRACE] 03:01:17:504 nivel1/(12599:12599): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 03:01:17:504 nivel1/(12599:12599): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 03:01:17:604 nivel1/(12599:12599): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 03:01:17:604 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 03:01:17:704 nivel1/(12599:12599): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 03:01:17:704 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 03:01:18:225 nivel1/(12599:12605): Deadlock check started.
+[TRACE] 03:01:19:699 nivel1/(12599:12599): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 03:01:19:699 nivel1/(12599:12599): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 03:01:19:802 nivel1/(12599:12599): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 03:01:19:802 nivel1/(12599:12599): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 03:01:19:903 nivel1/(12599:12599): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 03:01:19:903 nivel1/(12599:12599): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 03:01:20:505 nivel1/(12599:12599): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 03:01:20:505 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 03:01:20:506 nivel1/(12599:12599): Recurso a asignar F
+[TRACE] 03:01:21:107 nivel1/(12599:12599): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 03:01:21:107 nivel1/(12599:12599): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 03:01:21:207 nivel1/(12599:12599): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 03:01:21:207 nivel1/(12599:12599): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 03:01:21:309 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 03:01:21:309 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 03:01:21:811 nivel1/(12599:12599): Pedido posicion recurso: H
+[TRACE] 03:01:21:912 nivel1/(12599:12599): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 03:01:21:912 nivel1/(12599:12599): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 03:01:22:13 nivel1/(12599:12599): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 03:01:22:13 nivel1/(12599:12599): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 03:01:22:114 nivel1/(12599:12599): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 03:01:22:114 nivel1/(12599:12599): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 03:01:22:715 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 03:01:22:716 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 03:01:22:816 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 03:01:22:816 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 03:01:22:917 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 03:01:22:917 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 03:01:23:518 nivel1/(12599:12599): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 03:01:23:518 nivel1/(12599:12599): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 03:01:23:618 nivel1/(12599:12599): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 03:01:23:618 nivel1/(12599:12599): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 03:01:23:719 nivel1/(12599:12599): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 03:01:23:719 nivel1/(12599:12599): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 03:01:24:321 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 03:01:24:321 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 03:01:24:422 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 03:01:24:422 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 03:01:24:522 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 03:01:24:522 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 03:01:25:124 nivel1/(12599:12599): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 03:01:25:124 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 03:01:25:224 nivel1/(12599:12599): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 03:01:25:224 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 03:01:25:326 nivel1/(12599:12599): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 03:01:25:326 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 03:01:25:928 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 03:01:25:928 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 03:01:26:29 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 03:01:26:29 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 03:01:26:129 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 03:01:26:129 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 03:01:26:731 nivel1/(12599:12599): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 03:01:26:731 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 03:01:26:831 nivel1/(12599:12599): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 03:01:26:831 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 03:01:26:933 nivel1/(12599:12599): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 03:01:26:933 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 03:01:27:434 nivel1/(12599:12599): Recurso a asignar H
+[TRACE] 03:01:28:37 nivel1/(12599:12599): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 03:01:28:37 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 03:01:28:138 nivel1/(12599:12599): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 03:01:28:138 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 03:01:28:139 nivel1/(12599:12599): Recurso bloqueado H
+[TRACE] 03:01:28:139 nivel1/(12599:12599): Pedido posicion recurso: F
+[TRACE] 03:01:28:240 nivel1/(12599:12599): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 03:01:28:240 nivel1/(12599:12599): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 03:01:28:341 nivel1/(12599:12599): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 03:01:28:342 nivel1/(12599:12599): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 03:01:28:443 nivel1/(12599:12599): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 03:01:28:443 nivel1/(12599:12599): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 03:01:29:45 nivel1/(12599:12599): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 03:01:29:45 nivel1/(12599:12599): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 03:01:29:145 nivel1/(12599:12599): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 03:01:29:145 nivel1/(12599:12599): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 03:01:29:246 nivel1/(12599:12599): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 03:01:29:246 nivel1/(12599:12599): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 03:01:29:700 nivel1/(12599:12605): Deadlock check started.
+[TRACE] 03:01:32:213 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 03:01:32:213 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 03:01:32:314 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 03:01:32:314 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 03:01:32:414 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 03:01:32:415 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 03:01:33:15 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 03:01:33:16 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 03:01:33:116 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 03:01:33:116 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 03:01:33:217 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 03:01:33:217 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 03:01:33:820 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 03:01:33:820 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 03:01:33:921 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 03:01:33:921 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 03:01:33:921 nivel1/(12599:12599): Recurso bloqueado F
+[TRACE] 03:01:42:214 nivel1/(12599:12605): Deadlock check started.
+[INFO] 03:01:44:908 nivel1/(12599:12605): Cantidad de Personajes en Deadlock: 2
+[TRACE] 03:01:44:908 nivel1/(12599:12605): Mando al orquestador personaje a matar.
+[TRACE] 03:06:00:210 nivel1/(12599:12599): Recurso a asignar H
+[TRACE] 03:06:00:824 nivel1/(12599:12599): Pedido posicion recurso: B
+[TRACE] 03:06:03:205 nivel1/(12599:12599): Personaje a mover @, posicionX 11 posicionY 10
+[TRACE] 03:06:03:205 nivel1/(12599:12599): Movimiento personaje: x: 11, y: 10
+
+[TRACE] 03:06:03:829 nivel1/(12599:12599): Personaje a mover @, posicionX 12 posicionY 10
+[TRACE] 03:06:03:829 nivel1/(12599:12599): Movimiento personaje: x: 12, y: 10
+
+[TRACE] 03:06:05:445 nivel1/(12599:12599): Personaje a mover @, posicionX 13 posicionY 10
+[TRACE] 03:06:05:445 nivel1/(12599:12599): Movimiento personaje: x: 13, y: 10
+
+[TRACE] 03:06:06:69 nivel1/(12599:12599): Personaje a mover @, posicionX 14 posicionY 10
+[TRACE] 03:06:06:69 nivel1/(12599:12599): Movimiento personaje: x: 14, y: 10
+
+[TRACE] 03:06:07:954 nivel1/(12599:12599): Personaje a mover @, posicionX 15 posicionY 10
+[TRACE] 03:06:07:954 nivel1/(12599:12599): Movimiento personaje: x: 15, y: 10
+
+[TRACE] 03:06:07:957 nivel1/(12599:12605): El Personaje # fue eliminado por deadlock
+[TRACE] 03:06:10:764 nivel1/(12599:12599): Personaje a mover @, posicionX 16 posicionY 10
+[TRACE] 03:06:10:764 nivel1/(12599:12599): Movimiento personaje: x: 16, y: 10
+
+[TRACE] 03:06:11:877 nivel1/(12599:12599): Personaje a mover @, posicionX 17 posicionY 10
+[TRACE] 03:06:11:877 nivel1/(12599:12599): Movimiento personaje: x: 17, y: 10
+
+[TRACE] 03:06:11:880 nivel1/(12599:12599): Acepto Personaje: en Socket: 8
+[TRACE] 03:06:13:314 nivel1/(12599:12599): Personaje a mover @, posicionX 18 posicionY 10
+[TRACE] 03:06:13:314 nivel1/(12599:12599): Movimiento personaje: x: 18, y: 10
+
+[TRACE] 03:06:18:881 nivel1/(12599:12599): Personaje a mover @, posicionX 19 posicionY 10
+[TRACE] 03:06:18:881 nivel1/(12599:12599): Movimiento personaje: x: 19, y: 10
+
+[TRACE] 03:06:19:382 nivel1/(12599:12599): Pedido posicion recurso: H
+[TRACE] 03:06:19:484 nivel1/(12599:12599): Personaje a mover #, posicionX 2 posicionY 1
+[TRACE] 03:06:19:484 nivel1/(12599:12599): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 03:06:19:584 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 1
+[TRACE] 03:06:19:584 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 03:06:19:685 nivel1/(12599:12599): Personaje a mover #, posicionX 4 posicionY 1
+[TRACE] 03:06:19:685 nivel1/(12599:12599): Movimiento personaje: x: 4, y: 1
+
+[TRACE] 03:06:20:288 nivel1/(12599:12599): Personaje a mover @, posicionX 20 posicionY 10
+[TRACE] 03:06:20:288 nivel1/(12599:12599): Movimiento personaje: x: 20, y: 10
+
+[TRACE] 03:06:20:388 nivel1/(12599:12599): Personaje a mover @, posicionX 21 posicionY 10
+[TRACE] 03:06:20:388 nivel1/(12599:12599): Movimiento personaje: x: 21, y: 10
+
+[TRACE] 03:06:20:489 nivel1/(12599:12599): Personaje a mover @, posicionX 22 posicionY 10
+[TRACE] 03:06:20:489 nivel1/(12599:12599): Movimiento personaje: x: 22, y: 10
+
+[TRACE] 03:06:21:90 nivel1/(12599:12599): Personaje a mover #, posicionX 5 posicionY 1
+[TRACE] 03:06:21:90 nivel1/(12599:12599): Movimiento personaje: x: 5, y: 1
+
+[TRACE] 03:06:21:191 nivel1/(12599:12599): Personaje a mover #, posicionX 6 posicionY 1
+[TRACE] 03:06:21:191 nivel1/(12599:12599): Movimiento personaje: x: 6, y: 1
+
+[TRACE] 03:06:21:291 nivel1/(12599:12599): Personaje a mover #, posicionX 7 posicionY 1
+[TRACE] 03:06:21:291 nivel1/(12599:12599): Movimiento personaje: x: 7, y: 1
+
+[TRACE] 03:06:21:892 nivel1/(12599:12599): Personaje a mover @, posicionX 23 posicionY 10
+[TRACE] 03:06:21:893 nivel1/(12599:12599): Movimiento personaje: x: 23, y: 10
+
+[TRACE] 03:06:21:993 nivel1/(12599:12599): Personaje a mover @, posicionX 24 posicionY 10
+[TRACE] 03:06:21:993 nivel1/(12599:12599): Movimiento personaje: x: 24, y: 10
+
+[TRACE] 03:06:22:93 nivel1/(12599:12599): Personaje a mover @, posicionX 25 posicionY 10
+[TRACE] 03:06:22:93 nivel1/(12599:12599): Movimiento personaje: x: 25, y: 10
+
+[TRACE] 03:06:22:695 nivel1/(12599:12599): Personaje a mover #, posicionX 8 posicionY 1
+[TRACE] 03:06:22:695 nivel1/(12599:12599): Movimiento personaje: x: 8, y: 1
+
+[TRACE] 03:06:22:797 nivel1/(12599:12599): Personaje a mover #, posicionX 9 posicionY 1
+[TRACE] 03:06:22:797 nivel1/(12599:12599): Movimiento personaje: x: 9, y: 1
+
+[TRACE] 03:06:22:898 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 1
+[TRACE] 03:06:22:899 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 1
+
+[TRACE] 03:06:23:500 nivel1/(12599:12599): Personaje a mover @, posicionX 26 posicionY 10
+[TRACE] 03:06:23:500 nivel1/(12599:12599): Movimiento personaje: x: 26, y: 10
+
+[TRACE] 03:06:23:602 nivel1/(12599:12599): Personaje a mover @, posicionX 27 posicionY 10
+[TRACE] 03:06:23:602 nivel1/(12599:12599): Movimiento personaje: x: 27, y: 10
+
+[TRACE] 03:06:23:703 nivel1/(12599:12599): Personaje a mover @, posicionX 28 posicionY 10
+[TRACE] 03:06:23:703 nivel1/(12599:12599): Movimiento personaje: x: 28, y: 10
+
+[TRACE] 03:06:24:307 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 2
+[TRACE] 03:06:24:307 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 2
+
+[TRACE] 03:06:24:408 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 3
+[TRACE] 03:06:24:408 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 03:06:24:509 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 4
+[TRACE] 03:06:24:509 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 03:06:25:112 nivel1/(12599:12599): Personaje a mover @, posicionX 29 posicionY 10
+[TRACE] 03:06:25:112 nivel1/(12599:12599): Movimiento personaje: x: 29, y: 10
+
+[TRACE] 03:06:25:212 nivel1/(12599:12599): Personaje a mover @, posicionX 30 posicionY 10
+[TRACE] 03:06:25:212 nivel1/(12599:12599): Movimiento personaje: x: 30, y: 10
+
+[TRACE] 03:06:25:313 nivel1/(12599:12599): Personaje a mover @, posicionX 31 posicionY 10
+[TRACE] 03:06:25:313 nivel1/(12599:12599): Movimiento personaje: x: 31, y: 10
+
+[TRACE] 03:06:25:915 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 5
+[TRACE] 03:06:25:915 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 03:06:26:16 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 6
+[TRACE] 03:06:26:16 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 03:06:26:117 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 7
+[TRACE] 03:06:26:117 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 03:06:26:718 nivel1/(12599:12599): Personaje a mover @, posicionX 32 posicionY 10
+[TRACE] 03:06:26:718 nivel1/(12599:12599): Movimiento personaje: x: 32, y: 10
+
+[TRACE] 03:06:26:819 nivel1/(12599:12599): Personaje a mover @, posicionX 33 posicionY 10
+[TRACE] 03:06:26:819 nivel1/(12599:12599): Movimiento personaje: x: 33, y: 10
+
+[TRACE] 03:06:26:919 nivel1/(12599:12599): Personaje a mover @, posicionX 34 posicionY 10
+[TRACE] 03:06:26:919 nivel1/(12599:12599): Movimiento personaje: x: 34, y: 10
+
+[TRACE] 03:06:27:521 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 8
+[TRACE] 03:06:27:521 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 03:06:27:622 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 9
+[TRACE] 03:06:27:622 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 03:06:27:723 nivel1/(12599:12599): Personaje a mover #, posicionX 10 posicionY 10
+[TRACE] 03:06:27:723 nivel1/(12599:12599): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 03:06:28:325 nivel1/(12599:12599): Personaje a mover @, posicionX 35 posicionY 10
+[TRACE] 03:06:28:326 nivel1/(12599:12599): Movimiento personaje: x: 35, y: 10
+
+[TRACE] 03:06:28:426 nivel1/(12599:12599): Personaje a mover @, posicionX 36 posicionY 10
+[TRACE] 03:06:28:426 nivel1/(12599:12599): Movimiento personaje: x: 36, y: 10
+
+[TRACE] 03:06:28:527 nivel1/(12599:12599): Personaje a mover @, posicionX 37 posicionY 10
+[TRACE] 03:06:28:527 nivel1/(12599:12599): Movimiento personaje: x: 37, y: 10
+
+[TRACE] 03:06:28:881 nivel1/(12599:12605): Deadlock check started.
+[TRACE] 03:06:31:858 nivel1/(12599:12599): Recurso bloqueado H
+[INFO] 03:06:31:859 nivel1/(12599:12605): Cantidad de Personajes en Deadlock: 2
+[TRACE] 03:06:31:859 nivel1/(12599:12605): Mando al orquestador personaje a matar.
+[TRACE] 03:07:21:220 nivel1/(12599:12599): Personaje a mover @, posicionX 38 posicionY 10
+[TRACE] 03:07:21:220 nivel1/(12599:12599): Movimiento personaje: x: 38, y: 10
+
+[TRACE] 03:08:10:511 nivel1/(12599:12599): Personaje a mover @, posicionX 39 posicionY 10
+[TRACE] 03:08:10:511 nivel1/(12599:12599): Movimiento personaje: x: 39, y: 10
+
+[TRACE] 03:08:14:684 nivel1/(12599:12599): Personaje a mover @, posicionX 40 posicionY 10
+[TRACE] 03:08:14:685 nivel1/(12599:12599): Movimiento personaje: x: 40, y: 10
+
+[TRACE] 03:08:14:685 nivel1/(12599:12605): El Personaje @ fue eliminado por deadlock
+[TRACE] 03:08:15:186 nivel1/(12599:12599): Recurso a asignar H
+[TRACE] 03:08:15:788 nivel1/(12599:12599): Personaje a mover @, posicionX 41 posicionY 10
+[TRACE] 03:08:15:788 nivel1/(12599:12599): Movimiento personaje: x: 41, y: 10
+
+[TRACE] 03:08:15:888 nivel1/(12599:12599): Personaje a mover @, posicionX 42 posicionY 10
+[TRACE] 03:08:15:888 nivel1/(12599:12599): Movimiento personaje: x: 42, y: 10
+
+[TRACE] 03:08:15:990 nivel1/(12599:12599): Personaje a mover @, posicionX 43 posicionY 10
+[TRACE] 03:08:15:990 nivel1/(12599:12599): Movimiento personaje: x: 43, y: 10
+
+[TRACE] 03:08:16:491 nivel1/(12599:12599): Pedido posicion recurso: F
+[TRACE] 03:08:16:592 nivel1/(12599:12599): Personaje a mover #, posicionX 9 posicionY 10
+[TRACE] 03:08:16:592 nivel1/(12599:12599): Movimiento personaje: x: 9, y: 10
+
+[TRACE] 03:08:16:693 nivel1/(12599:12599): Personaje a mover #, posicionX 8 posicionY 10
+[TRACE] 03:08:16:693 nivel1/(12599:12599): Movimiento personaje: x: 8, y: 10
+
+[TRACE] 03:08:16:794 nivel1/(12599:12599): Personaje a mover #, posicionX 7 posicionY 10
+[TRACE] 03:08:16:794 nivel1/(12599:12599): Movimiento personaje: x: 7, y: 10
+
+[TRACE] 03:08:17:395 nivel1/(12599:12599): Personaje a mover @, posicionX 44 posicionY 10
+[TRACE] 03:08:17:395 nivel1/(12599:12599): Movimiento personaje: x: 44, y: 10
+
+[TRACE] 03:08:17:496 nivel1/(12599:12599): Personaje a mover @, posicionX 45 posicionY 10
+[TRACE] 03:08:17:496 nivel1/(12599:12599): Movimiento personaje: x: 45, y: 10
+
+[TRACE] 03:08:17:596 nivel1/(12599:12599): Personaje a mover @, posicionX 46 posicionY 10
+[TRACE] 03:08:17:596 nivel1/(12599:12599): Movimiento personaje: x: 46, y: 10
+
+[TRACE] 03:08:18:197 nivel1/(12599:12599): Personaje a mover #, posicionX 6 posicionY 10
+[TRACE] 03:08:18:197 nivel1/(12599:12599): Movimiento personaje: x: 6, y: 10
+
+[TRACE] 03:08:18:298 nivel1/(12599:12599): Personaje a mover #, posicionX 5 posicionY 10
+[TRACE] 03:08:18:298 nivel1/(12599:12599): Movimiento personaje: x: 5, y: 10
+
+[TRACE] 03:08:18:398 nivel1/(12599:12599): Personaje a mover #, posicionX 4 posicionY 10
+[TRACE] 03:08:18:398 nivel1/(12599:12599): Movimiento personaje: x: 4, y: 10
+
+[TRACE] 03:08:18:1 nivel1/(12599:12599): Personaje a mover @, posicionX 47 posicionY 10
+[TRACE] 03:08:18:1 nivel1/(12599:12599): Movimiento personaje: x: 47, y: 10
+
+[TRACE] 03:08:19:103 nivel1/(12599:12599): Personaje a mover @, posicionX 48 posicionY 10
+[TRACE] 03:08:19:103 nivel1/(12599:12599): Movimiento personaje: x: 48, y: 10
+
+[TRACE] 03:08:19:204 nivel1/(12599:12599): Personaje a mover @, posicionX 49 posicionY 10
+[TRACE] 03:08:19:204 nivel1/(12599:12599): Movimiento personaje: x: 49, y: 10
+
+[TRACE] 03:08:19:805 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 10
+[TRACE] 03:08:19:805 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 10
+
+[TRACE] 03:08:19:905 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 9
+[TRACE] 03:08:19:905 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 9
+
+[TRACE] 03:08:20:6 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 8
+[TRACE] 03:08:20:6 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 8
+
+[TRACE] 03:08:20:607 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 10
+[TRACE] 03:08:20:607 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 10
+
+[TRACE] 03:08:20:707 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 11
+[TRACE] 03:08:20:707 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 11
+
+[TRACE] 03:08:20:808 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 12
+[TRACE] 03:08:20:808 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 12
+
+[TRACE] 03:08:21:410 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 7
+[TRACE] 03:08:21:410 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 7
+
+[TRACE] 03:08:21:510 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 6
+[TRACE] 03:08:21:510 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 6
+
+[TRACE] 03:08:21:611 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 5
+[TRACE] 03:08:21:611 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 5
+
+[TRACE] 03:08:22:214 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 13
+[TRACE] 03:08:22:214 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 13
+
+[TRACE] 03:08:22:316 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 14
+[TRACE] 03:08:22:316 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 14
+
+[TRACE] 03:08:22:417 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 15
+[TRACE] 03:08:22:417 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 15
+
+[TRACE] 03:08:23:19 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 4
+[TRACE] 03:08:23:19 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 4
+
+[TRACE] 03:08:23:119 nivel1/(12599:12599): Personaje a mover #, posicionX 3 posicionY 3
+[TRACE] 03:08:23:119 nivel1/(12599:12599): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 03:08:23:119 nivel1/(12599:12599): Recurso a asignar F
+[TRACE] 03:08:23:721 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 16
+[TRACE] 03:08:23:721 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 16
+
+[TRACE] 03:08:23:821 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 17
+[TRACE] 03:08:23:821 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 17
+
+[TRACE] 03:08:23:922 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 18
+[TRACE] 03:08:23:922 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 18
+
+[TRACE] 03:08:24:423 nivel1/(12599:12599): Pedido posicion recurso: B
+[TRACE] 03:08:24:524 nivel1/(12599:12599): Personaje a mover #, posicionX 4 posicionY 3
+[TRACE] 03:08:24:524 nivel1/(12599:12599): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 03:08:24:624 nivel1/(12599:12599): Personaje a mover #, posicionX 5 posicionY 3
+[TRACE] 03:08:24:624 nivel1/(12599:12599): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 03:08:24:725 nivel1/(12599:12599): Personaje a mover #, posicionX 6 posicionY 3
+[TRACE] 03:08:24:726 nivel1/(12599:12599): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 03:08:25:187 nivel1/(12599:12605): Deadlock check started.
+[TRACE] 03:08:26:976 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 19
+[TRACE] 03:08:26:976 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 19
+
+[TRACE] 03:08:27:77 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 20
+[TRACE] 03:08:27:77 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 20
+
+[TRACE] 03:08:27:177 nivel1/(12599:12599): Personaje a mover @, posicionX 50 posicionY 21
+[TRACE] 03:08:27:177 nivel1/(12599:12599): Movimiento personaje: x: 50, y: 21
+
+[TRACE] 03:08:27:778 nivel1/(12599:12599): Personaje a mover #, posicionX 7 posicionY 3
+[TRACE] 03:08:27:778 nivel1/(12599:12599): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 03:08:27:879 nivel1/(12599:12599): Personaje a mover #, posicionX 8 posicionY 3
+[TRACE] 03:08:27:879 nivel1/(12599:12599): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 03:08:27:979 nivel1/(12599:12599): Personaje a mover #, posicionX 9 posicionY 3
+[TRACE] 03:08:27:979 nivel1/(12599:12599): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 03:12:08:867 nivel1/(13044:13044): Acepto Personaje: en Socket: 8
+[TRACE] 03:12:08:867 nivel1/(13044:13044): Pedido posicion recurso: F
+[TRACE] 03:12:08:967 nivel1/(13044:13044): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 03:12:08:967 nivel1/(13044:13044): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 03:12:09:68 nivel1/(13044:13044): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 03:12:09:68 nivel1/(13044:13044): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 03:12:09:168 nivel1/(13044:13044): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 03:12:09:168 nivel1/(13044:13044): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 03:12:09:770 nivel1/(13044:13044): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 03:12:09:770 nivel1/(13044:13044): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 03:12:09:770 nivel1/(13044:13044): Recurso a asignar F
+[TRACE] 03:12:10:271 nivel1/(13044:13044): Pedido posicion recurso: H
+[TRACE] 03:12:10:371 nivel1/(13044:13044): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 03:12:10:371 nivel1/(13044:13044): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 03:12:10:472 nivel1/(13044:13044): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 03:12:10:472 nivel1/(13044:13044): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 03:12:10:573 nivel1/(13044:13044): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 03:12:10:573 nivel1/(13044:13044): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 03:12:11:175 nivel1/(13044:13044): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 03:12:11:175 nivel1/(13044:13044): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 03:12:11:277 nivel1/(13044:13044): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 03:12:11:277 nivel1/(13044:13044): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 03:12:11:377 nivel1/(13044:13044): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 03:12:11:377 nivel1/(13044:13044): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 03:12:11:978 nivel1/(13044:13044): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 03:12:11:978 nivel1/(13044:13044): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 03:12:12:79 nivel1/(13044:13044): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 03:12:12:80 nivel1/(13044:13044): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 03:12:12:181 nivel1/(13044:13044): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 03:12:12:181 nivel1/(13044:13044): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 03:12:12:782 nivel1/(13044:13044): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 03:12:12:782 nivel1/(13044:13044): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 03:12:12:883 nivel1/(13044:13044): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 03:12:12:884 nivel1/(13044:13044): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 03:12:12:984 nivel1/(13044:13044): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 03:12:12:984 nivel1/(13044:13044): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 03:12:13:586 nivel1/(13044:13044): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 03:12:13:586 nivel1/(13044:13044): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 03:12:13:687 nivel1/(13044:13044): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 03:12:13:687 nivel1/(13044:13044): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 03:12:13:687 nivel1/(13044:13044): Recurso a asignar H
+[TRACE] 03:12:14:188 nivel1/(13044:13044): Pedido posicion recurso: B
+[TRACE] 03:12:14:290 nivel1/(13044:13044): Personaje a mover @, posicionX 11 posicionY 10
+[TRACE] 03:12:14:290 nivel1/(13044:13044): Movimiento personaje: x: 11, y: 10
+
+[TRACE] 03:12:14:392 nivel1/(13044:13044): Personaje a mover @, posicionX 12 posicionY 10
+[TRACE] 03:12:14:392 nivel1/(13044:13044): Movimiento personaje: x: 12, y: 10
+
+[TRACE] 03:12:14:492 nivel1/(13044:13044): Personaje a mover @, posicionX 13 posicionY 10
+[TRACE] 03:12:14:492 nivel1/(13044:13044): Movimiento personaje: x: 13, y: 10
+
+[TRACE] 03:12:15:93 nivel1/(13044:13044): Personaje a mover @, posicionX 14 posicionY 10
+[TRACE] 03:12:15:93 nivel1/(13044:13044): Movimiento personaje: x: 14, y: 10
+
+[TRACE] 03:12:15:149 nivel1/(13044:13051): Deadlock check started.
+[TRACE] 03:12:19:186 nivel1/(13044:13044): Personaje a mover @, posicionX 15 posicionY 10
+[TRACE] 03:12:19:186 nivel1/(13044:13044): Movimiento personaje: x: 15, y: 10
+
+[TRACE] 03:12:19:286 nivel1/(13044:13044): Personaje a mover @, posicionX 16 posicionY 10
+[TRACE] 03:12:19:286 nivel1/(13044:13044): Movimiento personaje: x: 16, y: 10
+
+[TRACE] 03:12:19:888 nivel1/(13044:13044): Personaje a mover @, posicionX 17 posicionY 10
+[TRACE] 03:12:19:888 nivel1/(13044:13044): Movimiento personaje: x: 17, y: 10
+
+[TRACE] 03:12:19:989 nivel1/(13044:13044): Personaje a mover @, posicionX 18 posicionY 10
+[TRACE] 03:12:19:989 nivel1/(13044:13044): Movimiento personaje: x: 18, y: 10
+
+[TRACE] 03:12:20:89 nivel1/(13044:13044): Personaje a mover @, posicionX 19 posicionY 10
+[TRACE] 03:12:20:89 nivel1/(13044:13044): Movimiento personaje: x: 19, y: 10
+
+[TRACE] 03:12:20:690 nivel1/(13044:13044): Personaje a mover @, posicionX 20 posicionY 10
+[TRACE] 03:12:20:690 nivel1/(13044:13044): Movimiento personaje: x: 20, y: 10
+
+[TRACE] 03:12:20:792 nivel1/(13044:13044): Personaje a mover @, posicionX 21 posicionY 10
+[TRACE] 03:12:20:792 nivel1/(13044:13044): Movimiento personaje: x: 21, y: 10
+
+[TRACE] 03:12:20:892 nivel1/(13044:13044): Personaje a mover @, posicionX 22 posicionY 10
+[TRACE] 03:12:20:892 nivel1/(13044:13044): Movimiento personaje: x: 22, y: 10
+
+[TRACE] 03:12:21:495 nivel1/(13044:13044): Personaje a mover @, posicionX 23 posicionY 10
+[TRACE] 03:12:21:496 nivel1/(13044:13044): Movimiento personaje: x: 23, y: 10
+
+[TRACE] 03:12:21:597 nivel1/(13044:13044): Personaje a mover @, posicionX 24 posicionY 10
+[TRACE] 03:12:21:597 nivel1/(13044:13044): Movimiento personaje: x: 24, y: 10
+
+[TRACE] 03:12:21:699 nivel1/(13044:13044): Personaje a mover @, posicionX 25 posicionY 10
+[TRACE] 03:12:21:699 nivel1/(13044:13044): Movimiento personaje: x: 25, y: 10
+
+[TRACE] 03:12:22:301 nivel1/(13044:13044): Personaje a mover @, posicionX 26 posicionY 10
+[TRACE] 03:12:22:301 nivel1/(13044:13044): Movimiento personaje: x: 26, y: 10
+
+[TRACE] 03:12:22:402 nivel1/(13044:13044): Personaje a mover @, posicionX 27 posicionY 10
+[TRACE] 03:12:22:402 nivel1/(13044:13044): Movimiento personaje: x: 27, y: 10
+
+[TRACE] 03:12:22:503 nivel1/(13044:13044): Personaje a mover @, posicionX 28 posicionY 10
+[TRACE] 03:12:22:503 nivel1/(13044:13044): Movimiento personaje: x: 28, y: 10
+
+[TRACE] 03:12:23:105 nivel1/(13044:13044): Personaje a mover @, posicionX 29 posicionY 10
+[TRACE] 03:12:23:105 nivel1/(13044:13044): Movimiento personaje: x: 29, y: 10
+
+[TRACE] 03:12:23:205 nivel1/(13044:13044): Personaje a mover @, posicionX 30 posicionY 10
+[TRACE] 03:12:23:205 nivel1/(13044:13044): Movimiento personaje: x: 30, y: 10
+
+[TRACE] 03:12:23:306 nivel1/(13044:13044): Personaje a mover @, posicionX 31 posicionY 10
+[TRACE] 03:12:23:306 nivel1/(13044:13044): Movimiento personaje: x: 31, y: 10
+
+[TRACE] 03:12:23:909 nivel1/(13044:13044): Personaje a mover @, posicionX 32 posicionY 10
+[TRACE] 03:12:23:909 nivel1/(13044:13044): Movimiento personaje: x: 32, y: 10
+
+[TRACE] 03:12:24:10 nivel1/(13044:13044): Personaje a mover @, posicionX 33 posicionY 10
+[TRACE] 03:12:24:10 nivel1/(13044:13044): Movimiento personaje: x: 33, y: 10
+
+[TRACE] 03:12:24:111 nivel1/(13044:13044): Personaje a mover @, posicionX 34 posicionY 10
+[TRACE] 03:12:24:111 nivel1/(13044:13044): Movimiento personaje: x: 34, y: 10
+
+[TRACE] 03:12:24:712 nivel1/(13044:13044): Personaje a mover @, posicionX 35 posicionY 10
+[TRACE] 03:12:24:712 nivel1/(13044:13044): Movimiento personaje: x: 35, y: 10
+
+[TRACE] 03:12:24:812 nivel1/(13044:13044): Personaje a mover @, posicionX 36 posicionY 10
+[TRACE] 03:12:24:813 nivel1/(13044:13044): Movimiento personaje: x: 36, y: 10
+
+[TRACE] 03:12:24:913 nivel1/(13044:13044): Personaje a mover @, posicionX 37 posicionY 10
+[TRACE] 03:12:24:913 nivel1/(13044:13044): Movimiento personaje: x: 37, y: 10
+
+[TRACE] 03:12:25:514 nivel1/(13044:13044): Personaje a mover @, posicionX 38 posicionY 10
+[TRACE] 03:12:25:514 nivel1/(13044:13044): Movimiento personaje: x: 38, y: 10
+
+[TRACE] 03:12:25:614 nivel1/(13044:13044): Personaje a mover @, posicionX 39 posicionY 10
+[TRACE] 03:12:25:614 nivel1/(13044:13044): Movimiento personaje: x: 39, y: 10
+
+[TRACE] 03:12:25:715 nivel1/(13044:13044): Personaje a mover @, posicionX 40 posicionY 10
+[TRACE] 03:12:25:715 nivel1/(13044:13044): Movimiento personaje: x: 40, y: 10
+
+[TRACE] 03:12:26:317 nivel1/(13044:13044): Personaje a mover @, posicionX 41 posicionY 10
+[TRACE] 03:12:26:317 nivel1/(13044:13044): Movimiento personaje: x: 41, y: 10
+
+[TRACE] 03:12:26:417 nivel1/(13044:13044): Personaje a mover @, posicionX 42 posicionY 10
+[TRACE] 03:12:26:417 nivel1/(13044:13044): Movimiento personaje: x: 42, y: 10
+
+[TRACE] 03:12:26:518 nivel1/(13044:13044): Personaje a mover @, posicionX 43 posicionY 10
+[TRACE] 03:12:26:518 nivel1/(13044:13044): Movimiento personaje: x: 43, y: 10
+
+[TRACE] 03:12:27:121 nivel1/(13044:13044): Personaje a mover @, posicionX 44 posicionY 10
+[TRACE] 03:12:27:121 nivel1/(13044:13044): Movimiento personaje: x: 44, y: 10
+
+[TRACE] 03:12:27:222 nivel1/(13044:13044): Personaje a mover @, posicionX 45 posicionY 10
+[TRACE] 03:12:27:222 nivel1/(13044:13044): Movimiento personaje: x: 45, y: 10
+
+[TRACE] 03:12:27:324 nivel1/(13044:13044): Personaje a mover @, posicionX 46 posicionY 10
+[TRACE] 03:12:27:324 nivel1/(13044:13044): Movimiento personaje: x: 46, y: 10
+
+[TRACE] 03:12:27:927 nivel1/(13044:13044): Personaje a mover @, posicionX 47 posicionY 10
+[TRACE] 03:12:27:927 nivel1/(13044:13044): Movimiento personaje: x: 47, y: 10
+
+[TRACE] 03:12:28:27 nivel1/(13044:13044): Personaje a mover @, posicionX 48 posicionY 10
+[TRACE] 03:12:28:27 nivel1/(13044:13044): Movimiento personaje: x: 48, y: 10
+
+[TRACE] 03:12:28:129 nivel1/(13044:13044): Personaje a mover @, posicionX 49 posicionY 10
+[TRACE] 03:12:28:129 nivel1/(13044:13044): Movimiento personaje: x: 49, y: 10
+
+[TRACE] 03:12:28:732 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 10
+[TRACE] 03:12:28:732 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 10
+
+[TRACE] 03:12:28:833 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 11
+[TRACE] 03:12:28:833 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 11
+
+[TRACE] 03:12:28:934 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 12
+[TRACE] 03:12:28:934 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 12
+
+[TRACE] 03:12:29:188 nivel1/(13044:13051): Deadlock check started.
+[TRACE] 03:12:30:548 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 13
+[TRACE] 03:12:30:548 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 13
+
+[TRACE] 03:12:30:649 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 14
+[TRACE] 03:12:30:649 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 14
+
+[TRACE] 03:12:30:749 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 15
+[TRACE] 03:12:30:749 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 15
+
+[TRACE] 03:12:31:351 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 16
+[TRACE] 03:12:31:351 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 16
+
+[TRACE] 03:12:31:453 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 17
+[TRACE] 03:12:31:453 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 17
+
+[TRACE] 03:12:31:553 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 18
+[TRACE] 03:12:31:553 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 18
+
+[TRACE] 03:12:32:157 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 19
+[TRACE] 03:12:32:157 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 19
+
+[TRACE] 03:12:32:257 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 20
+[TRACE] 03:12:32:257 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 20
+
+[TRACE] 03:12:32:358 nivel1/(13044:13044): Personaje a mover @, posicionX 50 posicionY 21
+[TRACE] 03:12:32:358 nivel1/(13044:13044): Movimiento personaje: x: 50, y: 21
+
+[TRACE] 03:12:32:859 nivel1/(13044:13044): Recurso a asignar B
+[TRACE] 03:12:35:941 nivel1/(13044:13044): Personaje @ termina.
+[TRACE] 03:12:42:147 nivel1/(13044:13051): Deadlock check started.
+[TRACE] 03:13:34:589 nivel1/(13109:13109): Acepto Personaje: en Socket: 8
+[TRACE] 03:13:34:589 nivel1/(13109:13109): Pedido posicion recurso: F
+[TRACE] 03:13:34:690 nivel1/(13109:13109): Personaje a mover @, posicionX 2 posicionY 1
+[TRACE] 03:13:34:690 nivel1/(13109:13109): Movimiento personaje: x: 2, y: 1
+
+[TRACE] 03:13:34:790 nivel1/(13109:13109): Personaje a mover @, posicionX 3 posicionY 1
+[TRACE] 03:13:34:790 nivel1/(13109:13109): Movimiento personaje: x: 3, y: 1
+
+[TRACE] 03:13:34:890 nivel1/(13109:13109): Personaje a mover @, posicionX 3 posicionY 2
+[TRACE] 03:13:34:891 nivel1/(13109:13109): Movimiento personaje: x: 3, y: 2
+
+[TRACE] 03:13:35:491 nivel1/(13109:13109): Personaje a mover @, posicionX 3 posicionY 3
+[TRACE] 03:13:35:491 nivel1/(13109:13109): Movimiento personaje: x: 3, y: 3
+
+[TRACE] 03:13:35:492 nivel1/(13109:13109): Recurso a asignar F
+[TRACE] 03:13:35:992 nivel1/(13109:13109): Pedido posicion recurso: H
+[TRACE] 03:13:36:93 nivel1/(13109:13109): Personaje a mover @, posicionX 4 posicionY 3
+[TRACE] 03:13:36:93 nivel1/(13109:13109): Movimiento personaje: x: 4, y: 3
+
+[TRACE] 03:13:36:193 nivel1/(13109:13109): Personaje a mover @, posicionX 5 posicionY 3
+[TRACE] 03:13:36:194 nivel1/(13109:13109): Movimiento personaje: x: 5, y: 3
+
+[TRACE] 03:13:36:294 nivel1/(13109:13109): Personaje a mover @, posicionX 6 posicionY 3
+[TRACE] 03:13:36:294 nivel1/(13109:13109): Movimiento personaje: x: 6, y: 3
+
+[TRACE] 03:13:36:896 nivel1/(13109:13109): Personaje a mover @, posicionX 7 posicionY 3
+[TRACE] 03:13:36:896 nivel1/(13109:13109): Movimiento personaje: x: 7, y: 3
+
+[TRACE] 03:13:36:997 nivel1/(13109:13109): Personaje a mover @, posicionX 8 posicionY 3
+[TRACE] 03:13:36:997 nivel1/(13109:13109): Movimiento personaje: x: 8, y: 3
+
+[TRACE] 03:13:37:99 nivel1/(13109:13109): Personaje a mover @, posicionX 9 posicionY 3
+[TRACE] 03:13:37:99 nivel1/(13109:13109): Movimiento personaje: x: 9, y: 3
+
+[TRACE] 03:13:37:703 nivel1/(13109:13109): Personaje a mover @, posicionX 10 posicionY 3
+[TRACE] 03:13:37:703 nivel1/(13109:13109): Movimiento personaje: x: 10, y: 3
+
+[TRACE] 03:13:37:804 nivel1/(13109:13109): Personaje a mover @, posicionX 10 posicionY 4
+[TRACE] 03:13:37:804 nivel1/(13109:13109): Movimiento personaje: x: 10, y: 4
+
+[TRACE] 03:13:37:904 nivel1/(13109:13109): Personaje a mover @, posicionX 10 posicionY 5
+[TRACE] 03:13:37:904 nivel1/(13109:13109): Movimiento personaje: x: 10, y: 5
+
+[TRACE] 03:13:38:505 nivel1/(13109:13109): Personaje a mover @, posicionX 10 posicionY 6
+[TRACE] 03:13:38:505 nivel1/(13109:13109): Movimiento personaje: x: 10, y: 6
+
+[TRACE] 03:13:38:606 nivel1/(13109:13109): Personaje a mover @, posicionX 10 posicionY 7
+[TRACE] 03:13:38:606 nivel1/(13109:13109): Movimiento personaje: x: 10, y: 7
+
+[TRACE] 03:13:38:706 nivel1/(13109:13109): Personaje a mover @, posicionX 10 posicionY 8
+[TRACE] 03:13:38:706 nivel1/(13109:13109): Movimiento personaje: x: 10, y: 8
+
+[TRACE] 03:13:39:308 nivel1/(13109:13109): Personaje a mover @, posicionX 10 posicionY 9
+[TRACE] 03:13:39:309 nivel1/(13109:13109): Movimiento personaje: x: 10, y: 9
+
+[TRACE] 03:13:39:409 nivel1/(13109:13109): Personaje a mover @, posicionX 10 posicionY 10
+[TRACE] 03:13:39:409 nivel1/(13109:13109): Movimiento personaje: x: 10, y: 10
+
+[TRACE] 03:13:39:409 nivel1/(13109:13109): Recurso a asignar H
+[TRACE] 03:13:39:912 nivel1/(13109:13109): Pedido posicion recurso: B
+[TRACE] 03:13:40:13 nivel1/(13109:13109): Personaje a mover @, posicionX 11 posicionY 10
+[TRACE] 03:13:40:13 nivel1/(13109:13109): Movimiento personaje: x: 11, y: 10
+
+[TRACE] 03:13:40:113 nivel1/(13109:13109): Personaje a mover @, posicionX 12 posicionY 10
+[TRACE] 03:13:40:113 nivel1/(13109:13109): Movimiento personaje: x: 12, y: 10
+
+[TRACE] 03:13:40:214 nivel1/(13109:13109): Personaje a mover @, posicionX 13 posicionY 10
+[TRACE] 03:13:40:214 nivel1/(13109:13109): Movimiento personaje: x: 13, y: 10
+
+[TRACE] 03:13:40:815 nivel1/(13109:13109): Personaje a mover @, posicionX 14 posicionY 10
+[TRACE] 03:13:40:815 nivel1/(13109:13109): Movimiento personaje: x: 14, y: 10
+
+[TRACE] 03:13:40:915 nivel1/(13109:13109): Personaje a mover @, posicionX 15 posicionY 10
+[TRACE] 03:13:40:915 nivel1/(13109:13109): Movimiento personaje: x: 15, y: 10
+
+[TRACE] 03:13:41:16 nivel1/(13109:13109): Personaje a mover @, posicionX 16 posicionY 10
+[TRACE] 03:13:41:16 nivel1/(13109:13109): Movimiento personaje: x: 16, y: 10
+
+[TRACE] 03:13:41:618 nivel1/(13109:13109): Personaje a mover @, posicionX 17 posicionY 10
+[TRACE] 03:13:41:618 nivel1/(13109:13109): Movimiento personaje: x: 17, y: 10
+
+[TRACE] 03:13:41:719 nivel1/(13109:13109): Personaje a mover @, posicionX 18 posicionY 10
+[TRACE] 03:13:41:719 nivel1/(13109:13109): Movimiento personaje: x: 18, y: 10
+
+[TRACE] 03:13:41:820 nivel1/(13109:13109): Personaje a mover @, posicionX 19 posicionY 10
+[TRACE] 03:13:41:820 nivel1/(13109:13109): Movimiento personaje: x: 19, y: 10
+
+[TRACE] 03:13:42:421 nivel1/(13109:13109): Personaje a mover @, posicionX 20 posicionY 10
+[TRACE] 03:13:42:421 nivel1/(13109:13109): Movimiento personaje: x: 20, y: 10
+
+[TRACE] 03:13:42:521 nivel1/(13109:13109): Personaje a mover @, posicionX 21 posicionY 10
+[TRACE] 03:13:42:521 nivel1/(13109:13109): Movimiento personaje: x: 21, y: 10
+
+[TRACE] 03:13:42:623 nivel1/(13109:13109): Personaje a mover @, posicionX 22 posicionY 10
+[TRACE] 03:13:42:623 nivel1/(13109:13109): Movimiento personaje: x: 22, y: 10
+
+[TRACE] 03:13:42:743 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:13:43:225 nivel1/(13109:13109): Personaje a mover @, posicionX 23 posicionY 10
+[TRACE] 03:13:43:225 nivel1/(13109:13109): Movimiento personaje: x: 23, y: 10
+
+[TRACE] 03:13:43:326 nivel1/(13109:13109): Personaje a mover @, posicionX 24 posicionY 10
+[TRACE] 03:13:43:326 nivel1/(13109:13109): Movimiento personaje: x: 24, y: 10
+
+[TRACE] 03:13:43:426 nivel1/(13109:13109): Personaje a mover @, posicionX 25 posicionY 10
+[TRACE] 03:13:43:426 nivel1/(13109:13109): Movimiento personaje: x: 25, y: 10
+
+[TRACE] 03:13:44:29 nivel1/(13109:13109): Personaje a mover @, posicionX 26 posicionY 10
+[TRACE] 03:13:44:29 nivel1/(13109:13109): Movimiento personaje: x: 26, y: 10
+
+[TRACE] 03:13:44:131 nivel1/(13109:13109): Personaje a mover @, posicionX 27 posicionY 10
+[TRACE] 03:13:44:131 nivel1/(13109:13109): Movimiento personaje: x: 27, y: 10
+
+[TRACE] 03:13:44:232 nivel1/(13109:13109): Personaje a mover @, posicionX 28 posicionY 10
+[TRACE] 03:13:44:233 nivel1/(13109:13109): Movimiento personaje: x: 28, y: 10
+
+[TRACE] 03:13:44:836 nivel1/(13109:13109): Personaje a mover @, posicionX 29 posicionY 10
+[TRACE] 03:13:44:837 nivel1/(13109:13109): Movimiento personaje: x: 29, y: 10
+
+[TRACE] 03:13:44:937 nivel1/(13109:13109): Personaje a mover @, posicionX 30 posicionY 10
+[TRACE] 03:13:44:937 nivel1/(13109:13109): Movimiento personaje: x: 30, y: 10
+
+[TRACE] 03:13:45:39 nivel1/(13109:13109): Personaje a mover @, posicionX 31 posicionY 10
+[TRACE] 03:13:45:40 nivel1/(13109:13109): Movimiento personaje: x: 31, y: 10
+
+[TRACE] 03:13:45:641 nivel1/(13109:13109): Personaje a mover @, posicionX 32 posicionY 10
+[TRACE] 03:13:45:641 nivel1/(13109:13109): Movimiento personaje: x: 32, y: 10
+
+[TRACE] 03:13:45:743 nivel1/(13109:13109): Personaje a mover @, posicionX 33 posicionY 10
+[TRACE] 03:13:45:743 nivel1/(13109:13109): Movimiento personaje: x: 33, y: 10
+
+[TRACE] 03:13:45:843 nivel1/(13109:13109): Personaje a mover @, posicionX 34 posicionY 10
+[TRACE] 03:13:45:843 nivel1/(13109:13109): Movimiento personaje: x: 34, y: 10
+
+[TRACE] 03:13:46:444 nivel1/(13109:13109): Personaje a mover @, posicionX 35 posicionY 10
+[TRACE] 03:13:46:444 nivel1/(13109:13109): Movimiento personaje: x: 35, y: 10
+
+[TRACE] 03:13:46:545 nivel1/(13109:13109): Personaje a mover @, posicionX 36 posicionY 10
+[TRACE] 03:13:46:545 nivel1/(13109:13109): Movimiento personaje: x: 36, y: 10
+
+[TRACE] 03:13:46:645 nivel1/(13109:13109): Personaje a mover @, posicionX 37 posicionY 10
+[TRACE] 03:13:46:645 nivel1/(13109:13109): Movimiento personaje: x: 37, y: 10
+
+[TRACE] 03:13:47:248 nivel1/(13109:13109): Personaje a mover @, posicionX 38 posicionY 10
+[TRACE] 03:13:47:249 nivel1/(13109:13109): Movimiento personaje: x: 38, y: 10
+
+[TRACE] 03:13:47:350 nivel1/(13109:13109): Personaje a mover @, posicionX 39 posicionY 10
+[TRACE] 03:13:47:350 nivel1/(13109:13109): Movimiento personaje: x: 39, y: 10
+
+[TRACE] 03:13:47:451 nivel1/(13109:13109): Personaje a mover @, posicionX 40 posicionY 10
+[TRACE] 03:13:47:451 nivel1/(13109:13109): Movimiento personaje: x: 40, y: 10
+
+[TRACE] 03:13:48:53 nivel1/(13109:13109): Personaje a mover @, posicionX 41 posicionY 10
+[TRACE] 03:13:48:53 nivel1/(13109:13109): Movimiento personaje: x: 41, y: 10
+
+[TRACE] 03:13:48:155 nivel1/(13109:13109): Personaje a mover @, posicionX 42 posicionY 10
+[TRACE] 03:13:48:155 nivel1/(13109:13109): Movimiento personaje: x: 42, y: 10
+
+[TRACE] 03:13:48:257 nivel1/(13109:13109): Personaje a mover @, posicionX 43 posicionY 10
+[TRACE] 03:13:48:257 nivel1/(13109:13109): Movimiento personaje: x: 43, y: 10
+
+[TRACE] 03:13:48:860 nivel1/(13109:13109): Personaje a mover @, posicionX 44 posicionY 10
+[TRACE] 03:13:48:860 nivel1/(13109:13109): Movimiento personaje: x: 44, y: 10
+
+[TRACE] 03:13:48:960 nivel1/(13109:13109): Personaje a mover @, posicionX 45 posicionY 10
+[TRACE] 03:13:48:960 nivel1/(13109:13109): Movimiento personaje: x: 45, y: 10
+
+[TRACE] 03:13:49:61 nivel1/(13109:13109): Personaje a mover @, posicionX 46 posicionY 10
+[TRACE] 03:13:49:61 nivel1/(13109:13109): Movimiento personaje: x: 46, y: 10
+
+[TRACE] 03:13:49:662 nivel1/(13109:13109): Personaje a mover @, posicionX 47 posicionY 10
+[TRACE] 03:13:49:662 nivel1/(13109:13109): Movimiento personaje: x: 47, y: 10
+
+[TRACE] 03:13:49:762 nivel1/(13109:13109): Personaje a mover @, posicionX 48 posicionY 10
+[TRACE] 03:13:49:762 nivel1/(13109:13109): Movimiento personaje: x: 48, y: 10
+
+[TRACE] 03:13:49:864 nivel1/(13109:13109): Personaje a mover @, posicionX 49 posicionY 10
+[TRACE] 03:13:49:864 nivel1/(13109:13109): Movimiento personaje: x: 49, y: 10
+
+[TRACE] 03:13:50:466 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 10
+[TRACE] 03:13:50:466 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 10
+
+[TRACE] 03:13:50:566 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 11
+[TRACE] 03:13:50:566 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 11
+
+[TRACE] 03:13:50:668 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 12
+[TRACE] 03:13:50:668 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 12
+
+[TRACE] 03:13:51:269 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 13
+[TRACE] 03:13:51:269 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 13
+
+[TRACE] 03:13:51:369 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 14
+[TRACE] 03:13:51:369 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 14
+
+[TRACE] 03:13:51:470 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 15
+[TRACE] 03:13:51:470 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 15
+
+[TRACE] 03:13:52:71 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 16
+[TRACE] 03:13:52:71 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 16
+
+[TRACE] 03:13:52:172 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 17
+[TRACE] 03:13:52:172 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 17
+
+[TRACE] 03:13:52:273 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 18
+[TRACE] 03:13:52:273 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 18
+
+[TRACE] 03:13:52:743 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:13:52:877 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 19
+[TRACE] 03:13:52:877 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 19
+
+[TRACE] 03:13:52:978 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 20
+[TRACE] 03:13:52:978 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 20
+
+[TRACE] 03:13:53:78 nivel1/(13109:13109): Personaje a mover @, posicionX 50 posicionY 21
+[TRACE] 03:13:53:78 nivel1/(13109:13109): Movimiento personaje: x: 50, y: 21
+
+[TRACE] 03:13:53:579 nivel1/(13109:13109): Recurso a asignar B
+[TRACE] 03:14:06:835 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:14:06:838 nivel1/(13109:13109): Personaje @ termina.
+[TRACE] 03:14:20:959 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:14:33:687 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:14:47:847 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:14:58:501 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:15:12:393 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:16:25:214 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:16:43:645 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:16:53:647 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:17:03:648 nivel1/(13109:13116): Deadlock check started.
+[TRACE] 03:17:13:649 nivel1/(13109:13116): Deadlock check started.

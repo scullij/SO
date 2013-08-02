@@ -1,0 +1,8 @@
+Nombre=Goomba
+Simbolo=$
+PlanDeNiveles=[1,3,4]
+Objetivo1=[H,V,F,H,V,H]
+Objetivo2=[B,R,B]
+Objetivo3=[E,C,H]
+Vidas=5
+Orquestador=127.0.0.1:30000

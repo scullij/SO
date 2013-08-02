@@ -72,8 +72,8 @@ t_plataforma *configurar_plataforma(char* path);
 
 void rutinasOrquestador(int sockete, int routine, void* payload, t_log* logger);
 void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel, t_log* logger);
-int orquestador(void);
-int planificador(void* ptr);
+int *orquestador(void);
+int *planificador(void* ptr);
 void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel, t_log* logger);
 
 int main(int argc, char *argv[]){
@@ -100,7 +100,7 @@ int main(int argc, char *argv[]){
 	return EXIT_SUCCESS;
 }
 
-int orquestador(void){
+int *orquestador(void){
 	t_log* logger;
 	logger = log_create("plataforma.log", "plataforma", true, LOG_LEVEL_TRACE);
 
@@ -187,7 +187,7 @@ int orquestador(void){
 							pla->puerto = puertoInicialPlanificador;
 							pla->planificacionNodo = planificacionNodo;
 
-							pthread_create( &thr_pla, NULL, &planificador, pla);
+							pthread_create( &thr_pla, NULL, planificador, pla);
 							pthread_mutex_unlock( &mutex_planificacion );
 
 							char* newKey = malloc(3);
@@ -227,7 +227,7 @@ int orquestador(void){
 							if(personajesEnPlan == 0){
 								//char *argv[] = {"/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "koopa.config"};
 								//execv("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", argv);
-								execl("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa.config", NULL);
+								//execl("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa.config", NULL);
 							}
                         }
                     }
@@ -257,7 +257,7 @@ int orquestador(void){
     return EXIT_SUCCESS;
 }
 
-int planificador(void* ptr){
+int *planificador(void* ptr){
 	t_plaThread *pla;
 	pla = (t_plaThread*)ptr;
 
@@ -279,9 +279,6 @@ int planificador(void* ptr){
 	if(listener == -1){
 		perror("listener planificador");
 	}
-
-	int puerto = pla->puerto;
-	int nivel = pla->nivel;
 
 	FD_ZERO(&master);    // clear the master and temp sets
 	FD_ZERO(&read_fds);
@@ -445,6 +442,30 @@ void rutinasOrquestador(int sockete, int routine, void* payload, t_log* logger){
 		}
 		pthread_mutex_unlock( &mutex_planificacion );
 
+		break;
+		case 113:
+			pthread_mutex_lock( &mutex_planificacion );
+			t_planificacionNodo* planificadorNivel1 = dictionary_get(planificacion, string_from_format("nivel%c", *((char*)payload)));
+			void* buffer;
+			recibir(sockete, &buffer);
+			log_trace(logger, "Nivel %c, mata personaje %c", *((char*)payload), *((char*)buffer));
+			int size = queue_size(planificadorNivel1->bloqueados);
+			int j;
+			int socketLoco;
+			for (j = 0; j < size; j++) {
+				t_nodoPerPLa* nodo = queue_pop(planificadorNivel1->bloqueados);
+				if(nodo->personaje != *((char*)buffer)){
+					queue_push(planificadorNivel1->bloqueados, nodo);
+				}else{
+					socketLoco = nodo->socket;
+					free(nodo);
+				}
+			}
+			//MATO PJ
+			enviar(socketLoco, 64, NULL, 0);
+			//LE AVISO AL LV
+			enviar(sockete, 64, NULL, 0);
+			pthread_mutex_unlock( &mutex_planificacion );
 		break;
 		default:
 			log_trace(logger, "Orquestador - Routine number %d dont exist.", routine);

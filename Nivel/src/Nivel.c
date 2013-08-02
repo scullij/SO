@@ -127,10 +127,13 @@ int main(int argc, char *argv[]) {
 	logger = log_create(logName, nivel->nombre, false, LOG_LEVEL_TRACE);
 
 	//Nos conectamos al orquestador para pasarle info del nivel
-	uint16_t orquestador = create_and_connect(nivel->direccionOrq, nivel->puertoOrq);
+	int16_t orquestador = create_and_connect(nivel->direccionOrq, nivel->puertoOrq);
 	if(orquestador == -1){
 		perror("orquestador");
 	}
+
+	pthread_t thr_deadlock;
+	pthread_create(&thr_deadlock, NULL, verificar_interbloqueo,(void*)&orquestador);
 
 	t_nivelDireccionPuerto* nivelPuerto = malloc(sizeof(t_nivelDireccionPuerto));
 
@@ -158,7 +161,6 @@ int main(int argc, char *argv[]) {
     }
     iterar_recurso(nivel->recursos, _crear_recurso);
     nivel_gui_dibujar(ListaItems);
-    log_trace(logger, "Paso dibujar.");
 
 	//LISTENER
 	listener = create_and_listen(nivel->puerto);
@@ -274,9 +276,7 @@ void rutines(int sockete, int routine, void* payload, int orquestador){
 			int i;
 			for(i=0;i<list_size(nivel->recursos);i++){
 				t_recurso* element = list_get(nivel->recursos,i);
-				log_trace(logger, "Cantidad recurso %d", element->instancias);
 		    	if(element->x == posicion->x && element->y == posicion->y){
-		    		log_trace(logger, "Recurso %c", element->simbolo);
 		    		pthread_mutex_lock(&mutex_listapjs);
 
 		    		bool _encontrar_personaje_por_id(void* asd){
@@ -313,10 +313,11 @@ void rutines(int sockete, int routine, void* payload, int orquestador){
     		pthread_mutex_unlock(&mutex_nivel);
 			break;
 		case P_PER_NIV_FIN:
+			log_trace(logger, "Personaje %c termina.", *((char*)payload));
     		pthread_mutex_lock(&mutex_listapjs);
     		pthread_mutex_lock(&mutex_nivel);
     		bool _encontrar_personaje_por_id(void* asd){
-				return ((t_character_lvl*)asd)->id == (*(char*)payload);
+				return ((t_character_lvl*)asd)->id == *((char*)payload);
 			}
 			personaje = list_find(personajes, _encontrar_personaje_por_id);
     		personaje_matar(personaje, orquestador, 0);
@@ -396,24 +397,21 @@ void setCantidadRecursos(ITEM_NIVEL** ListaItems, char id, int cantidad) {
 }
 
 void *verificar_interbloqueo(void* args){
-	t_deadlock_params deadlock_params = *((t_deadlock_params *)args);
-	t_list* lista_pjs = personajes;
-	t_nivel* nivel = deadlock_params.nivel;
-	t_log* logger = deadlock_params.logger;
-	int16_t orquestador = deadlock_params.orquestador;
-	ITEM_NIVEL* item_nivel = deadlock_params.items_nivel;
+	//t_deadlock_params deadlock_params = *((t_deadlock_params *)args);
+	int16_t orquestador = *((int16_t*)args);
 	/*int epoll_instance = deadlock_params.epoll_instance;
 	struct epoll_event event;*/
 
 	while(1){
 		sleep(nivel->tiempoChequeoDeadlock);
+		log_trace(logger, "Deadlock check started.");
 
 		int _character_is_blocked(t_character_lvl* character_blocked){
 			return character_blocked->status == BLOCKED;
 		}
 
-		t_list* personajes_bloqueados = list_filter(lista_pjs,(void*)_character_is_blocked);
-		/*Si la cantidad de personajes bloqueados es mayor a 0, entonces hago todo esto*/
+		t_list* personajes_bloqueados = list_filter(personajes,(void*)_character_is_blocked);
+		/*Si la cantidad de personajes bloqueados es mayor a 0, entonces hago todoo esto*/
 		if(list_size(personajes_bloqueados)>1){
 			/*Lockeo a los personajes*/
 			pthread_mutex_lock(&mutex_listapjs);
@@ -475,12 +473,12 @@ void *verificar_interbloqueo(void* args){
 			int _has_deadlock(t_character_lvl* character_not_marcked){
 				return character_not_marcked->deadlock_status == DEADLOCK;
 			}
-			t_list* personajes_en_deadlock = list_filter(lista_pjs,(void*)_has_deadlock);
+			t_list* personajes_en_deadlock = list_filter(personajes,(void*)_has_deadlock);
 			log_info(logger, "Cantidad de Personajes en Deadlock: %d", list_size(personajes_bloqueados));
 
 			/*Debo volver a poner en 0 todos los status de los PJs*/
-			for(i=0;i<list_size(lista_pjs);i++){
-				t_character_lvl* character_lvl = list_get(lista_pjs,i);
+			for(i=0;i<list_size(personajes);i++){
+				t_character_lvl* character_lvl = list_get(personajes,i);
 				character_lvl->deadlock_status = 0;
 			}
 
@@ -495,42 +493,34 @@ void *verificar_interbloqueo(void* args){
 				event.events = EPOLLIN | EPOLLET;
 				epoll_ctl(epoll_instance, EPOLL_CTL_DEL, socket_orquestador.socketfd, &event);*/
 
+				log_trace(logger, "Mando al orquestador personaje a matar.");
 				/*Le aviso que se detecto un interbloqueo*/
-				enviar(orquestador, 113, NULL, 0);
 				/*Le envio el id del primer pj que esta en deadlock (este es el criterio) Para que lo elimine*/
-				t_character_lvl *character_in_deadlock = malloc(sizeof(t_character_lvl));
-				character_in_deadlock=list_remove(personajes_en_deadlock,0);
-				enviar(orquestador, 113, &character_in_deadlock->id, sizeof(char));
+				t_character_lvl *character_in_deadlock = list_remove(personajes_en_deadlock,0);
+
+				pthread_mutex_lock(&mutex_nivel);
+				pthread_mutex_lock(&mutex_listapjs);
+				char id_personaje=character_in_deadlock->id;
+				personaje_matar(character_in_deadlock,orquestador, 1);
+				int _search_character_in_main_list(t_character_lvl* character){
+					return character->socket == character_in_deadlock->socket;
+				}
+				free(list_remove_by_condition(personajes, (void*)_search_character_in_main_list));
+				pthread_mutex_unlock(&mutex_listapjs);
+				pthread_mutex_unlock(&mutex_nivel);
+				/*Dibujo en pantalla*/
+				nivel_gui_dibujar(ListaItems);
+
+				/*Mato al proceso*/
+				log_trace(logger,"El Personaje %c fue eliminado por deadlock",id_personaje);
+
+				enviar(orquestador, 113, nivel->nombre+5, sizeof(char));
+				enviar(orquestador, 113, &id_personaje, sizeof(char));
 
 				//Recibo que el PJ fue eliminado
 				void* buffer;
-				int16_t type = recibir(orquestador, &buffer);
-				free(buffer);
-				/*Deslockeo el mutex listapjs*/
-				pthread_mutex_unlock(&mutex_listapjs);
-				/*Deslockeo el nivel porque ya verifique lo que necesitaba*/
-				pthread_mutex_unlock(&mutex_nivel);
-				if(type == 64){
-					/*Mato al proceso*/
-					char id_personaje=character_in_deadlock->id;
-					//Le aviso al PJ que lo mate
-					enviar(character_in_deadlock->socket, 114, NULL, 0);
+				recibir(orquestador, &buffer);
 
-					personaje_matar(character_in_deadlock,orquestador, 1);
-					int _search_character_in_main_list(t_character_lvl* character){
-						return character->socket == character_in_deadlock->socket;
-					}
-					pthread_mutex_lock(&mutex_listapjs);
-					free(list_remove_by_condition(lista_pjs, (void*)_search_character_in_main_list));
-					pthread_mutex_unlock(&mutex_listapjs);
-					/*Dibujo en pantalla*/
-					nivel_gui_dibujar(item_nivel);
-					log_trace(logger,"El Personaje %c fue eliminado por deadlock",id_personaje);
-				}
-				else{
-					log_error(logger, "El orquestador me envio un mensaje distinto a KILL SUCCES... finalizando");
-					exit(EXIT_FAILURE);
-				}
 				//Habilito los eventos sobre el socket_orquestador//
 				/*event.data.fd = socket_orquestador.socketfd;
 				event.events = EPOLLIN | EPOLLET;
@@ -561,7 +551,7 @@ void personaje_matar(t_character_lvl* character_to_kill, int16_t orquestador, in
 	}
 	list_clean(lista_recursos);
 	if(muerte){
-		close(character_to_kill->socket);
+		//close(character_to_kill->socket);
 	}
 	//free(character_to_kill);
 
@@ -576,13 +566,11 @@ void personaje_matar(t_character_lvl* character_to_kill, int16_t orquestador, in
 		int j=1;
 		while(recursosLiberados[j] != NULL){
 			if(((t_recurso*)el)->simbolo == recursosLiberados[j]){
-				pthread_mutex_lock(&mutex_nivel);
 				if(recursosLiberados[j+10] != '1'){
 					//sumarRecurso(ListaItems, ((t_recurso*)el)->simbolo);
 					setCantidadRecursos(&ListaItems, ((t_recurso*)el)->simbolo, ((t_recurso*)el)->instancias+1);
 				}
 				((t_recurso*)el)->instancias++;
-				pthread_mutex_unlock(&mutex_nivel);
 			}
 			j++;
 		}

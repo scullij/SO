@@ -3813,3 +3813,583 @@
 [TRACE] 05:04:07:156 plataforma/(26054:26055): Orquestador: Personaje conectado.
 [TRACE] 05:04:14:688 plataforma/(26054:26055): Orquestador: Personaje conectado.
 [TRACE] 05:04:27:742 plataforma/(26054:26055): Koopa.
+[TRACE] 18:00:44:164 plataforma/(2471:2472): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 18:00:54:845 plataforma/(2471:2472): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 18:01:04:351 plataforma/(2471:2472): Orquestador: Nuevo Nivel 2 conectado: Direccion: 127.0.0.1 Puerto: 30006.
+[TRACE] 18:01:38:449 plataforma/(2471:2472): Orquestador: Personaje conectado.
+[TRACE] 18:01:45:979 plataforma/(2471:2472): Orquestador: Personaje conectado.
+[TRACE] 18:01:59:28 plataforma/(2471:2472): Koopa.
+[TRACE] 18:02:40:157 plataforma/(2560:2561): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 18:07:04:121 plataforma/(2688:2689): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 18:07:06:992 plataforma/(2688:2689): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 18:07:10:472 plataforma/(2688:2689): Orquestador: Nuevo Nivel 2 conectado: Direccion: 127.0.0.1 Puerto: 30006.
+[TRACE] 18:07:27:727 plataforma/(2688:2689): Orquestador: Personaje conectado.
+[TRACE] 18:07:28:361 plataforma/(2688:2689): Orquestador: Personaje conectado.
+[TRACE] 18:07:53:828 plataforma/(2688:2689): Orquestador: Personaje conectado.
+[TRACE] 18:07:54:331 plataforma/(2688:2689): Orquestador: Personaje conectado.
+[TRACE] 18:08:19:422 plataforma/(2688:2689): Koopa.
+[TRACE] 18:08:19:925 plataforma/(2688:2689): Koopa.
+[TRACE] 18:12:59:403 plataforma/(2738:2739): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 18:17:00:789 plataforma/(2746:2747): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 18:17:02:879 plataforma/(2746:2747): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 18:17:07:305 plataforma/(2746:2747): Orquestador: Nuevo Nivel 2 conectado: Direccion: 127.0.0.1 Puerto: 30006.
+[TRACE] 18:17:17:77 plataforma/(2746:2747): Orquestador: Personaje conectado.
+[TRACE] 18:17:17:572 plataforma/(2746:2747): Orquestador: Personaje conectado.
+[TRACE] 18:17:43:181 plataforma/(2746:2747): Orquestador: Personaje conectado.
+[TRACE] 18:17:43:685 plataforma/(2746:2747): Orquestador: Personaje conectado.
+[TRACE] 18:18:08:785 plataforma/(2746:2747): Koopa.
+[TRACE] 18:18:09:287 plataforma/(2746:2747): Koopa.
+[TRACE] 18:19:45:635 plataforma/(2797:2798): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 18:21:57:875 plataforma/(2969:2970): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 18:22:00:130 plataforma/(2969:2970): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 18:22:01:648 plataforma/(2969:2970): Orquestador: Nuevo Nivel 2 conectado: Direccion: 127.0.0.1 Puerto: 30006.
+[TRACE] 18:22:09:954 plataforma/(2969:2970): Orquestador: Personaje conectado.
+[TRACE] 18:22:10:370 plataforma/(2969:2970): Orquestador: Personaje conectado.
+[TRACE] 18:22:36:75 plataforma/(2969:2970): Orquestador: Personaje conectado.
+[TRACE] 18:22:36:577 plataforma/(2969:2970): Orquestador: Personaje conectado.
+[TRACE] 18:23:01:673 plataforma/(2969:2970): Koopa.
+[TRACE] 18:23:02:174 plataforma/(2969:2970): Koopa.
+[TRACE] 18:23:11:759 plataforma/(2969:2970): Alguien se desconecto.
+[TRACE] 18:23:12:615 plataforma/(2969:2970): Alguien se desconecto.
+[TRACE] 18:23:16:647 plataforma/(3021:3022): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 21:00:35:806 plataforma/(3153:3154): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 21:00:38:317 plataforma/(3153:3154): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 21:00:40:356 plataforma/(3153:3154): Orquestador: Nuevo Nivel 2 conectado: Direccion: 127.0.0.1 Puerto: 30006.
+[TRACE] 21:00:44:501 plataforma/(3153:3154): Orquestador: Personaje conectado.
+[TRACE] 21:00:46:835 plataforma/(3153:3154): Orquestador: Personaje conectado.
+[TRACE] 21:01:27:412 plataforma/(3153:3154): Personaje desbloqueado # por recurso F
+[TRACE] 21:01:27:413 plataforma/(3153:3154): Orquestador: Personaje conectado.
+[TRACE] 21:01:27:413 plataforma/(3153:3154): Orquestador: Personaje conectado.
+[TRACE] 21:01:52:3 plataforma/(3153:3154): Koopa.
+[TRACE] 21:01:53:506 plataforma/(3153:3154): Koopa.
+[TRACE] 21:02:45:675 plataforma/(3153:3154): Orquestador: Personaje conectado.
+[TRACE] 21:03:15:39 plataforma/(3153:3154): Orquestador: Personaje conectado.
+[TRACE] 21:03:28:86 plataforma/(3153:3154): Koopa.
+[TRACE] 21:27:57:379 plataforma/(3153:3154): Alguien se desconecto.
+[TRACE] 21:27:58:436 plataforma/(3153:3154): Alguien se desconecto.
+[TRACE] 21:28:03:564 plataforma/(3776:3777): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 21:28:05:572 plataforma/(3776:3777): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 21:28:08:700 plataforma/(3776:3777): Orquestador: Nuevo Nivel 2 conectado: Direccion: 127.0.0.1 Puerto: 30006.
+[TRACE] 21:28:18:390 plataforma/(3776:3777): Orquestador: Personaje conectado.
+[TRACE] 21:28:19:11 plataforma/(3776:3777): Orquestador: Personaje conectado.
+[TRACE] 21:28:46:144 plataforma/(3776:3777): Orquestador: Personaje conectado.
+[TRACE] 21:28:46:144 plataforma/(3776:3777): Personaje desbloqueado # por recurso F
+[TRACE] 21:28:46:144 plataforma/(3776:3777): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:56:659 plataforma/(3776:3777): Koopa.
+[TRACE] 21:29:05:707 plataforma/(3776:3777): Orquestador: Personaje conectado.
+[TRACE] 21:29:13:955 plataforma/(3776:3777): Koopa.
+[TRACE] 22:39:00:214 plataforma/(4417:4418): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 22:39:21:263 plataforma/(4421:4422): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 22:39:24:783 plataforma/(4425:4426): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 22:39:33:511 plataforma/(4429:4430): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 22:39:56:69 plataforma/(4434:4435): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 22:39:59:820 plataforma/(4434:4435): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 22:39:59:949 plataforma/(4434:4435): Alguien se desconecto.
+[TRACE] 22:40:54:369 plataforma/(4434:4435): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 22:42:14:561 plataforma/(4434:4435): Alguien se desconecto.
+[TRACE] 22:42:43:265 plataforma/(4434:4435): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 22:43:44:286 plataforma/(4434:4435): Alguien se desconecto.
+[TRACE] 22:44:01:686 plataforma/(4434:4435): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 22:45:12:244 plataforma/(4434:4435): Alguien se desconecto.
+[TRACE] 22:45:17:319 plataforma/(4434:4435): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 22:45:50:308 plataforma/(4434:4435): Alguien se desconecto.
+[TRACE] 22:46:52:438 plataforma/(5047:5048): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 22:47:13:674 plataforma/(5047:5048): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 22:47:29:779 plataforma/(5047:5048): Alguien se desconecto.
+[TRACE] 22:49:41:77 plataforma/(5047:5048): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 22:53:19:586 plataforma/(5047:5048): Alguien se desconecto.
+[TRACE] 22:53:29:109 plataforma/(5337:5338): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 22:55:34:913 plataforma/(5337:5338): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 22:56:13:693 plataforma/(5337:5338): Orquestador: Nuevo Nivel 2 conectado: Direccion: 127.0.0.1 Puerto: 30006.
+[TRACE] 22:56:43:286 plataforma/(5337:5338): Orquestador: Personaje conectado.
+[TRACE] 22:56:43:935 plataforma/(5337:5338): Orquestador: Personaje conectado.
+[TRACE] 22:57:34:372 plataforma/(5337:5338): Personaje desbloqueado # por recurso H
+[TRACE] 23:01:33:938 plataforma/(5337:5338): Alguien se desconecto.
+[TRACE] 23:01:33:939 plataforma/(5337:5338): Orquestador: Personaje conectado.
+[TRACE] 23:03:01:491 plataforma/(5337:5338): Koopa.
+[TRACE] 23:03:01:491 plataforma/(5337:5338): Alguien se desconecto.
+[TRACE] 23:03:06:325 plataforma/(5766:5767): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:03:09:134 plataforma/(5766:5767): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 23:03:30:51 plataforma/(5766:5767): Orquestador: Personaje conectado.
+[TRACE] 23:03:30:339 plataforma/(5766:5767): Orquestador: Personaje conectado.
+[TRACE] 23:03:44:339 plataforma/(5766:5767): Orquestador: Personaje conectado.
+[TRACE] 23:03:57:946 plataforma/(5766:5767): Alguien se desconecto.
+[TRACE] 23:03:59:659 plataforma/(5766:5767): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 23:04:01:628 plataforma/(5766:5767): Orquestador: Personaje conectado.
+[TRACE] 23:04:11:451 plataforma/(5791:5792): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:04:28:754 plataforma/(5797:5798): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:04:33:587 plataforma/(5801:5802): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:04:37:731 plataforma/(5805:5806): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:04:43:523 plataforma/(5809:5810): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:06:12:79 plataforma/(5833:5834): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:06:14:38 plataforma/(5833:5834): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 23:06:16:848 plataforma/(5833:5834): Orquestador: Personaje conectado.
+[TRACE] 23:06:30:680 plataforma/(5833:5834): Orquestador: Personaje conectado.
+[TRACE] 23:06:41:39 plataforma/(5833:5834): Alguien se desconecto.
+[TRACE] 23:06:44:562 plataforma/(5846:5847): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:06:46:978 plataforma/(5846:5847): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 23:06:55:575 plataforma/(5846:5847): Orquestador: Personaje conectado.
+[TRACE] 23:06:55:823 plataforma/(5846:5847): Orquestador: Personaje conectado.
+[TRACE] 23:07:19:394 plataforma/(5846:5847): Personaje desbloqueado # por recurso H
+[TRACE] 23:08:25:660 plataforma/(5846:5847): Alguien se desconecto.
+[TRACE] 23:08:30:85 plataforma/(5880:5881): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:08:32:69 plataforma/(5880:5881): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 23:08:42:733 plataforma/(5880:5881): Orquestador: Personaje conectado.
+[TRACE] 23:08:43:24 plataforma/(5880:5881): Orquestador: Personaje conectado.
+[TRACE] 23:09:02:73 plataforma/(5880:5881): Orquestador - Routine number 113 dont exist.
+[TRACE] 23:09:02:73 plataforma/(5880:5881): Orquestador - Routine number 113 dont exist.
+[TRACE] 23:09:27:330 plataforma/(5880:5881): Alguien se desconecto.
+[TRACE] 23:10:08:93 plataforma/(5896:5897): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 23:10:26:333 plataforma/(5896:5897): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 23:10:29:124 plataforma/(5896:5897): Alguien se desconecto.
+[TRACE] 23:10:35:293 plataforma/(5896:5897): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 23:10:53:429 plataforma/(5896:5897): Orquestador: Personaje conectado.
+[TRACE] 23:10:53:702 plataforma/(5896:5897): Orquestador: Personaje conectado.
+[TRACE] 23:16:26:808 plataforma/(5896:5897): Orquestador - Routine number 113 dont exist.
+[TRACE] 23:16:37:956 plataforma/(5896:5897): Orquestador - Routine number 113 dont exist.
+[TRACE] 00:20:35:582 plataforma/(5896:5897): Alguien se desconecto.
+[TRACE] 00:43:36:946 plataforma/(7803:7804): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 00:43:43:757 plataforma/(7803:7804): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 00:44:07:951 plataforma/(7803:7804): Orquestador: Personaje conectado.
+[TRACE] 00:44:08:208 plataforma/(7803:7804): Orquestador: Personaje conectado.
+[TRACE] 01:04:49:597 plataforma/(8436:8437): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:04:53:930 plataforma/(8436:8437): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:05:10:146 plataforma/(8436:8437): Orquestador: Personaje conectado.
+[TRACE] 01:05:10:409 plataforma/(8436:8437): Orquestador: Personaje conectado.
+[TRACE] 01:05:23:932 plataforma/(8436:8437): Nivel 1, mata personaje #
+[TRACE] 01:05:23:933 plataforma/(8436:8437): Orquestador: Personaje conectado.
+[TRACE] 01:05:24:329 plataforma/(8436:8437): Alguien se desconecto.
+[TRACE] 01:07:35:477 plataforma/(8463:8464): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:07:45:533 plataforma/(8463:8464): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:07:59:405 plataforma/(8463:8464): Orquestador: Personaje conectado.
+[TRACE] 01:07:59:678 plataforma/(8463:8464): Orquestador: Personaje conectado.
+[TRACE] 01:08:39:726 plataforma/(8463:8464): Nivel 1, mata personaje #
+[TRACE] 01:08:39:726 plataforma/(8463:8464): Orquestador: Personaje conectado.
+[TRACE] 01:08:49:988 plataforma/(8463:8464): Alguien se desconecto.
+[TRACE] 01:09:34:734 plataforma/(8566:8567): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:09:52:201 plataforma/(8566:8567): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:09:54:836 plataforma/(8566:8567): Alguien se desconecto.
+[TRACE] 01:10:11:453 plataforma/(8684:8685): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:10:16:319 plataforma/(8684:8685): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:10:19:484 plataforma/(8684:8685): Alguien se desconecto.
+[TRACE] 01:19:28:461 plataforma/(8749:8750): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:19:37:798 plataforma/(8749:8750): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:19:51:902 plataforma/(8749:8750): Orquestador: Personaje conectado.
+[TRACE] 01:19:52:195 plataforma/(8749:8750): Orquestador: Personaje conectado.
+[TRACE] 01:20:25:656 plataforma/(8749:8750): Nivel 1, mata personaje #
+[TRACE] 01:20:25:656 plataforma/(8749:8750): Orquestador: Personaje conectado.
+[TRACE] 01:20:41:163 plataforma/(8749:8750): Personaje desbloqueado @ por recurso H
+[TRACE] 01:20:41:164 plataforma/(8749:8750): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:20:41:164 plataforma/(8749:8750): Alguien se desconecto.
+[TRACE] 01:21:49:633 plataforma/(8915:8916): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:22:43:444 plataforma/(8915:8916): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:22:50:998 plataforma/(8915:8916): Orquestador: Personaje conectado.
+[TRACE] 01:22:51:285 plataforma/(8915:8916): Orquestador: Personaje conectado.
+[TRACE] 01:23:22:435 plataforma/(8915:8916): Nivel 1, mata personaje #
+[TRACE] 01:23:22:435 plataforma/(8915:8916): Orquestador: Personaje conectado.
+[TRACE] 01:24:42:767 plataforma/(8915:8916): Alguien se desconecto.
+[TRACE] 01:26:30:217 plataforma/(9056:9057): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:26:40:920 plataforma/(9056:9057): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:26:47:198 plataforma/(9056:9057): Orquestador: Personaje conectado.
+[TRACE] 01:26:47:430 plataforma/(9056:9057): Orquestador: Personaje conectado.
+[TRACE] 01:28:14:337 plataforma/(9056:9057): Nivel 1, mata personaje #
+[TRACE] 01:28:14:338 plataforma/(9056:9057): Orquestador: Personaje conectado.
+[TRACE] 01:28:28:658 plataforma/(9056:9057): Personaje desbloqueado @ por recurso H
+[TRACE] 01:28:35:469 plataforma/(9056:9057): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:55:353 plataforma/(9056:9057): Orquestador: Personaje conectado.
+[TRACE] 01:29:55:353 plataforma/(9056:9057): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 01:30:31:734 plataforma/(9056:9057): Alguien se desconecto.
+[TRACE] 01:34:04:650 plataforma/(9276:9277): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:35:00:944 plataforma/(9276:9277): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:35:09:743 plataforma/(9276:9277): Orquestador: Personaje conectado.
+[TRACE] 01:35:11:173 plataforma/(9276:9277): Orquestador: Personaje conectado.
+[TRACE] 01:36:00:949 plataforma/(9276:9277): Nivel 1, mata personaje #
+[TRACE] 01:36:00:949 plataforma/(9276:9277): Orquestador: Personaje conectado.
+[TRACE] 01:36:00:950 plataforma/(9276:9277): Personaje desbloqueado @ por recurso H
+[TRACE] 01:36:00:950 plataforma/(9276:9277): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:10:954 plataforma/(9276:9277): Nivel 1, mata personaje @
+[TRACE] 01:37:55:111 plataforma/(9276:9277): Alguien se desconecto.
+[TRACE] 01:40:14:705 plataforma/(9461:9462): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:40:20:839 plataforma/(9461:9462): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:40:52:364 plataforma/(9461:9462): Orquestador: Personaje conectado.
+[TRACE] 01:40:53:442 plataforma/(9461:9462): Orquestador: Personaje conectado.
+[TRACE] 01:42:00:848 plataforma/(9461:9462): Nivel 1, mata personaje #
+[TRACE] 01:42:00:849 plataforma/(9461:9462): Orquestador: Personaje conectado.
+[TRACE] 01:42:00:849 plataforma/(9461:9462): Personaje desbloqueado @ por recurso H
+[TRACE] 01:42:00:850 plataforma/(9461:9462): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:43:50:861 plataforma/(9461:9462): Nivel 1, mata personaje @
+[TRACE] 01:44:30:894 plataforma/(9461:9462): Alguien se desconecto.
+[TRACE] 01:48:02:658 plataforma/(9844:9845): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:48:07:230 plataforma/(9844:9845): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:48:20:722 plataforma/(9844:9845): Orquestador: Personaje conectado.
+[TRACE] 01:48:20:922 plataforma/(9844:9845): Orquestador: Personaje conectado.
+[TRACE] 01:48:37:234 plataforma/(9844:9845): Nivel 1, mata personaje #
+[TRACE] 01:48:37:234 plataforma/(9844:9845): Orquestador: Personaje conectado.
+[TRACE] 01:48:37:234 plataforma/(9844:9845): Personaje desbloqueado @ por recurso H
+[TRACE] 01:48:37:235 plataforma/(9844:9845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:56:245 plataforma/(9844:9845): Orquestador: Personaje conectado.
+[TRACE] 01:48:56:245 plataforma/(9844:9845): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 01:48:56:245 plataforma/(9844:9845): Personaje desbloqueado # por recurso H
+[TRACE] 01:49:37:729 plataforma/(9844:9845): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:49:37:729 plataforma/(9844:9845): Alguien se desconecto.
+[TRACE] 01:49:40:698 plataforma/(9855:9856): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:49:43:650 plataforma/(9855:9856): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:49:55:644 plataforma/(9855:9856): Orquestador: Personaje conectado.
+[TRACE] 01:49:55:862 plataforma/(9855:9856): Orquestador: Personaje conectado.
+[TRACE] 01:50:13:654 plataforma/(9855:9856): Nivel 1, mata personaje #
+[TRACE] 01:50:13:654 plataforma/(9855:9856): Orquestador: Personaje conectado.
+[TRACE] 01:50:13:655 plataforma/(9855:9856): Personaje desbloqueado @ por recurso H
+[TRACE] 01:50:23:824 plataforma/(9855:9856): Nivel 1, mata personaje @
+[TRACE] 01:50:23:824 plataforma/(9855:9856): Personaje desbloqueado # por recurso H
+[TRACE] 01:50:41:241 plataforma/(9855:9856): Alguien se desconecto.
+[TRACE] 01:51:16:685 plataforma/(9866:9867): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:51:20:213 plataforma/(9866:9867): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:51:37:947 plataforma/(9866:9867): Alguien se desconecto.
+[TRACE] 01:52:08:757 plataforma/(9876:9877): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:52:10:661 plataforma/(9876:9877): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:52:19:476 plataforma/(9876:9877): Orquestador: Personaje conectado.
+[TRACE] 01:52:21:565 plataforma/(9876:9877): Orquestador: Personaje conectado.
+[TRACE] 01:52:40:666 plataforma/(9876:9877): Nivel 1, mata personaje #
+[TRACE] 01:52:40:667 plataforma/(9876:9877): Orquestador: Personaje conectado.
+[TRACE] 01:52:40:667 plataforma/(9876:9877): Personaje desbloqueado @ por recurso H
+[TRACE] 01:52:40:667 plataforma/(9876:9877): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:59:687 plataforma/(9876:9877): Orquestador: Personaje conectado.
+[TRACE] 01:52:59:687 plataforma/(9876:9877): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 01:52:59:687 plataforma/(9876:9877): Personaje desbloqueado # por recurso H
+[TRACE] 01:55:01:339 plataforma/(9876:9877): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:01:339 plataforma/(9876:9877): Alguien se desconecto.
+[TRACE] 01:55:08:204 plataforma/(9914:9915): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:55:15:625 plataforma/(9914:9915): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:55:15:630 plataforma/(9914:9915): Alguien se desconecto.
+[TRACE] 01:55:31:124 plataforma/(10060:10061): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 01:55:38:83 plataforma/(10060:10061): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 01:55:45:333 plataforma/(10060:10061): Orquestador: Personaje conectado.
+[TRACE] 01:55:45:834 plataforma/(10060:10061): Orquestador: Personaje conectado.
+[TRACE] 01:56:23:903 plataforma/(10060:10061): Nivel 1, mata personaje #
+[TRACE] 01:56:23:903 plataforma/(10060:10061): Orquestador: Personaje conectado.
+[TRACE] 01:58:12:759 plataforma/(10060:10061): Personaje desbloqueado @ por recurso H
+[TRACE] 01:58:38:423 plataforma/(10060:10061): Nivel 1, mata personaje @
+[TRACE] 01:59:18:400 plataforma/(10060:10061): Personaje desbloqueado # por recurso H
+[TRACE] 01:59:46:809 plataforma/(10060:10061): Alguien se desconecto.
+[TRACE] 02:04:23:575 plataforma/(10242:10243): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:04:25:462 plataforma/(10242:10243): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:04:30:982 plataforma/(10242:10243): Orquestador: Personaje conectado.
+[TRACE] 02:04:31:177 plataforma/(10242:10243): Orquestador: Personaje conectado.
+[TRACE] 02:04:45:462 plataforma/(10242:10243): Nivel 1, mata personaje #
+[TRACE] 02:04:45:463 plataforma/(10242:10243): Orquestador: Personaje conectado.
+[TRACE] 02:04:45:463 plataforma/(10242:10243): Personaje desbloqueado @ por recurso H
+[TRACE] 02:04:45:463 plataforma/(10242:10243): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:05:04:461 plataforma/(10242:10243): Personaje desbloqueado # por recurso H
+[TRACE] 02:09:43:301 plataforma/(10242:10243): Alguien se desconecto.
+[TRACE] 02:09:46:94 plataforma/(10313:10314): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:09:50:719 plataforma/(10313:10314): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:09:55:934 plataforma/(10313:10314): Orquestador: Personaje conectado.
+[TRACE] 02:09:56:165 plataforma/(10313:10314): Orquestador: Personaje conectado.
+[TRACE] 02:10:10:722 plataforma/(10313:10314): Nivel 1, mata personaje #
+[TRACE] 02:10:10:723 plataforma/(10313:10314): Orquestador: Personaje conectado.
+[TRACE] 02:10:10:723 plataforma/(10313:10314): Personaje desbloqueado @ por recurso H
+[TRACE] 02:10:10:724 plataforma/(10313:10314): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:29:725 plataforma/(10313:10314): Personaje desbloqueado # por recurso H
+[TRACE] 02:11:36:354 plataforma/(10313:10314): Alguien se desconecto.
+[TRACE] 02:11:38:858 plataforma/(10340:10341): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:11:49:940 plataforma/(10340:10341): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:11:55:484 plataforma/(10340:10341): Orquestador: Personaje conectado.
+[TRACE] 02:11:55:769 plataforma/(10340:10341): Orquestador: Personaje conectado.
+[TRACE] 02:15:40:288 plataforma/(10340:10341): Nivel 1, mata personaje #
+[TRACE] 02:15:40:288 plataforma/(10340:10341): Orquestador: Personaje conectado.
+[TRACE] 02:23:43:660 plataforma/(10340:10341): Alguien se desconecto.
+[TRACE] 02:29:24:610 plataforma/(10927:10928): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:29:26:851 plataforma/(10927:10928): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:29:37:25 plataforma/(10927:10928): Orquestador: Personaje conectado.
+[TRACE] 02:29:37:224 plataforma/(10927:10928): Orquestador: Personaje conectado.
+[TRACE] 02:29:56:855 plataforma/(10927:10928): Personaje desbloqueado @ por recurso H
+[TRACE] 02:29:56:856 plataforma/(10927:10928): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:29:56:895 plataforma/(10927:10928): Nivel 1, mata personaje  
+[TRACE] 02:29:56:962 plataforma/(10927:10928): Alguien se desconecto.
+[TRACE] 02:31:57:15 plataforma/(11162:11163): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:32:12:871 plataforma/(11162:11163): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:32:15:598 plataforma/(11162:11163): Orquestador: Personaje conectado.
+[TRACE] 02:32:15:807 plataforma/(11162:11163): Orquestador: Personaje conectado.
+[TRACE] 02:32:32:876 plataforma/(11162:11163): Personaje desbloqueado @ por recurso H
+[TRACE] 02:32:32:877 plataforma/(11162:11163): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:33:378 plataforma/(11162:11163): Nivel 1, mata personaje Ø
+[TRACE] 02:32:47:56 plataforma/(11162:11163): Personaje desbloqueado # por recurso F
+[TRACE] 02:41:52:918 plataforma/(11162:11163): Alguien se desconecto.
+[TRACE] 02:41:56:847 plataforma/(11588:11589): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:41:58:887 plataforma/(11588:11589): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:42:04:405 plataforma/(11588:11589): Orquestador: Personaje conectado.
+[TRACE] 02:42:04:647 plataforma/(11588:11589): Orquestador: Personaje conectado.
+[TRACE] 02:42:18:892 plataforma/(11588:11589): Personaje desbloqueado @ por recurso H
+[TRACE] 02:42:18:892 plataforma/(11588:11589): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:19:393 plataforma/(11588:11589): Nivel 1, mata personaje Ø
+[TRACE] 02:42:33:64 plataforma/(11588:11589): Orquestador: Personaje conectado.
+[TRACE] 02:42:33:64 plataforma/(11588:11589): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 02:42:33:64 plataforma/(11588:11589): Personaje desbloqueado # por recurso F
+[TRACE] 02:43:39:852 plataforma/(11588:11589): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:43:39:853 plataforma/(11588:11589): Alguien se desconecto.
+[TRACE] 02:43:42:791 plataforma/(11607:11608): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:43:44:686 plataforma/(11607:11608): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:43:52:121 plataforma/(11607:11608): Orquestador: Personaje conectado.
+[TRACE] 02:43:52:387 plataforma/(11607:11608): Orquestador: Personaje conectado.
+[TRACE] 02:44:14:694 plataforma/(11607:11608): Personaje desbloqueado @ por recurso H
+[TRACE] 02:44:14:695 plataforma/(11607:11608): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:15:196 plataforma/(11607:11608): Nivel 1, mata personaje Ø
+[TRACE] 02:44:28:879 plataforma/(11607:11608): Orquestador: Personaje conectado.
+[TRACE] 02:44:28:879 plataforma/(11607:11608): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 02:44:28:879 plataforma/(11607:11608): Personaje desbloqueado # por recurso F
+[TRACE] 02:49:51:398 plataforma/(11607:11608): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:49:51:398 plataforma/(11607:11608): Alguien se desconecto.
+[TRACE] 02:49:53:985 plataforma/(11872:11873): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:50:02:249 plataforma/(11872:11873): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:50:02:250 plataforma/(11872:11873): Alguien se desconecto.
+[TRACE] 02:50:08:657 plataforma/(11872:11873): Orquestador: Personaje conectado.
+[TRACE] 02:50:08:959 plataforma/(11872:11873): Orquestador: Personaje conectado.
+[TRACE] 02:50:33:185 plataforma/(12059:12060): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:50:37:513 plataforma/(12059:12060): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:50:45:64 plataforma/(12059:12060): Orquestador: Personaje conectado.
+[TRACE] 02:50:45:320 plataforma/(12059:12060): Orquestador: Personaje conectado.
+[TRACE] 02:52:08:346 plataforma/(12059:12060): Personaje desbloqueado @ por recurso H
+[TRACE] 02:53:03:245 plataforma/(12059:12060): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:56:07:957 plataforma/(12059:12060): Alguien se desconecto.
+[TRACE] 02:56:29:617 plataforma/(12350:12351): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:56:31:602 plataforma/(12350:12351): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:56:32:777 plataforma/(12350:12351): Alguien se desconecto.
+[TRACE] 02:56:51:657 plataforma/(12359:12360): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:56:53:922 plataforma/(12359:12360): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:56:54:45 plataforma/(12359:12360): Alguien se desconecto.
+[TRACE] 02:57:02:42 plataforma/(12369:12370): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 02:57:05:235 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:05:361 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:07:569 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:08:591 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:09:122 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:09:251 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:10:240 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:11:41 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:11:537 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:12:279 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:12:931 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:13:681 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:14:218 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:14:343 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:15:432 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:16:144 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:16:602 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:16:728 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:17:746 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:18:352 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:18:819 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:18:943 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:19:961 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:20:560 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:21:41 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:21:169 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:22:386 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:22:509 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:23:714 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:24:271 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 02:57:25:873 plataforma/(12369:12370): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 02:57:33:23 plataforma/(12369:12370): Orquestador: Personaje conectado.
+[TRACE] 02:57:33:259 plataforma/(12369:12370): Orquestador: Personaje conectado.
+[TRACE] 02:57:55:879 plataforma/(12369:12370): Personaje desbloqueado @ por recurso H
+[TRACE] 02:57:55:880 plataforma/(12369:12370): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:56:381 plataforma/(12369:12370): Nivel 1, mata personaje #
+[TRACE] 02:57:56:382 plataforma/(12369:12370): Orquestador: Personaje conectado.
+[TRACE] 02:58:14:887 plataforma/(12369:12370): Orquestador: Personaje conectado.
+[TRACE] 02:58:14:887 plataforma/(12369:12370): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 02:58:14:887 plataforma/(12369:12370): Personaje desbloqueado # por recurso H
+[TRACE] 03:00:42:445 plataforma/(12369:12370): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:00:42:445 plataforma/(12369:12370): Alguien se desconecto.
+[TRACE] 03:01:03:62 plataforma/(12560:12561): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:01:08:224 plataforma/(12560:12561): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:01:16:599 plataforma/(12560:12561): Orquestador: Personaje conectado.
+[TRACE] 03:01:16:829 plataforma/(12560:12561): Orquestador: Personaje conectado.
+[TRACE] 03:02:12:927 plataforma/(12560:12561): Personaje desbloqueado @ por recurso H
+[TRACE] 03:06:00:208 plataforma/(12560:12561): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:11:880 plataforma/(12560:12561): Nivel 1, mata personaje #
+[TRACE] 03:06:11:880 plataforma/(12560:12561): Orquestador: Personaje conectado.
+[TRACE] 03:08:10:511 plataforma/(12560:12561): Personaje desbloqueado # por recurso H
+[TRACE] 03:08:15:185 plataforma/(12560:12561): Nivel 1, mata personaje @
+[TRACE] 03:08:36:270 plataforma/(12560:12561): Alguien se desconecto.
+[TRACE] 03:08:56:314 plataforma/(12729:12730): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:09:18:731 plataforma/(12729:12730): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:09:18:857 plataforma/(12729:12730): Alguien se desconecto.
+[TRACE] 03:09:30:298 plataforma/(12834:12835): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:09:33:275 plataforma/(12834:12835): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:09:34:289 plataforma/(12834:12835): Alguien se desconecto.
+[TRACE] 03:09:45:761 plataforma/(12841:12842): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:09:48:39 plataforma/(12841:12842): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:09:51:62 plataforma/(12841:12842): Orquestador: Personaje conectado.
+[TRACE] 03:10:53:380 plataforma/(12841:12842): Alguien se desconecto.
+[TRACE] 03:10:53:381 plataforma/(12841:12842): Orquestador: Personaje conectado.
+[TRACE] 03:10:53:381 plataforma/(12841:12842): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:11:11:93 plataforma/(12951:12952): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:11:14:791 plataforma/(12951:12952): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:11:17:365 plataforma/(12951:12952): Alguien se desconecto.
+[TRACE] 03:11:24:182 plataforma/(13006:13007): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:12:05:149 plataforma/(13006:13007): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:12:08:866 plataforma/(13006:13007): Orquestador: Personaje conectado.
+[TRACE] 03:12:32:859 plataforma/(13006:13007): Orquestador: Personaje conectado.
+[TRACE] 03:12:32:860 plataforma/(13006:13007): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:13:11:553 plataforma/(13006:13007): Alguien se desconecto.
+[TRACE] 03:13:20:429 plataforma/(13074:13075): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:13:32:742 plataforma/(13074:13075): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:13:34:589 plataforma/(13074:13075): Orquestador: Personaje conectado.
+[TRACE] 03:13:53:580 plataforma/(13074:13075): Orquestador: Personaje conectado.
+[TRACE] 03:13:53:580 plataforma/(13074:13075): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:17:17:209 plataforma/(13074:13075): Alguien se desconecto.
+[TRACE] 03:24:46:145 plataforma/(13387:13388): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:24:47:881 plataforma/(13387:13388): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:24:50:617 plataforma/(13387:13388): Orquestador: Personaje conectado.
+[TRACE] 03:25:09:616 plataforma/(13387:13388): Orquestador: Personaje conectado.
+[TRACE] 03:25:09:616 plataforma/(13387:13388): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:25:14:262 plataforma/(13387:13388): Orquestador: Personaje conectado.
+[TRACE] 03:26:28:538 plataforma/(13387:13388): Alguien se desconecto.
+[TRACE] 03:26:31:493 plataforma/(13571:13572): Orquestador: Listen 127.0.0.1, Port 30000. 
+
+[TRACE] 03:26:33:483 plataforma/(13571:13572): Orquestador: Nuevo Nivel 1 conectado: Direccion: 127.0.0.1 Puerto: 30005.
+[TRACE] 03:26:37:244 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:26:56:256 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:26:56:257 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:27:10:274 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:27:36:626 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:27:36:626 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:27:51:162 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:27:51:498 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:28:13:490 plataforma/(13571:13572): Personaje desbloqueado # por recurso F
+[TRACE] 03:28:13:490 plataforma/(13571:13572): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:13:991 plataforma/(13571:13572): Nivel 1, mata personaje @
+[TRACE] 03:28:13:992 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:28:23:992 plataforma/(13571:13572): Personaje desbloqueado @ por recurso F
+[TRACE] 03:28:24:31 plataforma/(13571:13572): Nivel 1, mata personaje #
+[TRACE] 03:28:39:652 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:28:39:652 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:28:50:107 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:28:50:107 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:29:29:129 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:29:50:562 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:29:56:386 plataforma/(13571:13572): Personaje desbloqueado @ por recurso F
+[TRACE] 03:29:56:386 plataforma/(13571:13572): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:29:56:387 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:29:56:387 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:30:14:483 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:30:14:483 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:30:29:352 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:30:30:42 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:30:44:44 plataforma/(13571:13572): Personaje desbloqueado @ por recurso H
+[TRACE] 03:30:44:44 plataforma/(13571:13572): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:44:546 plataforma/(13571:13572): Nivel 1, mata personaje #
+[TRACE] 03:30:44:547 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:31:03:57 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:31:03:57 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:31:03:57 plataforma/(13571:13572): Personaje desbloqueado # por recurso H
+[TRACE] 03:31:03:58 plataforma/(13571:13572): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:04:587 plataforma/(13571:13572): Nivel 1, mata personaje @
+[TRACE] 03:31:24:590 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:31:24:590 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:31:39:849 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:31:46:143 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:32:03:686 plataforma/(13571:13572): Personaje desbloqueado # por recurso H
+[TRACE] 03:32:03:686 plataforma/(13571:13572): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:03:687 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:32:03:687 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:32:25:206 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:32:25:206 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:32:45:392 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:32:45:986 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:33:09:223 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:33:09:223 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:33:09:223 plataforma/(13571:13572): Personaje desbloqueado # por recurso H
+[TRACE] 03:33:09:224 plataforma/(13571:13572): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:30:725 plataforma/(13571:13572): Orquestador: Personaje conectado.
+[TRACE] 03:33:30:725 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.

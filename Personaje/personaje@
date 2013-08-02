@@ -196,3 +196,260 @@
 [TRACE] 20:56:22:998 personaje@/(13963:13963): Recurso asignado F.
 [TRACE] 20:56:22:998 personaje@/(13963:13963): Nivel terminado.
 [TRACE] 21:02:47:159 personaje@/(13963:13963): Personaje @ finalizo su plan de niveles
+[TRACE] 01:35:11:173 personaje@/(9322:9322): Personaje conectado al orquestador.
+[TRACE] 01:35:11:175 personaje@/(9322:9322): Conectado al Planificador del Nivel 1, Puerto: 30020.
+[TRACE] 01:35:11:353 personaje@/(9322:9322): Conectado al Nivel 1: Direccion: 127.0.0.1, Puerto: 30005.
+[TRACE] 01:35:14:271 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:35:14:271 personaje@/(9322:9322): Siguiente posicion de objetivo : x: 3 y: 3
+[TRACE] 01:35:14:372 personaje@/(9322:9322): Nueva posicion: X:2 Y:1
+[TRACE] 01:35:14:473 personaje@/(9322:9322): Nueva posicion: X:3 Y:1
+[TRACE] 01:35:14:574 personaje@/(9322:9322): Nueva posicion: X:3 Y:2
+[TRACE] 01:35:14:574 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:35:19:438 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:35:19:539 personaje@/(9322:9322): Nueva posicion: X:3 Y:3
+[TRACE] 01:35:19:539 personaje@/(9322:9322): Recurso asignado F.
+[TRACE] 01:35:19:539 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:35:32:548 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:35:32:548 personaje@/(9322:9322): Siguiente posicion de objetivo : x: 10 y: 10
+[TRACE] 01:35:32:649 personaje@/(9322:9322): Nueva posicion: X:4 Y:3
+[TRACE] 01:35:32:750 personaje@/(9322:9322): Nueva posicion: X:5 Y:3
+[TRACE] 01:35:32:852 personaje@/(9322:9322): Nueva posicion: X:6 Y:3
+[TRACE] 01:35:32:852 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:35:35:760 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:35:35:861 personaje@/(9322:9322): Nueva posicion: X:7 Y:3
+[TRACE] 01:35:35:961 personaje@/(9322:9322): Nueva posicion: X:8 Y:3
+[TRACE] 01:35:36:62 personaje@/(9322:9322): Nueva posicion: X:9 Y:3
+[TRACE] 01:35:36:62 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:35:38:757 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:35:38:858 personaje@/(9322:9322): Nueva posicion: X:10 Y:3
+[TRACE] 01:35:38:959 personaje@/(9322:9322): Nueva posicion: X:10 Y:4
+[TRACE] 01:35:39:60 personaje@/(9322:9322): Nueva posicion: X:10 Y:5
+[TRACE] 01:35:39:60 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:35:41:290 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:35:41:391 personaje@/(9322:9322): Nueva posicion: X:10 Y:6
+[TRACE] 01:35:41:492 personaje@/(9322:9322): Nueva posicion: X:10 Y:7
+[TRACE] 01:35:41:594 personaje@/(9322:9322): Nueva posicion: X:10 Y:8
+[TRACE] 01:35:41:594 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:35:44:190 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:35:44:291 personaje@/(9322:9322): Nueva posicion: X:10 Y:9
+[TRACE] 01:35:44:391 personaje@/(9322:9322): Nueva posicion: X:10 Y:10
+[TRACE] 01:35:55:551 personaje@/(9322:9322): Personaje bloqueado por recurso H.
+[TRACE] 01:36:48:301 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:36:48:301 personaje@/(9322:9322): Recurso asignado H.
+[TRACE] 01:36:48:301 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:04:478 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:04:478 personaje@/(9322:9322): Siguiente posicion de objetivo : x: 50 y: 21
+[TRACE] 01:37:04:578 personaje@/(9322:9322): Nueva posicion: X:11 Y:10
+[TRACE] 01:37:04:680 personaje@/(9322:9322): Nueva posicion: X:12 Y:10
+[TRACE] 01:37:04:782 personaje@/(9322:9322): Nueva posicion: X:13 Y:10
+[TRACE] 01:37:04:783 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:08:406 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:08:507 personaje@/(9322:9322): Nueva posicion: X:14 Y:10
+[TRACE] 01:37:08:608 personaje@/(9322:9322): Nueva posicion: X:15 Y:10
+[TRACE] 01:37:08:708 personaje@/(9322:9322): Nueva posicion: X:16 Y:10
+[TRACE] 01:37:08:709 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:28:989 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:29:89 personaje@/(9322:9322): Nueva posicion: X:17 Y:10
+[TRACE] 01:37:29:190 personaje@/(9322:9322): Nueva posicion: X:18 Y:10
+[TRACE] 01:37:29:291 personaje@/(9322:9322): Nueva posicion: X:19 Y:10
+[TRACE] 01:37:29:291 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:30:880 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:30:980 personaje@/(9322:9322): Nueva posicion: X:20 Y:10
+[TRACE] 01:37:31:81 personaje@/(9322:9322): Nueva posicion: X:21 Y:10
+[TRACE] 01:37:31:181 personaje@/(9322:9322): Nueva posicion: X:22 Y:10
+[TRACE] 01:37:31:182 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:32:527 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:32:627 personaje@/(9322:9322): Nueva posicion: X:23 Y:10
+[TRACE] 01:37:32:729 personaje@/(9322:9322): Nueva posicion: X:24 Y:10
+[TRACE] 01:37:32:829 personaje@/(9322:9322): Nueva posicion: X:25 Y:10
+[TRACE] 01:37:32:829 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:34:526 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:34:626 personaje@/(9322:9322): Nueva posicion: X:26 Y:10
+[TRACE] 01:37:34:728 personaje@/(9322:9322): Nueva posicion: X:27 Y:10
+[TRACE] 01:37:34:829 personaje@/(9322:9322): Nueva posicion: X:28 Y:10
+[TRACE] 01:37:34:829 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:36:633 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:36:734 personaje@/(9322:9322): Nueva posicion: X:29 Y:10
+[TRACE] 01:37:36:834 personaje@/(9322:9322): Nueva posicion: X:30 Y:10
+[TRACE] 01:37:36:936 personaje@/(9322:9322): Nueva posicion: X:31 Y:10
+[TRACE] 01:37:36:936 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:38:295 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:38:396 personaje@/(9322:9322): Nueva posicion: X:32 Y:10
+[TRACE] 01:37:38:497 personaje@/(9322:9322): Nueva posicion: X:33 Y:10
+[TRACE] 01:37:38:597 personaje@/(9322:9322): Nueva posicion: X:34 Y:10
+[TRACE] 01:37:38:597 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:40:121 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:40:222 personaje@/(9322:9322): Nueva posicion: X:35 Y:10
+[TRACE] 01:37:40:324 personaje@/(9322:9322): Nueva posicion: X:36 Y:10
+[TRACE] 01:37:40:424 personaje@/(9322:9322): Nueva posicion: X:37 Y:10
+[TRACE] 01:37:40:424 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:41:755 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:41:856 personaje@/(9322:9322): Nueva posicion: X:38 Y:10
+[TRACE] 01:37:41:957 personaje@/(9322:9322): Nueva posicion: X:39 Y:10
+[TRACE] 01:37:42:58 personaje@/(9322:9322): Nueva posicion: X:40 Y:10
+[TRACE] 01:37:42:58 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:43:398 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:43:500 personaje@/(9322:9322): Nueva posicion: X:41 Y:10
+[TRACE] 01:37:43:601 personaje@/(9322:9322): Nueva posicion: X:42 Y:10
+[TRACE] 01:37:43:702 personaje@/(9322:9322): Nueva posicion: X:43 Y:10
+[TRACE] 01:37:43:702 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:45:30 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:45:131 personaje@/(9322:9322): Nueva posicion: X:44 Y:10
+[TRACE] 01:37:45:234 personaje@/(9322:9322): Nueva posicion: X:45 Y:10
+[TRACE] 01:37:45:335 personaje@/(9322:9322): Nueva posicion: X:46 Y:10
+[TRACE] 01:37:45:336 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:46:673 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:46:775 personaje@/(9322:9322): Nueva posicion: X:47 Y:10
+[TRACE] 01:37:46:877 personaje@/(9322:9322): Nueva posicion: X:48 Y:10
+[TRACE] 01:37:46:978 personaje@/(9322:9322): Nueva posicion: X:49 Y:10
+[TRACE] 01:37:46:978 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:48:541 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:48:642 personaje@/(9322:9322): Nueva posicion: X:50 Y:10
+[TRACE] 01:37:48:744 personaje@/(9322:9322): Nueva posicion: X:50 Y:11
+[TRACE] 01:37:48:846 personaje@/(9322:9322): Nueva posicion: X:50 Y:12
+[TRACE] 01:37:48:846 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:50:132 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:50:235 personaje@/(9322:9322): Nueva posicion: X:50 Y:13
+[TRACE] 01:37:50:337 personaje@/(9322:9322): Nueva posicion: X:50 Y:14
+[TRACE] 01:37:50:438 personaje@/(9322:9322): Nueva posicion: X:50 Y:15
+[TRACE] 01:37:50:438 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:51:665 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:51:767 personaje@/(9322:9322): Nueva posicion: X:50 Y:16
+[TRACE] 01:37:51:867 personaje@/(9322:9322): Nueva posicion: X:50 Y:17
+[TRACE] 01:37:51:969 personaje@/(9322:9322): Nueva posicion: X:50 Y:18
+[TRACE] 01:37:51:969 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:53:328 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:37:53:430 personaje@/(9322:9322): Nueva posicion: X:50 Y:19
+[TRACE] 01:37:53:531 personaje@/(9322:9322): Nueva posicion: X:50 Y:20
+[TRACE] 01:37:53:632 personaje@/(9322:9322): Nueva posicion: X:50 Y:21
+[TRACE] 01:37:53:632 personaje@/(9322:9322): Turno terminado.
+[TRACE] 01:37:54:918 personaje@/(9322:9322): Quantum Recibido 3
+[TRACE] 01:38:39:521 personaje@/(9322:9322): Personaje bloqueado por recurso B.
+[TRACE] 01:40:53:442 personaje@/(9501:9501): Personaje conectado al orquestador.
+[TRACE] 01:40:53:442 personaje@/(9501:9501): Conectado al Planificador del Nivel 1, Puerto: 30020.
+[TRACE] 01:40:53:442 personaje@/(9501:9501): Conectado al Nivel 1: Direccion: 127.0.0.1, Puerto: 30005.
+[TRACE] 01:40:57:800 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:40:57:801 personaje@/(9501:9501): Siguiente posicion de objetivo : x: 3 y: 3
+[TRACE] 01:40:57:902 personaje@/(9501:9501): Nueva posicion: X:2 Y:1
+[TRACE] 01:40:58:2 personaje@/(9501:9501): Nueva posicion: X:3 Y:1
+[TRACE] 01:40:58:103 personaje@/(9501:9501): Nueva posicion: X:3 Y:2
+[TRACE] 01:40:58:103 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:41:02:310 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:41:02:411 personaje@/(9501:9501): Nueva posicion: X:3 Y:3
+[TRACE] 01:41:02:411 personaje@/(9501:9501): Recurso asignado F.
+[TRACE] 01:41:02:411 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:41:05:786 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:41:05:786 personaje@/(9501:9501): Siguiente posicion de objetivo : x: 10 y: 10
+[TRACE] 01:41:05:887 personaje@/(9501:9501): Nueva posicion: X:4 Y:3
+[TRACE] 01:41:05:988 personaje@/(9501:9501): Nueva posicion: X:5 Y:3
+[TRACE] 01:41:06:88 personaje@/(9501:9501): Nueva posicion: X:6 Y:3
+[TRACE] 01:41:06:88 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:41:08:783 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:41:08:884 personaje@/(9501:9501): Nueva posicion: X:7 Y:3
+[TRACE] 01:41:08:985 personaje@/(9501:9501): Nueva posicion: X:8 Y:3
+[TRACE] 01:41:09:86 personaje@/(9501:9501): Nueva posicion: X:9 Y:3
+[TRACE] 01:41:09:86 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:41:14:668 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:41:14:769 personaje@/(9501:9501): Nueva posicion: X:10 Y:3
+[TRACE] 01:41:14:869 personaje@/(9501:9501): Nueva posicion: X:10 Y:4
+[TRACE] 01:41:14:970 personaje@/(9501:9501): Nueva posicion: X:10 Y:5
+[TRACE] 01:41:14:970 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:41:18:496 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:41:18:597 personaje@/(9501:9501): Nueva posicion: X:10 Y:6
+[TRACE] 01:41:18:697 personaje@/(9501:9501): Nueva posicion: X:10 Y:7
+[TRACE] 01:41:18:797 personaje@/(9501:9501): Nueva posicion: X:10 Y:8
+[TRACE] 01:41:18:797 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:41:22:340 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:41:22:442 personaje@/(9501:9501): Nueva posicion: X:10 Y:9
+[TRACE] 01:41:22:543 personaje@/(9501:9501): Nueva posicion: X:10 Y:10
+[TRACE] 01:41:48:185 personaje@/(9501:9501): Personaje bloqueado por recurso H.
+[TRACE] 01:42:18:540 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:42:55:136 personaje@/(9501:9501): Recurso asignado H.
+[TRACE] 01:43:36:470 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:43:47:400 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:43:47:401 personaje@/(9501:9501): Siguiente posicion de objetivo : x: 50 y: 21
+[TRACE] 01:43:47:501 personaje@/(9501:9501): Nueva posicion: X:11 Y:10
+[TRACE] 01:43:47:602 personaje@/(9501:9501): Nueva posicion: X:12 Y:10
+[TRACE] 01:43:47:703 personaje@/(9501:9501): Nueva posicion: X:13 Y:10
+[TRACE] 01:43:47:703 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:01:54 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:01:156 personaje@/(9501:9501): Nueva posicion: X:14 Y:10
+[TRACE] 01:44:01:257 personaje@/(9501:9501): Nueva posicion: X:15 Y:10
+[TRACE] 01:44:01:358 personaje@/(9501:9501): Nueva posicion: X:16 Y:10
+[TRACE] 01:44:01:358 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:03:69 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:03:170 personaje@/(9501:9501): Nueva posicion: X:17 Y:10
+[TRACE] 01:44:03:270 personaje@/(9501:9501): Nueva posicion: X:18 Y:10
+[TRACE] 01:44:03:372 personaje@/(9501:9501): Nueva posicion: X:19 Y:10
+[TRACE] 01:44:03:372 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:04:942 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:05:43 personaje@/(9501:9501): Nueva posicion: X:20 Y:10
+[TRACE] 01:44:05:144 personaje@/(9501:9501): Nueva posicion: X:21 Y:10
+[TRACE] 01:44:05:244 personaje@/(9501:9501): Nueva posicion: X:22 Y:10
+[TRACE] 01:44:05:244 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:06:562 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:06:663 personaje@/(9501:9501): Nueva posicion: X:23 Y:10
+[TRACE] 01:44:06:764 personaje@/(9501:9501): Nueva posicion: X:24 Y:10
+[TRACE] 01:44:06:865 personaje@/(9501:9501): Nueva posicion: X:25 Y:10
+[TRACE] 01:44:06:865 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:08:123 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:08:224 personaje@/(9501:9501): Nueva posicion: X:26 Y:10
+[TRACE] 01:44:08:324 personaje@/(9501:9501): Nueva posicion: X:27 Y:10
+[TRACE] 01:44:08:427 personaje@/(9501:9501): Nueva posicion: X:28 Y:10
+[TRACE] 01:44:08:427 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:09:749 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:09:850 personaje@/(9501:9501): Nueva posicion: X:29 Y:10
+[TRACE] 01:44:09:951 personaje@/(9501:9501): Nueva posicion: X:30 Y:10
+[TRACE] 01:44:10:51 personaje@/(9501:9501): Nueva posicion: X:31 Y:10
+[TRACE] 01:44:10:52 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:11:474 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:11:576 personaje@/(9501:9501): Nueva posicion: X:32 Y:10
+[TRACE] 01:44:11:676 personaje@/(9501:9501): Nueva posicion: X:33 Y:10
+[TRACE] 01:44:11:777 personaje@/(9501:9501): Nueva posicion: X:34 Y:10
+[TRACE] 01:44:11:777 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:13:553 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:13:654 personaje@/(9501:9501): Nueva posicion: X:35 Y:10
+[TRACE] 01:44:13:754 personaje@/(9501:9501): Nueva posicion: X:36 Y:10
+[TRACE] 01:44:13:856 personaje@/(9501:9501): Nueva posicion: X:37 Y:10
+[TRACE] 01:44:13:856 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:15:205 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:15:305 personaje@/(9501:9501): Nueva posicion: X:38 Y:10
+[TRACE] 01:44:15:406 personaje@/(9501:9501): Nueva posicion: X:39 Y:10
+[TRACE] 01:44:15:508 personaje@/(9501:9501): Nueva posicion: X:40 Y:10
+[TRACE] 01:44:15:508 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:18:306 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:18:406 personaje@/(9501:9501): Nueva posicion: X:41 Y:10
+[TRACE] 01:44:18:508 personaje@/(9501:9501): Nueva posicion: X:42 Y:10
+[TRACE] 01:44:18:608 personaje@/(9501:9501): Nueva posicion: X:43 Y:10
+[TRACE] 01:44:18:609 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:19:938 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:20:38 personaje@/(9501:9501): Nueva posicion: X:44 Y:10
+[TRACE] 01:44:20:139 personaje@/(9501:9501): Nueva posicion: X:45 Y:10
+[TRACE] 01:44:20:241 personaje@/(9501:9501): Nueva posicion: X:46 Y:10
+[TRACE] 01:44:20:241 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:21:918 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:22:18 personaje@/(9501:9501): Nueva posicion: X:47 Y:10
+[TRACE] 01:44:22:121 personaje@/(9501:9501): Nueva posicion: X:48 Y:10
+[TRACE] 01:44:22:221 personaje@/(9501:9501): Nueva posicion: X:49 Y:10
+[TRACE] 01:44:22:222 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:23:429 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:23:530 personaje@/(9501:9501): Nueva posicion: X:50 Y:10
+[TRACE] 01:44:23:630 personaje@/(9501:9501): Nueva posicion: X:50 Y:11
+[TRACE] 01:44:23:731 personaje@/(9501:9501): Nueva posicion: X:50 Y:12
+[TRACE] 01:44:23:731 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:25:91 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:25:191 personaje@/(9501:9501): Nueva posicion: X:50 Y:13
+[TRACE] 01:44:25:293 personaje@/(9501:9501): Nueva posicion: X:50 Y:14
+[TRACE] 01:44:25:393 personaje@/(9501:9501): Nueva posicion: X:50 Y:15
+[TRACE] 01:44:25:393 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:26:703 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:26:805 personaje@/(9501:9501): Nueva posicion: X:50 Y:16
+[TRACE] 01:44:26:905 personaje@/(9501:9501): Nueva posicion: X:50 Y:17
+[TRACE] 01:44:27:7 personaje@/(9501:9501): Nueva posicion: X:50 Y:18
+[TRACE] 01:44:27:7 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:28:638 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 01:44:28:739 personaje@/(9501:9501): Nueva posicion: X:50 Y:19
+[TRACE] 01:44:28:842 personaje@/(9501:9501): Nueva posicion: X:50 Y:20
+[TRACE] 01:44:28:942 personaje@/(9501:9501): Nueva posicion: X:50 Y:21
+[TRACE] 01:44:28:942 personaje@/(9501:9501): Turno terminado.
+[TRACE] 01:44:30:700 personaje@/(9501:9501): Quantum Recibido 3

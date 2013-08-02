@@ -308,3 +308,3436 @@
 [TRACE] 05:04:14:184 plani-1/(26054:26058): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
 
 [TRACE] 05:04:14:688 plani-1/(26054:26058): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:01:38:450 plani-1/(2471:2482): Planificador Nivel 1: Acepto personaje @
+[TRACE] 18:01:38:450 plani-1/(2471:2482): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:39:705 plani-1/(2471:2482): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:40:457 plani-1/(2471:2482): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:41:712 plani-1/(2471:2482): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:42:968 plani-1/(2471:2482): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:44:223 plani-1/(2471:2482): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:45:476 plani-1/(2471:2482): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:01:45:979 plani-1/(2471:2482): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:07:27:728 plani-1/(2688:2692): Planificador Nivel 1: Acepto personaje @
+[TRACE] 18:07:27:728 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:28:361 plani-1/(2688:2692): Planificador Nivel 1: Acepto personaje @
+[TRACE] 18:07:28:361 plani-1/(2688:2692): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 18:07:28:982 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:30:236 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:30:991 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:32:248 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:33:504 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:34:758 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:36:14 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:37:267 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:38:521 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:39:776 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:41:30 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:42:285 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:43:288 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:43:790 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:45:45 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:46:299 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:47:553 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:48:808 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:50:63 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:51:318 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:52:570 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:53:827 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:53:828 plani-1/(2688:2692): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:07:53:828 plani-1/(2688:2692): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:07:54:330 plani-1/(2688:2692): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:17:17:77 plani-1/(2746:2754): Planificador Nivel 1: Acepto personaje @
+[TRACE] 18:17:17:77 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:17:573 plani-1/(2746:2754): Planificador Nivel 1: Acepto personaje #
+[TRACE] 18:17:17:573 plani-1/(2746:2754): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 18:17:18:331 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:19:585 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:20:340 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:21:595 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:22:852 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:24:106 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:25:363 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:26:618 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:27:872 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:29:127 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:30:380 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:31:634 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:32:639 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:33:140 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:34:394 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:35:648 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:36:906 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:38:161 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:39:415 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:40:667 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:41:924 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:43:179 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:17:43:180 plani-1/(2746:2754): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:17:43:180 plani-1/(2746:2754): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:17:43:684 plani-1/(2746:2754): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:22:09:955 plani-1/(2969:2972): Planificador Nivel 1: Acepto personaje @
+[TRACE] 18:22:09:955 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:10:371 plani-1/(2969:2972): Planificador Nivel 1: Acepto personaje #
+[TRACE] 18:22:10:371 plani-1/(2969:2972): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 18:22:11:211 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:12:467 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:13:219 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:14:476 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:15:734 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:16:989 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:18:243 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:19:497 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:20:753 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:22:8 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:23:262 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:24:518 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:25:522 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:26:24 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:27:280 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:28:537 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:29:794 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:31:49 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:32:303 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:33:559 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:34:815 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:36:73 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 18:22:36:74 plani-1/(2969:2972): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 18:22:36:74 plani-1/(2969:2972): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 18:22:36:576 plani-1/(2969:2972): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 21:00:44:501 plani-1/(3153:3156): Planificador Nivel 1: Acepto personaje @
+[TRACE] 21:00:44:501 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:00:45:756 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:00:46:509 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:00:46:836 plani-1/(3153:3156): Planificador Nivel 1: Acepto personaje #
+[TRACE] 21:00:46:836 plani-1/(3153:3156): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 21:00:47:765 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:00:49:20 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:00:50:274 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:00:51:529 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:00:52:783 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:00:54:36 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:00:55:290 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:00:56:547 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:00:57:550 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:00:58:805 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:00:59 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:01:318 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:02:572 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:03:75 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:04:330 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:05:584 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:06:837 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:08:91 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:09:346 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:10:601 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:11:856 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:13:110 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:14:365 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:14:868 plani-1/(3153:3156): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 21:01:14:868 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:16:122 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:17:378 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:18:632 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:19:886 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:21:142 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:22:395 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:23:650 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:24:903 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:26:156 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:27:411 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:01:27:412 plani-1/(3153:3156): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 21:01:27:413 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:01:27:413 plani-1/(3153:3156): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 21:02:45:676 plani-1/(3153:3156): Planificador Nivel 1: Acepto personaje @
+[TRACE] 21:02:45:676 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:46:929 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:47:680 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:48:933 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:50:188 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:51:446 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:52:702 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:53:706 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:54:961 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:56:218 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:57:471 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:58:725 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:02:59:981 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:01:234 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:02:488 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:03:741 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:04:997 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:06:252 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:07:508 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:08:765 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:10:20 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:11:276 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:12:531 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:13:785 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:15:38 plani-1/(3153:3156): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:03:15:39 plani-1/(3153:3156): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 21:28:18:390 plani-1/(3776:3779): Planificador Nivel 1: Acepto personaje @
+[TRACE] 21:28:18:390 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:19:195 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:19:195 plani-1/(3776:3779): Planificador Nivel 1: Acepto personaje #
+[TRACE] 21:28:19:195 plani-1/(3776:3779): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 21:28:19:798 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:20:603 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:21:406 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:22:209 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:23:12 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:23:817 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:24:626 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:25:429 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:26:233 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:27:39 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:27:741 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:28:546 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:29:351 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:29:852 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:30:656 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:31:462 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:32:267 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:33:71 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:33:877 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:34:681 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:35:486 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:36:289 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:37:93 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:37:295 plani-1/(3776:3779): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 21:28:37:295 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:38:99 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:38:903 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:39:707 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:40:512 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:41:316 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:42:120 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:42:923 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:43:728 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:44:534 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:45:337 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:46:143 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 21:28:46:144 plani-1/(3776:3779): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 21:28:46:646 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:47:647 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:48:648 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:49:649 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:50:649 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:51:650 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:52:652 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:53:654 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:54:655 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:55:656 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:56:656 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:57:460 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:58:263 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:59:69 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:28:59:874 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:00:677 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:01:483 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:02:288 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:03:94 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:03:897 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:04:700 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:05:503 plani-1/(3776:3779): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 21:29:05:707 plani-1/(3776:3779): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 22:56:43:286 plani-1/(5337:5492): Planificador Nivel 1: Acepto personaje @
+[TRACE] 22:56:43:286 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:56:44:90 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:56:44:90 plani-1/(5337:5492): Planificador Nivel 1: Acepto personaje #
+[TRACE] 22:56:44:90 plani-1/(5337:5492): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 22:56:44:691 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 22:56:45:493 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:56:46:298 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 22:56:47:101 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:56:47:905 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 22:56:48:710 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:56:49:513 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 22:57:11:194 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:11:998 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 22:57:12:802 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:13:503 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 22:57:14:307 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:15:110 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 22:57:15:110 plani-1/(5337:5492): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 22:57:15:110 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:15:912 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:16:715 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:17:518 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:18:321 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:19:125 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:19:928 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:20:731 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:27:943 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:28:747 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:29:551 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:30:353 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:31:158 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:31:961 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:32:763 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:33:566 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 22:57:34:372 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:01:33:938 plani-1/(5337:5492): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 23:01:33:938 plani-1/(5337:5492): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:01:33:939 plani-1/(5337:5492): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 23:06:16:848 plani-1/(5833:5837): Planificador Nivel 1: Acepto personaje @
+[TRACE] 23:06:16:849 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:17:653 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:18:256 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:19:61 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:19:865 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:20:669 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:21:473 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:22:176 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:22:980 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:23:788 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:24:591 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:25:394 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:26:198 plani-1/(5833:5837): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:30:681 plani-1/(5833:5837): Planificador Nivel 1: Acepto personaje @
+[TRACE] 23:06:30:681 plani-1/(5833:5837): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 23:06:55:576 plani-1/(5846:5850): Planificador Nivel 1: Acepto personaje @
+[TRACE] 23:06:55:576 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:55:823 plani-1/(5846:5850): Planificador Nivel 1: Acepto personaje #
+[TRACE] 23:06:55:823 plani-1/(5846:5850): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 23:06:56:385 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:06:57:188 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:57:791 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:06:58:595 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:06:59:399 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:07:00:202 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:01:7 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:07:01:809 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:02:614 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:07:03:418 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:04:221 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:07:05:24 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:05:727 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:07:05:728 plani-1/(5846:5850): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 23:07:05:728 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:06:532 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:07:335 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:08:138 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:08:943 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:09:748 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:10:551 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:11:354 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:12:159 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:12:963 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:13:767 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:14:571 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:15:373 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:16:178 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:16:981 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:17:787 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:18:591 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:07:19:393 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:08:25:660 plani-1/(5846:5850): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 23:08:25:660 plani-1/(5846:5850): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:42:733 plani-1/(5880:5884): Planificador Nivel 1: Acepto personaje #
+[TRACE] 23:08:42:733 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:43:24 plani-1/(5880:5884): Planificador Nivel 1: Acepto personaje @
+[TRACE] 23:08:43:24 plani-1/(5880:5884): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 23:08:43:538 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:08:44:341 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:45:144 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:08:45:746 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:46:549 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:08:47:353 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:48:159 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:08:48:962 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:49:766 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:08:50:572 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:51:375 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:08:52:182 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:52:684 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:08:52:886 plani-1/(5880:5884): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 23:08:52:886 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:53:689 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:54:493 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:55:300 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:56:103 plani-1/(5880:5884): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:08:56:308 plani-1/(5880:5884): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 23:10:53:429 plani-1/(5896:6002): Planificador Nivel 1: Acepto personaje #
+[TRACE] 23:10:53:429 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:10:53:702 plani-1/(5896:6002): Planificador Nivel 1: Acepto personaje @
+[TRACE] 23:10:53:702 plani-1/(5896:6002): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 23:10:54:232 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:10:55:34 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:10:55:836 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:10:56:438 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:10:57:242 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:10:58:47 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:10:58:851 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:10:59:654 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:11:00:457 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:11:14:476 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:11:15:279 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:11:16:82 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:11:16:582 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 23:11:16:785 plani-1/(5896:6002): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 23:11:16:785 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:11:17:588 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:11:18:391 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:11:19:194 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:11:19:996 plani-1/(5896:6002): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 23:11:20:198 plani-1/(5896:6002): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 00:44:07:952 plani-1/(7803:7844): Planificador Nivel 1: Acepto personaje #
+[TRACE] 00:44:07:952 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:44:08:208 plani-1/(7803:7844): Planificador Nivel 1: Acepto personaje @
+[TRACE] 00:44:08:208 plani-1/(7803:7844): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 00:44:08:754 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 00:44:09:558 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:44:10:362 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 00:44:10:964 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:44:11:767 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 00:44:12:569 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:44:13:374 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 00:44:14:179 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:44:14:985 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 00:44:15:787 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:46:49:937 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 00:46:50:744 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:46:51:245 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 00:46:51:448 plani-1/(7803:7844): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 00:46:51:448 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:46:52:254 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:46:53:59 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:46:53:863 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:46:54:666 plani-1/(7803:7844): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 00:46:54:870 plani-1/(7803:7844): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:05:10:147 plani-1/(8436:8441): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:05:10:148 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:10:410 plani-1/(8436:8441): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:05:10:410 plani-1/(8436:8441): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:05:10:952 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:05:11:754 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:12:557 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:05:13:160 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:13:962 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:05:14:765 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:15:569 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:05:16:373 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:17:176 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:05:17:979 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:18:783 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:05:19:585 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:20:85 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:05:20:288 plani-1/(8436:8441): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:05:20:288 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:21:94 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:21:898 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:22:701 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:23:504 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:05:23:706 plani-1/(8436:8441): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:05:23:933 plani-1/(8436:8441): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:05:23:933 plani-1/(8436:8441): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:07:59:405 plani-1/(8463:8509): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:07:59:405 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:07:59:679 plani-1/(8463:8509): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:07:59:679 plani-1/(8463:8509): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:08:00:208 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:08:01:11 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:01:814 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:08:02:416 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:03:219 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:08:04:23 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:04:827 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:08:05:630 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:06:432 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:08:09:73 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:09:877 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:08:10:681 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:11:183 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:08:11:386 plani-1/(8463:8509): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:08:11:386 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:12:190 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:12:996 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:13:800 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:14:603 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:14:805 plani-1/(8463:8509): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:08:39:726 plani-1/(8463:8509): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:08:39:726 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:46:749 plani-1/(8463:8509): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:08:49:853 plani-1/(8463:8509): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:19:51:903 plani-1/(8749:8868): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:19:51:903 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:19:52:195 plani-1/(8749:8868): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:19:52:195 plani-1/(8749:8868): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:19:52:706 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:19:53:512 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:19:54:315 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:19:54:916 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:19:55:719 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:19:56:522 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:19:57:326 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:19:58:131 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:19:58:935 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:19:59:738 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:00:543 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:20:02:644 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:03:145 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:20:03:347 plani-1/(8749:8868): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:20:03:347 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:04:152 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:04:955 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:05:761 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:06:566 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:06:768 plani-1/(8749:8868): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:20:25:656 plani-1/(8749:8868): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:20:25:656 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:36:560 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:20:37:580 plani-1/(8749:8868): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:20:41:664 plani-1/(8749:8868): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:22:50:999 plani-1/(8915:8978): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:22:50:999 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:22:51:285 plani-1/(8915:8978): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:22:51:286 plani-1/(8915:8978): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:22:51:803 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:22:52:607 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:22:53:409 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:22:55:419 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:22:56:223 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:22:57:29 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:22:57:833 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:22:58:637 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:22:59:441 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:23:00:245 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:01:47 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:23:01:851 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:02:353 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:23:02:554 plani-1/(8915:8978): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:23:02:554 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:03:360 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:04:162 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:04:966 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:07:777 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:07:980 plani-1/(8915:8978): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:23:22:436 plani-1/(8915:8978): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:23:22:436 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:27:721 plani-1/(8915:8978): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:23:32:262 plani-1/(8915:8978): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:26:47:198 plani-1/(9056:9165): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:26:47:198 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:26:47:431 plani-1/(9056:9165): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:26:47:431 plani-1/(9056:9165): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:26:48:7 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:26:48:812 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:26:49:615 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:26:50:217 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:26:51:20 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:27:55:804 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:27:56:606 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:27:57:409 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:27:58:212 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:27:59:16 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:27:59:820 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:28:00:623 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:28:01:124 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:28:01:327 plani-1/(9056:9165): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:28:01:327 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:28:02:132 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:28:02:937 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:28:03:740 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:28:04:543 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:28:04:745 plani-1/(9056:9165): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:28:14:338 plani-1/(9056:9165): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:28:14:338 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:28:15:726 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:28:16:195 plani-1/(9056:9165): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:28:35:971 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:08:447 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:30:268 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:41:667 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:42:477 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:43:282 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:44:93 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:44:902 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:45:709 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:46:513 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:47:322 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:48:127 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:48:933 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:49:739 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:50:549 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:51:358 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:54:546 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:55:351 plani-1/(9056:9165): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:29:55:352 plani-1/(9056:9165): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 01:35:09:743 plani-1/(9276:9331): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:35:09:743 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:10:550 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:11:352 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:11:353 plani-1/(9276:9331): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:35:11:353 plani-1/(9276:9331): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:35:12:158 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:35:15:75 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:15:882 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:35:20:40 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:20:844 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:35:33:353 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:34:156 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:35:36:563 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:37:64 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:35:39:560 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:40:365 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:35:42:94 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:42:900 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:35:56:20 plani-1/(9276:9331): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:35:56:20 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:56:825 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:57:629 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:35:57:832 plani-1/(9276:9331): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:36:00:950 plani-1/(9276:9331): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:36:00:950 plani-1/(9276:9331): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 01:36:48:801 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:36:49:606 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:05:283 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:37:05:386 plani-1/(9276:9331): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:37:05:386 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:09:210 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:29:793 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:31:682 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:33:330 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:35:329 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:37:437 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:39:98 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:40:926 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:42:558 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:44:202 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:45:836 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:47:478 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:49:347 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:50:940 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:52:469 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:37:54:134 plani-1/(9276:9331): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:38:39:521 plani-1/(9276:9331): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:40:52:365 plani-1/(9461:9466): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:40:52:365 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:40:53:168 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:40:53:442 plani-1/(9461:9466): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:40:53:442 plani-1/(9461:9466): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:40:53:970 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:40:58:603 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:40:59:410 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:41:02:911 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:03:716 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:41:06:589 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:07:392 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:41:09:586 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:10:389 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:41:15:471 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:15:971 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:41:19:298 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:20:103 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:41:51:185 plani-1/(9461:9466): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:41:51:185 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:51:989 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:52:793 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:53:597 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:41:53:801 plani-1/(9461:9466): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:42:00:850 plani-1/(9461:9466): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:42:00:850 plani-1/(9461:9466): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 01:43:39:941 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:43:40:745 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:43:48:204 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:43:48:306 plani-1/(9461:9466): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:43:48:306 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:01:858 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:03:873 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:05:746 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:07:366 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:08:928 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:10:552 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:12:277 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:14:356 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:16:9 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:19:109 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:20:741 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:22:723 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:24:231 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:25:893 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:27:508 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:44:29:442 plani-1/(9461:9466): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:20:722 plani-1/(9844:9849): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:48:20:723 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:20:923 plani-1/(9844:9849): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:48:20:923 plani-1/(9844:9849): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:48:21:525 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:22:328 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:23:132 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:23:735 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:24:539 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:25:344 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:26:149 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:26:955 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:27:760 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:28:564 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:29:369 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:30:175 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:30:676 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:30:880 plani-1/(9844:9849): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:48:30:880 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:31:687 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:32:491 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:33:297 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:34:100 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:34:303 plani-1/(9844:9849): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:48:37:235 plani-1/(9844:9849): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:48:37:235 plani-1/(9844:9849): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 01:48:37:737 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:38:541 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:39:346 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:40:149 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:40:951 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:41:756 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:42:560 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:43:366 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:44:170 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:44:975 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:45:778 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:46:585 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:47:390 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:48:47:391 plani-1/(9844:9849): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:48:47:391 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:48:195 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:48:999 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:49:804 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:50:608 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:51:414 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:52:220 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:53:26 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:53:830 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:54:634 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:55:439 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:56:244 plani-1/(9844:9849): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:48:56:244 plani-1/(9844:9849): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 01:49:55:645 plani-1/(9855:9860): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:49:55:645 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:49:55:862 plani-1/(9855:9860): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:49:55:862 plani-1/(9855:9860): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:49:56:447 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:49:57:254 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:49:58:57 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:49:58:660 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:49:59:466 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:00:272 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:01:78 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:01:883 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:02:686 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:03:492 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:04:299 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:05:104 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:05:605 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:05:809 plani-1/(9855:9860): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:50:05:809 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:06:612 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:07:417 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:08:222 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:09:28 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:09:233 plani-1/(9855:9860): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:50:13:655 plani-1/(9855:9860): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:50:13:655 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:14:461 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:14:962 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:15:770 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:16:574 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:17:377 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:18:183 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:18:989 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:19:796 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:20:603 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:21:407 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:22:213 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:23:19 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:23:19 plani-1/(9855:9860): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:50:23:20 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:23:824 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:24:630 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:25:133 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:25:937 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:26:743 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:27:547 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:28:355 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:29:159 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:29:964 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:30:769 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:31:574 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:32:379 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:33:81 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:33:888 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:34:692 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:35:500 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:36:305 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:37:109 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:37:914 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:38:722 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:39:528 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:40:334 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:50:41:139 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:50:41:242 plani-1/(9855:9860): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:50:41:242 plani-1/(9855:9860): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:19:477 plani-1/(9876:9880): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:52:19:477 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:20:281 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:21:84 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:21:888 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:21:888 plani-1/(9876:9880): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:52:21:888 plani-1/(9876:9880): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:52:22:692 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:23:498 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:24:304 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:24:907 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:25:715 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:26:520 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:27:21 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:27:827 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:28:632 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:29:436 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:30:241 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:31:47 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:31:853 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:32:57 plani-1/(9876:9880): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:52:32:57 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:32:863 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:33:65 plani-1/(9876:9880): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:52:40:667 plani-1/(9876:9880): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:52:40:668 plani-1/(9876:9880): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 01:52:41:169 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:41:975 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:42:779 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:43:584 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:44:391 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:45:194 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:45:0 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:46:804 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:47:611 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:48:417 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:49:224 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:50:29 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:50:833 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:52:50:834 plani-1/(9876:9880): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:52:50:834 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:51:639 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:52:443 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:53:251 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:54:54 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:54:858 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:55:663 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:56:468 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:57:272 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:58:75 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:58:881 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:59:686 plani-1/(9876:9880): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:52:59:687 plani-1/(9876:9880): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 01:55:45:333 plani-1/(10060:10103): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:55:45:333 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:46:138 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:46:138 plani-1/(10060:10103): Planificador Nivel 1: Acepto personaje @
+[TRACE] 01:55:46:138 plani-1/(10060:10103): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 01:55:46:940 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:55:47:746 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:48:551 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:55:51:411 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:52:217 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:55:53:20 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:53:825 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:55:54:629 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:55:433 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:55:56:238 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:56:739 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:55:57:541 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:58:344 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:55:58:548 plani-1/(10060:10103): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:55:58:548 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:55:59:352 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:56:00:157 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:56:00:961 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:56:03:158 plani-1/(10060:10103): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:56:23:903 plani-1/(10060:10103): Planificador Nivel 1: Acepto personaje #
+[TRACE] 01:56:23:903 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:56:25:902 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:56:28:245 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:58:13:462 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:13:963 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:58:14:770 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:15:575 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:58:16:379 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:17:183 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:58:17:987 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:18:794 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:58:18:794 plani-1/(10060:10103): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 01:58:18:794 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:19:597 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:20:402 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:21:205 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:22:8 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:58:22:811 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:18:400 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:19:203 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:59:19:704 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:20:508 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:59:21:312 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:22:117 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:59:22:920 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:23:724 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:59:24:528 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:25:333 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:59:26:135 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:26:941 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:59:27:645 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:28:450 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:59:31:193 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:31:996 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 01:59:32:800 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 01:59:46:810 plani-1/(10060:10103): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 01:59:46:810 plani-1/(10060:10103): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:30:984 plani-1/(10242:10246): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:04:30:984 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:31:177 plani-1/(10242:10246): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:04:31:177 plani-1/(10242:10246): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:04:31:789 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:32:591 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:33:394 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:33:997 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:34:802 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:35:607 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:36:411 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:37:215 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:38:20 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:38:824 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:39:626 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:40:430 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:40:931 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:41:134 plani-1/(10242:10246): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:04:41:134 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:41:938 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:42:742 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:43:546 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:44:351 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:44:553 plani-1/(10242:10246): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:04:45:463 plani-1/(10242:10246): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:04:45:463 plani-1/(10242:10246): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 02:04:45:964 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:46:767 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:47:570 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:48:372 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:49:179 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:49:983 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:50:787 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:51:591 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:52:396 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:53:200 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:54:5 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:54:808 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:55:611 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:04:55:611 plani-1/(10242:10246): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:04:55:611 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:56:415 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:57:219 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:58:23 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:58:829 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:04:59:633 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:05:00:438 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:05:01:244 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:05:02:46 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:05:02:852 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:05:03:656 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:05:04:460 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:09:43:301 plani-1/(10242:10246): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 02:09:43:301 plani-1/(10242:10246): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:09:55:936 plani-1/(10313:10317): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:09:55:936 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:09:56:165 plani-1/(10313:10317): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:09:56:165 plani-1/(10313:10317): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:09:56:738 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:09:57:543 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:09:58:347 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:09:58:949 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:09:59:754 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:00:559 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:01:362 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:02:168 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:02:972 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:03:777 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:04:582 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:05:386 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:05:887 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:06:89 plani-1/(10313:10317): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:10:06:90 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:06:893 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:07:700 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:08:504 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:09:306 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:09:509 plani-1/(10313:10317): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:10:10:724 plani-1/(10313:10317): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:10:10:724 plani-1/(10313:10317): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 02:10:11:225 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:12:28 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:12:833 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:13:639 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:14:444 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:15:248 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:16:50 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:16:853 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:17:658 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:18:461 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:19:265 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:20:67 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:20:870 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:10:20:871 plani-1/(10313:10317): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:10:20:871 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:21:675 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:22:481 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:23:286 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:24:89 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:24:895 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:25:699 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:26:505 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:27:307 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:28:116 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:28:919 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:10:29:724 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:11:36:354 plani-1/(10313:10317): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 02:11:36:354 plani-1/(10313:10317): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:11:55:484 plani-1/(10340:10456): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:11:55:484 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:11:55:769 plani-1/(10340:10456): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:11:55:769 plani-1/(10340:10456): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:11:56:288 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:11:57:91 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:11:57:896 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:11:58:498 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:11:59:302 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:12:00:106 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:02:240 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:12:03:45 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:03:850 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:12:04:652 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:05:457 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:12:06:262 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:06:763 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:12:06:966 plani-1/(10340:10456): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:12:06:966 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:07:771 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:08:574 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:09:378 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:10:180 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:12:10:382 plani-1/(10340:10456): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:15:40:288 plani-1/(10340:10456): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:15:40:288 plani-1/(10340:10456): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:37:26 plani-1/(10927:10931): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:29:37:26 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:37:224 plani-1/(10927:10931): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:29:37:224 plani-1/(10927:10931): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:29:37:829 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:29:38:634 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:39:438 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:29:40:42 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:40:845 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:29:41:651 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:42:454 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:29:43:258 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:44:64 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:29:44:867 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:45:672 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:29:46:477 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:46:978 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:29:47:181 plani-1/(10927:10931): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:29:47:181 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:47:986 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:48:794 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:49:603 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:50:407 plani-1/(10927:10931): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:29:50:609 plani-1/(10927:10931): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:29:56:962 plani-1/(10927:10931): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:32:15:598 plani-1/(11162:11167): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:32:15:598 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:15:808 plani-1/(11162:11167): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:32:15:808 plani-1/(11162:11167): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:32:16:403 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:17:209 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:18:14 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:18:619 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:19:424 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:20:229 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:21:33 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:21:839 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:22:645 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:23:451 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:24:256 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:25:62 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:25:563 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:25:767 plani-1/(11162:11167): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:32:25:767 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:26:571 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:27:374 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:28:181 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:28:988 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:32:29:192 plani-1/(11162:11167): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:32:33:378 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:34:183 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:34:989 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:35:794 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:36:600 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:37:406 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:38:210 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:39:14 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:39:820 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:40:625 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:41:428 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:42:230 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:43:35 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:43:839 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:44:643 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:45:448 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:46:251 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:32:47:55 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:41:52:918 plani-1/(11162:11167): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 02:41:52:918 plani-1/(11162:11167): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:04:405 plani-1/(11588:11592): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:42:04:405 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:04:648 plani-1/(11588:11592): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:42:04:648 plani-1/(11588:11592): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:42:05:209 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:06:12 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:06:818 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:07:420 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:08:224 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:09:30 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:09:834 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:10:638 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:11:441 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:12:248 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:13:54 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:13:859 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:14:360 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:14:562 plani-1/(11588:11592): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:42:14:562 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:15:365 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:16:170 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:16:976 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:17:780 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:42:17:984 plani-1/(11588:11592): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:42:19:393 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:20:197 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:21:0 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:21:806 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:22:610 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:23:415 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:24:220 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:25:24 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:25:830 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:26:633 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:27:436 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:28:240 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:29:43 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:29:847 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:30:650 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:31:455 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:32:259 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:33:62 plani-1/(11588:11592): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:42:33:63 plani-1/(11588:11592): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 02:43:52:121 plani-1/(11607:11611): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:43:52:121 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:43:52:388 plani-1/(11607:11611): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:43:52:388 plani-1/(11607:11611): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:43:52:927 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:43:53:734 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:43:54:539 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:43:55:141 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:43:55:947 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:43:56:751 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:43:57:557 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:43:58:361 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:43:59:168 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:43:59:973 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:44:00:780 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:01:585 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:44:02:86 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:02:291 plani-1/(11607:11611): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:44:02:291 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:44:03:95 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:44:03:898 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:44:04:704 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:44:05:511 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:44:05:716 plani-1/(11607:11611): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:44:15:195 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:15:2 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:16:804 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:17:608 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:18:411 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:19:217 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:20:21 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:20:824 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:21:631 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:22:436 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:23:239 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:24:45 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:24:852 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:25:659 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:26:464 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:27:269 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:28:72 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:28:876 plani-1/(11607:11611): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:44:28:878 plani-1/(11607:11611): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 02:50:08:658 plani-1/(11872:11951): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:50:08:658 plani-1/(11872:11951): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:08:960 plani-1/(11872:11951): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:50:08:960 plani-1/(11872:11951): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:50:45:65 plani-1/(12059:12102): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:50:45:65 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:45:320 plani-1/(12059:12102): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:50:45:320 plani-1/(12059:12102): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:50:45:868 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:50:46:672 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:47:476 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:50:49:449 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:50:253 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:50:51:57 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:51:861 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:50:52:664 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:53:470 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:50:54:273 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:55:80 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:50:55:888 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:56:390 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:50:56:591 plani-1/(12059:12102): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:50:56:591 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:57:397 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:58:201 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:50:59:8 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:51:01:177 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:51:01:380 plani-1/(12059:12102): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:53:03:745 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:53:23:103 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:56:08:457 plani-1/(12059:12102): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:33:24 plani-1/(12369:12374): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:57:33:24 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:33:259 plani-1/(12369:12374): Planificador Nivel 1: Acepto personaje @
+[TRACE] 02:57:33:259 plani-1/(12369:12374): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 02:57:33:830 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:34:635 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:35:439 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:36:41 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:36:846 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:37:651 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:38:459 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:39:265 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:40:70 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:40:874 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:41:679 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:42:485 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:42:986 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:43:190 plani-1/(12369:12374): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 02:57:43:190 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:43:996 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:44:803 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:45:608 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:46:411 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:46:613 plani-1/(12369:12374): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:57:56:381 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:56:382 plani-1/(12369:12374): Planificador Nivel 1: Acepto personaje #
+[TRACE] 02:57:56:382 plani-1/(12369:12374): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 02:57:57:187 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:57:993 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:57:58:797 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:57:59:601 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:00:405 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:58:01:209 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:02:14 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:58:02:820 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:03:623 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:58:04:426 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:05:231 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:58:06:36 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:06:840 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 02:58:06:841 plani-1/(12369:12374): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 02:58:06:841 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:07:645 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:08:449 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:09:256 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:10:61 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:10:864 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:11:668 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:12:473 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:13:277 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:14:81 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:14:885 plani-1/(12369:12374): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 02:58:14:886 plani-1/(12369:12374): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:01:16:599 plani-1/(12560:12606): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:01:16:599 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:16:830 plani-1/(12560:12606): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:01:16:830 plani-1/(12560:12606): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 03:01:17:402 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:01:18:205 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:20:404 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:01:21:6 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:21:810 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:01:22:615 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:23:417 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:01:24:220 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:25:23 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:01:25:827 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:26:630 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:01:27:433 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:27:935 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:01:28:139 plani-1/(12560:12606): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 03:01:28:139 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:28:944 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:29:754 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:32:915 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:33:719 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:01:33:921 plani-1/(12560:12606): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 03:06:00:711 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:05:946 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:11:265 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:11:880 plani-1/(12560:12606): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:06:11:880 plani-1/(12560:12606): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 03:06:19:382 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:06:20:187 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:20:990 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:06:21:792 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:22:595 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:06:23:399 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:24:204 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:06:25:10 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:25:814 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:06:26:617 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:27:420 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:06:28:224 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:06:29:29 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:06:31:859 plani-1/(12560:12606): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 03:06:31:859 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:15:185 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:08:15:686 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:16:490 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:08:17:295 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:18:97 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:08:18:900 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:19:704 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:08:20:506 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:21:308 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:08:22:113 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:22:918 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:08:23:619 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:24:423 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:08:25:226 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:27:678 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:08:28:480 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:08:36:271 plani-1/(12560:12606): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 03:08:36:271 plani-1/(12560:12606): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:09:51:63 plani-1/(12841:12845): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:09:51:63 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:51:866 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:52:469 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:53:274 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:54:80 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:54:885 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:55:688 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:56:392 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:57:197 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:57:1 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:58:806 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:09:59:609 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:00:413 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:01:218 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:02:24 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:02:827 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:03:631 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:04:435 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:05:239 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:06:45 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:06:850 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:07:655 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:08:459 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:09:264 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:10:67 plani-1/(12841:12845): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:10:53:380 plani-1/(12841:12845): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:12:08:866 plani-1/(13006:13052): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:12:08:866 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:09:668 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:10:271 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:11:74 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:11:878 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:12:682 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:13:485 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:14:187 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:14:993 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:19:787 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:20:590 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:21:393 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:22:200 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:23:3 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:23:807 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:24:611 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:25:413 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:26:215 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:27:19 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:27:826 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:28:631 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:29:435 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:31:251 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:32:55 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:32:858 plani-1/(13006:13052): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:12:32:859 plani-1/(13006:13052): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:13:34:589 plani-1/(13074:13117): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:13:34:589 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:35:391 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:35:992 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:36:796 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:37:601 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:38:405 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:39:207 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:39:911 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:40:714 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:41:517 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:42:320 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:43:124 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:43:927 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:44:734 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:45:540 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:46:344 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:47:147 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:47:952 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:48:758 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:49:561 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:50:365 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:51:168 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:51:970 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:52:775 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:53:579 plani-1/(13074:13117): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:13:53:579 plani-1/(13074:13117): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:24:50:617 plani-1/(13387:13391): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:24:50:617 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:51:421 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:52:22 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:52:825 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:53:630 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:54:432 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:55:235 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:55:944 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:56:748 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:57:554 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:58:358 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:59:162 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:24:59:968 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:00:770 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:01:574 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:02:379 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:03:182 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:03:988 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:04:792 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:05:596 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:06:401 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:07:206 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:08:9 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:08:811 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:09:615 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:09:616 plani-1/(13387:13391): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:25:14:262 plani-1/(13387:13391): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:25:14:262 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:15:65 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:15:667 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:16:471 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:17:275 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:18:78 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:18:882 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:19:586 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:25:20:390 plani-1/(13387:13391): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:37:245 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:26:37:245 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:38:50 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:38:652 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:39:457 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:40:260 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:41:64 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:41:868 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:42:573 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:43:378 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:44:186 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:44:992 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:45:795 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:46:599 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:47:402 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:48:207 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:49:11 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:49:816 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:50:621 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:51:425 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:52:231 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:53:34 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:53:841 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:54:647 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:55:451 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:56:255 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:26:56:256 plani-1/(13571:13575): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:27:10:275 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:27:10:275 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:11:80 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:11:883 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:12:687 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:13:491 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:14:295 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:15:99 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:15:601 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:16:406 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:17:211 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:18:15 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:18:821 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:19:525 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:20:331 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:21:135 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:21:939 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:22:742 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:23:547 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:24:350 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:25:154 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:25:958 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:26:765 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:27:570 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:28:374 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:29:177 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:29:981 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:30:785 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:31:590 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:32:397 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:33:203 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:34:8 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:34:813 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:35:618 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:36:421 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:36:625 plani-1/(13571:13575): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:27:51:162 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:27:51:162 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:51:965 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:51:965 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:27:51:965 plani-1/(13571:13575): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 03:27:52:770 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:27:53:572 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:54:377 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:27:54:979 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:55:786 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:27:56:591 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:57:395 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:27:58:200 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:27:59:6 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:27:59:809 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:00:309 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:01:115 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:01:920 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:02:123 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 03:28:02:123 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:02:927 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:03:733 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:04:539 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:04:742 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 03:28:13:991 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:13:992 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:28:13:992 plani-1/(13571:13575): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 03:28:14:793 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:15:599 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:16:404 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:16:506 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 03:28:16:506 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:17:312 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:18:118 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:18:924 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:19:729 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:20:535 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:21:339 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:22:146 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:22:950 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:23:753 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:24:558 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:25:59 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:25:864 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:26:668 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:27:473 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:28:276 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:29:80 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:29:887 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:30:692 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:31:497 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:32:303 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:33:5 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:33:810 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:34:617 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:35:423 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:36:227 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:37:32 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:37:837 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:38:641 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:39:447 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:28:39:651 plani-1/(13571:13575): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:28:39:651 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:40:456 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:41:259 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:42:64 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:42:868 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:43:672 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:44:476 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:45:282 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:46:86 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:46:890 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:47:695 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:48:498 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:49:301 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:50:106 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:28:50:107 plani-1/(13571:13575): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:29:29:130 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:29:29:130 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:29:933 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:30:739 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:31:545 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:32:351 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:33:155 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:33:959 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:34:460 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:35:266 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:36:72 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:36:875 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:37:678 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:38:382 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:39:186 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:39:993 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:40:796 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:41:600 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:42:404 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:43:207 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:44:13 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:44:816 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:45:621 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:46:424 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:47:229 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:48:33 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:48:839 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:49:644 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:50:447 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:50:562 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:29:50:562 plani-1/(13571:13575): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 03:29:51:252 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:29:52:58 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:52:861 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:29:52:962 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 03:29:52:962 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:53:768 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:54:573 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:55:379 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:56:183 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:29:56:386 plani-1/(13571:13575): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:29:56:887 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:29:57:692 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:29:58:495 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:29:59:300 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:00:105 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:00:807 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:01:612 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:02:415 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:03:220 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:04:24 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:04:830 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:05:635 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:06:440 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:07:246 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:08:51 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:08:853 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:09:657 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:10:462 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:11:264 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:12:68 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:12:875 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:13:678 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:14:482 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:14:483 plani-1/(13571:13575): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:30:29:352 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:30:29:352 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:30:156 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:30:156 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:30:30:156 plani-1/(13571:13575): Planificador Nivel 1, Encolo personaje: @
+[TRACE] 03:30:30:958 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:31:765 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:32:570 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:33:172 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:33:977 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:34:781 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:35:585 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:36:390 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:37:194 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:37:999 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:38:501 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:39:305 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:40:112 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:40:317 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: @
+[TRACE] 03:30:40:317 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:41:123 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:41:928 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:42:734 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:42:936 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 03:30:44:546 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:44:547 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:30:44:547 plani-1/(13571:13575): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 03:30:45:353 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:46:158 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:46:962 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:47:766 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:48:570 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:49:374 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:50:176 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:50:981 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:51:786 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:52:591 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:53:393 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:54:199 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:54:2 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:30:54:3 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 03:30:54:3 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:55:807 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:56:613 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:57:418 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:58:224 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:59:28 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:30:59:832 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:00:637 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:01:445 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:02:250 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:03:55 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:03:57 plani-1/(13571:13575): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:31:03:558 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:04:363 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:05:167 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:05:973 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:06:778 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:07:482 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:08:287 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:09:91 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:09:895 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:10:700 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:11:510 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:12:316 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:13:122 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:13:926 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:14:730 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:15:535 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:16:339 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:17:144 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:17:948 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:18:753 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:19:559 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:20:362 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:21:166 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:21:971 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:22:775 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:23:581 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:24:387 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:24:590 plani-1/(13571:13575): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:31:39:849 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:31:39:850 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:40:654 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:41:258 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:42:62 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:42:866 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:43:670 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:44:475 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:45:177 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:45:982 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:46:143 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:31:46:144 plani-1/(13571:13575): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 03:31:46:786 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:47:588 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:48:393 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:49:197 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:50:2 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:50:807 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:51:611 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:52:418 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:53:221 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:54:26 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:54:831 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:55:637 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:56:442 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:31:56:443 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 03:31:56:443 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:57:246 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:58:50 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:58:855 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:31:59:660 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:00:464 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:01:270 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:02:76 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:02:880 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:03:685 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:03:686 plani-1/(13571:13575): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:32:04:187 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:04:990 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:05:796 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:06:604 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:07:408 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:08:111 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:08:917 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:09:722 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:10:525 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:11:329 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:12:135 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:12:941 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:13:745 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:14:549 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:15:353 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:16:159 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:16:964 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:17:766 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:18:570 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:19:374 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:20:177 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:20:980 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:21:784 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:22:588 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:23:393 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:24:198 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:25:1 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:25:206 plani-1/(13571:13575): Personaje # Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:32:45:392 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje @
+[TRACE] 03:32:45:392 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:46:197 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:46:197 plani-1/(13571:13575): Planificador Nivel 1: Acepto personaje #
+[TRACE] 03:32:46:197 plani-1/(13571:13575): Planificador Nivel 1, Encolo personaje: #
+[TRACE] 03:32:46:800 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:47:605 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:48:411 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:49:216 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:50:22 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:50:830 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:51:637 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:52:440 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:53:244 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:54:50 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:54:753 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:55:557 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:56:361 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:32:56:362 plani-1/(13571:13575): Planificador Nivel 1, Bloqueo personaje: #
+[TRACE] 03:32:56:362 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:57:166 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:57:972 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:58:776 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:32:59:580 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:00:383 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:01:187 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:01:989 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:02:793 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:03:598 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:04:401 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:05:205 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:06:10 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:06:815 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:07:618 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:08:420 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:09:222 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje @, Quantum: 3. 
+
+[TRACE] 03:33:09:223 plani-1/(13571:13575): Personaje @ Finalizo Nivel 1 y se desconecta.
+[TRACE] 03:33:09:725 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:10:530 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:11:333 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:12:136 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:12:941 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:13:643 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:14:447 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:15:250 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:16:53 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:16:856 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:17:660 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:18:464 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:19:267 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:20:70 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:20:875 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:21:678 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:22:480 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:23:283 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:24:87 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:24:892 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:25:696 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:26:500 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:27:303 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:28:108 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:28:914 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:29:719 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:30:523 plani-1/(13571:13575): Planificador Nivel 1, Movimiento personaje #, Quantum: 3. 
+
+[TRACE] 03:33:30:725 plani-1/(13571:13575): Personaje # Finalizo Nivel 1 y se desconecta.
