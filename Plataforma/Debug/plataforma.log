@@ -4393,3 +4393,4 @@
 
 [TRACE] 03:33:30:725 plataforma/(13571:13572): Orquestador: Personaje conectado.
 [TRACE] 03:33:30:725 plataforma/(13571:13572): Personaje pidio Nivel 2, que no exta conectado.
+[TRACE] 03:39:12:642 plataforma/(13571:13572): Alguien se desconecto.
