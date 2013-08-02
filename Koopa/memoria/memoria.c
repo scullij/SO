@@ -6,9 +6,9 @@
 t_log* logger;
 t_list* _particiones;
 
-t_particion* crear_particion (char id, int inicio, int tamanio);
-t_particion* buscar_particion (char id);
-t_particion* buscar_particion_best_fit (int tamanio);
+t_particion* crear_particion (char id, int inicio, int tamanio, int index_particion);
+int buscar_particion (char id);
+int buscar_particion_best_fit (int tamanio);
 
 t_memoria crear_memoria(int tamanio) {
 	// Creo espacio de memoria
@@ -22,7 +22,7 @@ t_memoria crear_memoria(int tamanio) {
 	_particiones = list_create();
 
 	// Creo particion vacia (tamanio total)
-	t_particion* particionLibre = crear_particion ('\0', 0, tamanio);
+	t_particion* particionLibre = crear_particion ('\0', 0, tamanio, 0);
 	particionLibre->libre = true;
 	particionLibre->dato = segmento;
 
@@ -38,18 +38,20 @@ int almacenar_particion(t_memoria segmento, char id, int tamanio, char* contenid
 	log_trace(logger, contenido);
 
 	// Busco la particion donde mejor cabe el tamanio (best fit)
-	t_particion* particionBestFit = buscar_particion_best_fit(tamanio);
+	int index_BestFit = buscar_particion_best_fit(tamanio);
 
-	if (particionBestFit == NULL)
+	if (index_BestFit == -1)
 	{
 		log_trace(logger, "=== NO BEST FIT ===");
 		return -1;
 	}
 
+	t_particion* particionBestFit = list_get (_particiones, index_BestFit);
+
 	log_trace(logger, string_from_format("BEST FIT FOUND: %i", particionBestFit->inicio));
 
 	// Creo una nueva particion para almacenar la posicion
-	t_particion* particionNueva = crear_particion(id, particionBestFit->inicio, tamanio);
+	t_particion* particionNueva = crear_particion(id, particionBestFit->inicio, tamanio, index_BestFit);
 	memcpy(segmento + particionBestFit->inicio, contenido, tamanio);
 	particionNueva->dato = segmento + particionBestFit->inicio;
 
@@ -70,7 +72,8 @@ int almacenar_particion(t_memoria segmento, char id, int tamanio, char* contenid
 int eliminar_particion(t_memoria segmento, char id) {
 	log_trace(logger, "eliminar_particion()");
 
-	t_particion* particion = buscar_particion(id);
+	int particionIndex = buscar_particion(id);
+	t_particion* particion = list_get(_particiones, particionIndex);
 
 	if (particion == NULL)
 	{
@@ -82,33 +85,41 @@ int eliminar_particion(t_memoria segmento, char id) {
 	return 0;
 }
 
+void liberar_particion (t_particion* particion) {
+	free(particion);
+}
+
 void liberar_memoria(t_memoria segmento) {
 	log_trace(logger, "liberar_memoria()");
 
-	list_clean(_particiones);
+	list_clean_and_destroy_elements(_particiones, (void*) liberar_particion);
 	free(_particiones);
 	free(segmento);
 }
 
+
 t_list* particiones(t_memoria segmento) {
 	log_trace(logger, "particiones()");
 
-	int i;
-	t_list* list = list_create();
+	//int i;
+	//t_list* list = list_create();
 
 
-	for(i=0; i < list_size(_particiones); i ++)
-	{
-		t_particion* particion = list_get (_particiones, i);
-		list_add(list, particion);
-	}
+	//for(i=0; i < list_size(_particiones); i ++)
+	//{
+	//	t_particion* particion = list_get (_particiones, i);
+	//	list_add(list, particion);
+	//}
+
+	t_list* list = list_take(_particiones, _particiones->elements_count);
+
 
 	// IMPORTANTE: Koopa necesita una nueva lista, porque despues la libera de memoria
 	return list;
 
 }
 
-t_particion* crear_particion (char id, int inicio, int tamanio) {
+t_particion* crear_particion (char id, int inicio, int tamanio, int index_particion) {
 	t_particion* particion = malloc (sizeof(t_particion));
 	particion->id = id;
 	particion->inicio = inicio;
@@ -117,12 +128,12 @@ t_particion* crear_particion (char id, int inicio, int tamanio) {
 	particion->dato = NULL;
 	particion->libre = false;
 
-	list_add(_particiones, particion);
+	list_add_in_index(_particiones, index_particion, particion);
 	return particion;
 }
 
 
-t_particion* buscar_particion (char id){
+int buscar_particion (char id){
 	int i = 0;
 
 	for(i=0; i < list_size(_particiones); i ++)
@@ -130,15 +141,16 @@ t_particion* buscar_particion (char id){
 		t_particion* particion = list_get (_particiones, i);
 
 		if (particion->id == id){
-			return particion;
+			return i;
 		}
 	}
 
-	return NULL;
+	return -1;
 }
 
-t_particion* buscar_particion_best_fit (int tamanio){
+int buscar_particion_best_fit (int tamanio){
 	t_particion* bestFit = NULL;
+	int index_bestFit = -1;
 	int i = 0;
 
 	log_trace(logger, "BEST FIT Algoritmo:");
@@ -157,13 +169,10 @@ t_particion* buscar_particion_best_fit (int tamanio){
 				bestFit->tamanio > particion->tamanio)
 			{
 				bestFit = particion;
+				index_bestFit = i;
 			}
 		}
 	}
 
-	return bestFit;
+	return index_bestFit;
 }
-
-
-
-
