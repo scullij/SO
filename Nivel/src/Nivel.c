@@ -100,6 +100,9 @@ t_log* logger;
 
 //DEADLOCK
 
+uint16_t listener;     // listening socket descriptor
+fd_set master;    // master file descriptor list
+
 void rutines(int sockete, int routine, void* payload, int orquestador);
 t_nivel *configurar_nivel(char* path);
 void iterar_recurso(t_list* self, void(*closure)(t_recurso*));
@@ -108,7 +111,6 @@ void setCantidadRecursos(ITEM_NIVEL** ListaItems, char id, int cantidad);
 //Deadlock
 void personaje_matar(t_character_lvl* character_to_kill, int16_t orquestador, int muerte);
 void *verificar_interbloqueo(void* args);
-
 
 int main(int argc, char *argv[]) {
 	char* path = malloc(0);
@@ -141,11 +143,9 @@ int main(int argc, char *argv[]) {
 	nivelPuerto->puerto = nivel->puerto;
 	enviar(orquestador, P_NIV_CONNECT_ORQ, nivelPuerto, sizeof(nivelPuerto));
 
-	fd_set master;    // master file descriptor list
     fd_set read_fds;  // temp file descriptor list for select()
     uint16_t fdmax;        // maximum file descriptor number
 
-    uint16_t listener;     // listening socket descriptor
     unsigned int newfd;        // newly accept()ed socket descriptor
 
     void *buffer;    // buffer for client data
@@ -273,16 +273,18 @@ void rutines(int sockete, int routine, void* payload, int orquestador){
 		case P_PER_PEDIR_RECURSO:
 			posicion = (t_posicion*)payload;
 			pthread_mutex_lock(&mutex_nivel);
+			pthread_mutex_lock(&mutex_listapjs);
 			int i;
 			for(i=0;i<list_size(nivel->recursos);i++){
 				t_recurso* element = list_get(nivel->recursos,i);
 		    	if(element->x == posicion->x && element->y == posicion->y){
-		    		pthread_mutex_lock(&mutex_listapjs);
 
 		    		bool _encontrar_personaje_por_id(void* asd){
 		    			return ((t_character_lvl*)asd)->id == posicion->personaje;
 		    		}
 		    		personaje = list_find(personajes, _encontrar_personaje_por_id);
+					personaje->resource_blocked = 0;
+					personaje->status = NONBLOCKED;
 
 		    		if(element->instancias > 0){
 		    			bool _encontrar_recurso(void* asd){
@@ -304,12 +306,13 @@ void rutines(int sockete, int routine, void* payload, int orquestador){
 		    			enviar(sockete, P_NIV_RECURSO_OK, NULL, 0);
 		    		}else {
 		    			personaje->status = BLOCKED;
+		    			personaje->resource_blocked = element->simbolo;
 		    			log_trace(logger, "Recurso bloqueado %c", element->simbolo);
 		    			enviar(sockete, P_NIV_RECURSO_BLOQUEO, NULL, 0);
 					}
-		    		pthread_mutex_unlock(&mutex_listapjs);
 				}
 		    }
+			pthread_mutex_unlock(&mutex_listapjs);
     		pthread_mutex_unlock(&mutex_nivel);
 			break;
 		case P_PER_NIV_FIN:
@@ -321,6 +324,7 @@ void rutines(int sockete, int routine, void* payload, int orquestador){
 			}
 			personaje = list_find(personajes, _encontrar_personaje_por_id);
     		personaje_matar(personaje, orquestador, 0);
+    		free(list_remove_by_condition(personajes, _encontrar_personaje_por_id));
     		pthread_mutex_unlock(&mutex_nivel);
     		pthread_mutex_unlock(&mutex_listapjs);
 			break;
@@ -399,12 +403,13 @@ void setCantidadRecursos(ITEM_NIVEL** ListaItems, char id, int cantidad) {
 void *verificar_interbloqueo(void* args){
 	//t_deadlock_params deadlock_params = *((t_deadlock_params *)args);
 	int16_t orquestador = *((int16_t*)args);
-	/*int epoll_instance = deadlock_params.epoll_instance;
-	struct epoll_event event;*/
 
 	while(1){
 		sleep(nivel->tiempoChequeoDeadlock);
 		log_trace(logger, "Deadlock check started.");
+
+		pthread_mutex_lock(&mutex_listapjs);
+		pthread_mutex_lock(&mutex_nivel);
 
 		int _character_is_blocked(t_character_lvl* character_blocked){
 			return character_blocked->status == BLOCKED;
@@ -413,10 +418,6 @@ void *verificar_interbloqueo(void* args){
 		t_list* personajes_bloqueados = list_filter(personajes,(void*)_character_is_blocked);
 		/*Si la cantidad de personajes bloqueados es mayor a 0, entonces hago todoo esto*/
 		if(list_size(personajes_bloqueados)>1){
-			/*Lockeo a los personajes*/
-			pthread_mutex_lock(&mutex_listapjs);
-			/*Lockeo el nivel para poder manejar el deadlock en este lugar*/
-			pthread_mutex_lock(&mutex_nivel);
 			int cantidad_recursos = list_size(nivel->recursos);
 			t_recurso vector_disponibles[cantidad_recursos];
 			/*Inicializo el vector de disponibles*/
@@ -430,13 +431,10 @@ void *verificar_interbloqueo(void* args){
 			/*Verifico por cada personaje que no tenga recursos asignados*/
 			for(i=0; i<list_size(personajes_bloqueados); i++){
 				t_character_lvl* personaje = list_get(personajes_bloqueados, i);
-				int _has_asigned_resourse(t_pj_recursos* resource){
-					return resource->cantidad == 0;
-				}
 
 				/*Verifico que no tenga recursos asignados. Si no tiene recursos, lo marco*/
-				t_list* recursos_nulos = list_filter(personaje->resourse_list,(void*)_has_asigned_resourse);
-				if(list_size(recursos_nulos) == cantidad_recursos){
+				int recursos_nulos = list_size(personaje->resourse_list);
+				if(recursos_nulos == cantidad_recursos){
 					/*Si todos los recursos del nivel estan en 0 para el personaje seleccionado lo marco*/
 					personaje->deadlock_status = MARCKED;
 				}else{
@@ -482,13 +480,9 @@ void *verificar_interbloqueo(void* args){
 				character_lvl->deadlock_status = 0;
 			}
 
-			/*Deslockeo el mutex listapjs*/
-			pthread_mutex_unlock(&mutex_listapjs);
-			/*Deslockeo el nivel porque ya verifique lo que necesitaba*/
-			pthread_mutex_unlock(&mutex_nivel);
-
 			if (nivel->recovery == 1 && list_size(personajes_en_deadlock) >= 2){
 				//Deshabilito los eventos sobre el socket_orquestador//
+				FD_CLR(listener, &master);
 				/*event.data.fd = socket_orquestador.socketfd;
 				event.events = EPOLLIN | EPOLLET;
 				epoll_ctl(epoll_instance, EPOLL_CTL_DEL, socket_orquestador.socketfd, &event);*/
@@ -497,19 +491,7 @@ void *verificar_interbloqueo(void* args){
 				/*Le aviso que se detecto un interbloqueo*/
 				/*Le envio el id del primer pj que esta en deadlock (este es el criterio) Para que lo elimine*/
 				t_character_lvl *character_in_deadlock = list_remove(personajes_en_deadlock,0);
-
-				pthread_mutex_lock(&mutex_nivel);
-				pthread_mutex_lock(&mutex_listapjs);
 				char id_personaje=character_in_deadlock->id;
-				personaje_matar(character_in_deadlock,orquestador, 1);
-				int _search_character_in_main_list(t_character_lvl* character){
-					return character->socket == character_in_deadlock->socket;
-				}
-				free(list_remove_by_condition(personajes, (void*)_search_character_in_main_list));
-				pthread_mutex_unlock(&mutex_listapjs);
-				pthread_mutex_unlock(&mutex_nivel);
-				/*Dibujo en pantalla*/
-				nivel_gui_dibujar(ListaItems);
 
 				/*Mato al proceso*/
 				log_trace(logger,"El Personaje %c fue eliminado por deadlock",id_personaje);
@@ -521,18 +503,30 @@ void *verificar_interbloqueo(void* args){
 				void* buffer;
 				recibir(orquestador, &buffer);
 
+				//Libero recursos ahora
+				personaje_matar(character_in_deadlock,orquestador, 1);
+				int _search_character_in_main_list(t_character_lvl* character){
+					return character->socket == character_in_deadlock->socket;
+				}
+				//free(character_in_deadlock);
+				free(list_remove_by_condition(personajes, (void*)_search_character_in_main_list));
+				/*Dibujo en pantalla*/
+				nivel_gui_dibujar(ListaItems);
+
+
 				//Habilito los eventos sobre el socket_orquestador//
+				FD_SET(listener, &master);
 				/*event.data.fd = socket_orquestador.socketfd;
 				event.events = EPOLLIN | EPOLLET;
 				epoll_ctl(epoll_instance, EPOLL_CTL_ADD, socket_orquestador.socketfd, &event);*/
 
-			}else{
-				/*Deslockeo el mutex listapjs*/
-				pthread_mutex_unlock(&mutex_listapjs);
-				/*Deslockeo el nivel porque ya verifique lo que necesitaba*/
-				pthread_mutex_unlock(&mutex_nivel);
 			}
 		}
+
+		/*Deslockeo el mutex listapjs*/
+		pthread_mutex_unlock(&mutex_listapjs);
+		/*Deslockeo el nivel porque ya verifique lo que necesitaba*/
+		pthread_mutex_unlock(&mutex_nivel);
 	}
 }
 
@@ -540,33 +534,35 @@ void personaje_matar(t_character_lvl* character_to_kill, int16_t orquestador, in
 	t_list* lista_recursos= character_to_kill->resourse_list;
 
 	/*Envio cada uno de los recursos*/
-	char recursosLiberados[20];
+	char recursosLiberados[30];
 	strncpy(recursosLiberados, nivel->nombre+5, 1);
 	int i = 1;
 	while(!list_is_empty(lista_recursos)){
 		t_pj_recursos* recurso=list_remove(lista_recursos,0);
-		recursosLiberados[i] = recurso->resourse_id;
-		i++;
+		int l;
+		for (l = 0; l < recurso->cantidad; ++l) {
+			recursosLiberados[i] = recurso->resourse_id;
+			i++;
+		}
 		free(recurso);
 	}
 	list_clean(lista_recursos);
-	if(muerte){
-		//close(character_to_kill->socket);
-	}
-	//free(character_to_kill);
+	close(character_to_kill->socket);
+	FD_CLR(character_to_kill->socket, &master); // remove from master set
 
 	recursosLiberados[i] = '\0';
+	log_trace(logger, "Recursos a liberar al matar personaje %s", recursosLiberados);
 	//P_NIV_RECURSOS_LIBERADOS
 	enviar(orquestador, 112, recursosLiberados, sizeof(recursosLiberados));
 	void* payload;
 	recibir(orquestador, &payload);
-	strncpy(recursosLiberados, (char*)payload, 10);
+	strncpy(recursosLiberados, (char*)payload, 15);
 
 	void _liberar_recurso(void* el){
 		int j=1;
 		while(recursosLiberados[j] != NULL){
 			if(((t_recurso*)el)->simbolo == recursosLiberados[j]){
-				if(recursosLiberados[j+10] != '1'){
+				if(recursosLiberados[j+15] != '1'){
 					//sumarRecurso(ListaItems, ((t_recurso*)el)->simbolo);
 					setCantidadRecursos(&ListaItems, ((t_recurso*)el)->simbolo, ((t_recurso*)el)->instancias+1);
 				}

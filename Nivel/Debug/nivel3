@@ -1,7 +1,7 @@
 Nombre=nivel3
 Orquestador=127.0.0.1:30000
 Puerto=30007
-TiempoChequeoDeadlock=10000
+TiempoChequeoDeadlock=10
 Recovery=1
 Caja1=[Bombas, B, 2, 9, 5]
 Caja2=[Telefonos, T, 3, 20, 15]

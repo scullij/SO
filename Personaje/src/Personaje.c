@@ -32,7 +32,7 @@ typedef struct {
 	char* nombre;
 	char simbolo;
 	int niveles[10];
-	char recursos[5][10];
+	char recursos[5][15];
 	int vidas;
 	char* orquestador;
 	uint16_t puertoOrq;
@@ -139,7 +139,7 @@ int main(int argc, char *argv[]){
 		log_trace(logger, "Conectado al Nivel %d: Direccion: %s, Puerto: %d.", *nivelActual, nivelDirecionPuerto->direccion, nivelDirecionPuerto->puerto);
 
 		//HANDSHAKE NIVEL
-		enviar(nivel, P_PER_CONECT_NIV, &personaje->simbolo, sizeof(char));
+		enviar(nivel, P_PER_CONECT_NIV, &(personaje->simbolo), sizeof(char));
 		type = recibir(nivel, &buffer);
 
 		if(type != P_NIV_ACEPT_PER){
@@ -154,7 +154,11 @@ int main(int argc, char *argv[]){
 		{
 			if(*quantum == 0){
 				type = recibir(planificador, &quantum);
-				if(type == 64){ //Te mataron papu
+				log_trace(logger, "Mensaje recibido: %d", type);
+				if(type == P_PLA_MOV_PERMITIDO){
+					log_trace(logger, "Quantum Recibido %d", *quantum);
+					fflush(stdout);
+				}else if(type == 64){
 					close(nivel);
 					close(planificador);
 					log_trace(logger, "Me mataron.");
@@ -168,11 +172,8 @@ int main(int argc, char *argv[]){
 						personaje->indiceNivelActual = 0;
 					}
 					break;
-				}else if(type == P_PLA_MOV_PERMITIDO){
-					log_trace(logger, "Quantum Recibido %d", *quantum);
-					fflush(stdout);
 				}else{
-					continue;
+					log_trace(logger, "No se como leer el mensaje %d", type);
 				}
 			}
 
@@ -308,6 +309,7 @@ t_personaje *configurar_personaje(char *path){
 			personaje->recursos[personaje->niveles[var]][i] = *(char*)recursos[i];
 			i++;
 		}
+		personaje->recursos[personaje->niveles[var]][i] = '\0';
 	}
 
 	personaje->vidas = config_get_int_value(config, "Vidas");

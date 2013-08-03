@@ -1,7 +1,7 @@
 Nombre=nivel4
 Orquestador=127.0.0.1:30000
 Puerto=30008
-TiempoChequeoDeadlock=10000
+TiempoChequeoDeadlock=10
 Recovery=1
 Caja1=[Calaveras, C, 1, 23, 3]
 Caja2=[Huesos, H, 1, 60, 20]

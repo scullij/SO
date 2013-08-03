@@ -29,7 +29,7 @@
 
 int personajesEnPlan;
 
-pthread_mutex_t mutex_planificacion = PTHREAD_MUTEX_INITIALIZER;
+//pthread_mutex_t mutex_planificacion = PTHREAD_MUTEX_INITIALIZER;
 
 typedef struct{
 	char personaje;
@@ -41,6 +41,7 @@ typedef struct {
 	t_queue* rr;
 	t_queue* bloqueados;
 	t_nodoPerPLa* personajeActivo;
+	pthread_mutex_t mutex;
 } t_planificacionNodo;
 
 t_dictionary* planificacion;
@@ -75,6 +76,9 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 int *orquestador(void);
 int *planificador(void* ptr);
 void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel, t_log* logger);
+
+void lockAllThreads();
+void unlockAllThreads();
 
 int main(int argc, char *argv[]){
 	char* path = malloc(0);
@@ -174,11 +178,14 @@ int *orquestador(void){
                         	char* key = malloc(7);
                         	strcpy(key, string_from_format("nivel%d", nivelDirecionPuerto->nivel));
 
-                    		pthread_mutex_lock( &mutex_planificacion );
+                        	lockAllThreads();
                         	t_planificacionNodo* planificacionNodo = malloc(sizeof(t_planificacionNodo));
                         	planificacionNodo->rr = queue_create();
                         	planificacionNodo->bloqueados = queue_create();
                         	planificacionNodo->personajeActivo = NULL;
+                        	pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+                        	planificacionNodo->mutex = mutex;
+
                         	dictionary_put(planificacion, key, planificacionNodo);
 
                         	pthread_t thr_pla;
@@ -188,7 +195,7 @@ int *orquestador(void){
 							pla->planificacionNodo = planificacionNodo;
 
 							pthread_create( &thr_pla, NULL, planificador, pla);
-							pthread_mutex_unlock( &mutex_planificacion );
+							unlockAllThreads();
 
 							char* newKey = malloc(3);
 							sprintf(newKey,"%d", pla->nivel);
@@ -223,11 +230,11 @@ int *orquestador(void){
 							enviar(newfd, P_PLA_ENVIO_PLANI, puertoPLanificador, sizeof(int));
 							free(newKey);
                         }else if(type == 159){
-                        	log_trace(logger, "Koopa.");
+                        	log_trace(logger, "Koopa. PersonajesEnPLan %d", personajesEnPlan);
 							if(personajesEnPlan == 0){
 								//char *argv[] = {"/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "koopa.config"};
 								//execv("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", argv);
-								//execl("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa.config", NULL);
+								execl("/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa", "/home/utnso/dev/tp-20131c-osgroup/Koopa/koopa.config", NULL);
 							}
                         }
                     }
@@ -342,7 +349,7 @@ int *planificador(void* ptr){
 }
 
 void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacionNodo* planificacion, int nivel, t_log* logger){
-	pthread_mutex_lock( &mutex_planificacion );
+	pthread_mutex_lock( &planificacion->mutex );
 	t_nodoPerPLa* new;
 	//SOLO ESCUCHA PERSONAJES
 	switch (routine) {
@@ -395,7 +402,7 @@ void rutinasPlanificador(int sockete, int routine, void* payload, t_planificacio
 			log_trace(logger, "Planificador - Routine number %d dont exist.", routine);
 			break;
 	}
-	pthread_mutex_unlock( &mutex_planificacion );
+	pthread_mutex_unlock( &planificacion->mutex );
 }
 
 void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel, t_log* logger){
@@ -409,15 +416,14 @@ void moverPersonajePLanificador(t_planificacionNodo* planificacion, int nivel, t
 }
 
 void rutinasOrquestador(int sockete, int routine, void* payload, t_log* logger){
-	char recursosLiberados[20];
-	int t=0;
+	char recursosLiberados[30];
 	switch(routine){
 		case 112: //Liberar recursos nivel
 
-		strncpy(recursosLiberados, (char*)payload, 10);
+		strncpy(recursosLiberados, (char*)payload, 15);
 
 		int i = 1;
-		pthread_mutex_lock( &mutex_planificacion );
+		lockAllThreads();
 		t_planificacionNodo* planificadorNivel = dictionary_get(planificacion, string_from_format("nivel%c", recursosLiberados[0]));
 		while(recursosLiberados[i] != NULL){
 			int size = queue_size(planificadorNivel->bloqueados);
@@ -427,8 +433,7 @@ void rutinasOrquestador(int sockete, int routine, void* payload, t_log* logger){
 				if(nodo->recurso == recursosLiberados[i]){
 					log_trace(logger, "Personaje desbloqueado %c por recurso %c", nodo->personaje, nodo->recurso);
 					queue_push(planificadorNivel->rr, nodo);
-					recursosLiberados[i+10] = '1';
-					t++;
+					recursosLiberados[i+15] = '1';
 				}else{
 					queue_push(planificadorNivel->bloqueados, nodo);
 				}
@@ -440,11 +445,11 @@ void rutinasOrquestador(int sockete, int routine, void* payload, t_log* logger){
 		if(planificadorNivel->personajeActivo == NULL){
 			moverPersonajePLanificador(planificadorNivel, (int)(recursosLiberados[0]-'0'), logger);
 		}
-		pthread_mutex_unlock( &mutex_planificacion );
+		unlockAllThreads();
 
 		break;
 		case 113:
-			pthread_mutex_lock( &mutex_planificacion );
+			lockAllThreads();
 			t_planificacionNodo* planificadorNivel1 = dictionary_get(planificacion, string_from_format("nivel%c", *((char*)payload)));
 			void* buffer;
 			recibir(sockete, &buffer);
@@ -461,12 +466,13 @@ void rutinasOrquestador(int sockete, int routine, void* payload, t_log* logger){
 					free(nodo);
 				}
 			}
+			personajesEnPlan--;
 			//MATO PJ
 			enviar(socketLoco, 64, NULL, 0);
 			//LE AVISO AL LV
 			enviar(sockete, 64, NULL, 0);
-			pthread_mutex_unlock( &mutex_planificacion );
-		break;
+			unlockAllThreads();
+			break;
 		default:
 			log_trace(logger, "Orquestador - Routine number %d dont exist.", routine);
 		break;
@@ -488,4 +494,18 @@ t_plataforma *configurar_plataforma(char *path){
 	plataforma->retardo = config_get_int_value(config, "Retardo");
 	//config_destroy(config);
 	return plataforma;
+}
+
+void lockAllThreads(){
+	void _bloquear_mutex(char* key, void* value){
+		pthread_mutex_lock(&(((t_planificacionNodo*)value)->mutex));
+	}
+	dictionary_iterator(planificacion, _bloquear_mutex);
+}
+
+void unlockAllThreads(){
+	void _desbloquear_mutex(char* key, void* value){
+		pthread_mutex_unlock(&(((t_planificacionNodo*)value)->mutex));
+	}
+	dictionary_iterator(planificacion, _desbloquear_mutex);
 }

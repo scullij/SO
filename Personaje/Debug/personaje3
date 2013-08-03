@@ -1,0 +1,7 @@
+Nombre=Koopa
+Simbolo=$
+PlanDeNiveles=[1,2]
+Objetivo1=[H,F,B]
+Objetivo2=[F]
+Vidas=5
+Orquestador=127.0.0.1:30000

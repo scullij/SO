@@ -453,3 +453,47 @@
 [TRACE] 01:44:28:942 personaje@/(9501:9501): Nueva posicion: X:50 Y:21
 [TRACE] 01:44:28:942 personaje@/(9501:9501): Turno terminado.
 [TRACE] 01:44:30:700 personaje@/(9501:9501): Quantum Recibido 3
+[TRACE] 15:54:39:646 personaje@/(2789:2789): Personaje conectado al orquestador.
+[TRACE] 15:54:39:648 personaje@/(2789:2789): Conectado al Planificador del Nivel 1, Puerto: 30020.
+[TRACE] 15:54:39:664 personaje@/(2789:2789): Conectado al Nivel 1: Direccion: 127.0.0.1, Puerto: 30005.
+[TRACE] 15:55:11:474 personaje@/(2789:2789): Quantum Recibido 3
+[TRACE] 15:55:11:474 personaje@/(2789:2789): Siguiente posicion de objetivo : x: 3 y: 3
+[TRACE] 15:55:11:575 personaje@/(2789:2789): Nueva posicion: X:2 Y:1
+[TRACE] 15:55:11:677 personaje@/(2789:2789): Nueva posicion: X:3 Y:1
+[TRACE] 15:55:11:777 personaje@/(2789:2789): Nueva posicion: X:3 Y:2
+[TRACE] 15:55:11:778 personaje@/(2789:2789): Turno terminado.
+[TRACE] 15:55:13:887 personaje@/(2789:2789): Quantum Recibido 3
+[TRACE] 15:55:13:988 personaje@/(2789:2789): Nueva posicion: X:3 Y:3
+[TRACE] 15:55:26:466 personaje@/(2789:2789): Recurso asignado F.
+[TRACE] 15:55:31:102 personaje@/(2789:2789): Turno terminado.
+[TRACE] 15:55:33:210 personaje@/(2789:2789): Quantum Recibido 3
+[TRACE] 15:55:33:211 personaje@/(2789:2789): Siguiente posicion de objetivo : x: 10 y: 10
+[TRACE] 15:55:33:312 personaje@/(2789:2789): Nueva posicion: X:4 Y:3
+[TRACE] 15:55:33:413 personaje@/(2789:2789): Nueva posicion: X:5 Y:3
+[TRACE] 15:55:33:514 personaje@/(2789:2789): Nueva posicion: X:6 Y:3
+[TRACE] 15:55:33:514 personaje@/(2789:2789): Turno terminado.
+[TRACE] 15:55:35:320 personaje@/(2789:2789): Quantum Recibido 3
+[TRACE] 15:55:35:420 personaje@/(2789:2789): Nueva posicion: X:7 Y:3
+[TRACE] 15:55:35:521 personaje@/(2789:2789): Nueva posicion: X:8 Y:3
+[TRACE] 15:55:35:622 personaje@/(2789:2789): Nueva posicion: X:9 Y:3
+[TRACE] 15:55:35:622 personaje@/(2789:2789): Turno terminado.
+[TRACE] 15:55:37:736 personaje@/(2789:2789): Quantum Recibido 3
+[TRACE] 15:55:37:837 personaje@/(2789:2789): Nueva posicion: X:10 Y:3
+[TRACE] 15:55:37:939 personaje@/(2789:2789): Nueva posicion: X:10 Y:4
+[TRACE] 15:55:38:41 personaje@/(2789:2789): Nueva posicion: X:10 Y:5
+[TRACE] 15:55:38:41 personaje@/(2789:2789): Turno terminado.
+[TRACE] 15:55:39:346 personaje@/(2789:2789): Quantum Recibido 3
+[TRACE] 15:55:39:446 personaje@/(2789:2789): Nueva posicion: X:10 Y:6
+[TRACE] 15:55:39:548 personaje@/(2789:2789): Nueva posicion: X:10 Y:7
+[TRACE] 15:55:39:650 personaje@/(2789:2789): Nueva posicion: X:10 Y:8
+[TRACE] 15:55:39:650 personaje@/(2789:2789): Turno terminado.
+[TRACE] 15:55:40:956 personaje@/(2789:2789): Quantum Recibido 3
+[TRACE] 15:55:41:56 personaje@/(2789:2789): Nueva posicion: X:10 Y:9
+[TRACE] 15:55:41:157 personaje@/(2789:2789): Nueva posicion: X:10 Y:10
+[TRACE] 15:55:47:176 personaje@/(2789:2789): Personaje bloqueado por recurso H.
+[TRACE] 15:55:54:457 personaje@/(2789:2789): Quantum Recibido 3
+[TRACE] 15:55:59:448 personaje@/(2789:2789): Personaje bloqueado por recurso H.
+[TRACE] 15:56:24:137 personaje@/(2789:2789): Me mataron.
+[TRACE] 15:56:40:436 personaje@/(2789:2789): Personaje conectado al orquestador.
+[TRACE] 15:56:40:436 personaje@/(2789:2789): Conectado al Planificador del Nivel 1, Puerto: 30020.
+[TRACE] 15:56:40:437 personaje@/(2789:2789): Conectado al Nivel 1: Direccion: 127.0.0.1, Puerto: 30005.
